@@ -1,4 +1,3 @@
-# refarch-cloud-data-analytics
 # Moving data and workloads from on premises databases / data warehouses to the Cloud
 
 ## Table of Contents
