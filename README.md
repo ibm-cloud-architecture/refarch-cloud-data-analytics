@@ -28,6 +28,8 @@
 
 This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department.   
 
+![alt text] (https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/System%20Overview.png)
+
    [Application Architecture](/SystemOverview.png?raw=true)
 
 ## Narrative 
