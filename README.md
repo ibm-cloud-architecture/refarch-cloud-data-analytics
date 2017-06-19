@@ -23,7 +23,21 @@
 
 ## Introduction
 
-This project provides a reference implementation for running a Cloud Native Mobile and Web Application using a Microservices architecture on Bluemix Container Kubernetes cluster.  The logical architecture for this reference implementation is shown in the picture below.  
+This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed prior to the entire systems being integrated. Consider the following scenario. You are talking to the CMO at Key Bank. 
+
+Hi Ms Smith, I know that Key Bank just bought Niagara Bank, and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
+
+I know that Key Bank has been doing churn analytics for some time, but the team at Niagara has not. It would be interesting to see how your models could be used to indetify Niagara customers at risk of leaving a well. 
+
+IBM can help you combine this data now so that you can get access to this combined data within days, without putting any load on your IT staff who is already over loaded with the consolidation.  We can use our fully managed cloud services to copy data from your current on-premises systems in each bank into a data warehouse and match customer names automatically to give you a single view of your customers across both banks.
+ 
+Once you have that data at your fingertips, you can start asking even more probing questions, like –
+
+Which customers have automatic deposits from other financial institutions, because that likely means they have investments elsewhere. And what could I offer them to move those investments to Key Bank?
+
+And, even more importantly, which customers have automatic transfers to other financial institutions, because these are already our customers that we are not getting the most value from.  What could I offer them to move those investments to Key Bank?
+
+What do you think??? 
 
    ![Application Architecture](static/imgs/app_architecture.png?raw=true)
 
