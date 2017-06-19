@@ -4,6 +4,7 @@
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[System Overview](#system-overview)**
+- **[Project Repositories](#project-repositories)**
 - **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
