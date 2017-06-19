@@ -1,8 +1,8 @@
 # Moving data and workloads from on premises databases / data warehouses to the cloud for more agile analytics
 
 ## Table of Contents
-- **[Introduction](#architecture)**
-- **[Narrative](#narative)**
+- **[Introduction](#Introduction)**
+- **[Narrative](#Narrative)**
 - **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
