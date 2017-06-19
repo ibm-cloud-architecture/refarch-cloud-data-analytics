@@ -40,9 +40,9 @@ IBM can help you combine this data now so that you can get access to this combin
  
 Once you have that data at your fingertips, you can start asking even more probing questions, like –
 
-Which customers have automatic deposits from other financial institutions, because that likely means they have investments elsewhere. And what could I offer them to move those investments to Key Bank?
+Which customers are at risk of leaving? Which customers would be a loss and which would not? 
 
-And, even more importantly, which customers have automatic transfers to other financial institutions, because these are already our customers that we are not getting the most value from.  What could I offer them to move those investments to Key Bank?
+This will help you identify your most important customers, so you can work to keep them as long term customers. 
 
 What do you think?
 
