@@ -3,6 +3,7 @@
 ## Table of Contents
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
+- **[System Overview](#system-overview)**
 - **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
@@ -46,7 +47,7 @@ This will help you identify your most important customers, so you can work to ke
 
 What do you think?
 
-## Application Overview
+## System Overview
 
 The application is a simple store front shopping application that displays a catalog of antique computing devices, where users can search and buy products.  It has Web and Mobile interface, both the Mobile App and Web App rely on separate BFF (Backend for Frontend) services to interact with the backend data.  
 (Note: the Mobile app is not currently supported at this release)
