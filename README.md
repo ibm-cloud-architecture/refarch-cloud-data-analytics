@@ -1,8 +1,8 @@
 # Moving data and workloads from on premises databases / data warehouses to the cloud for more agile analytics
 
 ## Table of Contents
-- **[Introduction](#Introduction)**
-- **[Narrative](#Narrative)**
+- **[Introduction](#introduction)**
+- **[Narrative](#narrative)**
 - **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
@@ -25,6 +25,8 @@
 ## Introduction
 
 This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed prior to the entire systems being integrated. 
+
+   [Application Architecture](static/imgs/app_architecture.png?raw=true)
 
 Consider the following scenario. You are talking to the CMO at Key Bank. 
 
