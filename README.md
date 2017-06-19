@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - **[Introduction](#architecture)**
+- **[Narrative](#narative)**
 - **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
