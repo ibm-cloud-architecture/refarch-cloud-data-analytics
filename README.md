@@ -1,4 +1,4 @@
-# Moving data and workloads from on premises databases / data warehouses to the cloud for more agile analytics
+# Moving data and workloads from on premises to the cloud for more agile analytics
 
 ## Table of Contents
 - **[Introduction](#introduction)**
