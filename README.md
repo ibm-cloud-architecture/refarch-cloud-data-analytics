@@ -62,7 +62,7 @@ There are several components of this architecture.
 
 ## Project repositories
 
-This project organized itself like a microservice project, as such each component in the architecture has its own Git Repository and tutorial listed below.  
+This project contains a VM image that emulates the on premises databases, and is preloaded with the data that would exist across the 2 banks. organized itself like a microservice project, as such each component in the architecture has its own Git Repository and tutorial listed below.  
 
  - [refarch-cloudnative-kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/kube-int)                    - The root repository (Current repository)
  - [refarch-cloudnative-bluecompute-mobile](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The BlueCompute client iOS and Android applications
