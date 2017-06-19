@@ -30,8 +30,6 @@ This project provides a reference implementation for moving data from on premise
 
 ![Overview](SystemOverview.png)
 
-   [Application Architecture](refarch-cloud-data-analytics/SystemOverview.png?raw=true)
-
 ## Narrative 
 
 Consider the following scenario. You are talking to the CMO at Key Bank. 
