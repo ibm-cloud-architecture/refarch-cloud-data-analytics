@@ -23,7 +23,9 @@
 
 ## Introduction
 
-This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed prior to the entire systems being integrated. Consider the following scenario. You are talking to the CMO at Key Bank. 
+This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed prior to the entire systems being integrated. 
+
+Consider the following scenario. You are talking to the CMO at Key Bank. 
 
 ## Narrative 
 
