@@ -32,7 +32,7 @@ This project provides a reference implementation for moving data from on premise
   <img src="refarch-cloud-data-analytics/SystemOverview.png width="350"/>
 </p>
 
-   [Application Architecture](/SystemOverview.png?raw=true)
+   [Application Architecture](refarch-cloud-data-analytics/SystemOverview.png?raw=true)
 
 ## Narrative 
 
