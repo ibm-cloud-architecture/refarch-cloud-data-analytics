@@ -46,8 +46,6 @@ And, even more importantly, which customers have automatic transfers to other fi
 
 What do you think?
 
-   ![Application Architecture](static/imgs/app_architecture.png?raw=true)
-
 ## Application Overview
 
 The application is a simple store front shopping application that displays a catalog of antique computing devices, where users can search and buy products.  It has Web and Mobile interface, both the Mobile App and Web App rely on separate BFF (Backend for Frontend) services to interact with the backend data.  
