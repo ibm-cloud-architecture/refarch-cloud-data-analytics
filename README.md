@@ -25,7 +25,7 @@
 
 This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed prior to the entire systems being integrated. Consider the following scenario. You are talking to the CMO at Key Bank. 
 
-## Narrative
+## Narrative 
 
 Hi Ms. Smith, I know that Key Bank just bought Niagara Bank, and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
