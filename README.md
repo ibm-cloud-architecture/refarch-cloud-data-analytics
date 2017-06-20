@@ -4,7 +4,7 @@
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[System Overview](#system-overview)**
-- **[Project Repositories](#project-repositories)**
+- **[Project Components](#project-components)**
 - **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
@@ -62,9 +62,9 @@ There are several components of this architecture.
 - BFFs uses [Hystrix open source library](https://github.com/Netflix/hystrix) to provide an implementation of the [Circuit Breaker Pattern](http://martinfowler.com/bliki/CircuitBreaker.html).  This component runs as library inside the Java Applications.  This component then forward Service Availability information to the Hystrix Dashboard.  
 - The Java Microservices retrieve their data from databases.  The Catalog service retrieves items from a searchable JSON datasource using [ElasticSearch](https://www.elastic.co/). The Inventory Service using [MySQL](https://www.mysql.com/).  In this example, we run MySQL in a Docker Container for Development (In a production environment, it runs on our Infrastructure as a Service layer, [Bluemix Infrastructure](https://console.ng.bluemix.net/catalog/?category=infrastructure))  The resiliency and DevOps section will explain that.
 
-## Project Repositories
+## Project Components
 
-This project is organized into 2 main repositories. One containing the raw data and one containing the Virtual machine needed for the lab. The VM image emulates the on premises databases, and is preloaded with the data that would exist across the 2 banks. In the event that you do not have access to the VM, or do not have connectivity, you can load the data from the flat files and still perform the analytics.
+This project is organized into 2 main components. One containing the raw data and one containing the Virtual machine needed for the lab. The VM image emulates the on premises databases, and is preloaded with the data that would exist across the 2 banks. In the event that you do not have access to the VM, or do not have connectivity, you can load the data from the flat files and still perform the analytics.
 
  - [refarch-cloud-data-analytics-VM](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/kube-int)                    - The VM image of the on premises data repositories
  - [refarch-cloud-data-analytics-data](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The raw data that is preloaded in the databases in the VM
