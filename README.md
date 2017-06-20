@@ -69,7 +69,7 @@ There are a few components of this solution.
 
 - The Virtual Machine (VM) that contains the on premises databases. Due to license restricions this is only available to IBMers and Business Partners. 
 
-    [Download VM Image from Here](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr)
+    [Download VM Image from here](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr)
 
 - So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided. 
     
