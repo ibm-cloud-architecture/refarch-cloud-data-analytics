@@ -39,7 +39,7 @@ Consider the following scenario. You are talking to the CMO at K Bank.
 
 Hi Ms. Smith, I know that K Bank just bought N Bank, and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
-I know that K Bank has been doing churn analytics for some time, but the team at Niagara has not. It would be interesting to see how your models could be used to indetify N Bank customers at risk of leaving a well. 
+I know that K Bank has been doing churn analytics for some time, but the team at N Bank has not. It would be interesting to see how your models could be used to indetify N Bank customers at risk of leaving a well. 
 
 IBM can help you combine this data now so that you can get access to this combined data within days, without putting any load on your IT staff who is already over loaded with the consolidation.  We can use our fully managed cloud services to copy data from your current on-premises systems in each bank into a data warehouse and match customer names automatically to give you a single view of your customers across both banks.
  
