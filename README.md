@@ -71,9 +71,9 @@ There are a few components of this solution.
 
 - So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided. 
     
-    [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/K%20Bank%20Customer%20List%202017-06-19.csv)
+    [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
    
-   [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/N%20Bank%20Customer%20List%202017-06-19.csv)
+   [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
     
 
