@@ -34,11 +34,11 @@ In this case, one organization is using our PureData System for Analytics (Netez
 
 ### Loading data using IBM Data Connect
 
-![Overview](SystemOverviewConnect2.png)
+![Overview](Images/SystemOverviewConnect2.png)
 
 ### Loading data using IBM Bluemix Lift CLI
 
-![Overview](SystemOverviewLift1.png)
+![Overview](Images/SystemOverviewLift1.png)
 
 ## Narrative 
 
