@@ -6,7 +6,6 @@
 - **[Solution Overview](#solution-overview)**
 - **[Project Components](#project-components)**
 - **[Prerequisites](#prerequisites)**
-
 - **[Run the reference solution in IBM Cloud](#run-the-reference-solution-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Install IBM Bluemix CLI and Container Service Plugin, Kubernetes CLI and Helm](#install-ibm-bluemix-cli-and-container-service-plugin-kubernetes-cli-and-helm)
@@ -82,7 +81,7 @@ There are a few components of this solution.
     [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
 
 
-
+XXXXXX
 
 
  - [refarch-cloud-data-analytics-data](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The raw data that is preloaded in the databases in the VM
