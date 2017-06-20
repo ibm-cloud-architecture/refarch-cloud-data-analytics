@@ -61,23 +61,23 @@ What do you think?
 
 ## Solution Overview
 
-The solution is a set of Business Inteligence (BI) tools that allow the CMO or LOB manager to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repsoitry needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
+The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repsoitry needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
 ## Project Components
 
 There are a few components of this solution.  
 
-- The Virtual Machine (VM) that contains the on premises databases. Due to license restricions this is only available to IBMers and Business Partners. 
+- The Virtual Machine (VM) that contains the on premises databases. Due to licensing restricions on some of the software in the VM this is only available to IBMers and Business Partners. 
 
     [Download VM Image from here](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr)
 
-- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided. 
+- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided later. 
     
     [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
     
     [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
-- So that the reports we have prebuilt run correctly, we need everyone to use the same teable definition for the combined data. The file below contains the CREATE TABLE commanf
+- So that the reports/graphics/dashboards we will have to create run correctly, we need everyone to use the same table definition for the combined data. The file below contains the CREATE TABLE command
     
     [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
 
