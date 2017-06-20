@@ -35,7 +35,7 @@ In this case, one organization is using our PureData System for Analytics (Netez
 
 ## Loading data using IBM Data Connect
 
-![Overview](SystemOverviewConnect2.png)
+![Overview](SystemOverviewConnect1.png)
 
 ## Loading data using IBM Bluemix Lift CLI
 
@@ -104,8 +104,14 @@ runtimes.
 
 #### Prerequisites
 
-You must have a Bluemix account. The account is free and provides access to everything you need to develop, track, plan, and deploy apps. [Sign up for a trial of Bluemix](https://bluemix.net/registration). The account requires an IBMid. If you don't have an IBMid, you can create one when you register.
-
+You must have the following
+    A Bluemix account
+    VMware Player or VMware Workstation for Windows, or VMWare Fusion (Full or 30 day trial) for OSX
+    Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+    A provisioned Data Connect service in Bluemix
+    A provisioned dashDB for Analytics (Db2 Warehouse on Cloud as of ~July 18) service in Bluemix
+    Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
+    
 
 #### Get application source code
 
