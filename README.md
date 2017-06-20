@@ -4,8 +4,8 @@
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[Solution Overview](#solution-overview)**
-- **[Project Components](#project-components)**
 - **[Prerequisites](#prerequisites)**
+- **[Project Components](#project-components)**
 - **[Run the reference solution in IBM Cloud](#run-the-reference-solution-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Install IBM Bluemix CLI and Container Service Plugin, Kubernetes CLI and Helm](#install-ibm-bluemix-cli-and-container-service-plugin-kubernetes-cli-and-helm)
@@ -62,6 +62,18 @@ What do you think?
 
 The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repsoitry needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
+## Prerequisites
+
+You must have the following
+ - A Bluemix account
+ - VMware
+      - VMware Player or VMware Workstation for Windows
+      - VMware Fusion (Full or 30 day trial) for OSX
+ - Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+ - A provisioned Data Connect service in Bluemix
+ - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud as of ~July 18**) service in Bluemix
+ - Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
+
 ## Project Components
 
 There are a few components of this solution.  
@@ -93,18 +105,6 @@ This project contains tutorials for setting up CI/CD pipeline for the scenarios.
 This project contains tutorials for setting up Resiliency such as High Availability, Failover, and Disaster Recovery for the above application.
  - [refarch-cloudnative-resiliency](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/kube-int)   - The Resiliency Assets will be managed here
  - [refarch-cloudnative-kubernetes-csmo](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes-csmo)   - The BlueCompute application end-to-end cloud service management for Kubernetes based deployment  
-
-## Prerequisites
-
-You must have the following
- - A Bluemix account
- - VMware
-      - VMware Player or VMware Workstation for Windows
-      - VMware Fusion (Full or 30 day trial) for OSX
- - Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
- - A provisioned Data Connect service in Bluemix
- - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud as of ~July 18**) service in Bluemix
- - Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
 
 ## Run the reference solution in IBM Cloud
 
