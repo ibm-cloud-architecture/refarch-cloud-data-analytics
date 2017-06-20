@@ -24,7 +24,6 @@
 - **[DevOps automation, Resiliency and Cloud Management and Monitoring](#devops-automation-resiliency-and-cloud-management-and-monitoring)**
 
 
-
 ## Introduction
 
 This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department.   
@@ -58,24 +57,21 @@ This will help you identify your most important customers, so you can work to ke
 
 What do you think?
 
-## System Overview
+## Solution Overview
 
-The application is a simple store front shopping application that displays a catalog of antique computing devices, where users can search and buy products.  It has Web and Mobile interface, both the Mobile App and Web App rely on separate BFF (Backend for Frontend) services to interact with the backend data.  
-(Note: the Mobile app is not currently supported at this release)
-
-There are a few components of this architecture.  
-
-- This OmniChannel application contains both a [Native iOS Application](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) and an [AngularJS](https://angularjs.org/) based web application.  The diagram depicts them as a Device and Browser.  
-- The iOS application uses the [IBM Mobile Analytics Service](https://new-console.ng.bluemix.net/catalog/services/mobile-analytics/) to collect device analytics for operations and business
-- The Web and Mobile app invoke their own backend Microservices to fetch data, we call this component BFFs following the [Backend for Frontends](http://samnewman.io/patterns/architectural/bff/) pattern.  In this Layer, front end developers usually write backend logic for their front end.  The Web BFF is implemented using the Node.js Express Framework.  The Mobile iOS BFF is implemented using Server side [Swift](https://www.ibm.com/cloud-computing/bluemix/swift).  These Microservices are packaged as Docker containers and managed by Bluemix Kubernetes cluster.  
-- These BFFs invoke another layer of reusable Java Microservices.  In a real world project, this is sometimes written by a different team.  These reusable microservices are written in Java using [SpringBoot](http://projects.spring.io/spring-boot/).  They run inside [IBM Bluemix Container Service](https://www.ibm.com/cloud-computing/bluemix/containers) using [Docker](https://www.docker.com/).
-- BFFs uses [Hystrix open source library](https://github.com/Netflix/hystrix) to provide an implementation of the [Circuit Breaker Pattern](http://martinfowler.com/bliki/CircuitBreaker.html).  This component runs as library inside the Java Applications.  This component then forward Service Availability information to the Hystrix Dashboard.  
-- The Java Microservices retrieve their data from databases.  The Catalog service retrieves items from a searchable JSON datasource using [ElasticSearch](https://www.elastic.co/). The Inventory Service using [MySQL](https://www.mysql.com/).  In this example, we run MySQL in a Docker Container for Development (In a production environment, it runs on our Infrastructure as a Service layer, [Bluemix Infrastructure](https://console.ng.bluemix.net/catalog/?category=infrastructure))  The resiliency and DevOps section will explain that.
-
+The solution is a set of Business Inteligence (BI) tools that allow the CMO or LOB manager to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repsoitry needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
 ## Project Components
 
-This project is organized into 2 main components. One containing the raw data and one containing the Virtual machine needed for the lab. The VM image emulates the on premises databases, and is preloaded with the data that would exist across the 2 banks. In the event that you do not have access to the VM, or do not have connectivity, you can load the data from the flat files and still perform the analytics.
+There are a few components of this solution.  
+
+- The Virtual Machine (VM) that contains the on premises databases. Due to license restricions this is only available to IBMers and Business Partners. The VM can be downloaded from (XXX)
+
+- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided. 
+    [N Bank's data] (https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/N%20Bank%20Customer%20List%202017-06-19.csv)
+    [K Bank's data] (https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/K%20Bank%20Customer%20List%202017-06-19.csv)
+    
+    
 
  - [refarch-cloud-data-analytics-VM](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/kube-int)                    - The VM image of the on premises data repositories
  - [refarch-cloud-data-analytics-data](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The raw data that is preloaded in the databases in the VM
