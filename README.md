@@ -53,9 +53,9 @@ IBM can help you combine this data now so that you can get access to this combin
  
 Once you have that data at your fingertips, you can start asking even more probing questions, like –
 
-Why are customers at risk of leaving? Which customers would be a loss and which would not? 
+    Why are customers at risk of leaving? Which customers would be a loss and which would not? 
 
-This will help you identify your most important customers, so you can work to keep them as long term customers. 
+    This will help you identify your most important customers, so you can work to keep them as long term customers. 
 
 What do you think?
 
