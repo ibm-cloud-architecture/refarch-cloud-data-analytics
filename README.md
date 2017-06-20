@@ -96,7 +96,7 @@ This project contains tutorials for setting up Resiliency such as High Availabil
  - [refarch-cloudnative-resiliency](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/kube-int)   - The Resiliency Assets will be managed here
  - [refarch-cloudnative-kubernetes-csmo](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes-csmo)   - The BlueCompute application end-to-end cloud service management for Kubernetes based deployment  
 
-### Prerequisites
+## Prerequisites
 
 You must have the following
  - A Bluemix account
@@ -114,7 +114,7 @@ runtimes.
 
 ### Step 1: Environment Setup    
     
-### Get application source code
+### Start the Virtual Machine
 
 - Clone the base repository:  
     **`$ git clone https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes`**
