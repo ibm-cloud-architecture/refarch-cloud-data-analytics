@@ -101,7 +101,7 @@ You must have the following
  - VMware Player or VMware Workstation for Windows, or VMWare Fusion (Full or 30 day trial) for OSX
  - Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
  - A provisioned Data Connect service in Bluemix
- - A provisioned dashDB for Analytics (Db2 Warehouse on Cloud as of ~July 18) service in Bluemix
+ - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud as of ~July 18**) service in Bluemix
  - Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
 
 ## Run the reference solution in IBM Cloud
