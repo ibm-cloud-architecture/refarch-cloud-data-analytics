@@ -105,6 +105,7 @@ runtimes.
 #### Prerequisites
 
 You must have the following
+
     A Bluemix account
     VMware Player or VMware Workstation for Windows, or VMWare Fusion (Full or 30 day trial) for OSX
     Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
