@@ -34,10 +34,10 @@ We will provide two mechanisms for moving the data from on premises to the cloud
 
 ## Loading data using IBM Bluemix Lift CLI
 
-![Overview](SystemOverview2.png)
+![Overview](SystemOverviewBluemix.png)
 ## Loading data using IBM Data Connect
 
-![Overview](SystemOverview.png)
+![Overview](SystemOverviewConnect.png)
 
 ## Narrative 
 
