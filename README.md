@@ -98,7 +98,9 @@ This project contains tutorials for setting up Resiliency such as High Availabil
 
 You must have the following
  - A Bluemix account
- - VMware Player or VMware Workstation for Windows, or VMWare Fusion (Full or 30 day trial) for OSX
+ - VMware
+      --VMware Player or VMware Workstation for Windows
+      --VMWare Fusion (Full or 30 day trial) for OSX
  - Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
  - A provisioned Data Connect service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud as of ~July 18**) service in Bluemix
