@@ -28,7 +28,7 @@
 
 This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department.   
 
-
+In this case, one organization is using our PureData System for Analytics (Netezza) and the other DB2 for their datawarehouses. The data from these systems will be pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
 
 ![Overview](SystemOverview.png)
 
