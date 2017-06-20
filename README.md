@@ -3,9 +3,10 @@
 ## Table of Contents
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
-- **[System Overview](#system-overview)**
+- **[Solution Overview](#solution-overview)**
 - **[Project Components](#project-components)**
-- **[Run the reference application in IBM Cloud](#run-the-reference-application-in-ibm-cloud)**
+
+- **[Run the reference solution in IBM Cloud](#run-the-reference-solution-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
         - [Prerequisites](#prerequisites)
         - [Install IBM Bluemix CLI and Container Service Plugin, Kubernetes CLI and Helm](#install-ibm-bluemix-cli-and-container-service-plugin-kubernetes-cli-and-helm)
@@ -34,10 +35,10 @@ We will provide two mechanisms for moving the data from on premises to the cloud
 
 ## Loading data using IBM Bluemix Lift CLI
 
-![Overview](SystemOverviewBluemix.png)
+![Overview](SystemOverview2.png)
 ## Loading data using IBM Data Connect
 
-![Overview](SystemOverviewConnect.png)
+![Overview](SystemOverview.png)
 
 ## Narrative 
 
@@ -85,9 +86,9 @@ This project contains tutorials for setting up Resiliency such as High Availabil
  - [refarch-cloudnative-resiliency](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/kube-int)   - The Resiliency Assets will be managed here
  - [refarch-cloudnative-kubernetes-csmo](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes-csmo)   - The BlueCompute application end-to-end cloud service management for Kubernetes based deployment  
 
-## Run the reference application in IBM Cloud
+## Run the reference solution in IBM Cloud
 
-To run the sample applications you will need to configure your Bluemix environment for the Kubernetes and Microservices
+To run the solution demo you will need to download adn start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
 runtimes.  
 
 ### Step 1: Environment Setup
