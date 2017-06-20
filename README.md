@@ -67,13 +67,15 @@ The solution is a set of Business Inteligence (BI) tools that allow the CMO or L
 
 There are a few components of this solution.  
 
-- The Virtual Machine (VM) that contains the on premises databases. Due to license restricions this is only available to IBMers and Business Partners. The VM can be downloaded from (XXX)
+- The Virtual Machine (VM) that contains the on premises databases. Due to license restricions this is only available to IBMers and Business Partners. 
+
+    [Download VM Image from Here](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr)
 
 - So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided. 
     
     [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
-   
-   [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
+    
+    [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
 - So that the reports we have prebuilt run correctly, we need everyone to use the same teable definition for the combined data. The file below contains the CREATE TABLE commanf
     
