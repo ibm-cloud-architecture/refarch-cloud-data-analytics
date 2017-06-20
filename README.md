@@ -9,7 +9,6 @@
 
 - **[Run the reference solution in IBM Cloud](#run-the-reference-solution-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
-        - [Prerequisites](#prerequisites)
         - [Install IBM Bluemix CLI and Container Service Plugin, Kubernetes CLI and Helm](#install-ibm-bluemix-cli-and-container-service-plugin-kubernetes-cli-and-helm)
         - [Create a New Space in Bluemix](#create-a-new-space-in-bluemix)
         - [Create a Bluemix API Key](#create-a-bluemix-api-key)
