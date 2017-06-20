@@ -75,7 +75,13 @@ There are a few components of this solution.
    
    [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
+- So that the reports we have prebuilt run correctly, we need everyone to use the same teable definition for the combined data. The file below contains the CREATE TABLE commanf
     
+    [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
+
+
+
+
 
  - [refarch-cloud-data-analytics-data](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The raw data that is preloaded in the databases in the VM
  
