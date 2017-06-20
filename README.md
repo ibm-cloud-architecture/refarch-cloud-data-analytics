@@ -39,7 +39,7 @@ In this case, one organization is using our PureData System for Analytics (Netez
 
 ## Loading data using IBM Bluemix Lift CLI
 
-![Overview](SystemOverviewLift.png)
+![Overview](SystemOverviewLift1.png)
 
 ## Narrative 
 
