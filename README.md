@@ -5,6 +5,7 @@
 - **[Narrative](#narrative)**
 - **[Solution Overview](#solution-overview)**
 - **[Project Components](#project-components)**
+- **[Prerequisites](#prerequisites)**
 
 - **[Run the reference solution in IBM Cloud](#run-the-reference-solution-in-ibm-cloud)**
     - **[Step 1: Environment Setup](#step-1-environment-setup)**
@@ -95,14 +96,7 @@ This project contains tutorials for setting up Resiliency such as High Availabil
  - [refarch-cloudnative-resiliency](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/kube-int)   - The Resiliency Assets will be managed here
  - [refarch-cloudnative-kubernetes-csmo](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes-csmo)   - The BlueCompute application end-to-end cloud service management for Kubernetes based deployment  
 
-## Run the reference solution in IBM Cloud
-
-To run the solution demo you will need to download adn start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
-runtimes.  
-
-### Step 1: Environment Setup
-
-#### Prerequisites
+### Prerequisites
 
 You must have the following
  - A Bluemix account
@@ -111,7 +105,14 @@ You must have the following
  - A provisioned Data Connect service in Bluemix
  - A provisioned dashDB for Analytics (Db2 Warehouse on Cloud as of ~July 18) service in Bluemix
  - Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
-    
+
+## Run the reference solution in IBM Cloud
+
+To run the solution demo you will need to download adn start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
+runtimes.  
+
+
+### Step 1: Environment Setup    
     
 ### Get application source code
 
