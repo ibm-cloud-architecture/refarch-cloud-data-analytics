@@ -31,7 +31,7 @@ This project provides a reference implementation for moving data from on premise
 
 In this case, one organization is using our PureData System for Analytics (Netezza) and the other DB2 for their datawarehouses. The data from these systems will be pshed or pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
 
-We will provide two mechanisms for moving the data from on premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to. Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to LOB managers and executives. Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
+We will provide two mechanisms for moving the data from on premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to. Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
 
 ## Loading data using IBM Data Connect
 
