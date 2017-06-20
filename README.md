@@ -39,7 +39,7 @@ We will provide two mechanisms for moving the data from on premises to the cloud
 
 ## Loading data using IBM Bluemix Lift CLI
 
-![Overview](SystemOverviewBluemix.png)
+![Overview](SystemOverviewLift.png)
 
 ## Narrative 
 
