@@ -34,11 +34,11 @@ In this case, one organization is using our PureData System for Analytics (Netez
 
 **We will provide two mechanisms for moving the data from on premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
 
-## Loading data using IBM Data Connect
+### Loading data using IBM Data Connect
 
 ![Overview](SystemOverviewConnect2.png)
 
-## Loading data using IBM Bluemix Lift CLI
+### Loading data using IBM Bluemix Lift CLI
 
 ![Overview](SystemOverviewLift1.png)
 
