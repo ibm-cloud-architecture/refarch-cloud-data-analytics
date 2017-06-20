@@ -112,8 +112,8 @@ You must have the following
     A provisioned dashDB for Analytics (Db2 Warehouse on Cloud as of ~July 18) service in Bluemix
     Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
     
-
-#### Get application source code
+    
+### Get application source code
 
 - Clone the base repository:  
     **`$ git clone https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes`**
