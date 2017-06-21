@@ -48,7 +48,7 @@ vi sgenvironment.conf
 
 ![](/media/dataconnect/dc8.png)
 
-You now need to update this line highlighted in red with your Gateway ID value:
+You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
 ```
 GATEWAY_ID="<your_gateway_id>""
 ```
