@@ -56,5 +56,8 @@ GATEWAY_ID="<your_gateway_id>"
 
 When finished, hold `SHIFT` and type `ZZ` to save and close the file.
 
-Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.
+Now we need to restart the secure gateway client.  One way to do that is to reboot the machine.  Using the VM Playr button, reboot the VM.
+
+Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.  You should now see that 1 client is connected.
+
 
