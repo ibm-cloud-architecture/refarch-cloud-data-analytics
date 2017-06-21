@@ -6,11 +6,8 @@
 - **[Solution Overview](#solution-overview)**
 - **[Prerequisites](#prerequisites)**
 - **[Project Components](#project-components)**
-- **[Run the reference solution in IBM Cloud](#run-the-reference-solution-in-ibm-cloud)**
-    - **[Step 1: Environment Setup](#step-1-environment-setup)**
-        - [Install IBM Bluemix CLI and Container Service Plugin, Kubernetes CLI and Helm](#install-ibm-bluemix-cli-and-container-service-plugin-kubernetes-cli-and-helm)
-        - [Create a New Space in Bluemix](#create-a-new-space-in-bluemix)
-        - [Create a Bluemix API Key](#create-a-bluemix-api-key)
+- **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
+    - **[Step 1: Bluemix Environment Setup](#Step 1: Bluemix Environment Setup)**
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
         - [Paid Cluster](#paid-cluster)
@@ -99,7 +96,7 @@ XXXXXX
  - [refarch-cloud-data-analytics-data](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The raw data that is preloaded in the databases in the VM
  
 
-## Run the reference solution in IBM Cloud
+## Setup the reference solution in IBM Cloud
 
 To run the solution demo you will need to download and start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
 runtimes.  
@@ -109,7 +106,6 @@ runtimes.
 
 The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
 
-## Workflow
 
 On the following pages are a series of steps you need to complete before you do any of the labs. Each step outlines an easy to follow set of instructions that walks you through preparing your IBM cloud environment so you can do any of the labs you choose. It is a serial process so it’s important that you follow each step in sequence and do not deviate from the workflow or skip any steps in the process.
 
