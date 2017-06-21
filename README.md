@@ -289,12 +289,15 @@ You will need a Cognos Analytics account. If you **don't** have an account:
 > Cognos Analytics is IBM account aware, but not Bluemix aware. 
 
 If you have an IBM ID select login, otherwise enter your email and name, and set a password.
+
 <img src="./media/CA2.png"/>
 
 You will then see this screen, click on Continue
+
 <img src="./media/CA3.png"/>
 
 You now have a Cognos Analytics Account, and will see a screen like
+
 <img src="./media/CA4.png"/>
 
 ## Step 5: Create a Watson Analytics account
