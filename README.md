@@ -7,7 +7,7 @@
 - **[Prerequisites](#prerequisites)**
 - **[Project Components](#project-components)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
-    - **[PREWORK: Bluemix Environment Setup](#prework-bluemix-environment-setup)**
+    - **[PREWORK: Environment Setup](#prework-environment-setup)**
     
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
@@ -103,7 +103,7 @@ To run the solution demo you will need to download and start the VM, configure y
 runtimes.  
 
 
-### PREWORK: Bluemix Environment Setup   
+### PREWORK: Environment Setup   
 
 The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
 
