@@ -47,6 +47,6 @@ With the Gateway ID in the clipboard, switch over to the VM and enter the follow
 vi sgenvironment.conf`
 
 You now need to update the two lines highlighted in red:
-`GATEWAY_ID="<your_gateway_id>"
-SECTOKEN="<your_security_token>"`
+>GATEWAY_ID="<your_gateway_id>"
+>SECTOKEN="<your_security_token>"
 
