@@ -29,27 +29,27 @@ Click the + button to create a new gateway
 ![](/media/dataconnect/dc4.png)
 
 In the popup dialog, under "Add Gateway" enter the name: "Cloud-Data-Analytics"
-Leave the two Token checkboxes checked
+You must uncheck the checkbox for "Require security token to connect clients"
 Then, click Add Gateway
 
 ![](/media/dataconnect/dc5.png)
 
-Now that your secure gateway is created, we need to find out the Gateway ID and Security Token so that you can configure the client to use this new secure gateway.  Click on the Connect Client + button to see these unique identifiers.
+Now that your secure gateway is created, we need the Gateway ID so that you can configure the client to use this new secure gateway.  Click on the Connect Client + button to see the Gateway ID.
 
 ![](/media/dataconnect/dc6.png)
 
-In the popup, you can now see the Gateway ID and the Security Token.  You'll need to copy each of these into a file in the VM.  To do that, start with the Gateway ID.  Click on the copy button beside the Gateway ID, highlighted in the left red box below.
+In the popup, you can now see the Gateway ID.  In the free version of the VMware Player, it won't let you paste, so you'll need to enter this manually into a file in the VM.
 
-![](/media/dataconnect/dc7.png)
-
-With the Gateway ID in the clipboard, switch over to the VM and enter the following:
+Switch over to the VM and enter the following:
 ```
 cd /etc/ibm
 vi sgenvironment.conf
 ```
-You now need to update the two lines highlighted in red:
+
+![](/media/dataconnect/dc8.png)
+
+You now need to update this line highlighted in red with your Gateway ID value:
 ```
-GATEWAY_ID="<your_gateway_id>"
-SECTOKEN="<your_security_token>"
+GATEWAY_ID="<your_gateway_id>""
 ```
 
