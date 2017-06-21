@@ -117,9 +117,9 @@ Step | Description
 ------------ | -------------
 1 | Download the lab files
 2 | Create a Bluemix account
-3 | Create the Watson Data Platform lab services
-4 | Create the Watson Data Platform lab application
-5 | Create a Watson Analytics account
+3 | Create the Cloud-Data-Analytics lab services
+4 | Create the Cloud-Data-Analytics lab application
+5 | Create a Cognos Analytics account
 6 | Create a GitHub account
 
 ## Step 1: Download the lab files
@@ -160,10 +160,10 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
   <img src="./media/Step2-image-03.png"/>
 
-3. **Enter** “Watson Data Platform” (without quotes) for the space name.  
+3. **Enter** “Cloud-Data-Analytics” (without quotes) for the space name.  
 4. **Select** the “Create” button.  
 
-> The space will be created and you will be brought into it. You should now see, in the top right corner, that you are in the “Watson Data Platform” space in your Bluemix organization. You will use this space to house the Watson Data Platform lab services and application.
+> The space will be created and you will be brought into it. You should now see, in the top right corner, that you are in the “Cloud-Data-Analytics” space in your Bluemix organization. You will use this space to house the Watson Data Platform lab services and application.
 
 **Proceed to Step 3: Create the Watson Data Platform lab services**
 
