@@ -38,6 +38,15 @@ Now that your secure gateway is created, we need to find out the Gateway ID and 
 
 ![](/media/dataconnect/dc6.png)
 
-In the popup, you can now see the Gateway ID and the Security Token.  You'll need to copy each of these into a file in the VM.  To do that, click on the copy button beside the Gateway ID, highlighted in the left red box below.
+In the popup, you can now see the Gateway ID and the Security Token.  You'll need to copy each of these into a file in the VM.  To do that, start with the Gateway ID.  Click on the copy button beside the Gateway ID, highlighted in the left red box below.
 
 ![](/media/dataconnect/dc7.png)
+
+With the Gateway ID in the clipboard, switch over to the VM and enter the following:
+`cd /etc/ibm
+vi sgenvironment.conf`
+
+You now need to update the two lines highlighted in red:
+`GATEWAY_ID="<your_gateway_id>"
+SECTOKEN="<your_security_token>"`
+
