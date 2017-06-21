@@ -46,7 +46,7 @@ Consider the following scenario. You are talking to the CMO at K Bank.
 
 Hi Ms. Smith, I know that K Bank just bought N Bank, and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
-I know that K Bank has been doing churn analytics for some time, but the team at N Bank has not. It would be interesting to see how your models could be used to identify N Bank customers at risk of leaving a well. 
+I know that K Bank has been doing churn analytics for some time, but the team at N Bank has not. It would be interesting to see how your models could be used to identify N Bank customers at risk of leaving as well. 
 
 IBM can help you combine this data now so that you can get access to this combined data within days, without putting any load on your IT staff who is already over loaded with the consolidation.  We can use our fully managed cloud services to copy data from your current on-premises systems in each bank into a data warehouse and match customer names automatically to give you a single view of your customers across both banks.
  
@@ -60,7 +60,7 @@ What do you think?
 
 ## Solution Overview
 
-The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repsoitry needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
+The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repository needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ You must have the following
       - VMware Player or VMware Workstation for Windows
       - VMware Fusion (Full or 30 day trial) for OSX
  - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
- - A provisioned Data Connect service in Bluemix
+ - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) service in Bluemix
  - Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
 
@@ -125,7 +125,7 @@ Step | Description
 ## Step 1: Download the lab files
 
 
-Download the [VMware Image] (https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+   Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
 
 **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on premises databases.
 
@@ -226,7 +226,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 14. **Select** the "I'm Ready" button.
 
-## Step 3: Create the Watson Data Platform lab services
+## Step 3: Create the Cloud Data Analytics lab services
 
 <img src="./media/Step3-image-01.png" />
 
@@ -239,26 +239,11 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-03.png" />
 
-4. **Enter** "WDP Data Connect” (without quotes) for the Service name.  
-5. **Enter** “WDP Data Connect” (without quotes) for the Credential name.  
+4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (Use CDA as the acronym for Cloud Data Analytics).
+5. **Enter** “CDA Data Connect” (without quotes) for the Credential name.  
 6. **Select** the the "Create" button. The service will be created and the launch page is displayed.
 
 <img src="./media/Step3-image-04.png" />
-
-1. **Select** the "Catalog" menu at the top of the Bluemix home page.
-
-<img src="./media/Step3-image-05.png" />
-
-2. **Enter** "cloudant" (without quotes) in the catalog search area.  
-3. **Click on** the “Cloudant NoSQL DB” service.  
-
-<img src="./media/Step3-image-06.png" />
-
-4. **Enter** "WDP Cloudant NoSQL DB” (without quotes) for the Service name.  
-5. **Enter** “WDP Cloudant NoSQL DB” (without quotes) for the Credential name.  
-6. **Select** the the "Create" button. The service will be created and the launch page is displayed.
-
-<img src="./media/Step3-image-07.png" />
 
 1. **Select** the "Catalog" menu at the top of the Bluemix home page.
 
@@ -269,16 +254,16 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-09.png" />
 
-4. **Enter** "WDP dashDB for Analytics” (without quotes) for the Service name.   
+4. **Enter** "CDA dashDB” (without quotes) for the Service name.   
 5. **Select** the the "Create" button. The service will be created and the launch page is displayed.
 
 <img src="./media/Step3-image-10.png" />
 
-6. **Click On** the "WDP dashDB for Analytics" service you just created from the list of services.
+6. **Click On** the "CDA dashDB" service you just created from the list of services.
 
 <img src="./media/Step3-image-10-1.png" />
 
-7. **Select** the "Service credentials” section of the "WDP dashDB for Analytics" service launch page.   
+7. **Select** the "Service credentials” section of the "CDA dashDB for Analytics" service launch page.   
 8. **Select** the the "New credential +" button.
 
 <img src="./media/Step3-image-11.png" />
