@@ -43,10 +43,13 @@ In the popup, you can now see the Gateway ID and the Security Token.  You'll nee
 ![](/media/dataconnect/dc7.png)
 
 With the Gateway ID in the clipboard, switch over to the VM and enter the following:
-``` cd /etc/ibm
-vi sgenvironment.conf ```
-
+```
+cd /etc/ibm
+vi sgenvironment.conf
+```
 You now need to update the two lines highlighted in red:
-``` GATEWAY_ID="<your_gateway_id>"
-SECTOKEN="<your_security_token>" ```
+```
+GATEWAY_ID="<your_gateway_id>"
+SECTOKEN="<your_security_token>"
+```
 
