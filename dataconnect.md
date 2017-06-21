@@ -50,6 +50,6 @@ vi sgenvironment.conf
 
 You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
 ```
-GATEWAY_ID="<your_gateway_id>""
+GATEWAY_ID="<your_gateway_id>"
 ```
 
