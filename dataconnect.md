@@ -32,7 +32,7 @@ In the popup dialog, under "Add Gateway" enter the name: "Cloud-Data-Analytics"
 You must uncheck the checkbox for "Require security token to connect clients"
 Then, click Add Gateway
 
-![](/media/dataconnect/dc5.png)
+![](/media/dataconnect/dc5a.png)
 
 Now that your secure gateway is created, we need the Gateway ID so that you can configure the client to use this new secure gateway.  Click on the Connect Client + button to see the Gateway ID.
 
