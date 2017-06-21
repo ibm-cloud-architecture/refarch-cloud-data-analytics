@@ -1,4 +1,4 @@
-# Moving data and workloads from on premises to the cloud for more agile analytics
+# Moving data and workloads from on-premises to the cloud for more agile analytics
 
 ## Table of Contents
 - **[Introduction](#introduction)**
@@ -25,11 +25,11 @@
 
 ## Introduction
 
-This project provides a reference implementation for moving data from on premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department.   
+This project provides a reference implementation for moving data from on-premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department.   
 
-In this case, one organization is using our PureData System for Analytics (Netezza) and the other DB2 for their datawarehouses. The data from these systems will be pshed or pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
+In this case, one organization is using our PureData System for Analytics (Netezza) and the other DB2 for their data warehouses. The data from these systems will be pushed or pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
 
-**We will provide two mechanisms for moving the data from on premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
+**We will provide two mechanisms for moving the data from on-premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
 
 ### Loading data using IBM Data Connect
 
@@ -77,7 +77,7 @@ You must have the following
 
 There are a few components of this solution.  
 
-- The Virtual Machine (VM) that contains the on premises databases. Due to licensing restricions on some of the software in the VM this is only available to IBMers and Business Partners. 
+- The Virtual Machine (VM) that contains the on-premises databases. Due to licensing restricions on some of the software in the VM this is only available to IBMers and Business Partners. 
 
     [Download VM Image from here](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr)
 
@@ -125,7 +125,7 @@ Step | Description
 
    Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
 
-**Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on premises databases.
+**Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases.
 
 Save the customer data for both banks to your computer. Be sure to use the .csv file extention.
     
