@@ -7,7 +7,7 @@
 - **[Prerequisites](#prerequisites)**
 - **[Project Components](#project-components)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
-    - **[Step 1: Bluemix Environment Setup](#step-1:-Bluemix-Environment-Setup)**
+    - **[Step 1: Bluemix Environment Setup](#step-1-bluemix-environment-setup)**
     
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
