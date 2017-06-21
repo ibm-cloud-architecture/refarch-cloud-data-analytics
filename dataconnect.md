@@ -40,6 +40,8 @@ Now that your secure gateway is created, we need the Gateway ID so that you can 
 
 In the popup, you can now see the Gateway ID.  In the free version of the VMware Player, it won't let you paste, so you'll need to enter this manually into a file in the VM.
 
+![](/media/dataconnect/dc7.png)
+
 Switch over to the VM and enter the following:
 ```
 cd /etc/ibm
