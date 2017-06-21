@@ -69,7 +69,7 @@ You must have the following
  - VMware
       - VMware Player or VMware Workstation for Windows
       - VMware Fusion (Full or 30 day trial) for OSX
- - Download the Download [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+ - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
  - A provisioned Data Connect service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) service in Bluemix
  - Sign up for Signup for free a [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
@@ -99,22 +99,15 @@ XXXXXX
  - [refarch-cloud-data-analytics-data](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - The raw data that is preloaded in the databases in the VM
  
 
-This project contains tutorials for setting up CI/CD pipeline for the scenarios. The tutorial is shown below.  
- - [refarch-cloudnative-devops-kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-devops-kubernetes)             - The DevOps assets are managed here
-
-This project contains tutorials for setting up Resiliency such as High Availability, Failover, and Disaster Recovery for the above application.
- - [refarch-cloudnative-resiliency](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/kube-int)   - The Resiliency Assets will be managed here
- - [refarch-cloudnative-kubernetes-csmo](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes-csmo)   - The BlueCompute application end-to-end cloud service management for Kubernetes based deployment  
-
 ## Run the reference solution in IBM Cloud
 
-To run the solution demo you will need to download adn start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
+To run the solution demo you will need to download and start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
 runtimes.  
 
 
-### Step 1: Environment Setup   
+### Step 1: Bluemix Environment Setup   
 
-The Watson Data Platform lab is conducted using the IBM cloud. It utilizes the suite of fully managed cloud data services; Cloudant NoSQL DB, dashDB for Analytics and Object Storage to persist data and Data Connect to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Watson Analytics, IBM’s smart data discovery and visualization service on the cloud. Finally, this lab will also utilize the IBM Data Science Experience, an interactive, collaborative, cloud-based environment where data scientists can use multiple tools to activate their insights. 
+The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
 
 ## Workflow
 
@@ -131,17 +124,16 @@ Step | Description
 
 ## Step 1: Download the lab files
 
-**Download** the Great Outdoor Customer Orders CSV file to your workstation. This file is used in the Data Engineering, Business Analysis and Data Science sections of the lab. When downloading this file, you will be brought to a browser tab that exposes the content of the file. Use the "File" > "Save Page As ..." menu item to save this file. Be sure to use the .csv file extention.
 
-### [Click Here to Download the "Great Outdoor Customer Orders.csv" file](https://github.com/WatsonDataPlatform/E2ELab/blob/master/GettingStarted/Great%20Outdoor%20Customer%20Orders.csv)
+Download the [VMware Image] (https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
 
-**Download** the nodejsDashboard Zip file to your workstation. This file is used in the Application Development lab.
+**Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on premises databases. Be sure to use the .csv file extention.
 
-### [Click Here to Download the "nodejsDashboard.zip" file](https://github.com/WatsonDataPlatform/E2ELab/blob/master/GettingStarted/nodejsDashboard.zip)
-
-**Download** the Lab-DSX-ML Zip file to your workstation. This file is used in the Data Science lab.
-
-### [Click Here to Download the "Lab-DSX-ML.zip" file](https://github.com/WatsonDataPlatform/E2ELab/blob/master/GettingStarted/Lab-DSX-ML.zip)
+Download the customer data for both banks to your computer. 
+    
+    [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
+    
+    [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
 
 ## Step 2: Create a Bluemix account
 
