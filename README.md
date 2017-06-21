@@ -11,8 +11,11 @@
        - [Step A: Download the lab files](Step-A-Download-the-lab-files)     
        - [Step B: Create a Bluemix account](Step-B-Create-a-bluemix-account)
        - [Step C: Create the Cloud Data Analytics lab services](Step-C-Create-the-Cloud-Data-Analytics-lab-services)
-       - [Step D: Create a Cognos Analytics account](Step-E-Create-a-Cognos-Analytics-account)
-       - [Step E: Create a Watson Analytics account](Step-E-Create-a-Watson-Analytics-account)
+       - [Step D: Create a Cognos Analytics account](Step-D-Create-a-Cognos-Analytics-account)
+       - [Step E: Create a Watson Analytics account](step-e-create-a-watson-analytics-account) 
+       - [Step F: Create a github account](Step-F-Create-a-github-account)
+
+       - [Step H: Create a Watson Analytics account](Step-E-Create-a-Watson-Analytics-account)
     
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
@@ -117,12 +120,13 @@ On the following pages are a series of steps you need to complete before you do 
 
 Step | Description
 ------------ | -------------
-1 | Download the lab files
-2 | Create a Bluemix account
-3 | Create the Cloud-Data-Analytics lab services
-4 | Create the Cloud-Data-Analytics lab application
-5 | Create a Cognos Analytics account
-6 | Create a GitHub account
+A | Download the lab files
+B | Create a Bluemix account
+C | Create the Cloud-Data-Analytics lab services
+E | Create a Cognos Analytics account
+F | Create a Watson Analytics account
+G | Create a GitHub account
+H | Create and Launch Data Connect Service
 
 ## Step A: Download the lab files
 
