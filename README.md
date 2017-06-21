@@ -127,13 +127,13 @@ Step | Description
 
 Download the [VMware Image] (https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
 
-**Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on premises databases. Be sure to use the .csv file extention.
+**Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on premises databases.
 
-Download the customer data for both banks to your computer. 
+Save the customer data for both banks to your computer. Be sure to use the .csv file extention.
     
-    [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
+   Download [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
     
-    [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
+   Download [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
 
 ## Step 2: Create a Bluemix account
 
