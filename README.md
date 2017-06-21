@@ -268,81 +268,16 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-11.png" />
 
-9. **Enter** "WDP dashDB for Analytics” (without quotes) for the credential name.   
+9. **Enter** "CDA dashDB” (without quotes) for the credential name.   
 10. **Select** the the "Add" button. The service credential will be created.
 
 <img src="./media/Step3-image-12.png" />
 
 11. **Select** the "View credentials v" down arrow to view the newly created credentials.
 
-> **Note** - These are the "WDP dashDB for Analytics" service credentials you will need to access the dashDB service in the Data Engineering and Data Science labs. Remember how to get back to this area of the service to access the credentials. I have redacted my password, to protect my identity, yours will be visible.
+> **Note** - These are the "CDA dashDB" service credentials you will need to access the dashDB service in the Data Engineering and Data Science labs. Remember how to get back to this area of the service to access the credentials. I have redacted my password, to protect my identity, yours will be visible.
 
 <img src="./media/Step3-image-13.png" />
-
-1. **Select** the "Catalog" menu at the top of the Bluemix home page.
-
-<img src="./media/Step3-image-14.png" />
-
-2. **Enter** "apache spark" (without quotes) in the catalog search area.  
-3. **Click on** the “Apache Spark” service.  
-
-<img src="./media/Step3-image-15.png" />
-
-4. **Enter** "WDP Apache Spark” (without quotes) for the Service name.
-5. **Enter** “WDP Apache Spark” (without quotes) for the Credential name. 
-5. **Select** the "Create" button. The service will be created and the launch page is displayed.
-
-<img src="./media/Step3-image-16.png" />
-
-1. **Select** the "Catalog" menu at the top of the Bluemix home page.
-
-<img src="./media/Step3-image-17.png" />
-
-2. **Enter** "cloud data store" (without quotes) in the catalog search area.  
-3. **Click on** the “Object Storage” service.  
-
-<img src="./media/Step3-image-18.png" />
-
-4. **Enter** "WDP Object Storage” (without quotes) for the Service name.
-5. **Scroll down** the service page to the Pricing area.
-
-<img src="./media/Step3-image-19.png" />
-
-6. **Select** the "Free" service plan.
-7. **Select** the "Create" button. You will receive a message that the service is being created and that it may take a few minutes. The message will disappear and you will be brought to the services dashboard of your Bluemix account.
-
-<img src="./media/Step3-image-20.png" />
-
-> **Note** - You should have 5 services in your services dashboard. These are the services that will be used across the Watson Data Platform labs; Data Engineering, Business Analytics, Data Science and Application Development.
-
-## Step 4: Create the Watson Data Platform lab application
-
-<img src="./media/Step4-image-01.png" />
-
-1. **Select** the "Catalog" menu at the top of the Bluemix home page.
-
-<img src="./media/Step4-image-02.png" />
-
-2. **Enter** "cloud foundry" (without quotes) in the catalog search area.  
-3. **Click on** the “SDK for Node.js" application.
-
-<img src="./media/Step4-image-03.png" />
-
-4. **Enter** "WDP Your Name” (without quotes), with "Your Name" equal to your First and Last Name. The Host name will be filled in automatically for you with dashes in place of spaces.
-
-> Notice that my application name is "WDP Rick Buglio" with a Host Name of "WDP-Lab-Rick-Buglio-Application". The Host Name of the application has to be unique in Bluemix. Using your first and last name should make it unique. If you get an error that the name is not unique add your middle initial, if you have one, or use your Bluemix account email address instead.
-
-5. **Select** the "Create" button. The application creation process will begin. 
-
-<img src="./media/Step4-image-04.png" />
-
-> You are brought to the application page and see that Bluemix has begun starting the application. You will see a starting status with a spinning wheel. Wait until you see that the application is a running status.
-
-6. **Click On** the "IBM Bluemix" menu, to the left of the "Cloud Foundry Apps" menu from the Bluemix toolbar after you see that the application is in a running state. This will take you back to your Bluemix dashaboard.
-
-<img src="./media/Step4-image-05.png" />
-
-> You should see your application in the All Apps section of your Bluemix dashboard.
 
 ## Step 5: Create a Watson Analytics account
 
@@ -470,6 +405,10 @@ You will need a GitHub account. If you **don't** have an account:
 12. **Select** the "X" in the top right corner to close the verification message.
 
 > Your have completed the pre-requisite steps. You can now begin completing the labs. Please proceed to the Data Enginner lab first to begin preparing your data.
+
+
+
+
 
     
 ### Start the Virtual Machine
