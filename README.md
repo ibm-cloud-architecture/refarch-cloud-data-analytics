@@ -249,7 +249,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-04.png" />
 
-1. **Select** the "Catalog" menu at the top of the Bluemix home page.
+1. **Select** the "Catalog" menu at the top of the Bluemix home page. 
 
 <img src="./media/Step3-image-08.png" />
 
