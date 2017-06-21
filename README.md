@@ -436,27 +436,27 @@ You will need a GitHub account. If you **don't** have an account:
 
 > Your have completed the pre-requisite steps. You can now begin completing the labs. Please proceed to the Data Enginner lab first to begin preparing your data.
 
-## Step H: Create and Launch the Data Connect Service
+## Step G: Create and Launch the Data Connect Service
 
 ### [Click Here to Go to Bluemix](https://console.ng.bluemix.net/)
 
-<img src="./media/Step1-image-01.png"/>
+<img src="./media/DC1.png"/>
 
-> You should be logged into your Bluemix account if you just completed the GettingStarted section. If not, select the Log in button. When prompted, supply your credentials to log into your Bluemix account.
+> You should be logged into your Bluemix account. If not, select the Log in button. When prompted, supply your credentials to log into your Bluemix account.
 
-<img src="./media/Step1-image-02.png"/>
+<img src="./media/DC2.png"/>
 
-> Make sure you are in the "Watson Data Platform" space that you were instructed to create in the GettingStarted section. If you are not in the "Watson Data Platform" space, switch to it by followimg the instructions below.
+> Make sure you are in the "Cloud Data Analytics" space that you were instructed to create in the Getting Started section. If you are not in the "Cloud Data Analytics" space, switch to it by followimg the instructions below.
 
-<img src="./media/Step1-image-03.png"/>
+<img src="./media/DC3.png"/>
 
 1. **Select** the Bluemix region / organization area in the top right corner of the Bluemix home page.
 2. **Select** the arrow in the Space drop down list box.
-3. **Select** the "Watson Data Platform" space. Bluemix will switch yuo to the selected space.
+3. **Select** the "Cloud Data Analytics" space. Bluemix will switch you to the selected space.
 
 <img src="./media/Step1-image-04.png"/>
 
-1. Once you are logged into your Bluemix account and in the "Watson Data Platform" space, **Scroll down** to the "All Services" section of your dashboard and **Click On** the "WDP Data Connect" service. You will be brought to the Data Connect launch page.
+1. Once you are logged into your Bluemix account and in the "Cloud Data Analytics" space, **Scroll down** to the "All Services" section of your dashboard and **Click On** the "WDP Data Connect" service. You will be brought to the Data Connect launch page.
 
 <img src="./media/Step1-image-05.png" />
 
