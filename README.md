@@ -8,6 +8,7 @@
 - **[Project Components](#project-components)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
     - **[PREWORK: Environment Setup](#prework-environment-setup)**
+        -- **[Step E: Create a Watson Analytics account](Step-E-Create-a-Watson-Analytics-account
     
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
@@ -119,7 +120,7 @@ Step | Description
 5 | Create a Cognos Analytics account
 6 | Create a GitHub account
 
-## Step 1: Download the lab files
+## Step A: Download the lab files
 
 
    Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
@@ -132,7 +133,7 @@ Save the customer data for both banks to your computer. Be sure to use the .csv 
     
    Download [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
 
-## Step 2: Create a Bluemix account
+## Step B: Create a Bluemix account
 
 You will need a Bluemix account. Follow the instructions in one of the sections below depending on whether or not you have a Bluemix account.
 
@@ -223,7 +224,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 14. **Select** the "I'm Ready" button.
 
-## Step 3: Create the Cloud Data Analytics lab services
+## Step C: Create the Cloud Data Analytics lab services
 
 <img src="./media/Step3-image-01.png" />
 
@@ -276,7 +277,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-13.png" />
 
-## Step 4: Create a Cognos Analytics account
+## Step D: Create a Cognos Analytics account
 
 You will need a Cognos Analytics account. If you **don't** have an account:
 
@@ -301,7 +302,7 @@ You now have a Cognos Analytics Account, and will see a screen like
 <img src="./media/CA4.png"/>
 
 
-## Step 5: Create a Watson Analytics account
+## Step E: Create a Watson Analytics account
 
 You will need a Watson Analytics account. If you **don't** have an account:
 
