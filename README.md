@@ -276,6 +276,31 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-13.png" />
 
+## Step 4: Create a Cognos Analytics account
+
+You will need a Cognos Analytics account. If you **don't** have an account:
+
+### [Click Here to Register for a Cognos Analytics account](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
+
+<img src="./media/CA1.png" />
+
+1. **Select** the “Free Trial” button.
+
+> Cognos Analytics is IBM account aware, but not Bluemix aware. If you have an IBM ID select login, otherwise enter your email and name, and set a password.
+
+## If you are logged into Bluemix in the same browser session...
+
+### You will see this registration page: 
+
+<img src="./media/CA2.png"/>
+   
+
+### You will see this registration page:
+
+<img src="./media/Step5-image-03.png"/>
+
+1. **Enter** an email address. 
+
 ## Step 5: Create a Watson Analytics account
 
 You will need a Watson Analytics account. If you **don't** have an account:
