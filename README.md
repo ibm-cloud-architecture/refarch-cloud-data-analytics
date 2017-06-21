@@ -263,7 +263,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-10-1.png" />
 
-7. **Select** the "Service credentials” section of the "CDA dashDB for Analytics" service launch page.   
+7. **Select** the "Service credentials” section of the "CDA dashDB" service launch page.   
 8. **Select** the the "New credential +" button.
 
 <img src="./media/Step3-image-11.png" />
