@@ -59,7 +59,7 @@ What do you think?
 
 ## Solution Overview
 
-The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important, insght from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating a new system and moving the data, that new/common repository needs to be hosted in the cloud. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
+The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important, insight from the data. In order to gain this insight the data from the two bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating and managing a new system and moving the data, that new/common repository needs to be hosted as a managed cloud service. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
 ## Prerequisites
 
