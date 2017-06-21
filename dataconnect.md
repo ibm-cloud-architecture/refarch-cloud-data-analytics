@@ -47,11 +47,11 @@ Switch over to the VM and enter the following:
 cd /etc/ibm
 vi sgenvironment.conf
 ```
-
-![](/media/dataconnect/dc8.png)
-
 You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
 ```
 GATEWAY_ID="<your_gateway_id>"
 ```
+
+![](/media/dataconnect/dc8.png)
+
 
