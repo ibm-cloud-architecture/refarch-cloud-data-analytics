@@ -300,6 +300,7 @@ You now have a Cognos Analytics Account, and will see a screen like
 
 <img src="./media/CA4.png"/>
 
+
 ## Step 5: Create a Watson Analytics account
 
 You will need a Watson Analytics account. If you **don't** have an account:
