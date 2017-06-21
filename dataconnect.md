@@ -54,4 +54,4 @@ GATEWAY_ID="<your_gateway_id>"
 
 ![](/media/dataconnect/dc8.png)
 
-When finished, hold SHIFT and type `ZZ` to save and close the file.
+When finished, hold `SHIFT` and type `ZZ` to save and close the file.
