@@ -10,11 +10,11 @@
     - **[PREWORK: Environment Setup](#prework-environment-setup)**
        - [Step A: Download the lab files](#step-a-download-the-lab-files)     
        - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
-       - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-snalytics-lab-services)
+       - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-analytics-lab-services)
        - [Step D: Create a Cognos Analytics account](#step-d-create-a-cognos-analytics-account)
        - [Step E: Create a Watson Analytics account](#step-e-create-a-watson-analytics-account) 
        - [Step F: Create a GitHub account](#step-f-create-a-github-account)
-       - [Step G: Create and Launch the Data Connect Service](#step-g-create-and-launch-the-data-connect-service)
+       - [Step G: Launch the Data Connect Service](#step-g-launch-the-data-connect-service)
     
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
@@ -129,7 +129,6 @@ H | Create and Launch Data Connect Service
 
 ## Step A: Download the lab files
 
-
    Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
 
 **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases.
@@ -170,7 +169,7 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
 > The space will be created and you will be brought into it. You should now see, in the top right corner, that you are in the “Cloud-Data-Analytics” space in your Bluemix organization. You will use this space to house the Watson Data Platform lab services and application.
 
-**Proceed to Step 3: Create the Watson Data Platform lab services**
+**Proceed to Step C: Create the Cloud Data Analytics Lab Services**
 
 ## If you don't have a Bluemix account...
 
@@ -182,7 +181,7 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
 <img src="./media/Step2-image-05.png"/>
 
-1. **Seletct** the "I'm not a bot" check box.
+1. **Select** the "I'm not a bot" check box.
 
 <img src="./media/Step2-image-06.png"/>
 
@@ -231,7 +230,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 14. **Select** the "I'm Ready" button.
 
-## Step C: Create the Cloud Data Analytics lab services
+## Step C: Create the Cloud Data Analytics Lab Services
 
 <img src="./media/Step3-image-01.png" />
 
