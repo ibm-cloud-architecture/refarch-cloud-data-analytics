@@ -55,3 +55,6 @@ GATEWAY_ID="<your_gateway_id>"
 ![](/media/dataconnect/dc8.png)
 
 When finished, hold `SHIFT` and type `ZZ` to save and close the file.
+
+Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.
+
