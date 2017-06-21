@@ -436,7 +436,7 @@ You will need a GitHub account. If you **don't** have an account:
 
 > Your have completed the pre-requisite steps. You can now begin completing the labs. Please proceed to the Data Enginner lab first to begin preparing your data.
 
-## Step H: Launch the Data Connect Service
+## Step H: Create and Launch the Data Connect Service
 
 ### [Click Here to Go to Bluemix](https://console.ng.bluemix.net/)
 
