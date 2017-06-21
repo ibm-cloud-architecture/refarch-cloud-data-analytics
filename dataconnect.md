@@ -9,4 +9,6 @@
 
 ## Launch the Data Connect service
 In the Bluemix services screen, click on the CDA Data Connect service that you created.
-![Services Screen](/refarch-cloud-data-analytics/media/dataconnect/dc1.png)
+
+![Services Screen](/media/dataconnect/dc0.png)
+
