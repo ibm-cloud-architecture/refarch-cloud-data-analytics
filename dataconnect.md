@@ -79,7 +79,7 @@ To get started, click the Connections link on the navigation on the left (1).
 
 ![](/media/dataconnect/conn1.png)
 
-We will start with the connection to the PDA.  
+### Connection to PDA.  
 
 ![](/media/dataconnect/conn2.png)
 
@@ -95,3 +95,24 @@ We will start with the connection to the PDA.
 1. Ensure that "Use a secure gateway" is checked and then click the pull-down to select the gateway that you created in the prework.  It should be called "Cloud-Data-Analytics"
 1. Enter the username "admin"
 1. Enter the password "password"
+1. Click the "Create Connection" button at the top-right of the screen
+
+Now the PDA connection has ben created
+
+### Connection to DB2
+
+You will use the same steps as above for the DB2 connection, but with different values.
+
+1. Click the Create New button at the top-right of the screen to create a new connection
+1. In the list of connection types, select IBM DB2
+
+![](/media/dataconnect/conn4.png)
+
+1. Name the connection "CDA DB2"
+1. In the Hostname/IP Address field, enther the IP address that you saw when you first logged in to your VM.  If you did not write it down, you can type `ifconfig |head -2` to see it.  It should start with 192.168.
+1. The port is 50000
+1. The database name is SAMPLE
+1. Ensure that "Use a secure gateway" is checked and then click the pull-down to select the gateway that you created in the prework.  It should be called "Cloud-Data-Analytics"
+1. Enter the username "db2inst1"
+1. Enter the password "db2inst1"
+1. Click the "Create Connection" button at the top-right of the screen
