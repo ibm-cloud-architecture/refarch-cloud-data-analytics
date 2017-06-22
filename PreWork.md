@@ -82,7 +82,7 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 3. **Enter** “Cloud-Data-Analytics” (without quotes) for the space name.  
 4. **Select** the “Create” button.  
 
-> The space will be created and you will be brought into it. You should now see, in the top right corner, that you are in the “Cloud-Data-Analytics” space in your Bluemix organization. You will use this space to house the Watson Data Platform lab services and application.
+> The space will be created and you will be brought into it. You should now see, in the top right corner, that you are in the “Cloud-Data-Analytics” space in your Bluemix organization. You will use this space to house the Cloud-Data-Analytics lab services. 
 
 **Proceed to Step C: Create the Cloud Data Analytics Lab Services**
 
@@ -138,7 +138,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step2-image-13.png"/>
 
-12. **Enter** “Watson Data Platform" (without quotes) as your Bluemix space name.
+12. **Enter** “Cloud-Data-Analytics" (without quotes) as your Bluemix space name.
 13. **Select** the "Create" button.
 
 <img src="./media/Step2-image-14.png"/>
@@ -158,7 +158,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-03.png" />
 
-4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (Use CDA as the acronym for Cloud Data Analytics).
+4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (Use CDA as the acronym for Cloud-Data-Analytics).
 5. **Enter** “CDA Data Connect” (without quotes) for the Credential name.  
 6. **Select** the the "Create" button. The service will be created and the launch page is displayed.
 
