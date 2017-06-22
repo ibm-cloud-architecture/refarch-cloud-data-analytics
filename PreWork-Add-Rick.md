@@ -8,15 +8,15 @@
 
 <img src="./media/Step3-image-15.png"/>
 
-3. **Select** the **OPEN** button to open the dashDB console.
+3. **Select** the **Run SQL** menu from the left hand side of the console.
 
 <img src="./media/Step3-image-16.png"/>
 
-4. **Select** the **OPEN** button to open the dashDB console.
+4. **Select** all the sample SQL in the SQL scratch pad area and delete it.
 
 <img src="./media/Step3-image-17.png"/>
 
-5. **Select** the **OPEN** button to open the dashDB console.
+5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.dd).
 
 <img src="./media/Step3-image-18.png"/>
 
