@@ -117,7 +117,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-04.png"/>
 
-1. **Select** the **Player** menu from the toolbar.
+1. **Select** the **Player** menu on the toolbar.
 2. **Select** the **File** menu item.
 3. **Select** the **Open** menu item.
 
