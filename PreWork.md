@@ -9,8 +9,7 @@
       - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-analytics-lab-services)
       - [Step D: Create the dashDB Credentials](#step-d-create-the-dashdb-credentials)
       - [Step E: Create a Cognos Analytics account](#step-e-create-a-cognos-analytics-account)
-      - [Step F: Create a Watson Analytics account](#step-f-create-a-watson-analytics-account) 
-      - [Step G: Create a GitHub account](#step-g-create-a-github-account)
+      - [Step F: Create a GitHub account](#step-f-create-a-github-account)
 
 ## Environment Setup   
 
@@ -240,91 +239,7 @@ You now have a Cognos Analytics Account, and will see a screen like
 <img src="./media/CA4.png"/>
 
 
-## Step F: Create a Watson Analytics account
-
-You will need a Watson Analytics account. If you **don't** have an account:
-
-### [Click Here to Register for a Watson Analytics account](https://watson.analytics.ibmcloud.com/product)
-
-<img src="./media/Step5-image-01.png" />
-
-1. **Select** the “Try it for free” button.
-
-> Watson Analytics is IBM account aware. It is also Bluemix aware and knows if you are logged into Bluemix from within the same browser session. This can be very beneficial and is one of the reasons these instructions had you create a Bluemix account prior to creating a Watson Analytics account using the same browser session. Creating a Bluemix account creates an IBM account. Therefore, depending on whether or not you are logged into Bluemix in the same browser session you are requesting to create a Watson Analytics account, you will see one of the two scenarios below to register for a Watson Analytics account:
-
-## If you are logged into Bluemix in the same browser session...
-
-### You will see this registration page: 
-
-<img src="./media/Step5-image-02.png"/>
-   
-1. **Enter** the password for the IBM account displayed. My account is redacted to protect my identity.
-2. **Select** the "Sign Up" button.
-
-## If you are not logged into Bluemix in the same browser session...
-
-### You will see this registration page:
-
-<img src="./media/Step5-image-03.png"/>
-
-1. **Enter** an email address. 
-
-> If the email address you enter does not exist as an IBM account, Watson Analytics will keep you on this page. If so, complete steps 2-4 below.
-
-2. **Enter** all the required fields; Password, First and Last Name, Company, Phone Number, Country/region and State.
-3. **Check** or **Uncheck** the box to keep informed of products and services and offerings from IBM worldwide.
-4. **Select** the "Continue" button.
-
-> If the email address already exists as an IBM account, Watson Analytics will switch to the page you see below with your email already designated. If so, complete steps 1-2 below.
-
-<img src="./media/Step5-image-02.png"/>
-
-1. **Enter** the password for the IBM account displayed. My IBMid is redacted to protect my identity.
-2. **Select** the "Sign Up" button.
-
-<img src="./media/Step5-image-04.png"/>
-
-> You will be brought to the Sign Up page informing you “We have sent a confirmation code to verify your IBMId email address." You will be sent an email by ibmacct@us.ibm.com with a “Confirmation code” (7 digit number), to verify your email address.
-
-<img src="./media/Step5-image-05.png"/>
-
-To activate your account, **Go to** your email inbox that you used to register your Watson Analytics account to retrieve the confirmation code.
-
-<img src="./media/Step5-image-06.png"/>
-
-1. **Enter** the confirmation code you received in the email by typing it in or copy and pasting it from the email.
-2. **Enter** your Company and Phone Number and select your State.
-3. **Select** the "Sign Up" button.
-
-<img src="./media/Step5-image-07.png"/>
-
-> At this point, you will see a screen informing you that “Your new service subscription is being setup. You will receive an email when service provisioning has been completed”.
-
-<img src="./media/Step5-image-08.png"/>
-
-> In a few seconds you will be brought into a Welcome page that plays a video introducing you to Watson Analytics with a status of "Setting up your account" at the bottom of the page. 
-
-<img src="./media/Step5-image-09.png"/>
-
-1. When you are able, **Select** the "Continue to Watson Analytics" link.
-
-<img src="./media/Step5-image-10.png"/>
-
-2. **Select** the "Get Started ->" button.
-
-<img src="./media/Step5-image-11.png"/>
-
-3. **Click through** the exploration tour.
-
-<img src="./media/Step5-image-12.png"/>
-
-4. **Select** "Got it" when you get to the end of the exploration tour.
-
-<img src="./media/Step5-image-13.png"/>
-
-> Your Watson Analytics account is now ready for use. You have completed all of the Getting Started prerequisites and are ready to begin the Watson Data Platform labs. You can do the labs in any order you like but we strongly suggest you start by doing the Data Engineering lab first followd by Business Analysis, Data Science and then Application Development.
-
-## Step G: Create a GitHub account
+## Step F: Create a GitHub account
 
 You will need a GitHub account. If you **don't** have an account:
 
