@@ -23,3 +23,11 @@
 
 7. **Review** the results. It should complete successfully.
 8. **Select** the **Tables** menu from the left hand side of the console.
+
+<img src="./media/Step3-image-19.png"/>
+
+9. **Select** the **BANK_CUSTOMERS** table from the tables drop down list box.
+
+<img src="./media/Step3-image-20.png"/>
+
+You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
