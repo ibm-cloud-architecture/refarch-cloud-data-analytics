@@ -7,6 +7,8 @@
 - **[Solution Components & Services](#solution-components-and-services)**
 - **[Prerequisites](#prerequisites)**
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
+    - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
+    - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
     
 
 PLACEHOLDERS  
@@ -94,9 +96,135 @@ If you need help with any of the pre-requisites, go to the [Prereq Step by Step 
 
 ## Move the data to the Cloud
 
-To run the solution demo you will need to download and start the VM, configure your Bluemix environment, and run the data movement service. These configuration steps will deploy a framework for running Cognos Analytics.
+## Step 1: Create the Cloud Data Analytics Lab Services
 
-### Start the Virtual Machine
+<img src="./media/Step3-image-01.png" />
+
+1. **Select** the "Catalog" menu at the top of the Bluemix home page.
+
+<img src="./media/Step3-image-02.png" />
+
+2. **Enter** "data connect" (without quotes) in the catalog search area.  
+3. **Click on** the “Data Connect” service.  
+
+<img src="./media/Step3-image-03.png" />
+
+4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (Use CDA as the acronym for Cloud-Data-Analytics).
+5. **Enter** “CDA Data Connect” (without quotes) for the Credential name.  
+6. **Select** the the "Create" button. The service will be created and the launch page is displayed.
+
+<img src="./media/Step3-image-04.png" />
+
+7. **Select** the **Manage** menu of the CDA Data Connect service on the left.
+8. **Select** the **LAUNCH** button to launch the Data Connect service.
+
+<img src="./media/Step3-image-05.png" />
+
+9. **Select** the **X** in the top right corner of the Welcome dialog to close it.
+10. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
+
+<img src="./media/Step3-image-06.png" />
+
+11. **Select** the **Add Gateway** button next to the moving arrow to add a gateway.
+
+<img src="./media/Step3-image-07.png" />
+
+12. **Enter** a gateway name of **Cloud-Data-Analytics**.
+13. **Uncheck** the "Require security token to connect clients" check box.
+14. **Uncheck** the "Token Expiration" check box.
+15. **Select** the **Add Gateway** button.
+
+<img src="./media/Step3-image-07-01.png" />
+
+16. **Select** the **Settings** buton at the top of the page to view the Gateway settings.
+17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed,
+18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
+
+<img src="./media/Step3-image-07-02.png" />
+
+19. **Close** down the Data Connect service by selecting the **X** on the browser tab.
+
+**Go Back** to your Bluemix Account for the next steps. 
+
+<img src="./media/Step3-image-07-03.png" />
+
+1. **Select** the "Catalog" menu at the top of the Bluemix home page. 
+
+<img src="./media/Step3-image-08.png" />
+
+2. **Enter** "dashdb" (without quotes) in the catalog search area.  
+3. **Click on** the “dashDB for Analytics” service.  
+
+<img src="./media/Step3-image-09.png" />
+
+4. **Enter** "CDA dashDB” (without quotes) for the Service name.   
+5. **Select** the the "Create" button. The service will be created and the launch page is displayed.
+
+<img src="./media/Step3-image-10.png" />
+
+6. **Click On** the "CDA dashDB" service you just created from the list of services.
+
+<img src="./media/Step3-image-10-1.png" >
+
+
+## Step 2: Create the dashDB Credentials
+
+7. **Select** the "Service credentials” section of the "CDA dashDB" service launch page.   
+8. **Select** the the "New credential +" button.
+
+<img src="./media/Step3-image-11.png" />
+
+9. **Enter** "CDA dashDB” (without quotes) for the credential name.   
+10. **Select** the the "Add" button. The service credential will be created.
+
+<img src="./media/Step3-image-12.png" />
+
+11. **Select** the "View credentials v" down arrow to view the newly created credentials.
+
+> **Note** - These are the "CDA dashDB" service credentials you will need to access the dashDB service in the Data Engineering and Data Science labs. Remember how to get back to this area of the service to access the credentials. I have redacted my password, to protect my identity, yours will be visible.
+
+<img src="./media/Step3-image-13.png" />
+
+1. **Select** the **Manage** menu of the CDA dashDB service on the left.
+
+<img src="./media/Step3-image-14.png"/>
+
+2. **Select** the **OPEN** button to open the dashDB console.
+
+<img src="./media/Step3-image-15.png"/>
+
+3. **Select** the **Run SQL** menu from the left hand side of the console.
+
+<img src="./media/Step3-image-16.png"/>
+
+4. **Select** all the sample SQL in the SQL scratch pad area and delete it.
+
+<img src="./media/Step3-image-17.png"/>
+
+5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
+6. **Select** the Run All button on the toolbar.
+
+<img src="./media/Step3-image-18.png"/>
+
+7. **Review** the results. It should complete successfully.
+8. **Select** the **Tables** menu from the left hand side of the console.
+
+<img src="./media/Step3-image-19.png"/>
+
+9. **Select** the **BANK_CUSTOMERS** table from the tables drop down list box.
+
+<img src="./media/Step3-image-20.png"/>
+
+You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
+
+
+## Step 3: Start the VM
+
+
+
+
+
+
 
 
 ## Step G: Launch the Data Connect Service
