@@ -63,8 +63,6 @@ We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~J
 
 Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
 
- - [BLAHBLAHBLAH](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - XXXX
-
 ## Prerequisites
 
 You will need the following:
