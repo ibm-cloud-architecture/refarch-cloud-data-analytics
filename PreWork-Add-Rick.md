@@ -86,6 +86,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
+
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
 **Unzip** the **Cloud Data Analytucs,zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
@@ -93,6 +94,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 ### On Mac OSX
 
 <img src="./media/vmimage/vmimage-image-02.png"/>
+
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
