@@ -64,3 +64,27 @@
 <img src="./media/Step3-image-20.png"/>
 
 You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
+
+
+
+
+
+<a name="creategw" />
+
+Switch over to the VM and enter the following:
+```
+cd /etc/ibm
+vi sgenvironment.conf
+```
+You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
+```
+GATEWAY_ID="<your_gateway_id>"
+```
+
+![](/media/dataconnect/dc8a.png)
+
+When finished, hold `SHIFT` and type `ZZ` to save and close the file.
+
+Now we need to restart the secure gateway client.  One way to do that is to reboot the machine.  Using the VM Playr button, reboot the VM.
+
+Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.  You should now see that 1 client is connected.
