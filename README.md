@@ -7,7 +7,7 @@
 - **[Solution Components & Services](#solution-components-and-services)**
 - **[Prerequisites](#prerequisites)**
 
-**The main part of the lab starts here**
+**Now we will start the main part of the lab**
 
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
