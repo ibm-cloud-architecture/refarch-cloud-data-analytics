@@ -76,7 +76,7 @@ You must have the following.
  - Sign up for a free [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
  - Sign up for a [Watson Anlaytics Trial](https://www.ibm.com/watson-analytics) 
 
-> **Note** - If you need help with the prerequisites, go to the the [Prereq Step by Step Directions](#prework-environment-setup)
+> **Note** - If you need help with the prerequisites, go to the the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)
 
 ## Project Components
 
