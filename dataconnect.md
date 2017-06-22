@@ -25,8 +25,6 @@ If your Data Connect service is no longer in a tab in your browser to the Access
 
 The Data Connect service should already be open in a tab in your browser from when you created a Secure Gatway in the Prework. If so, go to the Data Connect service. If not, from the Bluemix services screen, click on the **CDA Data Connect** service and launch the serivce.
 
-![Services Screen](/media/dataconnect/dc0a.png)
-
 In the next screen, you will see a Launch button to access th Data Connect serice.
 
 ![Launch Data Connect](/media/dataconnect/dc1a.png)
