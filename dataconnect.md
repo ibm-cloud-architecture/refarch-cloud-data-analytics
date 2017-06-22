@@ -19,7 +19,7 @@ If your Data Connect service is no longer in a tab in your browser to the Access
 
 <a name="launch" /> 
 
-## Acess the Data Connect Service
+## Access the Data Connect Service
 
 <img src="./media/dataconnect/data-connect-image-02.png" />
 
