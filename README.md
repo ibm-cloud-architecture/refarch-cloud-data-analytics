@@ -20,8 +20,6 @@ PLACEHOLDERS
             - [Delete Bluecompute Community Edition from Local Minikube Cluster](#delete-bluecompute-community-edition-from-local-minikube-cluster)
         - [Deploy Bluecompute to Paid Cluster](#deploy-bluecompute-to-paid-cluster)
             - [Delete Bluecompute from Paid Cluster](#delete-bluecompute-from-paid-cluster)
-            
-@@@@@
 
 ## Introduction
 
@@ -96,6 +94,13 @@ There are a few components of this solution.
 
  - [BLAHBLAHBLAH](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - XXXX
  
+
+
+## STOP HERE FOR NOW...
+
+
+
+
 
 ## Setup the reference solution in IBM Cloud
 
