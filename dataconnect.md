@@ -2,13 +2,13 @@
 
 ## Contents
 1. [Launch the Data Connect service](#launch)
-1. [Create the Data Connect Connections](#createconn)
+1. [Create the Source and Target Connections](#createconn)
 1. [Create the Data Movement Activity](#createact)
-1. [Run Activity](#runact)
+1. [Run the Data Movement Activity](#runact)
 
 <a name="launch" /> 
 
-## Launch the Data Connect service
+## Launch the Data Connect Service
 
 In the Bluemix services screen, click on the CDA Data Connect service that you created.
 
