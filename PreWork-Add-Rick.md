@@ -82,32 +82,38 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 ## Unzip the VM Image
 
-### On Windows:
+### On Windows
 
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
 1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
-### On Mac OSX:
+**Unzip** the **Cloud Data Analytucs,zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
+
+### On Mac OSX
+
+<img src="./media/vmimage/vmimage-image-02.png"/>
 
 1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
-**Unzip** the **Cloud Data Analytucs,zip** zip file to a location of your choice. It will create a folder named **Cloud Data Analytics** on your file system with all the VMWare image files contained within it.
+**Unzip** the **Cloud Data Analytucs,zip** file by simply **Double Click** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into the folder.
 
 <a name="power" />
 
 ## Power on the Virtual Machine
 
-### On Windows:
+### On Windows
 
-<img src="./media/vmimage/vmimage-image-01.png"/>
+<img src="./media/vmimage/vmimage-image-03.png"/>
 
-1. **Open** VMWare Workstation of the VMWare Viewer depending on which one you will be using.
+1. **Open** the VMWare Workstation or VMWare Player application (you can use either or to open the VM).
 2. **Open** the **NetezzaSoftwareEmulator.vmx** VMWare file from within the **Cloud Data Analyitcs** VM Image folder.
 
-### On Mac OSX:
+### On Mac OSX
 
-1. **Open** VMWare Workstation of the VMWare Viewer depending on which one you will be using.
+<img src="./media/vmimage/vmimage-image-04.png"/>
+
+1. **Open** the VMWare Fusion application. VMWare Player is not available for Mac OSX.
 2. **Open** the **NetezzaSoftwareEmulator.vmx** VMWare file from within the **Cloud Data Analyitcs** VM Image folder.
 
 <a name="login" />
