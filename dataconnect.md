@@ -2,13 +2,14 @@
 
 ## Contents
 1. [Launch the Data Connect service](#launch)
-1. Create and configure  the Secure Gateway
-1. Create Connections
-1. Create Activity
-1. Run Activity
+1. [Create and configure  the Secure Gateway](#creategw)
+1. [Create Connections](#createconn)
+1. [Create Activity](#createact)
+1. [Run Activity](#runact)
 
+<a name="launch" />
 ## Launch the Data Connect service
-<a name="launch" />In the Bluemix services screen, click on the CDA Data Connect service that you created.
+In the Bluemix services screen, click on the CDA Data Connect service that you created.
 
 ![Services Screen](/media/dataconnect/dc0.png)
 
@@ -17,6 +18,7 @@ In the next screen, you will see a Launch button to access th Data Connect seric
 
 ![Launch Data Connect](/media/dataconnect/dc1.png)
 
+<a name="creategw" />
 ## Create and configure the Secure Gateway
 The Secure Gateway is made up of a client-side component and a server-side service, which allows you to connect the Data Connect service to your virtual machine through a VPN tunnel. Typically, you would need to install the Secure Gateway client.  However, in the interest of time, this has already been downloaded and installed into the virtual machine.  The part that remains is to create the server-side service, and configure the client to connect to it.
 
@@ -60,4 +62,12 @@ Now we need to restart the secure gateway client.  One way to do that is to rebo
 
 Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.  You should now see that 1 client is connected.
 
+<a name="createconn" />
+## Create Connections
 
+In this step, you will configure 3 connections in Data Connect:
+1. Connection to the PureData System for Analytics (PDA/Netezza) server in your VM
+1. Connection to the DB2 server in your VM
+1. Connection to the dashDB server that you created in your prework
+
+We will start with the connection to the PDA.
