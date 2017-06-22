@@ -197,10 +197,10 @@ Click the 3 dots to open the menu.
 
 Click the Run icon and you will see a message saying "Your activity is running."
 At the top-right of the screen, click the View Activity Status to monitor progress.
+Click the refresh icon as indicated above to refresh the status.  Keep refreshing it until you see that it has completed 100%
 
 ![](/media/dataconnect/conn14.png)
 
-Click the refresh icon as indicated above to refresh the status.  Keep refreshing it until you see that it has completed 100%
 When it has completed, click the X button beside the refresh button to close the status sidebar.
 
 ![](/media/dataconnect/conn15.png)
