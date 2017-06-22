@@ -188,6 +188,10 @@ Now you can choose the target table.
 1. Click the pencil to edit the table name, and change it to BANK_CUSTOMERS, then click the green checkbox to save that name
 1. Click the Save button to save the activity
 
+<a name="runact" />
+
+# Run the Activity
+
 ![](/media/dataconnect/conn12.png)
 
 You should now see your new activity in the Activities dashboard.
