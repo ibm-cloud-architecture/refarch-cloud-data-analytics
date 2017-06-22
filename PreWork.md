@@ -71,13 +71,13 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
 > **Note** - The URL for Bluemix is https://console.ng.bluemix.net
 
-<img src="./media/Step2-image-01.png"/>
+<img src="./media/Step2-image-01.png">
 
 1. **Select** the "Log In" button. When prompted, enter your Bluemix ID and password.
 
 ### Create a Bluemix space
 
-<img src="./media/Step2-image-02.png"/>  
+<img src="./media/Step2-image-02.png">  
 
 1. **Select** the account information area in the top right corner of your Bluemix home page.
 2. **Select** the "Create a Space" link next to “Manage Organizations” below the space drop down list box.
