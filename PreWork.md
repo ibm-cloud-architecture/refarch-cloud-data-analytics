@@ -36,9 +36,7 @@ A | Download the lab files
 B | Create a Bluemix account
 C | Create the Cloud-Data-Analytics lab services
 E | Create a Cognos Analytics account
-F | Create a Watson Analytics account
-G | Create a GitHub account
-H | Create and Launch Data Connect Service
+F | Create a GitHub account
 
 ## Step A: Download the lab files
 
