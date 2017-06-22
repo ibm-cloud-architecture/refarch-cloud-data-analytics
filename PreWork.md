@@ -14,8 +14,17 @@
 
 ## Environment Setup   
 
-The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
+The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud.
 
+This lab uses a Virtual Machine. You will need to have VMware Workstation or VMware Workstation Player on Windows or Vmware Fusion Pro on Mac/OSX. If you do not already have this, download the appropriate tool from 
+
+   [Windows](https://www.vmware.com/products/player/playerpro-evaluation.html)
+
+   [Mac OSX](https://www.vmware.com/products/fusion/fusion-evaluation.html)
+   
+   Download the lab [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+   
+   Save the VMware image to your hard drive or an external USB drive. **The faster the drive, the better the performance will be.**
 
 On the following pages are a series of steps you need to complete before you do any of the labs. Each step outlines an easy to follow set of instructions that walks you through preparing your IBM cloud environment so you can do any of the labs you choose. It is a serial process so it’s important that you follow each step in sequence and do not deviate from the workflow or skip any steps in the process.
 
@@ -30,17 +39,6 @@ G | Create a GitHub account
 H | Create and Launch Data Connect Service
 
 ## Step A: Download the lab files
-
-This lab uses a Virtual Machine.  You will need to have VMware Workstation or  VMware Workstation Player on Windows or Vmware Fusion Pro on Mac/OSX.  If you do not already have this, download the appropriate tool from 
-
-   [Windows](https://www.vmware.com/products/player/playerpro-evaluation.html)
-
-   [Mac OSX](https://www.vmware.com/products/fusion/fusion-evaluation.html)
-   
-
-   Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
-   
-   Save the VMware image to your hard drive or an external USB drive. **The faster the drive, the better the performance will be.**
 
    **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases. Be sure to use the default names and the .csv file extention.
     
