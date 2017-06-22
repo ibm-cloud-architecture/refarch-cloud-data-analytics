@@ -73,11 +73,11 @@ You will need the following:
       - VMware Fusion (Full or 30 day trial) for OSX
  - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
       - Note 1: The image download is 11 GB -- make sure you have a reliable high speed network to download this file!
-      - Note 2: The VMware image will consume 20GB of local disk and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
+      - Note 2: The VMware image will consume 20GB of local disk (and up to 20GB temp space), and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
  - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
  - dashDB access credentials
- - A [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
+ - A Cognos Anlaytics Trial
 
 > **Note**  
 If you need help with the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
