@@ -2,9 +2,9 @@
 
 You will be moving data to the cloud using two methods. Before you continue, make sure you have completed all of the pre-work steps. If you have not completed the prew-work please go to this link and do so now. 
 
-The first method uses Bluemix Data Connect to access the N Bank's customer data from a DB2 LUW database and K Bank's customer data from a PureData for Analytics database on-premies. You will then combine the data from both banks and deliver the combined dataset to a dashDB database in the cloud.
+The first method uses Bluemix Data Connect to access "N Bank" customer data from a DB2 LUW database and "K Bank" customer data from a PureData for Analytics database on-premies. You will then combine the data from both banks and deliver the combined dataset to a dashDB database in the cloud.
 
-The second method uses Bluemix Lift to move the data from ground-to-cloud. You will be moving the same customer data from K and N Bank but using the Bluemix Lift CLI (Command Line Utility) to move the data from on-premies to a dashDB database in the cloud.
+The second method uses Bluemix Lift to move the data from ground-to-cloud. You will be moving the same customer data from both banks, but using the Bluemix Lift CLI (Command Line Utility) to move the data from on-premises to a dashDB database in the cloud.
 
    - **[PREWORK: Environment Setup](#prework-environment-setup)**
       - [Step A: Move Data Using Data Connect](#step-a-move-data-using-dataconnect)     
@@ -12,7 +12,7 @@ The second method uses Bluemix Lift to move the data from ground-to-cloud. You w
 
 ## Environment Setup   
 
-The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
+The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s Cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
 
 On the following pages are a series of steps you need to complete before you do any of the labs. Each step outlines an easy to follow set of instructions that walks you through preparing your IBM cloud environment so you can do any of the labs you choose. It is a serial process so it’s important that you follow each step in sequence and do not deviate from the workflow or skip any steps in the process.
 
@@ -29,11 +29,9 @@ H | Create and Launch Data Connect Service
 ## Step A: Download the lab files
 # Exercise 2: Prepare On-Premises
 
- 	You should have already downloaded the PureData for Analytics Virtual Machine Simulator image for your workstation operating system. If you have not, go back to the Workflow section and click on the link to download the VM zip file.
+You should have already downloaded the PureData for Analytics Virtual Machine simulator image for your workstation operating system. If you have not, go back to the Workflow section and click on the link to download the VM zip file.
 
 ## Step 1: Extract the Archive
-
- 
 
 1.	Locate the NetezzaSoftwareEmulator_7.2.1_Lift.zip file that you just downloaded to your file system.
 2.	Extract the contents to your desired location using the archive extraction software of your choice.
@@ -42,18 +40,16 @@ Step 2: Prepare the Virtual Machine
 
 Open your VMWare Workstation on your respective workstation. Note – I do not have a Mac with VMWare Fusion so these examples are using VMWare on Windows. However, the process will be similar on Mac OSX.
 
- 
-
 3.	Select the “File” menu on the toolbar.
 4.	Select the “Open…” menu item.
 
- 
+
 
 5.	Go to the folder where you extracted the Lift Netezza Software Emulator zip file.
 6.	Select the NetezzaSoftwareEmulator.vmx file.
 7.	Select the Open button.
 
- 
+
 
 8.	Select the Power on this virtual machine button.
  
