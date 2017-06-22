@@ -45,3 +45,32 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 2.	Enter the command ls -la and press enter to get a list of directories and files.
 
 You will see the Lift CLI zip file, lift-cli-linux.zip, and a directory, lift-cli-data. The data directory was created for you and will be where you will place the CSV file for the NZ_WEB_SALES table that will be created when you extract the data from the ENABLEMENT.NZ_WEB_SALES table in the BIDAY3 database. The lift-cli-data directory contains two Lift properties files, that were created for you, that contain the source and target parameters that will be used by the Lift CLI. Lift allows you to designate a “property” file that contains command line options so you don’t have to provide them on the command line. You will edit the dashDB properties file to supply your dashDB service information. The path to the Lift CLI bin directory export/home/nz/lift-cli/bin has been added to the nz users path using a PATH statement in the .bashrc file.
+
+![](/media/dataconnect/dc5a.png)
+
+Now that your secure gateway is created, we need the Gateway ID so that you can configure the client to use this new secure gateway.  Click on the Connect Client + button to see the Gateway ID.
+
+![](/media/dataconnect/dc6.png)
+
+In the popup, you can now see the Gateway ID.  In the free version of the VMware Player, it won't let you paste, so you'll need to enter this manually into a file in the VM.
+
+![](/media/dataconnect/dc7.png)
+
+Switch over to the VM and enter the following:
+```
+cd /etc/ibm
+vi sgenvironment.conf
+```
+You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
+```
+GATEWAY_ID="<your_gateway_id>"
+```
+
+![](/media/dataconnect/dc8.png)
+
+When finished, hold `SHIFT` and type `ZZ` to save and close the file.
+
+Now we need to restart the secure gateway client.  One way to do that is to reboot the machine.  Using the VM Playr button, reboot the VM.
+
+Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.  You should now see that 1 client is connected.
+
