@@ -76,37 +76,17 @@ If you need help with the pre-requisites, go to the [Prereq Step by Step Directi
 
 ## Project Components
 
-There are a few components of this solution.  
+There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and DB2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
 
-- The Virtual Machine (VM) that contains the on-premises databases. Due to licensing restricions on some of the software in the VM this is only available to IBMers and Business Partners. 
+We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~July 18th) as the combined repository since it is a fully namaged service in the cloud that can be expanded easily, needs no administration, and has built in encryption and security. dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified.
 
-    [Download VM Image from here](https://ibm.box.com/s/rjh7g153prubv6lyymb5kb3hfasnctww)
-
-- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download them to your computer and load them into dashDB using the steps provided in this tutorial. 
-    
-   Right click on this link and select Save Link As... [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
-    
-   Right click on this link and select Save Link As... [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/nbank_customers.csv)
-   
-   <img src="./media/DL_1.png"/>     
-  
-   Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
-   
-   <img src="./media/DL_2.png"/> 
-    
-    
-- In order for pre-defined reports/graphics/dashboards to execute correctly, you will need to operate off the same table definition as other workshop participants. The file below contains the CREATE TABLE command:
-    
-    [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
-
+Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
 
  - [BLAHBLAHBLAH](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - XXXX
  
 
 
 ## STOP HERE FOR NOW...YOU WILL HAVE NO FINE WINE UNTIL IT IS TIME
-
-
 
 
 
