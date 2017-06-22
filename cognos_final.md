@@ -1,38 +1,13 @@
-## Cognos Analytics
-# Scenario Background
+## Visualize Your Data
 
-In this workshop, you will experience the following capabilities in IBM
-Cognos Analytics:
+"K Bank" has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at "N Bank" customers and identify who might be at risk of leaving. Since "K Bank" just spent a lot of money to acquire "N Bank", you do not want to lose any customers if you can help it.
 
-- Cognos Analytics Navigation
-- Create a New data server Connection
-- Create a Data Module
-- Create a Dashboard
-- Find Insights in the Information
-
-You are a Chief Marketing Officer looking a recent satisfaction survey
-with customer attributes and churn results presented to you from the IT
-department.
-
-In the last Board meeting, there was a long discussion around customer
-satisfaction and how these low satisfaction scores and contributing to
-customer churn. Your job is to discover and share any insights from the
-data provided to you before the next board meeting next month.
-
-Explore the data and discover how satisfied your customers are with your
-bank, and what customers are leaving the bank and which ones should we
-try and retain going forward.
-
-Develop a dashboard to showcase your findings and use it to tell a story
-of what you discovered and any actions you might take from this
-analysis.
+Now that we have the data in one place, we can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward. You can also create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis for use in your next board meeting.
 
 # Lets Get Started
 
 Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
-
-URL = <https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/>
 
 ![](cmedia/image2.png)
 
