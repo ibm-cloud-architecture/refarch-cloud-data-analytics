@@ -23,11 +23,11 @@ PLACEHOLDERS
 
 ## Introduction
 
-This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example the on premises databases are in two differend RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of step to copy from a single database into the cloud as well.
+This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example, the on premises databases are in two different RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of step to copy from a single database into the cloud as well.
 
-In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other DB2 on Linux for their data warehouses. The data from these systems will be pushed or pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
+In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other DB2 on Linux for their data warehouses. The data from these systems will be pushed into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
 
-**We will provide two mechanisms for moving the data from on-premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
+**We will provide two mechanisms for moving the data from on-premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize the initial and delta data load process, and best used when demoing to IT.
 
 ### Loading data using IBM Data Connect
 
@@ -39,21 +39,21 @@ In this case, one organization is using IBM's PureData System for Analytics (Net
 
 ## Narrative 
 
-Consider the following scenario. You are talking to the Chief Marketing Officer (CMO) at "K Bank". 
+Consider the following scenario: You are talking to the Chief Marketing Officer (CMO) at "K Bank". 
 
-Hi Ms. Smith, I know that "K Bank" just bought "N Bank", and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
+Hi Ms. Smith, I know that "K Bank" just bought "N Bank", and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take quite a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
 I know that "K Bank" has been doing churn analytics for some time, but the team at "N Bank" has not. "K Bank" has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at "N Bank" customers and identify who might be at risk of leaving. Since "K Bank" just spent a lot of money to acquire "N Bank", you do not want to lose any customers if you can help it.  
 
 IBM can help you combine the data from both banks now, so that you can get access to this combined data within days, without putting any load on your IT staff who is already overloaded with the consolidation.  We can use IBM's fully managed cloud services to copy data from your current on-premises systems in each bank into a cloud data warehouse and give you a single view of your customers across both banks.
  
-Once you have that data at your fingertips, you can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward.
+Once you have that data at your fingertips, you can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should strive to retain.
 
-We can quickly show you how to create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis.
+We can quickly show you how to create a dashboard to showcase your findings, use it to tell a story of what you discovered and the actions you might want to take base on this analysis.
 
 ## Solution Overview
 
-The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick, but important insight from the data. In order to gain this insight the data from both bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating and managing a new system and moving the data, the new/common repository needs to be hosted as a managed cloud service. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
+The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick but important insights from the data. In order to gain this insight the data from both bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating and managing a new system and moving the data, the new, common repository needs to be hosted as a managed cloud service. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
 ## Prerequisites
 
@@ -64,11 +64,11 @@ You will need the following:
       - VMware Player or VMware Workstation for Windows
       - VMware Fusion (Full or 30 day trial) for OSX
  - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+       - Note: The VMware image will consume 20GB of local disk and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
  - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
- - dashDB access credentials for the service above
+ - dashDB access credentials
  - A [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
- - A [Watson Anlaytics Trial](https://www.ibm.com/watson-analytics) 
 
 > **Note**  
 If you need help with the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
@@ -82,13 +82,13 @@ There are a few components of this solution.
 
     [Download VM Image from here](https://ibm.box.com/s/rjh7g153prubv6lyymb5kb3hfasnctww)
 
-- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download them to your computer and load them into dashDB using the steps provided later in this tutorial. 
+- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download them to your computer and load them into dashDB using the steps provided in this tutorial. 
     
     [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
     
     [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
-- In order for pre-defined reports/graphics/dashboards to execute correctly, you will need to operate off the same table definition as other workshop attenders. The file below contains the CREATE TABLE command:
+- In order for pre-defined reports/graphics/dashboards to execute correctly, you will need to operate off the same table definition as other workshop participants. The file below contains the CREATE TABLE command:
     
     [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
 
@@ -105,7 +105,7 @@ There are a few components of this solution.
 
 ## Setup the reference solution in IBM Cloud
 
-To run the solution demo you will need to download and start the VM, configure your Bluemix environment, and run the data movement service. These configuration steps will deploy a framework for running Cognos Analytics, Watson and any other BI tools.
+To run the solution demo you will need to download and start the VM, configure your Bluemix environment, and run the data movement service. These configuration steps will deploy a framework for running Cognos Analytics.
 
 ### Start the Virtual Machine
 
