@@ -20,13 +20,13 @@ In the next screen, you will see a Launch button to access th Data Connect seric
 
 <a name="createconn" />
 
-## Create the Connections
+## Create the Source and Target Connections
 
-# In this step, you will configure 3 connections in Data Connect:
+In this step, you will create three connections:
 
-1. Connection to the PureData for Analytics database on-premies in the VM
-1. Connection to the DB2 LUW database on-premises in the VM
-1. Connection to the dashDB database in the cloud that you created in your Prework
+1. A connection to the PureData for Analytics database on-premies in the VM
+1. A connection to the DB2 LUW database on-premises in the VM
+1. A connection to the dashDB database in the cloud that you created in the Prework
 
 To get started, click the Connections link on the navigation on the left (1).
 
