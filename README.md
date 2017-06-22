@@ -87,7 +87,7 @@ There are a few components of this solution.
     
     [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
-- In order for pre-defined reports/graphics/dashboards to execute correctly, you will need operate off the same table definitionas other workshop attenders. The file below contains the CREATE TABLE command:
+- In order for pre-defined reports/graphics/dashboards to execute correctly, you will need to operate off the same table definition as other workshop attenders. The file below contains the CREATE TABLE command:
     
     [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
 
