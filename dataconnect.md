@@ -14,30 +14,9 @@ In the Bluemix services screen, click on the CDA Data Connect service that you c
 
 ![Services Screen](/media/dataconnect/dc0a.png)
 
-
 In the next screen, you will see a Launch button to access th Data Connect serice.
 
 ![Launch Data Connect](/media/dataconnect/dc1a.png)
-
-<a name="creategw" />
-
-Switch over to the VM and enter the following:
-```
-cd /etc/ibm
-vi sgenvironment.conf
-```
-You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
-```
-GATEWAY_ID="<your_gateway_id>"
-```
-
-![](/media/dataconnect/dc8a.png)
-
-When finished, hold `SHIFT` and type `ZZ` to save and close the file.
-
-Now we need to restart the secure gateway client.  One way to do that is to reboot the machine.  Using the VM Playr button, reboot the VM.
-
-Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.  You should now see that 1 client is connected.
 
 <a name="createconn" />
 
