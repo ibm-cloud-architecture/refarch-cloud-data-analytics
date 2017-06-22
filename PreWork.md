@@ -40,14 +40,18 @@ H | Create and Launch Data Connect Service
    First Click on the link as shown
   <img src="./media/DL1.png"/>
   
+  
    You will be taken to a screen like shown below.  Click on Download
   <img src="./media/DL2.png"/>
-   
+  
+  
    This opens the raw data in a browser page. Select File - Save Page As...
     <img src="./media/DL3.png"/>       
-   
+  
+  
    Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
     <img src="./media/DL4.png"/> 
+  
   
    Save the customer data for both banks to your computer. Be sure to use the default names and the .csv file extention.
     
