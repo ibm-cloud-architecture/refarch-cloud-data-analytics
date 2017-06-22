@@ -11,7 +11,6 @@
       - [Step E: Create a Cognos Analytics account](#step-e-create-a-cognos-analytics-account)
       - [Step F: Create a Watson Analytics account](#step-f-create-a-watson-analytics-account) 
       - [Step G: Create a GitHub account](#step-g-create-a-github-account)
-      - [Step H: Launch the Data Connect Service](#step-h-launch-the-data-connect-service)
 
 ## Environment Setup   
 
@@ -366,4 +365,5 @@ You will need a GitHub account. If you **don't** have an account:
 
 12. **Select** the "X" in the top right corner to close the verification message.
 
-> Your have completed the pre-requisite steps. You can now begin completing the labs. Please proceed to the Data Enginner lab first to begin preparing your data.
+
+> You have completed the pre-requisite steps. You can now begin completing the lab/demo.
