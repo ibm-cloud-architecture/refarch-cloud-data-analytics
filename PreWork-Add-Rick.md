@@ -207,20 +207,16 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 1. **Enter** a command of **cd /etc/ibm**.
 
-<img src="./media/vmimage/vmimage-image-18.png"/>
-
-2. **Enter** a command of **vi segenvironment.conf**.
-
 <img src="./media/vmimage/vmimage-image-19.png"/>
 
-3. **Enter** a command of **vi sgenvironment.conf**.
+2. **Enter** a command of **vi segenvironment.conf**.
 
 <img src="./media/vmimage/vmimage-image-20.png"/>
 
 **Note -** The GATEWAY_ID you will be changing is case sensitve so make sure you type it in exactly as it appears.
 
-4. **Change** the **GATEWAY_ID**, to **GATEWAY_ID="<your_gateway_id>"**. This is your Data Connect service Secure Gateway ID that you were instructed to copy to the clipboard and save off.
-5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
+3. **Change** the **GATEWAY_ID**, to **GATEWAY_ID="<your_gateway_id>"**. This is your Data Connect service Secure Gateway ID that you were instructed to copy to the clipboard and save off.
+4.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
 
 <img src="./media/vmimage/vmimage-image-21.png"/>
 
