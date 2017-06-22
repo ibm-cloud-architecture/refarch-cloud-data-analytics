@@ -3,7 +3,8 @@
 > **Note - If you already have any of the services, skip that step below**
 
    - **[PREWORK: Environment Setup](#prework-environment-setup)**
-      - [Step A: Download the lab files](#step-a-download-the-lab-files)     
+      - [Overview](#overview)  
+      - [Step A: Download the lab files](#step-a-download-the-lab-files)  
       - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
       - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-analytics-lab-services)
       - [Step D: Create the dashDB Credentials](#step-d-create-the-dashdb-credentials)
@@ -25,6 +26,8 @@ This lab uses a Virtual Machine. You will need to have VMware Workstation or VMw
    Download the lab [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
    
    Save the VMware image to your hard drive or an external USB drive. **The faster the drive, the better the performance will be.**
+
+## Overview
 
 On the following pages are a series of steps you need to complete before you do any of the labs. Each step outlines an easy to follow set of instructions that walks you through preparing your IBM cloud environment so you can do any of the labs you choose. It is a serial process so it’s important that you follow each step in sequence and do not deviate from the workflow or skip any steps in the process.
 
