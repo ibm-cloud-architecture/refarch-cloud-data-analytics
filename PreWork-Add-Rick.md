@@ -82,7 +82,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
-1. **Locate** the Cloud Data Analytics.zip VMWare Image zip file that you downloaded to your system in the Prework section. Use Finder on Mac OSX and the Windows Explorer on Windows.
+1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section. Use Finder on Mac OSX and the Windows Explorer on Windows.
 
 <a name="power" />
 
