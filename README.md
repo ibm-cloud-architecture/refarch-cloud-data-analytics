@@ -8,7 +8,9 @@
 - **[Project Components](#project-components)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
     
-    - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
+
+PLACEHOLDERS  
+- **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
         - [Paid Cluster](#paid-cluster)
     - **[Step 3: Deploy reference implementation to Kubernetes Cluster](#step-3-deploy-reference-implementation-to-kubernetes-cluster)**
@@ -18,6 +20,8 @@
             - [Delete Bluecompute Community Edition from Local Minikube Cluster](#delete-bluecompute-community-edition-from-local-minikube-cluster)
         - [Deploy Bluecompute to Paid Cluster](#deploy-bluecompute-to-paid-cluster)
             - [Delete Bluecompute from Paid Cluster](#delete-bluecompute-from-paid-cluster)
+            
+@@@@@
 
 ## Introduction
 
