@@ -1,6 +1,6 @@
 ## Move Data to the Cloud 
 
-You will be moving data to the cloud using two methods. 
+You will be moving data to the cloud using two methods. Before you continue, make sure you have completed all of the pre-work steps. If you have not completed the prew-work please go to this link and do so now. 
 
 The first method uses Bluemix Data Connect to access the N Bank's customer data from a DB2 LUW database and K Bank's customer data from a PureData for Analytics database on-premies. You will then combine the data from both banks and deliver the combined dataset to a dashDB database in the cloud.
 
