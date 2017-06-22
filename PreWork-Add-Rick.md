@@ -86,7 +86,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
-1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+**Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
 **Unzip** the **Cloud Data Analytucs,zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
 
@@ -94,7 +94,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-02.png"/>
 
-1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+**Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
 **Unzip** the **Cloud Data Analytucs,zip** file by simply **Double Click** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into the folder.
 
@@ -106,8 +106,16 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-03.png"/>
 
-1. **Open** the VMWare Workstation or VMWare Player application (you can use either or to open the VM).
-2. **Open** the **NetezzaSoftwareEmulator.vmx** VMWare file from within the **Cloud Data Analyitcs** VM Image folder.
+**Open** the VMWare Workstation or VMWare Player application (you can use either or to open the VM).
+
+1. **Select** the **File** menu from the toolbar.
+2. **Select** the **Open** menu item.
+
+<img src="./media/vmimage/vmimage-image-04.png"/>
+
+3. **Go to** the location on your file system where you unzipped the VM Image.
+4. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+5. **Select** the **Open** button.
 
 ### On Mac OSX
 
