@@ -19,8 +19,6 @@
         - [Deploy Bluecompute to Paid Cluster](#deploy-bluecompute-to-paid-cluster)
             - [Delete Bluecompute from Paid Cluster](#delete-bluecompute-from-paid-cluster)
 
-
-
 ## Introduction
 
 This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example the on premises databases are in two differend RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of step to copy from a single database into the cloud as well.
@@ -68,7 +66,7 @@ You must have the following.
  - Sign up for a free [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
  - Sign up for a [Watson Anlaytics Trial](https://www.ibm.com/watson-analytics) 
 
-> **Note** - If you need help with the prerequisites, go to the the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)
+>> **Note** - If you need help with the prerequisites, go to the the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)
 
 ## Project Components
 
