@@ -200,8 +200,6 @@ You now need to update the first line highlighted in red with your Gateway ID va
 GATEWAY_ID="<your_gateway_id>"
 ```
 
-![](/media/dataconnect/dc8a.png)
-
 When finished, hold `SHIFT` and type `ZZ` to save and close the file.
 
 Now we need to restart the secure gateway client.  One way to do that is to reboot the machine.  Using the VM Playr button, reboot the VM.
