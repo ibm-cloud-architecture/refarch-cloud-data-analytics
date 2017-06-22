@@ -21,8 +21,8 @@
 
 <img src="./media/Step3-image-07-01.png" />
 
-16. **Select** the settings icon at the top of the page to view the gateway settings.
-17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are goint to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed,
+16. **Select** the Settings buton at the top of the page to view the Gateway settings.
+17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed,
 18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
 
 <img src="./media/Step3-image-13.png" />
