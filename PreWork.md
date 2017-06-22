@@ -23,7 +23,7 @@ This lab uses a Virtual Machine. You will need to have VMware Workstation or VMw
    
    Download the lab [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
    
-   Save the VMware image to your hard drive or an external USB drive. **The faster the drive, the better the performance will be.**
+   Download the VMware image to your hard drive or an external USB drive. **NOTE: The faster the drive, the better the performance will be.**
 
 ## Overview
 
