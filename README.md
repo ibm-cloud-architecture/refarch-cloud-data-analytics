@@ -67,9 +67,9 @@ You will need the following:
  - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
  - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
+ - dashDB Credentials from the service above
  - A [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
  - A [Watson Anlaytics Trial](https://www.ibm.com/watson-analytics) 
-
 
 > **Note**  
 If you need help with the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
