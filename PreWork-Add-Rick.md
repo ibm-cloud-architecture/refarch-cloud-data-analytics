@@ -16,7 +16,7 @@
 
 <img src="./media/Step3-image-17.png"/>
 
-5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.dd).
+5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
 
 <img src="./media/Step3-image-18.png"/>
 
