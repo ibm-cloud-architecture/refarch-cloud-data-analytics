@@ -139,17 +139,21 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-08.png"/>
 
-9. **Select** the "Power on this virtual machine" button to start the Virtual Machine.
+7. **Select** the **Take Ownership** button when prompted.
+
+<img src="./media/vmimage/vmimage-image-09.png"/>
+
+8. **Select** the "Play Virtual Machine" button to Power on the virtual machine.
 
 ### On Mac OSX
 
-<img src="./media/vmimage/vmimage-image-09.png"/>
+<img src="./media/vmimage/vmimage-image-10.png"/>
 
 **Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
 
 1. **Select** the **File** > **Open** menu.
 
-<img src="./media/vmimage/vmimage-image-10.png"/>
+<img src="./media/vmimage/vmimage-image-11.png"/>
 
 2. **Select** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
 
