@@ -80,9 +80,18 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <a name="unzip" />
 
+# Unzip the VM Image
+
+## If you have a Windows Sytem follow these instructions:
+
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
-1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section. Use Finder on Mac OSX and the Windows Explorer on Windows.
+1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+
+## If you have a Mac OSX system follow these instructions:
+
+1. **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+2. **Unzip** the **Cloud Data Analytucs,zip** zip file to a location of your choice. It will create a folder named **Cloud Data Analytics** on your file system with all the VMWare image files contained within it.
 
 <a name="power" />
 
