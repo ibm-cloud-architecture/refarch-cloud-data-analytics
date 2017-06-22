@@ -72,15 +72,19 @@ You will see the schema for the new table. The table is empty. You will be movin
 # Prepare the Virtual Machine
 
 ## Steps
-1. [Unzip the VM Image Zip](#unzip)
-1. [Power On the Virtual Machine](#poweron)
+1. [Unzip the VM Image](#unzip)
+1. [Power On the Virtual Machine](#power)
 1. [Login to the Vritual Machine](#login)
 1. [Update the Lift Properties File](#liftpf)
 1. [Update the Secure Gateway ID](#secgwid)
 
 <a name="unzip" />
 
-<a name="poweron" />
+<img src="./media/vmimage/vmimage-image-01.png"/>
+
+1. **Locate** the Cloud Data Analytics.zip VMWare Image zip file that you downloaded to your system in the Prework section. Use Finder on Mac OSX and the Windows Explorer on Windows.
+
+<a name="power" />
 
 <a name="login" />
 
