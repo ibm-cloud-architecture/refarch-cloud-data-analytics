@@ -104,6 +104,8 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 ### On Windows
 
+**VMWare Workstation**
+
 <img src="./media/vmimage/vmimage-image-03.png"/>
 
 **Open** the VMWare Workstation or VMWare Player application (you can use either or to open the VM).
@@ -111,7 +113,15 @@ You will see the schema for the new table. The table is empty. You will be movin
 1. **Select** the **File** menu from the toolbar.
 2. **Select** the **Open** menu item.
 
+**VWWare Player**
+
 <img src="./media/vmimage/vmimage-image-04.png"/>
+
+1. **Select** the **Player** menu from the toolbar.
+2. **Select** the **File** menu item.
+3. **Select** the **Open** menu item.
+
+<img src="./media/vmimage/vmimage-image-05.png"/>
 
 3. **Go to** the location on your file system where you unzipped the VM Image.
 4. **Select** the **NetezzaSoftwareEmulator.vmx** file.
