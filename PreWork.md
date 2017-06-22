@@ -6,8 +6,8 @@
       - [Overview](#overview)  
       - [Step A: Download the lab files](#step-a-download-the-lab-files)  
       - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
-      - [Step C: Create a Cognos Analytics account](#step-e-create-a-cognos-analytics-account)
-      - [Step D: Create a GitHub account](#step-f-create-a-github-account)
+      - [Step C: Create a Cognos Analytics account](#step-c-create-a-cognos-analytics-account)
+      - [Step D: Create a GitHub account](#step-d-create-a-github-account)
 
 ## Environment Setup   
 
