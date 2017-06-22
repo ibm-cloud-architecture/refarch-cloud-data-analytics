@@ -128,7 +128,7 @@ You will use the same steps as above for the dashDB connection, but with differe
 1. Enter a Database name of BLUDB – All dashDB plans use a database name of BLUDB.
 1. Leave the Secure Gateway checkbox unchecked -- you do not need it for dashDB
 1. Enter the Username from your dashDB service credentials you obtained in the prework exercise. 
-1. Enter the Password from your dashDB service credentials you obtained in the prework exercise .
+1. Enter the Password from your dashDB service credentials you obtained in the prework exercise.
 1. Select the Create Connection button. If successful, you will receive a message that “The connection CDA dashDB was created.”
 
 <a name="createact" />
@@ -178,4 +178,40 @@ Next, we want to also select the DB2 table
 1. Click the Apply button at the bottom
 1. When that completes, click the Next button at the top-right
 
+Now you can choose the target table.
 
+![](/media/dataconnect/conn11.png)
+
+1. Click CDA dashDB as the target connection
+1. Select your schema (same as your userid from your dashDB service credentials you obtained in the prework exercise)
+1. For the Table Action, select Replace the table contents
+1. Click the pencil to edit the table name, and change it to BANK_CUSTOMERS, then click the green checkbox to save that name
+1. Click the Save button to save the activity
+
+![](/media/dataconnect/conn12.png)
+
+You should now see your new activity in the Activities dashboard.
+Click the 3 dots to open the menu.
+
+![](/media/dataconnect/conn13.png)
+
+Click the Run icon and you will see a message saying "Your activity is running."
+At the top-right of the screen, click the View Activity Status to monitor progress.
+
+![](/media/dataconnect/conn14.png)
+
+Click the refresh icon as indicated above to refresh the status.  Keep refreshing it until you see that it has completed 100%
+When it has completed, click the X button beside the refresh button to close the status sidebar.
+
+![](/media/dataconnect/conn15.png)
+
+Click the 3 dots beside the activity again, to open the menu.
+Click the Details button
+
+![](/media/dataconnect/conn16.png)
+
+1. In the resulting popup dialog, click on the text that says Coped to CDA dashDB
+
+![](/media/dataconnect/conn17.png)
+
+You will now see another popup.  Confirm that 11022 records were moved and take a screenshot for your records.
