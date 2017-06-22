@@ -69,11 +69,24 @@
 
 You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
 
+# Prepare the Virtual Machine
 
+## Steps
+1. [Unzip the VM Image Zip](#unzip)
+1. [Power On the Virtual Machine](#poweron)
+1. [Login to the Vritual Machine](#login)
+1. [Update the Lift Properties File](#liftpf)
+1. [Update the Secure Gateway ID](#secgwid)
 
+<a name="unzip" />
 
+<a name="poweron" />
 
-<a name="creategw" />
+<a name="login" />
+
+<a name="liftpf" />
+
+<a name="secgwid" />
 
 Switch over to the VM and enter the following:
 ```
