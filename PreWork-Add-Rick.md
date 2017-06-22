@@ -140,7 +140,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <a name="secgwid" />
 
-Switch over to the VM and enter the following:
+Switch over to the VM an enter the following:
 ```
 cd /etc/ibm
 vi sgenvironment.conf
