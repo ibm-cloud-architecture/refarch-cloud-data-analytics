@@ -29,6 +29,8 @@ H | Create and Launch Data Connect Service
 ## Step A: Download the lab files
 
    Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
+   
+   Save the VMware image to your hard drive or an external USB drive. The faster the drive, the better the performance will be.
 
 **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases.
 
