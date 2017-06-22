@@ -1,33 +1,38 @@
 # Move Data to the Cloud using Data Connect
 
 ## Contents
-1. [Validate the Secure Gatway Client Connection](#secgw)
-1. [Access the Data Connect service](#launch)
+1. [Launch the Data Connect service](#launch)
+1. [Validate the Secure Gatway Client is Connected](#secgw)
 1. [Create the Source and Target Connections](#createconn)
 1. [Create the Data Movement Activity](#createact)
 1. [Run the Data Movement Activity](#runact)
+1. [Validate the Data Movement Results](#validact)
+
+<a name="launch" /> 
+
+## Launch the Data Connect Service
+
+<img src="./media/dataconnect/data-connect-image-01.png" />
+
+1. **Click on** the **CDA Data Connect** service from your Bluemix Account services area.
+
+<img src="./media/dataconnect/data-connect-image-02.png" />
+
+2. **Select** the **LAUNCH** button to launch the Data Connect service. It will open up in a new tab in your browser.
+
+<img src="./media/dataconnect/data-connect-image-03.png" />
+
+3. **Select** the **LAUNCH** button to launch the Data Connect service. It will open up in a new tab in your browser.
 
 <a name="secgw" />
 
 ## Validate the Secure Gateway Client Connection
 
-<img src="./media/dataconnect/data-connect-image-01.png" />
+<img src="./media/dataconnect/data-connect-image-03.png" />
 
 The Data Connect service should still be open in a tab in your browser from when you created a Secure Gatway in the Prework. If so, go to the Data Connect service. You should still be in the Secure Gateway section and see a screen that looks like the screen shot above. 
 
 If your Data Connect service is no longer in a tab in your browser to the Access the Data Connect Service section below.
-
-<a name="launch" /> 
-
-## Access the Data Connect Service
-
-<img src="./media/dataconnect/data-connect-image-02.png" />
-
-The Data Connect service should already be open in a tab in your browser from when you created a Secure Gatway in the Prework. If so, go to the Data Connect service. If not, from the Bluemix services screen, click on the **CDA Data Connect** service and launch the serivce.
-
-In the next screen, you will see a Launch button to access th Data Connect serice.
-
-![Launch Data Connect](/media/dataconnect/dc1a.png)
 
 <a name="createconn" />
 
