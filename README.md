@@ -84,9 +84,16 @@ There are a few components of this solution.
 
 - So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download them to your computer and load them into dashDB using the steps provided in this tutorial. 
     
-    [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
+   Right click on this link and select Save Link As... [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
     
-    [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
+   Right click on this link and select Save Link As... [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/nbank_customers.csv)
+   
+   <img src="./media/DL_1.png"/>     
+  
+   Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
+   
+   <img src="./media/DL_2.png"/> 
+    
     
 - In order for pre-defined reports/graphics/dashboards to execute correctly, you will need to operate off the same table definition as other workshop participants. The file below contains the CREATE TABLE command:
     
