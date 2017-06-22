@@ -179,7 +179,7 @@ Click the Details button
 
 ![](/media/dataconnect/conn16.png)
 
-1. In the resulting popup dialog, click on the text that says Coped to CDA dashDB
+In the resulting popup dialog, click on the text that says Copied to CDA dashDB (see *1*)
 
 ![](/media/dataconnect/conn17.png)
 
