@@ -137,7 +137,7 @@ Next, we want to also select the DB2 table
 1. Click on Organize to expand the organize operations
 1. Click on Union so that you can combine the data
 
-![](/media/dataconnect/conn10a.png)
+![](/media/dataconnect/dc_goyti.png)
 
 1. Check the NBANK_CUSTOMERS checkbox
 1. Click the Apply button at the bottom
