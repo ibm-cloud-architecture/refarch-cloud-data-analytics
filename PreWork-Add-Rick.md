@@ -1,11 +1,23 @@
 <img src="./media/Step3-image-13.png" />
 
-1. **Select** the Bluemix region / organization area in the top right corner of the Bluemix home page.
-2. **Select** the arrow in the Space drop down list box.
-3. **Select** the "Watson Data Platform" space. Bluemix will switch yuo to the selected space.
+1. **Select** the **Manage** menu of the CDA dashDB service on the left.
 
 <img src="./media/Step3-image-14.png"/>
 
-1. **Select** the Bluemix region / organization area in the top right corner of the Bluemix home page.
-2. **Select** the arrow in the Space drop down list box.
-3. **Select** the "Watson Data Platform" space. Bluemix will switch yuo to the selected space.
+2. **Select** the **OPEN** button to open the dashDB console.
+
+<img src="./media/Step3-image-15.png"/>
+
+3. **Select** the **OPEN** button to open the dashDB console.
+
+<img src="./media/Step3-image-16.png"/>
+
+4. **Select** the **OPEN** button to open the dashDB console.
+
+<img src="./media/Step3-image-17.png"/>
+
+5. **Select** the **OPEN** button to open the dashDB console.
+
+<img src="./media/Step3-image-18.png"/>
+
+6. **Select** the **OPEN** button to open the dashDB console.
