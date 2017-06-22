@@ -20,10 +20,6 @@
 
 2. **Select** the **LAUNCH** button to launch the Data Connect service. It will open up in a new tab in your browser.
 
-<img src="./media/dataconnect/data-connect-image-03.png" />
-
-3. **Select** the **LAUNCH** button to launch the Data Connect service. It will open up in a new tab in your browser.
-
 <a name="secgw" />
 
 ## Validate the Secure Gateway Client Connection
