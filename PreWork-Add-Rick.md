@@ -122,7 +122,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 <img src="./media/vmimage/vmimage-image-04.png"/>
 
 1. **Open** the VMWare Fusion application. VMWare Player is not available for Mac OSX.
-2. **Open** the **NetezzaSoftwareEmulator.vmx** VMWare file from within the **Cloud Data Analyitcs** VM Image folder.
+2. **Open** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
 
 <a name="login" />
 
