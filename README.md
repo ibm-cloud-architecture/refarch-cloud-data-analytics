@@ -31,9 +31,9 @@
 
 ## Introduction
 
-This project provides a reference implementation for moving data from on-premises relational databases running in two different organizations into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department.    
+This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example the on premises databases are in two differend RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of step to copy from a single database into the cloud as well.
 
-In this case, one organization is using our PureData System for Analytics (Netezza) and the other DB2 for their data warehouses. The data from these systems will be pushed or pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
+In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other DB2 on Linux for their data warehouses. The data from these systems will be pushed or pulled into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
 
 **We will provide two mechanisms for moving the data from on-premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize this process if we were doing this over and over to keep the data in synch, and best used when demoing to IT.
 
@@ -51,17 +51,13 @@ Consider the following scenario. You are talking to the CMO at K Bank.
 
 Hi Ms. Smith, I know that K Bank just bought N Bank, and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
-I know that K Bank has been doing churn analytics for some time, but the team at N Bank has not. It would be interesting to see how your models could be used to identify N Bank customers at risk of leaving as well. 
+I know that K Bank has been doing churn analytics for some time, but the team at N Bank has not. K Bank has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at N Bank's customers and identify who might be at risk of leaving. Since K Bank just spent a lot of money to acquire N Bank, you do not want to lose any customers if you can help it.  
 
-IBM can help you combine this data now so that you can get access to this combined data within days, without putting any load on your IT staff who is already over loaded with the consolidation.  We can use our fully managed cloud services to copy data from your current on-premises systems in each bank into a data warehouse and match customer names automatically to give you a single view of your customers across both banks.
+IBM can help you combine the data from both banks now so that you can get access to this combined data within days, without putting any load on your IT staff who is already over loaded with the consolidation.  We can use our fully managed cloud services to copy data from your current on-premises systems in each bank into a cloud data warehouse and give you a single view of your customers across both banks.
  
-Once you have that data at your fingertips, you can start asking even more probing questions, like –
+Once you have that data at your fingertips, you can explore the data and discover how satisfied your customers are, withing each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward.
 
-   Why are customers at risk of leaving? Which customers would be a loss and which would not? 
-
-   This will help you identify your most important customers, so you can work to keep them as long term customers. 
-
-What do you think?
+We can quickly show you how to create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis.
 
 ## Solution Overview
 
