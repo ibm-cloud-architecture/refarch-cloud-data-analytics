@@ -9,35 +9,35 @@ Now that we have the data in one place, we can explore the data and discover how
 Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
 
-![](cmedia/image2.png)
+<img src="cmedia/image2.png>
 
 
 The NEW User Experience brings you directly into the completely
 redesigned Cognos Analytics User Interface (UI). All Cognos Analytics
 Users begin their navigation here.
 
-![](cmedia/image3.png)
+<img src="cmedia/image3.png>
 
 ## Create a New data server Connection
 
-![](/media/CA/ca1.png)
+<img src="/media/CA/ca1.png>
 
 1. Select Manage from the Navigation Panel. Hint : On the Bottom Left of the User Interface. 
 Select Data Server Connection to create a new data server.
 
-![](/media/CA/ca2.png)
+![](/media/CA/ca2.png>
 
 1. Create a new data connection by selecting the ‘+’ and Select dashDB as the type
 
 
-![](/media/CA/ca3.png)
+![](/media/CA/ca3.png>
 
 1. Rename the connection name from ‘New data server connection’ to ‘IA_Bank Customers’
 1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  "jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"
 1. Create a signon associated to the new data connection. Select the ‘Use the following signon’ check box 
 1. Select the  ‘+’ icon.
 
-![](/media/CA/ca5.png)
+![](/media/CA/ca5.png>
 
 1. Enter the your dashDB User ID
 1. Enter your Password and confirm Password
@@ -55,10 +55,10 @@ Select the Schema associated to your userid and select ‘**Load
 Metadata’** until it’s successfully loaded with a Message and a green
 button next to the schema
 
-![](cmedia/image25.jpg)
+![](cmedia/image25.jpg>
 
 
-![](cmedia/image26.jpg)
+![](cmedia/image26.jpg>
 
 
 Create a Data Module
