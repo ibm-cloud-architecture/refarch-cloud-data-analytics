@@ -225,15 +225,3 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 <img src="./media/vmimage/vmimage-image-21.png"/>
 
 6. **Enter** the commaond **cd $DATA** to go bach to the Lift data directory.
-
-```
-You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
-```
-GATEWAY_ID="<your_gateway_id>"
-```
-
-When finished, hold `SHIFT` and type `ZZ` to save and close the file.
-
-Now we need to restart the secure gateway client.  One way to do that is to reboot the machine.  Using the VM Playr button, reboot the VM.
-
-Back in your web browser, hit the X at the top-right of the popup to return to the Secure Gateway screen.  You should now see that 1 client is connected.
