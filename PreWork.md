@@ -43,9 +43,9 @@ H | Create and Launch Data Connect Service
 
    **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases. Be sure to use the default names and the .csv file extention.
     
-   Download [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
+   Download [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
     
-   Download [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
+   Download [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/nbank_customers.csv)
    
    
    Note, that GitHub's download is a little "strange".  
