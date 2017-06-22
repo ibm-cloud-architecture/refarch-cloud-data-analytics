@@ -76,8 +76,7 @@ You will need the following:
  - A Cognos Anlaytics Trial
 
 > **Note**  
-If you need help with any of the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
-
+If you need help with any of the pre-requisites, go to the [Prerequisite Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md) page
 
 ## Move the Data to the Cloud
 
