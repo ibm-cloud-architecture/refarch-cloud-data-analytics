@@ -8,6 +8,23 @@
 9. **Select** the **X** in the top right corner of the Welcome dialog to close it.
 10. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
 
+<img src="./media/Step3-image-06.png" />
+
+11. **Select** the **Add Gateway** button next to the moving arrow to add a gateway.
+
+<img src="./media/Step3-image-07.png" />
+
+12. **Enter** a gateway name of **Cloud-Data-Analytics**.
+13. **Uncheck" the "Require security token to connect clients" check box.
+14. **Uncheck** the "Token Expiration" check box.
+15. **Select** the **Add Gateway** button.
+
+<img src="./media/Step3-image-08.png" />
+
+16. **Select** the settings icon at the top of the page to view the gateway settings.
+17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are goint to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed,
+18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
+
 <img src="./media/Step3-image-13.png" />
 
 1. **Select** the **Manage** menu of the CDA dashDB service on the left.
