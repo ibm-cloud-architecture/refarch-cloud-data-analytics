@@ -1,6 +1,6 @@
 ## Visualize Your Data
 
-After this workshop you will have a sense of the way in which IBM Cognos Analytics empowers business users to perform data discovery and to create dashboards and stories, and enables the authoring of enterprise ready professional reports.
+After this workshop you will have a sense of the way in which IBM Cognos Analytics empowers business users to perform data discovery and to create dashboards and stories, enabling the creation and sharing of professional, enterprise ready reports.
 
    - **[PREWORK: Environment Setup](#prework-environment-setup)**
       - [Overview](#overview)  
