@@ -6,7 +6,7 @@
 - **[Solution Overview](#solution-overview)**
 - **[Solution Components & Services](#solution-components-and-services)**
 - **[Prerequisites](#prerequisites)**
-- **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
+- **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     
 
 PLACEHOLDERS  
@@ -92,7 +92,7 @@ If you need help with any of the pre-requisites, go to the [Prereq Step by Step 
 
 
 
-## Setup the reference solution in IBM Cloud
+## Move the data to the Cloud
 
 To run the solution demo you will need to download and start the VM, configure your Bluemix environment, and run the data movement service. These configuration steps will deploy a framework for running Cognos Analytics.
 
