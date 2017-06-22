@@ -63,7 +63,7 @@ Click on FireFox and launch [Cognos Free
 Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
 
-![](pimg/media/image2.png)
+![](cmedia/image2.png)
 
 
 The NEW User Experience brings you directly into the completely
