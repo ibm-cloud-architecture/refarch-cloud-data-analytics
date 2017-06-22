@@ -7,14 +7,6 @@
 - **[Prerequisites](#prerequisites)**
 - **[Project Components](#project-components)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
-    - **[PREWORK: Environment Setup](#prework-environment-setup)**
-       - [Step A: Download the lab files](#step-a-download-the-lab-files)     
-       - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
-       - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-analytics-lab-services)
-       - [Step D: Create a Cognos Analytics account](#step-d-create-a-cognos-analytics-account)
-       - [Step E: Create a Watson Analytics account](#step-e-create-a-watson-analytics-account) 
-       - [Step F: Create a GitHub account](#step-f-create-a-github-account)
-       - [Step G: Launch the Data Connect Service](#step-g-launch-the-data-connect-service)
     
     - **[Step 2: Provision a Kubernetes cluster on IBM Bluemix Container service](#step-2-provision-a-kubernetes-cluster-on-ibm-bluemix-container-service)**
         - [Lite Cluster](#lite-cluster)
