@@ -13,12 +13,12 @@
 
 In the Bluemix services screen, click on the CDA Data Connect service that you created.
 
-![Services Screen](/media/dataconnect/dc0.png)
+![Services Screen](/media/dataconnect/dc0a.png)
 
 
 In the next screen, you will see a Launch button to access th Data Connect serice.
 
-![Launch Data Connect](/media/dataconnect/dc1.png)
+![Launch Data Connect](/media/dataconnect/dc1a.png)
 
 <a name="creategw" />
 
@@ -28,25 +28,25 @@ The Secure Gateway is made up of a client-side component and a server-side servi
 
 Now that you are in the Data Connect screen, you will see a navigation pane on the left.  The first thing you need to do is create a Secure Gateway.  Click on Secure Gateway to create a direct connection into the virtual machine on your laptop.
 
-![](/media/dataconnect/dc2.png)
+![](/media/dataconnect/dc2a.png)
 
 Click the + button to create a new gateway
 
-![](/media/dataconnect/dc4.png)
+![](/media/dataconnect/dc4a.png)
 
 In the popup dialog, under "Add Gateway" enter the name: "Cloud-Data-Analytics"
 You must uncheck the checkbox for "Require security token to connect clients"
 Then, click Add Gateway
 
-![](/media/dataconnect/dc5a.png)
+![](/media/dataconnect/dc5aa.png)
 
 Now that your secure gateway is created, we need the Gateway ID so that you can configure the client to use this new secure gateway.  Click on the Connect Client + button to see the Gateway ID.
 
-![](/media/dataconnect/dc6.png)
+![](/media/dataconnect/dc6a.png)
 
 In the popup, you can now see the Gateway ID.  In the free version of the VMware Player, it won't let you paste, so you'll need to enter this manually into a file in the VM.
 
-![](/media/dataconnect/dc7.png)
+![](/media/dataconnect/dc7a.png)
 
 Switch over to the VM and enter the following:
 ```
@@ -58,7 +58,7 @@ You now need to update the first line highlighted in red with your Gateway ID va
 GATEWAY_ID="<your_gateway_id>"
 ```
 
-![](/media/dataconnect/dc8.png)
+![](/media/dataconnect/dc8a.png)
 
 When finished, hold `SHIFT` and type `ZZ` to save and close the file.
 
