@@ -1,47 +1,15 @@
-Getting Started – Welcome
-=========================
-
-Cognos Analytics is Modern Self-Service Business Intelligence Platform
-that provides a sleek and intuitive User Interface. Whether Users are
-looking for Personal Data Discovery, or to leverage their full
-enterprise data platform for analysis, IBM Cognos Analytics provides the
-capabilities to empower everyone in the organization with the insights
-needed to positively impact decision making.
-
-This workshop designed to give you an opportunity to discover the ease
-of use of IBM Cognos Analytics V11, IBM’s Modern Business Intelligence
-solution that enhances the efficiency and capabilities of business
-users, report authors, and administrators alike.
-
-During the workshop you will be shown some of the newest capabilities
-included in IBM Cognos Analytics, and you will be able to try out some
-of this functionality for yourself. The new interface was designed in
-collaboration with existing analytics users and reflects both their
-experience and expectations for the future. Consumers now have access to
-interactive reports, dashboard creation is as easy as
-dragging-and-dropping and power users can perform lightweight data
-modelling online.
-
-After this workshop you will have a sense of the way in which IBM Cognos
-Analytics empowers business users to perform data discovery and to
-create dashboards and stories, and enables the authoring of enterprise
-ready professional reports.
+## Cognos Analytics
+# Scenario Background
 
 In this workshop, you will experience the following capabilities in IBM
 Cognos Analytics:
 
 -   Cognos Analytics Navigation
-
 -   Create a New data server Connection
-
 -   Create a Data Module
-
 -   Data Discovery with Dashboard Assembly
-
 -   Optional : Storytelling
-
 -   Optional : Uploading Personal Data Sources
-
 -   Optional Watson Analytics
 
 You are a Chief Marketing Officer looking a recent satisfaction survey
@@ -61,15 +29,12 @@ Develop a dashboard to showcase your findings and use it to tell a story
 of what you discovered and any actions you might take from this
 analysis.
 
-Lets Get Started
-================
+# Lets Get Started
 
-Click on FireFox and launch [Cognos Free
-Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
+Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
 
-URL =
-<https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/>
+URL = <https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/>
 
 ![](cmedia/image2.png)
 
@@ -78,253 +43,38 @@ The NEW User Experience brings you directly into the completely
 redesigned Cognos Analytics User Interface (UI). All Cognos Analytics
 Users begin their navigation here.
 
-Note : Administrators may also set the homepage view globally as seen
-here in the free trial version.
-
 ![](cmedia/image3.png)
 
+## Create a New data server Connection
 
-The IBM Cognos Analytics User Interface is a modern and sleek User
-Interface (UI) that provides a graduated User Experience based on the
-needs of the individual user. This modern purpose- built User Interface
-provides a highly intuitive User experience which greatly promotes User
-adoption. Only IBM provides Analytics tools that provide managed
-self-service done in a cognitive way. Let’s take a few minutes to
-familiarize ourselves with the User Interface so we can take IBM Cognos
-Analytics for a test drive!!
+Select Manage from the Navigation Panel. Hint : On the Bottom Left of the User Interface. 
+Select Data Server Connection to create a new data server.
 
-Navigating the Cognos User Interface
-------------------------------------
+![](/media/CA/ca1.png)
 
-The goal of the new UI and navigation panel and menu was to provide
-Users with a streamlined way to view content and activities pertinent to
-them
+Create a new data connection by selecting the ‘+’ and Select dashDB as the type
 
-![](cmedia/image4.jpg)
+![](/media/CA/ca2.png)
 
 
-**User Home Page**. The majority of the UI is dedicated to the **User
-Interface Work Area**. This is the interactive window where the User
-will interact with all their data. For the home page, the User may
-select a saved dashboard or report to render on this home page.
-Administrators may also set the homepage view globally, or by User
-Group.
+![](/media/CA/ca3.png)
 
-**Navigation panel.** On the left side of the UI is the main
-**Navigation panel**. This navigation panel is present on the UI at all
-times and updates dynamically as the User works with the various
-capabilities within Cognos Analytics. The upper part of the panel
-provides Users with direct access to search for their content, and links
-to content to which they have access. The bottom portion of the panel
-provides Users with one-click access to capabilities to create and
-manage new activities such as creating new content, uploading personal
-data files, accessing notifications and managing the environment
-(dependent on User permissions).
+1. Rename the connection name from ‘New data server connection’ to ‘IA_Bank Customers’
+1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  "jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"
+1. Create a signon associated to the new data connection. Select the ‘Use the following signon’ check box 
+1. Select the  ‘+’ icon.
 
-Main Tool Bar
+![](/media/CA/ca5.png)
 
-![](cmedia/image5.jpg)
+1. Enter the your dashDB User ID
+1. Enter your Password and confirm Password
+1. Test your new Connection.  If it tests successfully, then
+1. Save
 
 
-> **Search**. The **New Smart Search** in Cognos Analytics provides a
-> modernized search engine that uses a smart, intent-driven search
-> algorithm to assist the User. **Click on Search** to open the search
-> panel. **Type “Sales”** in the search dialog box. As you type, an
-> auto-fill feature will launch and render search suggestions for
-> related terms. We will work more with this feature in an upcoming
-> exercise. **Click** outside the Search panel to close it.
->
-> **My Content**. The **My Content** folder provides the User with
-> direct access to the content they have saved. This is content owned by
-> the User and may only be viewed by the User. You will be saving your
-> work from today’s workshop in this folder. **Click on My Content** to
-> open the navigation panel to see if there is any User content in your
-> environment. **Click** outside the My Content panel to close it.
->
-> **Team Content**. The **Team Content** folder contains all the
-> published enterprise and shared content the user has permissions to
-> view. **Click on Team Content** to open the navigation panel. Notice
-> there is a list of folders. We will go deeper into these later in the
-> exercises. **Click** outside the Team Content panel to close it.
->
-> **Recent**. IBM research shows that Users typically use the same set
-> of content on a regular basis. The **Recent** button shows the User
-> the most recently used list of content, up to 20 objects (reports,
-> dashboards, data modules, etc.). Objects appear in order based on most
-> recently used. Once an object is viewed, it will move to the top of
-> the list**. Click on Recent** to see what, if any, are the most
-> recently used objects in your environment. **Hover** your mouse over
-> the icon to the left of each object to identify the type of object.
-> **Click** outside the Recent panel to close it.
->
-> **New**. The **New** button is used by Users to create new content. It
-> is intent-driven, meaning that it allows Users to select what type of
-> content they wish to create, and the Cognos Analytics UI will open the
-> associated capabilities in the Work Area. From here, Users may create
-> new Reports, Dashboards, Stories, Data Modules or access Other
-> Companion Applications (legacy studios from previous versions of
-> Cognos).
-
-![](cmedia/image6.jpg)
 
 
-> **Upload files**. Users may upload external data files to the Cognos
-> Analytics environment for analysis, independently or in conjunction
-> with enterprise data in Cognos Analytics.
->
-> **Notifications**. Users may subscribe to Cognos Analytics content and
-> receive notifications when that content has been updated and is ready
-> for review. An indicator is provided to provide Users with the number
-> of new notifications. **Note :** The default configuration has 7
-> default notifications to start, please ignore.
->
-> **Manage**. Users who have been granted departmental administration
-> permissions can manage content and create or modify Users, schedules,
-> data sources and customize the environment.
 
-The **Main Toolbar** runs across the top of the UI and with navigation,
-help and personalizing Cognos Analytics Content
-
-> **Navigation Menu.** The navigation menu at the top center of the UI
-> provides a dropdown button that allows Users to easily move between
-> the different objects they have worked with during their current
-> session, without opening additional browser windows. (None will
-> currently show as we have not opened any objects so far, but sample
-> below shows example).
-
-![](cmedia/image7.jpg)
-
-
-> **More** (3 horizontal ellipses). The **More** button provides the
-> User with options to customize their User Experience. The options
-> presented dynamically update based the type of object open in the work
-> area. **Click** outside the More menu to close it.
-
-![](cmedia/image8.jpg)
-
-
-> **Personal Menu**. The Personal Menu allows Users to change personal
-> preferences for their environment and to manage their subscriptions.
-> **Click** on the Personal Menu to see the capabilities available.
-> **Click** outside the Personal Menu to close it
->
-> ![](cmedia/image9.jpg)
-> 
->
-> **Coach Marks**. **Coach Marks** are available as indicated by a green
-> button ![](cmedia/image10.jpg)
-> 
-> pop-up of User Interface hints and are provided to enhance the user
-> experience by providing information to the user on how to use
-> features.
->
-> Your workshop image may not have Coach Marks turned on. To turn on
-> Coach Marks, click on the **Personal Menu button**
-> ![](cmedia/image11.jpg)
-> 
-> toolbar. **Select My preferences** and click the box next to “**Show
-> Hints**”. **Click** outside the pane to close it
->
-> ![](cmedia/image12.jpg)
-> 
->
-> **Click the Coach Mark** buttons you see on the screen to open windows
-> with hints. **Click** the “**X**” button to close the hints. Users may
-> also turn off the coach marks by clicking the “Turn off hints” or in
-> My preferences and changing the “Show Hints” setting
->
-> ![](cmedia/image13.jpg)
-> 
->
-> **Help.** The Help button
-> ![](cmedia/image14.jpg)
-> 
-> regarding Cognos Analytics
->
-> **About** provides the User with information on the version they are
-> working in.
->
-> **Help** provides a link to the IBM Knowledge Center which has
-> technical documentation available.
->
-> **Community** directs Users to the dedicated Cognos Analytics
-> community directly from the new UI. The community provides forums
-> where Users may engage with their peers and technical experts as well
-> find resources, videos, and news. **Click on Community** to launch the
-> community page. **Bookmark this page for future use.**
->
-> **Note :** Your browser may restrict access until pop-ups are enabled.
->
-> ![](cmedia/image15.jpg)
-> 
-
-Return to the Cognos Analytics session to continue with the workshop.
-
-Create a New data server Connection
-===================================
-
-**Select Manage** from the Navigation Panel. Hint : On the Bottom Left
-of the User Interface.
-
-**Select Data Server Connection** to create a new data server.
-
-![](cmedia/image16.jpg)
-
-
-**Create a new data connection** by selecting the ‘+’ and **Select
-dashDB** as the type
-
-![](cmedia/image17.jpg)
-
-
-You will be presented with this screen.
-
-![](cmedia/image18.jpg)
-
-
-The **1^st^ action** is to rename the new connection name ‘**New data
-server connection**’ on the left side of the window to ‘**IA\_Bank
-Customers’**
-
-The **2nd action** is to add your server name, port and database to the
-default jdbc string
-‘jdbc:db2://&lt;hostname&gt;:&lt;port&gt;/&lt;databasename&gt;’ (
-example : jdbc:db2://bluemix\#\#.bluforcloud.com:50000/BLUDB )
-
-The **3^rd^ action** is to create a signon associated to the data
-connection just created. **Select** the ‘**Use the following signon**’
-check box then **Select the ‘+’** icon.
-
-![](cmedia/image19.jpg)
-
-
-You will be presented with this screen to provide the user name an
-password to associate to the signon.
-
-**Note** : If you have not completed the 1^st^ action, you will see
-‘**New data server connection’**, please rename the server connection to
-‘**IA\_Bank Customers**’ before you take any save action
-
-![](cmedia/image20.jpg)
-
-Provide the credentials for the signon to your dashDB data source. Until
-your passwords match message appears.
-
-![](cmedia/image21.jpg)
-
-
-![](cmedia/image22.jpg)
-
-
-Once the Passwords match, we will test the signon just created.
-
-![](cmedia/image23.jpeg)
-
-
-![](cmedia/image24.jpg)
-
-
-Once we have **SUCCESS** then **Select the SAVE Button.**
 
 Now we need to load the schema we will use in this exercise. **Select
 the Schema** tab for the IA\_Bank Customers data server connection.
