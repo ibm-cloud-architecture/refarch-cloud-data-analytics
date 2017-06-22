@@ -31,6 +31,13 @@ H | Create and Launch Data Connect Service
 
 ## Step A: Download the lab files
 
+This lab uses a Virtual Machine.  You will need to have VMware Workstation or  VMware Workstation Player on Windows or Vmware Fusion Pro on Mac/OSX.  If you do not already have this, download the appropriate tool from 
+
+   [Windows](https://www.vmware.com/products/player/playerpro-evaluation.html)
+
+   [Mac OSX](https://www.vmware.com/products/fusion/fusion-evaluation.html)
+   
+
    Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
    
    Save the VMware image to your hard drive or an external USB drive. **The faster the drive, the better the performance will be.**
