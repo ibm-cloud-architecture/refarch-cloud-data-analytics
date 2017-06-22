@@ -123,15 +123,16 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-05.png"/>
 
-3. **Go to** the location on your file system where you unzipped the VM Image.
-4. **Select** the **NetezzaSoftwareEmulator.vmx** file.
-5. **Select** the **Open** button.
+1. **Go to** the location on your file system where you unzipped the VM Image.
+2. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+3. **Select** the **Open** button.
 
 ### On Mac OSX
 
-<img src="./media/vmimage/vmimage-image-04.png"/>
+<img src="./media/vmimage/vmimage-image-06.png"/>
 
-1. **Open** the VMWare Fusion application. VMWare Player is not available for Mac OSX.
+**Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
+
 2. **Open** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
 
 <a name="login" />
