@@ -1,5 +1,7 @@
 ## Prerequisite Step By Step Directions
 
+> **Note - IF you already have the service, skip the step below**
+
    - **[PREWORK: Environment Setup](#prework-environment-setup)**
       - [Step A: Download the lab files](#step-a-download-the-lab-files)     
       - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
