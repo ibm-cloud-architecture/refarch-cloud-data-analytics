@@ -75,8 +75,23 @@ In this step, you will configure 3 connections in Data Connect:
 1. Connection to the DB2 server in your VM
 1. Connection to the dashDB server that you created in your prework
 
-To get started, click the Connections link on the navigation on the left.
+To get started, click the Connections link on the navigation on the left (1).
 
 ![](/media/dataconnect/conn1.png)
 
-We will start with the connection to the PDA.
+We will start with the connection to the PDA.  
+
+![](/media/dataconnect/conn2.png)
+
+1. Click the Create New button at the top-right of the screen to create a new connection
+1. In the list of connection types, select IBM PureData for Analytics
+
+![](/media/dataconnect/conn3.png)
+
+1. Name the connection "CDA PDA"
+1. In the Hostname/IP Address field, enther the IP address that you saw when you first logged in to your VM.  If you did not write it down, you can type `ifconfig |head -2` to see it.  It should start with 192.168.
+1. The port is 5480
+1. The database name is BIDAY3
+1. Ensure that "Use a secure gateway" is checked and then click the pull-down to select the gateway that you created in the prework.  It should be called "Cloud-Data-Analytics"
+1. Enter the username "admin"
+1. Enter the password "password"
