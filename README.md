@@ -79,7 +79,7 @@ You will need the following:
 If you need help with any of the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
 
 
-## Move the data to the Cloud
+## Move the Data to the Cloud
 
 ## Step 1: Create the Cloud Data Analytics Lab Services
 
@@ -90,22 +90,27 @@ If you need help with any of the pre-requisites, go to the [Prereq Step by Step 
 <img src="./media/Step3-image-02.png" />
 
 2. **Enter** "data connect" (without quotes) in the catalog search area.  
+
 3. **Click on** the “Data Connect” service.  
 
 <img src="./media/Step3-image-03.png" />
 
 4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (Use CDA as the acronym for Cloud-Data-Analytics).
+
 5. **Enter** “CDA Data Connect” (without quotes) for the Credential name.  
+
 6. **Select** the the "Create" button. The service will be created and the launch page is displayed.
 
 <img src="./media/Step3-image-04.png" />
 
 7. **Select** the **Manage** menu of the CDA Data Connect service on the left.
+
 8. **Select** the **LAUNCH** button to launch the Data Connect service.
 
 <img src="./media/Step3-image-05.png" />
 
 9. **Select** the **X** in the top right corner of the Welcome dialog to close it.
+
 10. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
 
 <img src="./media/Step3-image-06.png" />
@@ -115,14 +120,19 @@ If you need help with any of the pre-requisites, go to the [Prereq Step by Step 
 <img src="./media/Step3-image-07.png" />
 
 12. **Enter** a gateway name of **Cloud-Data-Analytics**.
+
 13. **Uncheck** the "Require security token to connect clients" check box.
+
 14. **Uncheck** the "Token Expiration" check box.
+
 15. **Select** the **Add Gateway** button.
 
 <img src="./media/Step3-image-07-01.png" />
 
 16. **Select** the **Settings** buton at the top of the page to view the Gateway settings.
-17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed,
+
+17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed.
+
 18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
 
 <img src="./media/Step3-image-07-02.png" />
