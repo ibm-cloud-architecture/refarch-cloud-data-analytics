@@ -75,4 +75,8 @@ In this step, you will configure 3 connections in Data Connect:
 1. Connection to the DB2 server in your VM
 1. Connection to the dashDB server that you created in your prework
 
+To get started, click the Connections link on the navigation on the left.
+
+![](/media/dataconnect/conn1.png)
+
 We will start with the connection to the PDA.
