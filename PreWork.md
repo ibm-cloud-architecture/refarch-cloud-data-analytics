@@ -43,29 +43,20 @@ H | Create and Launch Data Connect Service
 
    **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases. Be sure to use the default names and the .csv file extention.
     
-   Download [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
+   Right click on this link and select Save Link As... [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
     
-   Download [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/nbank_customers.csv)
+   Right click on this link and select Save Link As... [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/nbank_customers.csv)
    
    
    Note, that GitHub's download is a little "strange".  
    
    First Click on the link for the file above as shown
    
-  <img src="./media/DL1.png"/>
-  
-  
-   You will be taken to a screen like shown below.  Click on Download
-   
-  <img src="./media/DL2.png"/>
-  
-   This opens the raw data in a browser page. Select File - Save Page As...
-   
-    <img src="./media/DL3.png"/>       
+   <img src="./media/DL_1.png"/>     
   
    Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
    
-    <img src="./media/DL4.png"/> 
+    <img src="./media/DL_2.png"/> 
 
 
 ## Step B: Create a Bluemix account
