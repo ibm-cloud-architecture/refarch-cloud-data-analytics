@@ -1,3 +1,13 @@
+<img src="./media/Step3-image-04.png" />
+
+7. **Select** the **Manage** menu of the CDA Data Connect service on the left.
+8. **Select** the **LAUNCH** button to launch the Data Connect service.
+
+<img src="./media/Step3-image-05.png" />
+
+9. **Select** the **X** in the top right corner of the Welcome dialog to close it.
+10. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
+
 <img src="./media/Step3-image-13.png" />
 
 1. **Select** the **Manage** menu of the CDA dashDB service on the left.
