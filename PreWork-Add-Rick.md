@@ -113,33 +113,43 @@ You will see the schema for the new table. The table is empty. You will be movin
 1. **Select** the **File** menu from the toolbar.
 2. **Select** the **Open** menu item.
 
+<img src="./media/vmimage/vmimage-image-04.png"/>
+
+3. **Go to** the location on your file system where you unzipped the VM Image.
+4. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+5. **Select** the **Open** button.
+
+<img src="./media/vmimage/vmimage-image-05.png"/>
+
+6. **Select** the "Power on this virtual machine" button to start the Virtual Machine.
+
 **VMWare Player**
 
-<img src="./media/vmimage/vmimage-image-04.png"/>
+<img src="./media/vmimage/vmimage-image-06.png"/>
 
 1. **Select** the **Player** menu on the toolbar.
 2. **Select** the **File** menu item.
 3. **Select** the **Open** menu item.
 
-<img src="./media/vmimage/vmimage-image-05.png"/>
+<img src="./media/vmimage/vmimage-image-07.png"/>
 
-1. **Go to** the location on your file system where you unzipped the VM Image.
-2. **Select** the **NetezzaSoftwareEmulator.vmx** file.
-3. **Select** the **Open** button.
+4. **Go to** the location on your file system where you unzipped the VM Image.
+5. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+6. **Select** the **Open** button.
 
-<img src="./media/vmimage/vmimage-image-06.png"/>
+<img src="./media/vmimage/vmimage-image-08.png"/>
 
-4. **Select** the "Power on this virtual machine" button to start the Virtual Machine.
+9. **Select** the "Power on this virtual machine" button to start the Virtual Machine.
 
 ### On Mac OSX
 
-<img src="./media/vmimage/vmimage-image-07.png"/>
+<img src="./media/vmimage/vmimage-image-09.png"/>
 
 **Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
 
 1. **Select** the **File** > **Open** menu.
 
-<img src="./media/vmimage/vmimage-image-08.png"/>
+<img src="./media/vmimage/vmimage-image-10.png"/>
 
 2. **Select** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
 
