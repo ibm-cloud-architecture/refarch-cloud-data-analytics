@@ -68,7 +68,7 @@ You must have the following.
 
 
 > **Note**  
-If you need help with the prerequisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
+If you need help with the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
 
 
 ## Project Components
@@ -79,13 +79,13 @@ There are a few components of this solution.
 
     [Download VM Image from here](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr)
 
-- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download this to your computer and load them into dashDB using the steps provided later. 
+- So that anyone can use the data and run the lab/demo we have also included the raw data (CSV) files from the two banks. You can download them to your computer and load them into dashDB using the steps provided later in this tutorial. 
     
     [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
     
     [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
     
-- So that the reports/graphics/dashboards we will have to create run correctly, we need everyone to use the same table definition for the combined data. The file below contains the CREATE TABLE command
+- In order for pre-defined reports/graphics/dashboards to execute correctly, you will need operate off the same table definitionas other workshop attenders. The file below contains the CREATE TABLE command:
     
     [Table DDL](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl)    
 
@@ -95,20 +95,12 @@ There are a few components of this solution.
 
 ## Setup the reference solution in IBM Cloud
 
-To run the solution demo you will need to download and start the VM, configure your Bluemix environment, run the data movement service and then run the BI tools...  
-runtimes.  
-
+To run the solution demo you will need to download and start the VM, configure your Bluemix environment, and run the data movement service. These configuration steps will deploy a framework for running Cognos Analytics, Watson and any other BI tools.
 
 ### Start the Virtual Machine
 
 
-
 ## Step G: Launch the Data Connect Service
-
-
-
-    
-
 
 - Clone the base repository:  
     **`$ git clone https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes`**
