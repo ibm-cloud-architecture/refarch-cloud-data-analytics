@@ -75,12 +75,6 @@ You will need the following:
 > **Note**  
 If you need help with any of the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
 
- 
-
-
-## STOP HERE FOR NOW...FOR YOU WILL HAVE NO WINE UNTIL IT IS TIME
-
-
 
 ## Move the data to the Cloud
 
