@@ -151,7 +151,8 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 **Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
 
-1. **Select** the **File** > **Open** menu.
+1. **Select** the **File** menu from the toolbar.
+2. **Select** the **Open** menu item.
 
 <img src="./media/vmimage/vmimage-image-11.png"/>
 
