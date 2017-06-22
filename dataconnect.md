@@ -167,5 +167,15 @@ Next, we want to also select the DB2 table
 1. Notice that the NBANK_CUSTOMERS is added to the Selected column, along with KBANK_CUSTOMERS which you added earlier
 1. Click the Refine Data button so that we can combine the data
 
+![](/media/dataconnect/conn9.png)
+
+1. Click on Organize to expand the organize operations
+1. Click on Union so that you can combine the data
+
+![](/media/dataconnect/conn10.png)
+
+1. Check the NBANK_CUSTOMERS checkbox
+1. Click the Apply button at the bottom
+1. When that completes, click the Next button at the top-right
 
 
