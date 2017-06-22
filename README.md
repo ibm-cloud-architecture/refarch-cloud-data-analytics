@@ -6,6 +6,9 @@
 - **[Solution Overview](#solution-overview)**
 - **[Solution Components & Services](#solution-components-and-services)**
 - **[Prerequisites](#prerequisites)**
+
+**The main part of the lab starts here**
+
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
