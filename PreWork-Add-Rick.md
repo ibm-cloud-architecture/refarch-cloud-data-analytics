@@ -166,8 +166,6 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 ## Login to the Virtual Machine
 
-<a name="liftpf" />
-
 The credentials for this Virtual Machine are as follows:
 
 Root = root / netezza
@@ -178,38 +176,56 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
 
+<a name="liftpf" />
+
+## Update the Lift Properties
+
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
-2. **Enter** a command of **cd $DATA**.
+1. **Enter** a command of **cd $DATA**.
 
 <img src="./media/vmimage/vmimage-image-15.png"/>
 
-3. **Enter** a command of **ls -la**.
+2. **Enter** a command of **ls -la**.
 
 <img src="./media/vmimage/vmimage-image-16.png"/>
 
-4. **Enter** a command of **vi lift.pf** to edit the Lift properties file.
+3. **Enter** a command of **vi lift.pf** to edit the Lift properties file.
 
 <img src="./media/vmimage/vmimage-image-17.png"/>
 
 **Note -** The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
 
-5. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
-6.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
-
-<img src="./media/vmimage/vmimage-image-18.png"/>
-
-3. **Enter** a command of **ls -la**.
-
-
-## Update the Lift Properties
+4. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
+5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
 
 <a name="secgwid" />
 
 ## Update the Secure Gateway ID
 
-cd /etc/ibm
-vi sgenvironment.conf
+<img src="./media/vmimage/vmimage-image-18.png"/>
+
+1. **Enter** a command of **cd /etc/ibm**.
+
+<img src="./media/vmimage/vmimage-image-18.png"/>
+
+2. **Enter** a command of **vi segenvironment.conf**.
+
+<img src="./media/vmimage/vmimage-image-19.png"/>
+
+3. **Enter** a command of **vi sgenvironment.conf**.
+
+<img src="./media/vmimage/vmimage-image-20.png"/>
+
+**Note -** The GATEWAY_ID you will be changing is case sensitve so make sure you type it in exactly as it appears.
+
+4. **Change** the **GATEWAY_ID**, to **GATEWAY_ID="<your_gateway_id>"**. This is your Data Connect service Secure Gateway ID that you were instructed to copy to the clipboard and save off.
+5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
+
+<img src="./media/vmimage/vmimage-image-21.png"/>
+
+6. **Enter** the commaond **cd $DATA** to go bach to the Lift data directory.
+
 ```
 You now need to update the first line highlighted in red with your Gateway ID value.  Leave the `SECTOKEN` line as `none--`.
 ```
