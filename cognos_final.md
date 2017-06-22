@@ -9,11 +9,11 @@ Now that we have the data in one place, we can explore the data and discover how
 Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
 
-<img src="./cmedia/image2.png" / >
+<img src="./cmedia/image2.png" >
 
 <img src="./cmedia/image2.png" >
 
-<img src="./media/Step3-image-02.png" />
+<img src="./media/Step3-image-02.png" >
 
 The NEW User Experience brings you directly into the completely
 redesigned Cognos Analytics User Interface (UI). All Cognos Analytics
