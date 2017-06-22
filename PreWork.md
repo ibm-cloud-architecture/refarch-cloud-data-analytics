@@ -47,11 +47,6 @@ H | Create and Launch Data Connect Service
     
    Right click on this link and select Save Link As... [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/nbank_customers.csv)
    
-   
-   Note, that GitHub's download is a little "strange".  
-   
-   First Click on the link for the file above as shown
-   
    <img src="./media/DL_1.png"/>     
   
    Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
