@@ -4,8 +4,8 @@
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[Solution Overview](#solution-overview)**
+- **[Solution Components / Services](#solution-components-service)**
 - **[Prerequisites](#prerequisites)**
-- **[Project Components](#project-components)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
     
 
@@ -55,6 +55,16 @@ We can quickly show you how to create a dashboard to showcase your findings, use
 
 The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick but important insights from the data. In order to gain this insight the data from both bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating and managing a new system and moving the data, the new, common repository needs to be hosted as a managed cloud service. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
+## Solutions Components / Services
+
+There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and DB2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
+
+We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~July 18th) as the combined repository since it is a fully namaged service in the cloud that can be expanded easily, needs no administration, and has built in encryption and security. dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified.
+
+Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
+
+ - [BLAHBLAHBLAH](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - XXXX
+
 ## Prerequisites
 
 You will need the following:
@@ -73,16 +83,6 @@ You will need the following:
 > **Note**  
 If you need help with the pre-requisites, go to the [Prereq Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md)  
 
-
-## Project Components
-
-There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and DB2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
-
-We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~July 18th) as the combined repository since it is a fully namaged service in the cloud that can be expanded easily, needs no administration, and has built in encryption and security. dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified.
-
-Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
-
- - [BLAHBLAHBLAH](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-mobile/tree/kube-int) - XXXX
  
 
 
