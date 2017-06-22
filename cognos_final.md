@@ -11,19 +11,15 @@ and SIGN IN to bring up the login page.
 
 <img src="./cmedia/image2.png" >
 
-<img src="./cmedia/image2.png" >
-
-<img src="./media/Step3-image-02.png" >
-
 The NEW User Experience brings you directly into the completely
 redesigned Cognos Analytics User Interface (UI). All Cognos Analytics
 Users begin their navigation here.
 
-<img src="cmedia/image3.png>
+<img src="cmedia/image3.png" >
 
 ## Create a New data server Connection
 
-<img src="/media/CA/ca1.png>
+<img src="/media/CA/ca1.png" >
 
 1. Select Manage from the Navigation Panel. Hint : On the Bottom Left of the User Interface. 
 Select Data Server Connection to create a new data server.
