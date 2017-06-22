@@ -448,4 +448,167 @@ to you from the menu bar.
 
 ![](cmedia/image53.png)
 
-Select the Properties Icon for the bar chart.
+Select the Properties Icon for the bar chart. Under the General Area, we
+can change the color pallette, column color, maintain axis scale, and
+Hide axis titles. Also, if dealing with changing data, set the refresh
+rate for this widget to pickup the refreshed data in near real time
+without having to take a user action. If refresh data set is on, we
+first verify the data is changed before resubmitting the query of the
+widget.
+
+Here I have set the Column Color to Green and I have enabled ‘Hide axis
+titles’
+
+![](cmedia/image54.png)
+
+
+Under the General Tab you see options to set the ‘Fill color’, ‘Border
+color’ and you can set the Opacity of the widget of object selected in
+the dashboard. If we had a image selected here, we might change the
+Opacity to a lower number to use it as a background image for the Tab
+and/or individual widget.
+
+![](cmedia/image55.png)
+
+
+To remove the Properties, click the Properties icon on the menu bar
+again.
+
+Note : The properties will change depending on the type of visualization
+or object selected. For instance if a text object is selected, you would
+see properties associated with a text item. The same is true if a
+picture or video object is selected.
+
+Resize the Customer Type Satisfaction bar chart to span Panel 2 and 3 by
+dragging the resize button on the right to the end of the template to
+look like this.
+
+![](cmedia/image56.png)
+
+
+Let’s save the Dashoard
+
+> Click Save
+>
+> Select My Content
+>
+> Name the Dashboard ‘Bank Customer Analysis
+>
+> Click Save
+
+![](cmedia/image57.png)
+
+If the data source panel is not open, from the Navigation panel, select
+Sources to open the data source panel. The Data Source panel displays
+the Banking Customers Source we are working with.
+
+![](cmedia/image58.png)
+
+Expand ‘Navigation paths’ and ‘Bank Customers’ to list the items.
+
+> From Navigation Paths under Bank Churn Drill Path select Bankid
+>
+> Ctrl-Click Satisfaction under Bank Customers
+>
+> Drag these items to Panel 4
+
+![](cmedia/image59.png)
+
+For Panel 5
+
+> Under Bank Customers Select Satisfaction
+>
+> Under Bank Customers Age Range
+>
+> Under Bank Customers Gender
+>
+> Drag these items to Panel 5
+
+![](cmedia/image60.png)
+
+Change the Visualization in Panel 5 to a Heat Map
+
+![](cmedia/image61.png)
+
+![](cmedia/image62.png)
+
+
+Your Dashboard should like this now.
+
+![](cmedia/image63.png)
+
+
+Save the Dashboard
+
+Create a New Tab in the Dashboard
+
+![](cmedia/image64.png)
+
+
+For the template we will choose the 2 x 2 Template and select USE
+
+The 4 Panels are also numbered in this image
+
+![](cmedia/image65.png)
+
+
+Rename the tab ‘Churn Analysis’
+
+Make Panel 1 and 2 look like this using these steps
+
+> Under Bank Customers Select Group Late Payments
+>
+> Under Bank Customers Ctrl-Click Count
+>
+> Under Bank Customers Ctrl-Click Churn
+>
+> Drag items to Panel 1
+>
+> Expand Visualization to use Panel 1 and 2
+>
+> Change the Visualization to a Heat Map
+
+![](cmedia/image66.png)
+
+
+Make Panel 3 and 4 look like this using these steps
+
+> Under Bank Customers Select Group Credit Applications
+>
+> Under Bank Customers Ctrl-Click Count
+>
+> Under Bank Customers Ctrl-Click Churn
+>
+> Drag items to Panel 3
+>
+> Expand Visualization to use Panel 3 and 4
+>
+> Change the Visualization to a Heat Map
+
+![](cmedia/image67.png)
+
+
+The Churn Analysis Tab Should now look like this
+
+![](cmedia/image68.png)
+
+
+Save the Dashboard
+
+Using Properties for each object, make this Dashboard visually appealing
+by moving legends and adding titles and removing titles.
+
+Find Insights in the Information
+================================
+
+Explore the information in the Dashboard and Share 3 Insights from the
+Information you created
+
+Insight 1
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Insight 2
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Insight 3
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
