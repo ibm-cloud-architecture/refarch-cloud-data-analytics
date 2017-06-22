@@ -121,7 +121,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-05.png"/>
 
-6. **Select** the "Power on this virtual machine" button to start up the Virtual Machine.
+6. **Select** the "Power on this virtual machine" button to Power on the Virtual Machine.
 
 **VMWare Player**
 
@@ -143,7 +143,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-09.png"/>
 
-8. **Select** the "Play Virtual Machine" button to Power up the virtual machine.
+8. **Select** the "Play Virtual Machine" button to Power on the virtual machine.
 
 ### On Mac OSX
 
@@ -157,6 +157,10 @@ You will see the schema for the new table. The table is empty. You will be movin
 <img src="./media/vmimage/vmimage-image-11.png"/>
 
 3. **Select** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
+
+<img src="./media/vmimage/vmimage-image-12.png"/>
+
+4. **Select** the **Play** button to Power on the virtual machine.
 
 <a name="login" />
 
