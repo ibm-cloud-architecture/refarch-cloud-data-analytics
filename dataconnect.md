@@ -116,3 +116,18 @@ You will use the same steps as above for the DB2 connection, but with different 
 1. Enter the username "db2inst1"
 1. Enter the password "db2inst1"
 1. Click the "Create Connection" button at the top-right of the screen
+
+### Connection to dashDB
+
+You will use the same steps as above for the dashDB connection, but with different values.
+
+1. Enter a Connection Name of CDA dashDB
+1. Click the Create New button at the top-right of the screen to create a new connection
+1. In the list of connection types, select IBM dashDB
+1. Enter the Host name from your dashDB service credentials you obtained in the prework exercise.
+1. Enter a Database name of BLUDB – All dashDB plans use a database name of BLUDB.
+1. Enter the Username from your dashDB service credentials you obtained in the prework exercise. 
+1. Enter the Password from your dashDB service credentials you obtained in the prework exercise .
+1. Select the Create Connection button. If successful, you will receive a message that “The connection CDA dashDB was created.”
+
+
