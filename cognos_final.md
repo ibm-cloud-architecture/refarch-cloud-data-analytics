@@ -15,7 +15,7 @@ The NEW User Experience brings you directly into the completely
 redesigned Cognos Analytics User Interface (UI). All Cognos Analytics
 Users begin their navigation here.
 
-<img src="cmedia/image3.png" >
+<img src="./cmedia/image3.png" / >
 
 ## Create a New data server Connection
 
