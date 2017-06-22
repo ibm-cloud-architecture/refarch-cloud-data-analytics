@@ -1,46 +1,3 @@
-![](CAImages/image001.png){width="6.380952537182852in"
-height="1.7193022747156606in"}
-
-*Introduction to Modern Self-Service Analytics*
-
-Notices and Disclaimers
-
-© Copyright IBM Corporation 2017.
-
-The information contained in these materials is provided for
-informational purposes only, and is provided AS IS without warranty of
-any kind, express or implied. IBM shall not be responsible for any
-damages arising out of the use of, or otherwise related to, these
-materials. Nothing contained in these materials is intended to, nor
-shall have the effect of, creating any warranties or representations
-from IBM or its suppliers or licensors, or altering the terms and
-conditions of the applicable license agreement governing the use of IBM
-software. References in these materials to IBM products, programs, or
-services do not imply that they will be available in all countries in
-which IBM operates. This information is based on current IBM product
-plans and strategy, which are subject to change by IBM without notice.
-Product release dates and/or capabilities referenced in these materials
-may change at any time at IBM’s sole discretion based on market
-opportunities or other factors, and are not intended to be a commitment
-to future product or feature availability in any way.
-
-This document is current as of the initial date of publication and may
-be changed by IBM at any time. Not all offerings are available in every
-country in which IBM operates.
-
-IBM, the IBM logo and ibm.com are trademarks or registered trademarks of
-International Business Machines Corporation in the United States, other
-countries, or both. If these and other IBM trademarked terms are marked
-on their first occurrence in this information with a trademark symbol (®
-or ™), these symbols indicate U.S. registered or common law trademarks
-owned by IBM at the time this information was published. Such trademarks
-may also be registered or common law trademarks in other countries. A
-current list of IBM trademarks is available on the Web at “Copyright and
-trademark information” at ibm.com/legal/copytrade.shtml
-
-Other company, product and service names may be trademarks or service
-marks of others.
-
 Getting Started – Welcome
 =========================
 
@@ -143,7 +100,7 @@ The goal of the new UI and navigation panel and menu was to provide
 Users with a streamlined way to view content and activities pertinent to
 them
 
-![](CAImages/image004.jpg){width="6.295557742782152in"
+![](CAImages/image004.png){width="6.295557742782152in"
 height="2.6979166666666665in"}
 
 **User Home Page**. The majority of the UI is dedicated to the **User
@@ -166,7 +123,7 @@ data files, accessing notifications and managing the environment
 
 Main Tool Bar
 
-![](CAImages/image005.jpg){width="5.014583333333333in"
+![](CAImages/image005.png){width="5.014583333333333in"
 height="2.904838145231846in"}
 
 > **Search**. The **New Smart Search** in Cognos Analytics provides a
@@ -208,7 +165,7 @@ height="2.904838145231846in"}
 > Companion Applications (legacy studios from previous versions of
 > Cognos).
 
-![](CAImages/image006.jpg){width="1.395485564304462in"
+![](CAImages/image006.png){width="1.395485564304462in"
 height="1.676337489063867in"}
 
 > **Upload files**. Users may upload external data files to the Cognos
@@ -235,7 +192,7 @@ help and personalizing Cognos Analytics Content
 > currently show as we have not opened any objects so far, but sample
 > below shows example).
 
-![](CAImages/image007.jpg){width="1.7708333333333333in"
+![](CAImages/image007.png){width="1.7708333333333333in"
 height="1.1354166666666667in"}
 
 > **More** (3 horizontal ellipses). The **More** button provides the
@@ -243,7 +200,7 @@ height="1.1354166666666667in"}
 > presented dynamically update based the type of object open in the work
 > area. **Click** outside the More menu to close it.
 
-![](CAImages/image008.jpg){width="2.3006944444444444in"
+![](CAImages/image008.png){width="2.3006944444444444in"
 height="1.0670067804024497in"}
 
 > **Personal Menu**. The Personal Menu allows Users to change personal
@@ -251,11 +208,11 @@ height="1.0670067804024497in"}
 > **Click** on the Personal Menu to see the capabilities available.
 > **Click** outside the Personal Menu to close it
 >
-> ![](CAImages/image009.jpg){width="2.025100612423447in"
+> ![](CAImages/image009.png){width="2.025100612423447in"
 > height="2.0468755468066493in"}
 >
 > **Coach Marks**. **Coach Marks** are available as indicated by a green
-> button ![](CAImages/image010.jpg){width="0.18593832020997375in"
+> button ![](CAImages/image010.png){width="0.18593832020997375in"
 > height="0.21875in"} next to action buttons. Coach marks provide a
 > pop-up of User Interface hints and are provided to enhance the user
 > experience by providing information to the user on how to use
@@ -263,12 +220,12 @@ height="1.0670067804024497in"}
 >
 > Your workshop image may not have Coach Marks turned on. To turn on
 > Coach Marks, click on the **Personal Menu button**
-> ![](CAImages/image011.jpg){width="0.23958333333333334in"
+> ![](CAImages/image011.png){width="0.23958333333333334in"
 > height="0.2738112423447069in"} on the upper right of the Application
 > toolbar. **Select My preferences** and click the box next to “**Show
 > Hints**”. **Click** outside the pane to close it
 >
-> ![](CAImages/image012.jpg){width="1.3943985126859142in"
+> ![](CAImages/image012.png){width="1.3943985126859142in"
 > height="1.421874453193351in"}
 >
 > **Click the Coach Mark** buttons you see on the screen to open windows
@@ -276,11 +233,11 @@ height="1.0670067804024497in"}
 > also turn off the coach marks by clicking the “Turn off hints” or in
 > My preferences and changing the “Show Hints” setting
 >
-> ![](CAImages/image013.jpg){width="3.309808617672791in"
+> ![](CAImages/image013.png){width="3.309808617672791in"
 > height="1.3020833333333333in"}
 >
 > **Help.** The Help button
-> ![](CAImages/image014.jpg){width="0.2807305336832896in"
+> ![](CAImages/image014.png){width="0.2807305336832896in"
 > height="0.2552088801399825in"} allows users to access more information
 > regarding Cognos Analytics
 >
@@ -298,7 +255,7 @@ height="1.0670067804024497in"}
 >
 > **Note :** Your browser may restrict access until pop-ups are enabled.
 >
-> ![](CAImages/image015.jpg){width="4.717863079615048in"
+> ![](CAImages/image015.png){width="4.717863079615048in"
 > height="2.098611111111111in"}
 
 Return to the Cognos Analytics session to continue with the workshop.
@@ -311,17 +268,17 @@ of the User Interface.
 
 **Select Data Server Connection** to create a new data server.
 
-![](CAImages/image016.jpg){width="2.5104166666666665in"
+![](CAImages/image016.png){width="2.5104166666666665in"
 height="2.6093755468066493in"}
 
 **Create a new data connection** by selecting the ‘+’ and **Select
 dashDB** as the type
 
-![](CAImages/image017.jpg){width="3.375in" height="2.6666666666666665in"}
+![](CAImages/image017.png){width="3.375in" height="2.6666666666666665in"}
 
 You will be presented with this screen.
 
-![](CAImages/image018.jpg){width="4.651042213473316in"
+![](CAImages/image018.png){width="4.651042213473316in"
 height="2.6041666666666665in"}
 
 The **1^st^ action** is to rename the new connection name ‘**New data
@@ -337,7 +294,7 @@ The **3^rd^ action** is to create a signon associated to the data
 connection just created. **Select** the ‘**Use the following signon**’
 check box then **Select the ‘+’** icon.
 
-![](CAImages/image019.jpg){width="1.9895833333333333in"
+![](CAImages/image019.png){width="1.9895833333333333in"
 height="2.4791666666666665in"}
 
 You will be presented with this screen to provide the user name an
@@ -347,21 +304,21 @@ password to associate to the signon.
 ‘**New data server connection’**, please rename the server connection to
 ‘**IA\_Bank Customers**’ before you take any save action
 
-![](CAImages/image020.jpg){width="4.59375in" height="2.46875in"}
+![](CAImages/image020.png){width="4.59375in" height="2.46875in"}
 
 Provide the credentials for the signon to your dashDB data source. Until
 your passwords match message appears.
 
-![](CAImages/image021.jpg){width="5.682292213473316in" height="2.875in"}
+![](CAImages/image021.png){width="5.682292213473316in" height="2.875in"}
 
-![](CAImages/image022.jpg){width="5.6875in" height="3.1614588801399823in"}
+![](CAImages/image022.png){width="5.6875in" height="3.1614588801399823in"}
 
 Once the Passwords match, we will test the signon just created.
 
 ![](CAImages/image023.jpeg){width="5.317707786526684in"
 height="2.7082808398950133in"}
 
-![](CAImages/image024.jpg){width="2.9218755468066493in"
+![](CAImages/image024.png){width="2.9218755468066493in"
 height="4.192708880139983in"}
 
 Once we have **SUCCESS** then **Select the SAVE Button.**
@@ -372,10 +329,10 @@ Select the Schema associated to your userid and select ‘**Load
 Metadata’** until it’s successfully loaded with a Message and a green
 button next to the schema
 
-![](CAImages/image025.jpg){width="3.7599825021872264in"
+![](CAImages/image025.png){width="3.7599825021872264in"
 height="2.8281255468066493in"}
 
-![](CAImages/image026.jpg){width="1.9423611111111112in"
+![](CAImages/image026.png){width="1.9423611111111112in"
 height="0.3072922134733158in"}
 
 Create a Data Module
