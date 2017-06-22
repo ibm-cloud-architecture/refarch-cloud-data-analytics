@@ -213,7 +213,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 6. **Click On** the "CDA dashDB" service you just created from the list of services.
 
-<img src="./media/Step3-image-10-1.png" 
+<img src="./media/Step3-image-10-1.png" >
 
 
 ## Step D: Create the dashDB Credentials
