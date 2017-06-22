@@ -35,13 +35,26 @@ H | Create and Launch Data Connect Service
    
    Save the VMware image to your hard drive or an external USB drive. **The faster the drive, the better the performance will be.**
 
-   **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases.
-
-   Save the customer data for both banks to your computer. Be sure to use the .csv file extention.
+   **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases. Note, that GitHub's download is a little "strange".  
+   
+   First Click on the link as shown
+  <img src="./media/DL1.png"/>
+  
+   You will be taken to a screen like shown below.  Click on Download
+  <img src="./media/DL2.png"/>
+   
+   This opens the raw data in a browser page. Select File - Save Page As...
+    <img src="./media/DL3.png"/>       
+   
+   Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
+    <img src="./media/DL4.png"/> 
+  
+   Save the customer data for both banks to your computer. Be sure to use the default names and the .csv file extention.
     
    Download [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/kbank_customers.csv)
     
    Download [N Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/nbank_customers.csv)
+
 
 ## Step B: Create a Bluemix account
 
