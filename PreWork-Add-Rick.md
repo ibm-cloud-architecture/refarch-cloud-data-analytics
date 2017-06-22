@@ -168,14 +168,30 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <a name="liftpf" />
 
+The credentials for this Virtual Machine are as follows:
+
+Root = root / netezza
+Netezza User = nz / nz – You will use these credentials to log into the VM.
+Netezza Admin = admin / password – You will use these credentials for your Lift migration.
+
+<img src="./media/vmimage/vmimage-image-13.png"/>
+
+1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
+
+<img src="./media/vmimage/vmimage-image-14.png"/>
+
+2. **Enter** a command of **cd $DATA**.
+
+<img src="./media/vmimage/vmimage-image-15.png"/>
+
+3. **Enter** a command of **ls -la**.
+
 ## Update the Lift Properties
 
 <a name="secgwid" />
 
 ## Update the Secure Gateway ID
 
-Switch over to the VM an enter the following:
-```
 cd /etc/ibm
 vi sgenvironment.conf
 ```
