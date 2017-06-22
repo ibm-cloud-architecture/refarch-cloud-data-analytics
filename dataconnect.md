@@ -3,8 +3,8 @@
 ## Contents
 1. [Launch the Data Connect service](#launch)
 1. [Create and configure  the Secure Gateway](#creategw)
-1. [Create Connections](#createconn)
-1. [Create Activity](#createact)
+1. [Create the Connections](#createconn)
+1. [Create the Data Movement Activity](#createact)
 1. [Run Activity](#runact)
 
 <a name="launch" /> 
@@ -68,7 +68,7 @@ Back in your web browser, hit the X at the top-right of the popup to return to t
 
 <a name="createconn" />
 
-## Create Connections
+## Create the Connections
 
 In this step, you will configure 3 connections in Data Connect:
 1. Connection to the PureData System for Analytics (PDA/Netezza) server in your VM
@@ -126,8 +126,46 @@ You will use the same steps as above for the dashDB connection, but with differe
 1. In the list of connection types, select IBM dashDB
 1. Enter the Host name from your dashDB service credentials you obtained in the prework exercise.
 1. Enter a Database name of BLUDB – All dashDB plans use a database name of BLUDB.
+1. Leave the Secure Gateway checkbox unchecked -- you do not need it for dashDB
 1. Enter the Username from your dashDB service credentials you obtained in the prework exercise. 
 1. Enter the Password from your dashDB service credentials you obtained in the prework exercise .
 1. Select the Create Connection button. If successful, you will receive a message that “The connection CDA dashDB was created.”
+
+<a name="createact" />
+
+## Create the Data Movement Activity
+
+Now that you have all the connections created, you can create an Activity which combines and moves the data from the PDA and DB2 sources and loads it into the dashDB target.
+
+![](/media/dataconnect/conn5.png)
+
+1. Click Activities on the navigation pane
+1. Then, click the Create New button at the top-right of the screen
+
+![](/media/dataconnect/conn6.png)
+
+1. Move your mouse over Untitled Activity and then click the pencil icon to change the name of the Activity. Enter `CDA Move to Cloud` and then hit the Save button to the right of the text field.  You will then see the name of the Activity update.
+
+![](/media/dataconnect/conn7.png)
+
+Now we will select the tables that we want to copy.  
+
+1. Click on CDA PDA
+1. Click the ENABLEMENT schema
+1. Check the box beside KBANK_CUSTOMERS to select the table
+1. All of the columns will be automatically selected
+1. Notice that the KBANK_CUSTOMERS is added to the Selected column
+
+Next, we want to also select the DB2 table
+
+![](/media/dataconnect/conn8.png)
+
+1. Click on CDA DB2
+1. Click the DB2INST1 schema
+1. Check the box beside NBANK_CUSTOMERS to select the table
+1. All of the columns will be automatically selected
+1. Notice that the NBANK_CUSTOMERS is added to the Selected column, along with KBANK_CUSTOMERS which you added earlier
+1. Click the Refine Data button so that we can combine the data
+
 
 
