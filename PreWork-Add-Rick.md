@@ -113,7 +113,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 1. **Select** the **File** menu from the toolbar.
 2. **Select** the **Open** menu item.
 
-**VWWare Player**
+**VMWare Player**
 
 <img src="./media/vmimage/vmimage-image-04.png"/>
 
