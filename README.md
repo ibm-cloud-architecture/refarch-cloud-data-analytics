@@ -147,11 +147,13 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 <img src="./media/Step3-image-08.png" />
 
 2. **Enter** "dashdb" (without quotes) in the catalog search area.  
+
 3. **Click on** the “dashDB for Analytics” service.  
 
 <img src="./media/Step3-image-09.png" />
 
 4. **Enter** "CDA dashDB” (without quotes) for the Service name.   
+
 5. **Select** the the "Create" button. The service will be created and the launch page is displayed.
 
 <img src="./media/Step3-image-10.png" />
@@ -164,11 +166,13 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 ## Step 2: Create the dashDB Credentials
 
 7. **Select** the "Service credentials” section of the "CDA dashDB" service launch page.   
+
 8. **Select** the the "New credential +" button.
 
 <img src="./media/Step3-image-11.png" />
 
 9. **Enter** "CDA dashDB” (without quotes) for the credential name.   
+
 10. **Select** the the "Add" button. The service credential will be created.
 
 <img src="./media/Step3-image-12.png" />
@@ -196,11 +200,13 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 <img src="./media/Step3-image-17.png"/>
 
 5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
+
 6. **Select** the Run All button on the toolbar.
 
 <img src="./media/Step3-image-18.png"/>
 
 7. **Review** the results. It should complete successfully.
+
 8. **Select** the **Tables** menu from the left hand side of the console.
 
 <img src="./media/Step3-image-19.png"/>
