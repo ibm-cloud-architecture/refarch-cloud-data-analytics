@@ -4,7 +4,7 @@
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[Solution Overview](#solution-overview)**
-- **[Solution Components / Services](#solution-components-service)**
+- **[Solution Components & Services](#solution-components-and-services)**
 - **[Prerequisites](#prerequisites)**
 - **[Setup the reference solution in IBM Cloud](#Setup-the-reference-solution-in-ibm-cloud)**
     
@@ -55,7 +55,7 @@ We can quickly show you how to create a dashboard to showcase your findings, use
 
 The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick but important insights from the data. In order to gain this insight the data from both bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating and managing a new system and moving the data, the new, common repository needs to be hosted as a managed cloud service. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
-## Solutions Components / Services
+## Solutions Components and Services
 
 There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and DB2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
 
