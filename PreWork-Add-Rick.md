@@ -86,7 +86,6 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
-
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
 **Unzip** the **Cloud Data Analytucs,zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
@@ -94,7 +93,6 @@ You will see the schema for the new table. The table is empty. You will be movin
 ### On Mac OSX
 
 <img src="./media/vmimage/vmimage-image-02.png"/>
-
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
@@ -129,21 +127,33 @@ You will see the schema for the new table. The table is empty. You will be movin
 2. **Select** the **NetezzaSoftwareEmulator.vmx** file.
 3. **Select** the **Open** button.
 
-### On Mac OSX
-
 <img src="./media/vmimage/vmimage-image-06.png"/>
 
-**Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
+4. **Select** the "Power on this virtual machine" button to start the Virtual Machine.
+
+### On Mac OSX
 
 <img src="./media/vmimage/vmimage-image-07.png"/>
 
-2. **Open** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
+**Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
+
+1. **Select** the **File** > **Open** menu.
+
+<img src="./media/vmimage/vmimage-image-08.png"/>
+
+2. **Select** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
 
 <a name="login" />
 
+## Login to the Virtual Machine
+
 <a name="liftpf" />
 
+## Update the Lift Properties
+
 <a name="secgwid" />
+
+## Update the Secure Gateway ID
 
 Switch over to the VM an enter the following:
 ```
