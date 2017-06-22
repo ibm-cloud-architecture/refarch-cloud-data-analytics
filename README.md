@@ -72,7 +72,8 @@ You will need the following:
       - VMware Player or VMware Workstation for Windows
       - VMware Fusion (Full or 30 day trial) for OSX
  - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
-      - Note: The VMware image will consume 20GB of local disk and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
+      - Note 1: The image download is 11 GB -- make sure you have a reliable high speed network to download this file!
+      - Note 2: The VMware image will consume 20GB of local disk and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
  - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
  - dashDB access credentials
