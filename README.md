@@ -63,6 +63,9 @@ We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~J
 
 Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
 
+Cognos Analytics is modern, self-service Business Intelligence Platform that provides a sleek and intuitive user experience. Cognos Analytics provides the ability to empower everyone in the organization to find insight from their data to positively impact their decision making.
+
+
 ## Prerequisites
 
 You will need the following:
