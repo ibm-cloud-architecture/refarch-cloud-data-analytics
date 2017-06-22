@@ -17,7 +17,9 @@
 <img src="./media/Step3-image-17.png"/>
 
 5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
+6. **Select** the Run All button on the toolbar.
 
 <img src="./media/Step3-image-18.png"/>
 
-6. **Select** the **OPEN** button to open the dashDB console.
+7. **Review** the results. It should complete successfully.
+8. **Select** the **Tables** menu from the left hand side of the console.
