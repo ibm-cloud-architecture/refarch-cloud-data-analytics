@@ -59,7 +59,7 @@ The solution is a set of Business Inteligence (BI) tools that allow Business Use
 
 ## Prerequisites
 
-You must have the following. 
+You will need the following:
  - A Bluemix account
  - VMware
       - VMware Player or VMware Workstation for Windows
@@ -67,8 +67,8 @@ You must have the following.
  - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
  - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
- - Sign up for a free [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
- - Sign up for a [Watson Anlaytics Trial](https://www.ibm.com/watson-analytics) 
+ - A [Cognos Anlaytics Trial](https://ca-trial.mybluemix.net/) 
+ - A [Watson Anlaytics Trial](https://www.ibm.com/watson-analytics) 
 
 
 > **Note**  
