@@ -39,11 +39,11 @@ In this case, one organization is using IBM's PureData System for Analytics (Net
 
 ## Narrative 
 
-Consider the following scenario. You are talking to the CMO at K Bank. 
+Consider the following scenario. You are talking to the Chief Marketing Officer (CMO) at "K Bank". 
 
-Hi Ms. Smith, I know that K Bank just bought N Bank, and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
+Hi Ms. Smith, I know that K Bank just bought "N Bank", and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
-I know that K Bank has been doing churn analytics for some time, but the team at N Bank has not. K Bank has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at N Bank's customers and identify who might be at risk of leaving. Since K Bank just spent a lot of money to acquire N Bank, you do not want to lose any customers if you can help it.  
+I know that "K Bank" has been doing churn analytics for some time, but the team at N Bank has not. "K Bank" has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at "N Bank's" customers and identify who might be at risk of leaving. Since "K Bank" just spent a lot of money to acquire "N Bank", you do not want to lose any customers if you can help it.  
 
 IBM can help you combine the data from both banks now so that you can get access to this combined data within days, without putting any load on your IT staff who is already over loaded with the consolidation.  We can use our fully managed cloud services to copy data from your current on-premises systems in each bank into a cloud data warehouse and give you a single view of your customers across both banks.
  
@@ -58,6 +58,7 @@ The solution is a set of Business Inteligence (BI) tools that allow Business Use
 ## Prerequisites
 
 You will need the following:
+
  - A Bluemix account
  - VMware
       - VMware Player or VMware Workstation for Windows
