@@ -19,7 +19,7 @@
 14. **Uncheck** the "Token Expiration" check box.
 15. **Select** the **Add Gateway** button.
 
-<img src="./media/Step3-image-08.png" />
+<img src="./media/Step3-image-07-01.png" />
 
 16. **Select** the settings icon at the top of the page to view the gateway settings.
 17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are goint to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed,
