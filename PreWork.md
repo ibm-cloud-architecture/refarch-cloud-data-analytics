@@ -6,10 +6,11 @@
       - [Step A: Download the lab files](#step-a-download-the-lab-files)     
       - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
       - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-analytics-lab-services)
-      - [Step D: Create a Cognos Analytics account](#step-d-create-a-cognos-analytics-account)
-      - [Step E: Create a Watson Analytics account](#step-e-create-a-watson-analytics-account) 
-      - [Step F: Create a GitHub account](#step-f-create-a-github-account)
-      - [Step G: Launch the Data Connect Service](#step-g-launch-the-data-connect-service)
+      - [Step D: Create the dashDB Credentials](#step-d-create-the-dashdb-credentials)
+      - [Step E: Create a Cognos Analytics account](#step-e-create-a-cognos-analytics-account)
+      - [Step F: Create a Watson Analytics account](#step-f-create-a-watson-analytics-account) 
+      - [Step G: Create a GitHub account](#step-g-create-a-github-account)
+      - [Step H: Launch the Data Connect Service](#step-h-launch-the-data-connect-service)
 
 ## Environment Setup   
 
@@ -170,6 +171,8 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-10-1.png" />
 
+## Step D: Create the dashDB Credentials
+
 7. **Select** the "Service credentials” section of the "CDA dashDB" service launch page.   
 8. **Select** the the "New credential +" button.
 
@@ -186,7 +189,7 @@ You will be brought to a web page confirming that you sucessfully signed up for 
 
 <img src="./media/Step3-image-13.png" />
 
-## Step D: Create a Cognos Analytics account
+## Step E: Create a Cognos Analytics account
 
 You will need a Cognos Analytics account. If you **don't** have an account:
 
@@ -211,7 +214,7 @@ You now have a Cognos Analytics Account, and will see a screen like
 <img src="./media/CA4.png"/>
 
 
-## Step E: Create a Watson Analytics account
+## Step F: Create a Watson Analytics account
 
 You will need a Watson Analytics account. If you **don't** have an account:
 
@@ -295,7 +298,7 @@ To activate your account, **Go to** your email inbox that you used to register y
 
 > Your Watson Analytics account is now ready for use. You have completed all of the Getting Started prerequisites and are ready to begin the Watson Data Platform labs. You can do the labs in any order you like but we strongly suggest you start by doing the Data Engineering lab first followd by Business Analysis, Data Science and then Application Development.
 
-## Step F: Create a GitHub account
+## Step G: Create a GitHub account
 
 You will need a GitHub account. If you **don't** have an account:
 
