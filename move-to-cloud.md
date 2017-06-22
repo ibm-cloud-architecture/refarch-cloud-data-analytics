@@ -1,18 +1,18 @@
-## Step By Step Directions
+## Move Data to the Cloud 
+
+You will be moving data to the cloud using two methods. 
+
+The first method uses Bluemix Data Connect to access the N Bank's customer data from a DB2 LUW database and K Bank's customer data from a PureData for Analytics database on-premies. You will then combine the data from both banks and deliver the combined dataset to a dashDB database in the cloud.
+
+The second method uses Bluemix Lift to move the data from ground-to-cloud. You will be moving the same customer data from K and N Bank but using the Bluemix Lift CLI (Command Line Utility) to move the data from on-premies to a dashDB database in the cloud.
 
    - **[PREWORK: Environment Setup](#prework-environment-setup)**
-      - [Step A: Download the lab files](#step-a-download-the-lab-files)     
-      - [Step B: Create a Bluemix account](#step-b-create-a-bluemix-account)
-      - [Step C: Create the Cloud Data Analytics lab services](#step-c-create-the-cloud-data-analytics-lab-services)
-      - [Step D: Create a Cognos Analytics account](#step-d-create-a-cognos-analytics-account)
-      - [Step E: Create a Watson Analytics account](#step-e-create-a-watson-analytics-account) 
-      - [Step F: Create a GitHub account](#step-f-create-a-github-account)
-      - [Step G: Launch the Data Connect Service](#step-g-launch-the-data-connect-service)
+      - [Step A: Move Data Using Data Connect](#step-a-move-data-using-dataconnect)     
+      - [Step B: Move Data Using Bluemix Lift](#step-b-move-data-using-bluemix-lift)
 
 ## Environment Setup   
 
 The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud. 
-
 
 On the following pages are a series of steps you need to complete before you do any of the labs. Each step outlines an easy to follow set of instructions that walks you through preparing your IBM cloud environment so you can do any of the labs you choose. It is a serial process so it’s important that you follow each step in sequence and do not deviate from the workflow or skip any steps in the process.
 
