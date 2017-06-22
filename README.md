@@ -1,4 +1,4 @@
-# Moving data and workloads from on-premises to the cloud for more agile analytics
+# Moving data and workloads from on-premises to the Cloud for more agile analytics
 
 ## Table of Contents
 - **[Introduction](#introduction)**
@@ -88,7 +88,7 @@ If you need help with any of the pre-requisites, go to the [Prereq Step by Step 
  
 
 
-## STOP HERE FOR NOW...YOU WILL HAVE NO FINE WINE UNTIL IT IS TIME
+## STOP HERE FOR NOW...FOR YOU WILL HAVE NO WINE UNTIL IT IS TIME
 
 
 
