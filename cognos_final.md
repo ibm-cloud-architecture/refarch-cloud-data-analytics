@@ -4,13 +4,11 @@
 In this workshop, you will experience the following capabilities in IBM
 Cognos Analytics:
 
--   Cognos Analytics Navigation
--   Create a New data server Connection
--   Create a Data Module
--   Data Discovery with Dashboard Assembly
--   Optional : Storytelling
--   Optional : Uploading Personal Data Sources
--   Optional Watson Analytics
+- Cognos Analytics Navigation
+- Create a New data server Connection
+- Create a Data Module
+- Create a Dashboard
+- Find Insights in the Information
 
 You are a Chief Marketing Officer looking a recent satisfaction survey
 with customer attributes and churn results presented to you from the IT
