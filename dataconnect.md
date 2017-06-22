@@ -1,14 +1,14 @@
 # Configuring Data Connect
 
 ## Contents
-1. Launch the Data Connect service
+1. [Launch the Data Connect service](#launch)
 1. Create and configure  the Secure Gateway
 1. Create Connections
 1. Create Activity
 1. Run Activity
 
 ## Launch the Data Connect service
-In the Bluemix services screen, click on the CDA Data Connect service that you created.
+<a name="launch" />In the Bluemix services screen, click on the CDA Data Connect service that you created.
 
 ![Services Screen](/media/dataconnect/dc0.png)
 
