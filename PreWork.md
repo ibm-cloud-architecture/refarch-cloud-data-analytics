@@ -49,7 +49,8 @@ H | Create and Launch Data Connect Service
    
    <img src="./media/DL_1.png"/>     
   
-   Make sure you do not change the name of the file, and that the comma-separated values Format is selected. Click on Save.
+   Make sure you do not change the name of the file, and that the comma-separated values Format is selected. 
+   Click on Save.
    
    <img src="./media/DL_2.png"/> 
 
