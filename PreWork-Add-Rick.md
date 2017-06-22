@@ -143,7 +143,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-09.png"/>
 
-8. **Select** the "Play Virtual Machine" button to Power on the virtual machine.
+8. **Select** the "Play Virtual Machine" button to Power up the virtual machine.
 
 ### On Mac OSX
 
