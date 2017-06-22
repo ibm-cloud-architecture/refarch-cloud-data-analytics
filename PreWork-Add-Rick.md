@@ -121,7 +121,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-05.png"/>
 
-6. **Select** the "Power on this virtual machine" button to start the Virtual Machine.
+6. **Select** the "Power on this virtual machine" button to start up the Virtual Machine.
 
 **VMWare Player**
 
