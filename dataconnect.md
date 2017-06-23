@@ -2,7 +2,7 @@
 
 ## Contents
 1. [Launch the Data Connect service](#launch)
-1. [Validate the Secure Gatway Client is Connected](#secgw)
+1. [Validate the Secure Gateway Client is Connected](#secgw)
 1. [Create the Source and Target Connections](#createconn)
 1. [Create the Data Movement Activity](#createact)
 1. [Run the Data Movement Activity](#runact)
