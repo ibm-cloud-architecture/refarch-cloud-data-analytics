@@ -4,7 +4,7 @@
 
 Now that we have the data in one place, we can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward. You can also create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis for use in your next board meeting.
 
-## Lets Get Started
+## Get Things Setup
 
 Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
@@ -151,8 +151,6 @@ Select the Number of Credit Applications column and click on more options
 1. Change the highest value to 3000
 1. Click on Create
 
-
-
 ![](cmedia/image41.png)
 
 
@@ -210,8 +208,8 @@ Type, Location and Customer.
 There are many more things to do in this data module, but for timing we
 will save it and start finding insights.
 
-Create Dashboard for Insights
-=============================
+
+## Start Getting Some Insight
 
 We will now create a dashboard to analize the information created in our
 data module.
