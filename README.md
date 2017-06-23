@@ -1,6 +1,6 @@
 # Moving data and workloads from on-premises to the Cloud for more agile analytics
 
-## Sections
+# Sections
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[Solution Overview](#solution-overview)**
@@ -21,7 +21,7 @@
     - [Step 1: Setup Cognos](#step-1-setup-cognos) 
     - [Step 2: Getting Insight](#step-2-getting-insight) 
 
-## Introduction
+# Introduction
 
 This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example, the on premises databases are in two different RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of step to copy from a single database into the cloud as well. 
 
@@ -37,7 +37,7 @@ In this case, one organization is using IBM's PureData System for Analytics (Net
 
 ![Overview](Images/SystemOverviewLift1.png)
 
-## Narrative 
+# Narrative 
 
 Consider the following scenario: You are talking to the Chief Marketing Officer (CMO) at "K Bank". 
 
@@ -51,11 +51,11 @@ Once you have that data at your fingertips, you can explore the data and discove
 
 We can quickly show you how to create a dashboard to showcase your findings, use it to tell a story of what you discovered and the actions you might want to take base on this analysis.
 
-## Solution Overview
+# Solution Overview
 
 The solution is a set of Business Inteligence (BI) tools that allow Business Users to get quick but important insights from the data. In order to gain this insight the data from both bank systems need to be moved from their data centers into a common repository. Because IT cannot support creating and managing a new system and moving the data, the new, common repository needs to be hosted as a managed cloud service. The BI tools will then be connected to this new repository and the existing analytical reports will be run. 
 
-## Solution Components and Services
+# Solution Components and Services
 
 There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and DB2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
 
@@ -66,7 +66,7 @@ Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift us
 Cognos Analytics is modern, self-service Business Intelligence Platform that provides a sleek and intuitive user experience. Cognos Analytics provides the ability to empower everyone in the organization to find insight from their data to positively impact their decision making.
 
 
-## Prerequisites
+# Prerequisites
 
 You will need the following:
 
@@ -86,7 +86,7 @@ You will need the following:
 If you need help with any of the pre-requisites, go to the [Prerequisite Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md) page
 
 
-## Move the Data to the Cloud
+# Move the Data to the Cloud
 
 ## Step 1: Create the Cloud Data Analytics Lab Services
 
