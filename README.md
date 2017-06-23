@@ -395,12 +395,13 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 
 
+> ____________________________________________________________________________________ 
+>
+>
 > **Note:**
->  
->  
+>    
 >  
 > If you want to try the Lift CLI, go to [Lift4Move.md](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/Lift4Move.md)
->  
 >  
 >  
 > ____________________________________________________________________________________ 
