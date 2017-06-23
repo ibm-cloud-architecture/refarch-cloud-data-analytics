@@ -221,4 +221,12 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-21.png"/>
 
-6. **Enter** the commaond **cd $DATA** to go bach to the Lift data directory.
+6. **Enter** the commaond **reboot** to go bach to the Lift data directory.
+
+<img src="./media/vmimage/vmimage-image-22.png"/>
+
+7. 1. **Enter** a lowercase login id of **nz** and a password of **nz** to log back into the VM image.
+
+<img src="./media/vmimage/vmimage-image-23.png"/>
+
+8. **Enter** the commaond **cd $DATA** to positionb yourself in the Lift CLI data directory to do the Lift portion of the lab later on.
