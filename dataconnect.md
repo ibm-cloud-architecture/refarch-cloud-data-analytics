@@ -36,15 +36,13 @@ If your Data Connect service is no longer in a tab in your browser to the Access
 
 In this step, you will create three connections:
 
-1. A connection to the PureData for Analytics database on-premies in the VM
-1. A connection to the DB2 LUW database on-premises in the VM
-1. A connection to the dashDB database in the cloud that you created in the Prework
+1. PureData for Analytics - To access the on-premises PDA database in the VM
+1. DB2 LUW - To access the on-premises DB2 database in the VM
+1. dashDB - To serve as the target data souce to move the on=premises data to
 
-To get started, click the Connections link on the navigation on the left (1).
+<img src="./media/dataconnect/data-connect-image-04.png" />
 
-![](/media/dataconnect/conn1.png)
-
-### Connection to PDA.  
+### Create the PureData for Analytics Connection  
 
 ![](/media/dataconnect/conn2.png)
 
