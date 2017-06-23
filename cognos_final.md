@@ -83,47 +83,17 @@ Click on the Start button.
 ![](cmedia/image29.png)
 
 
-## Intent driven data modeling
+## Data modeling
 
-This will launch you into the intent-driven portion of the modeling
-functionality.
+Once a data source is selected, Users can enter their desired search term and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. 
 
-As a user, you will be able to indicate your “intent” in creating a data
-module. Once a data source is selected, Users can enter their desired
-search terms. Cognos Analytics analyzes the data source and will make
-recommendations on which table(s) to begin with to create the User’s
-custom data module. Cognos analytics will then identify a starting point
-for a data module by suggesting related content to be used.
-
-In the intent panel, **type “Customers”** and **click GO**. Cognos
-Analytics will analyze all the tables in the selected data source, and
-renders proposals for the data tables that contain related content. In
-this scenario, we are suggesting all **tables with Customers** in the
-table name. Since the user is interested in Customer information to
+1. In the intent panel, type Customers since the user is interested in Customer information to
 analyze Satisfaction and Churn information.
-
-**Select ‘Add this Proposal’** to add these tables
+1. Click on Go
+1. You should only see one table **Bank Customers**.  Select Bank Customers
+1. Click on Add this proposal
 
 ![](cmedia/image30.png)
-
-![](cmedia/image31.png)
-
-
-**TECH TIP : YOU MAY CLICK ON EACH TABLE AND MOVE IT AROUND THE SCREEN
-TO MODIFY THE DISPLAY TO YOUR PREFERENCE. TO MOVE THE ENTIRE DIAGRAM AT
-ONCE, YOU MAY CLICK IN THE WHITESPACE AND MOVE WHILE HOLDING DOWN THE
-LEFT MOUSE BUTTON. YOU MAY ALSO ZOOM IN/OUT ON THE DIAGRAM USING THE
-SCROLL ON YOUR MOUSE. **
-
-Relationships between tables have been determined by scanning data and
-column information from the data. These relationships are indicated by
-the lines shown connecting the tables. The relationship indicates how
-the files are joined to one another based on a common data item. **Click
-on the relationship lines** to see the detail of the join type. **Click
-anywhere to close**
-
-![](cmedia/image32.png)
-
 
 **Adding and Removing Tables from a Data Module**
 
