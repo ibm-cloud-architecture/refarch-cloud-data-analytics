@@ -637,7 +637,7 @@ There are many more things we could do in this data module, but for now let's sa
 
 ## Step 2: Getting Insight
 
-From the main Cognos Analytics Screen, click on the + sign on the left hand side and select Dashboard.
+From the main Cognos Analytics screen, click on the + sign on the left hand side and select Dashboard.
 
 ![](cmedia/image45.png)
 
