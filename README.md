@@ -1118,7 +1118,7 @@ We now see that our Small Business customers have the lowest satisfaction scores
 
 1. Select Sort desending
 
-![](ca2media/image007.png)
+![](ca2media/image008.png)
 
 We see that Rhode Island has the lowest satisfaction level. We can select the Rhode Island bar and select drill down to find out which customer(s) from Rhode Island closed their accounts. 
 
