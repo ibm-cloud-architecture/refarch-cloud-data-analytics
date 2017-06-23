@@ -62,20 +62,9 @@ Now we need to select the database schema (table owner) that we will use in this
 Create a Data Module
 ====================
 
-With Cognos Analytics, Users are not restricted to only using existing
-enterprise data sources. The NEW modeling capabilities in Cognos
-Analytics allows the business user to blend in personal data sources
-without requiring assistance from IT. This does not replace IT, it
-simply augments the user experience to allow the User to work with
-personal data sets and analyze that data in conjunction with the
-enterprise data. Users can import external data from files, on premise
-data sources and cloud data sources into Cognos Analytics. Multiple data
-sources may be blended, cleansed and joined together to create a custom
-and reusable data module for use in dashboards and reports and may be
-shared with other users in the organization.
+With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **data module** for use in dashboards and reports, and/or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
 
-Create a new Data Module. **Select New** from Navigation Bar and
-**Select Data Module**
+To create a new data module, select New from Navigation Bar on the left side of the Cognos Analytics screen and then select Data module
 
 ![](cmedia/image27.png)
 
