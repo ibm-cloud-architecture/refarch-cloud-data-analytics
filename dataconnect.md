@@ -29,7 +29,7 @@
 
 ## Validate the Secure Gateway Client Connection
 
-<img src="./media/dataconnect/data-connect-image-05.png" />
+<img src="./media/dataconnect/data-connect-image-04.png" />
 
 You should see that you a Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
 
@@ -49,7 +49,7 @@ In this step, you will create three Data Connect connections:
 1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
 1. DB2 LUW - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
 
-<img src="./media/dataconnect/data-connect-image-06.png" />
+<img src="./media/dataconnect/data-connect-image-05.png" />
 
 1. **Select** the **Connections** link in the middle of the Data Connect home page to begin creating connections.
 
