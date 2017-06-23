@@ -253,3 +253,6 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 **Scroll** through the output by hitting the space bar on the keyboard until the script is complete.
 
+<img src="./media/vmimage/vmimage-image-28.png"/>
+
+**Notice** the Load record counts. You should have loaded a total of 11,022 rows to the BANK_CUSTOMERS table in dashDB. 3,000 N Bank Customers and 8,022 K Bank Customers.
