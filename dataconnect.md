@@ -26,32 +26,37 @@
 
 <img src="./media/dataconnect/data-connect-image-03.png" />
 
-The Data Connect service should still be open in a tab in your browser from when you created a Secure Gatway in the Prework. If so, go to the Data Connect service. You should still be in the Secure Gateway section and see a screen that looks like the screen shot above. 
+You should see that you a Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
 
-If your Data Connect service is no longer in a tab in your browser to the Access the Data Connect Service section below.
+> If your Secure Gatway section **does not** look like the screen shot above then your Secure Gateway client in the VM Image may not have the correct Gateway ID to communicate with your Data Connnect Secure Gateway. If that is the case, go back to the Prework section of this lab where you were instructed to configure the Secure Gateway client and make sure the Gateway ID is equal to the Gateway ID of your Secure Gateway. 
+
+If everything is green, and you see that your Secure Gateway client is connected, proceed...
+
+3. **Select** the **Data Connect** label in the top left corner of the service to go to the main menu and home page.
 
 <a name="createconn" />
 
 ## Create the Source and Target Connections
 
-In this step, you will create three connections:
+In this step, you will create three Data Connect connections:
 
-1. PureData for Analytics - To access the on-premises PDA database in the VM
-1. DB2 LUW - To access the on-premises DB2 database in the VM
-1. dashDB - To serve as the target data souce to move the on=premises data to
+1. dashDB for Analytics - This is your target data souce where yo uwill move the DB2 and PDA on=premises data to
+1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
+1. DB2 LUW - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
 
 <img src="./media/dataconnect/data-connect-image-04.png" />
 
-### Create the PureData for Analytics Connection  
+1. **Select** the **Connections** link in the middle of the Data Connect home page to begin creating connections.
 
-![](/media/dataconnect/conn2.png)
+### Create the dashDB for Analytics Connection  
 
-1. Click the Create New button at the top-right of the screen to create a new connection
-1. In the list of connection types, select IBM PureData for Analytics
+<img src="./media/dataconnect/data-connect-image-05.png" />
 
-![](/media/dataconnect/conn3.png)
+1. **Select** the **IBM Pure Data for Analytics** from the list of connection types.
 
-1. Name the connection "CDA PDA"
+<img src="./media/dataconnect/data-connect-image-06.png" />
+
+1. Name the connection "CDA DASHDB"
 1. In the Hostname/IP Address field, enther the IP address that you saw when you first logged in to your VM.  If you did not write it down, you can type `ifconfig |head -2` to see it.  It should start with 192.168.
 1. The port is 5480
 1. The database name is BIDAY3
