@@ -59,8 +59,7 @@ Now we need to select the database schema (table owner) that we will use in this
 ![](cmedia/image26.jpg)
 
 
-Create a Data Module
-====================
+## Create a Data Module
 
 With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **data module** for use in dashboards and reports, and/or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
 
@@ -68,26 +67,23 @@ To create a new data module, select New from Navigation Bar on the left side of 
 
 ![](cmedia/image27.png)
 
+This will take you to the Create data module screen and provide a list of options you can choose from. 
 
-You are now give the options to select the data assets you wish to use
-for your data module, **Select Data servers** because we are going to
-connect to the ‘IA\_Bank Customers’ data server connection you created
-earlier. **Select ‘IA Bank Customers’** which will display the schema we
-loaded during the load metadata action taken earlier. Select the
-‘SCHEMA’ associated with your dashDB instance, here I am using
-‘DASH106554’
+1. Select Data servers (because we are going to connect to the ‘IA_Bank Customers’ data server connection you created earlier.
+1. Select IA_Bank Customers from the list. This will display the schema we created earlier. 
+1. Select the ‘Schema’ associated with your dashDB instance, ours is **DASH106554** in this instance.
 
 ![](cmedia/image28.png)
 
 
-Your Schema will now be added to selected sources. Mine is DASH106554.
-**Select Start **
+Your schema will now be added to Selected sources list. Again ours is **DASH106554**.
+
+Click on the Start button.
 
 ![](cmedia/image29.png)
 
 
-Intent driven data modeling
----------------------------
+## Intent driven data modeling
 
 This will launch you into the intent-driven portion of the modeling
 functionality.
