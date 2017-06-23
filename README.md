@@ -15,7 +15,7 @@
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
     - [Step 4: Update the Lift Properties](#step-4-update-the-lift-properties)
     - [Step 5: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
-    - [Step 6: Start the Secure Gateway](#step-5-start-the-secure-gateway)
+    - [Step 6: Move Data to the Cloud using Data Connect](#step-5-move-data-to-the-cloud-using-data-connect)
 
 - **[Analyze the Data](#analyze-the-data)**
     - [Step 1: Setup Cognos](#step-1-setup-cognos) 
@@ -390,9 +390,10 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 8. **Enter** the command **cd $DATA** to position yourself in the Lift CLI data directory.
 
 
-## Step 5: Start the Secure Gateway
+## Step 5: Move Data to the Cloud using Data Connect
 
-** Insert dataconnect.md stuf here ** 
+
+** Insert dataconnect.md stuff here ** 
 
 
 
@@ -402,7 +403,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 > **Note:**
 >    
 >  
-> If you want to try the Lift CLI, go to [Lift4Move.md](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/Lift4Move.md)
+> If you want to try to move the data again using the Lift CLI, go to [Lift4Move.md](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/Lift4Move.md)
 >  
 >  
 > ____________________________________________________________________________________ 
