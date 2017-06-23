@@ -1062,7 +1062,7 @@ Add a visualization of churn to late payments using the following steps.
 > Note - 
 > Even though we created three groups we see four groups here. What is different?   
 >   
-> Notice that the group on the far right is (blank). In this case there were some columns that had no value at all for the number of late payments. In this specific case this would normally mean that customer had no (ZERO) applications, so we could go back and fix the data, but we would beed to verify this data with the bank data engineers.
+> Notice that the group on the far right is (blank). In this case there were some columns that had no value at all for the number of late payments. In this specific case does this mean that customer had no (ZERO) applications, or that someone forgot to fill in this field, or that there is an applicatio problem somewhere? We need to determine the source of the data and whether it is valid or needs to be fixed. We would beed to verify this data with the bank data engineers.
 
 
 ![](cmedia/image67.png)
@@ -1082,6 +1082,8 @@ Nowm add a visualization of churn to credit applications using the following ste
 
 1. Change the Visualization to a Heat map
 
+**From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.**
+
 > Note - 
 > We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
 
@@ -1090,10 +1092,41 @@ Nowm add a visualization of churn to credit applications using the following ste
 
 ![](cmedia/image68.png)
 
-
 Save the Dashboard
 
-
-
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab.   
+
+Let's go back to the Customer Satisfaction tab, since that was the main reason for the work we have done so far. 
+
+![](ca2media/image005.png)
+
+Click the Bankid label on the middle chart and select drill down
+
+![](ca2media/image006.png)
+
+We now see two bars, yes and no - the status of customers who have left (yes) or stayed with us (no). 
+
+Let’s investigate the customers who have left (**yes bar**) because we can see their satisfaction scores are lower. Click on the yes bar. We notice that all of the visualizations change, and that the satisfaction score has changed to 3.19 - which is is lower than the average of 3.39. A pop-up appears with values and the ability to drill down further into our churned customers. Select the Drill down icon.
+
+![](ca2media/image007.png)
+
+We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. This shows the States of the customers who left the bank. In this caase since we are filters on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
+
+1. Click the Satisfaction (Average) axis title on the left hand side of the chart
+
+1. Select the Sort icon
+
+1. Select Sort desending
+
+![](ca2media/image007.png)
+
+We see that Rhode Island has the lowest satisfaction level. We can select the Rhode Island bar and select drill down to find out which customer(s) from Rhode Island closed their accounts. 
+
+We see that we had one customer (UX10401) leave us from Rhode Island, and their satisfaction level was 2.  
+
+> Note -
+>
+>You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
+
+
 
