@@ -21,8 +21,7 @@ Users begin their navigation here.
 
 ![](/media/CA/ca1.png)
 
-1. Select Manage from the Navigation Panel. Hint : On the Bottom Left of the User Interface. 
-Select Data Server Connection to create a new data server.
+1. On the Welcome screen, select Manage on the bottom left side. Select Data server connections to create a new data server.
 
 ![](/media/CA/ca2.png)
 
@@ -32,7 +31,9 @@ Select Data Server Connection to create a new data server.
 ![](/media/CA/ca3.png)
 
 1. Rename the connection name from ‘New data server connection’ to ‘IA_Bank Customers’
-1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  "jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"
+1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  
+Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
+
 1. Create a signon associated to the new data connection. Select the ‘Use the following signon’ check box 
 1. Select the  ‘+’ icon.
 
