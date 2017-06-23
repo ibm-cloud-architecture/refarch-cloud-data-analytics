@@ -218,8 +218,172 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
 
 
-## Step 3: Start the VM
+## Step 3: Work with the VM
 
+# Prepare the Virtual Machine
+
+## Steps
+1. [Unzip the VM Image](#unzip)
+1. [Power On the Virtual Machine](#power)
+1. [Login to the Vritual Machine](#login)
+1. [Update the Lift Properties File](#liftpf)
+1. [Update the Secure Gateway ID](#secgwid)
+
+<a name="unzip" />
+
+## Unzip the VM Image
+
+### On Windows
+
+<img src="./media/vmimage/vmimage-image-01.png"/>
+
+**Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+
+**Unzip** the **Cloud Data Analytucs,zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
+
+### On Mac OSX
+
+<img src="./media/vmimage/vmimage-image-02.png"/>
+
+**Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+
+**Unzip** the **Cloud Data Analytucs,zip** file by simply **Double Click** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into the folder.
+
+<a name="power" />
+
+## Power on the Virtual Machine
+
+### On Windows
+
+**VMWare Workstation**
+
+<img src="./media/vmimage/vmimage-image-03.png"/>
+
+**Open** the VMWare Workstation or VMWare Player application (you can use either or to open the VM).
+
+1. **Select** the **File** menu from the toolbar.
+2. **Select** the **Open** menu item.
+
+<img src="./media/vmimage/vmimage-image-04.png"/>
+
+3. **Go to** the location on your file system where you unzipped the VM Image.
+4. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+5. **Select** the **Open** button.
+
+<img src="./media/vmimage/vmimage-image-05.png"/>
+
+6. **Select** the "Power on this virtual machine" button to Power on the Virtual Machine.
+
+**VMWare Player**
+
+<img src="./media/vmimage/vmimage-image-06.png"/>
+
+1. **Select** the **Player** menu on the toolbar.
+2. **Select** the **File** menu item.
+3. **Select** the **Open** menu item.
+
+<img src="./media/vmimage/vmimage-image-07.png"/>
+
+4. **Go to** the location on your file system where you unzipped the VM Image.
+5. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+6. **Select** the **Open** button.
+
+<img src="./media/vmimage/vmimage-image-08.png"/>
+
+7. **Select** the **Take Ownership** button when prompted.
+
+<img src="./media/vmimage/vmimage-image-09.png"/>
+
+8. **Select** the "Play Virtual Machine" button to Power on the virtual machine.
+
+### On Mac OSX
+
+<img src="./media/vmimage/vmimage-image-10.png"/>
+
+**Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
+
+1. **Select** the **File** menu from the toolbar.
+2. **Select** the **Open** menu item.
+
+<img src="./media/vmimage/vmimage-image-11.png"/>
+
+3. **Select** the **NetezzaSoftwareEmulator.vmx** file from within the **Cloud Data Analyitcs** VM Image folder.
+
+<img src="./media/vmimage/vmimage-image-12.png"/>
+
+4. **Select** the **Play** button to Power on the virtual machine.
+
+<a name="login" />
+
+## Login to the Virtual Machine
+
+The credentials for this Virtual Machine are as follows:
+
+Root = root / netezza
+Netezza User = nz / nz – You will use these credentials to log into the VM.
+Netezza Admin = admin / password – You will use these credentials for your Lift migration.
+
+<img src="./media/vmimage/vmimage-image-13.png"/>
+
+1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
+
+<a name="liftpf" />
+
+## Update the Lift Properties
+
+<img src="./media/vmimage/vmimage-image-14.png"/>
+
+1. **Enter** a command of **cd $DATA**.
+
+<img src="./media/vmimage/vmimage-image-15.png"/>
+
+2. **Enter** a command of **ls -la**.
+
+<img src="./media/vmimage/vmimage-image-16.png"/>
+
+3. **Enter** a command of **vi lift.pf** to edit the Lift properties file.
+
+<img src="./media/vmimage/vmimage-image-17.png"/>
+
+**Note -** The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
+
+4. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
+5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
+
+<a name="secgwid" />
+
+## Update the Secure Gateway ID
+
+<img src="./media/vmimage/vmimage-image-18.png"/>
+
+1. **Enter** a command of **cd /etc/ibm**.
+
+<img src="./media/vmimage/vmimage-image-19.png"/>
+
+2. **Enter** a command of **ls**.
+3. **Enter** a command of **vi segenvironment.conf**.
+
+<img src="./media/vmimage/vmimage-image-20.png"/>
+
+**Note -** The GATEWAY_ID you will be changing is case sensitve so make sure you type it in exactly as it appears.
+
+4. **Change** the **GATEWAY_ID**, to **GATEWAY_ID="<your_gateway_id>"**. This is your Data Connect service Secure Gateway ID that you were instructed to copy to the clipboard and save off.
+5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
+
+<img src="./media/vmimage/vmimage-image-21.png"/>
+
+6. **Enter** the command **reboot** to go recycle the VM image. This will esnure thta the Secure Gateway Client restarts and thta it picks up your Gateway ID to communicate with your Data Connect service.
+
+<img src="./media/vmimage/vmimage-image-22.png"/>
+
+7. 1. **Enter** a lowercase login id of **nz** and a password of **nz** to log back into the VM image.
+
+<img src="./media/vmimage/vmimage-image-23.png"/>
+
+8. **Enter** the command **cd $DATA** to position yourself in the Lift CLI data directory.
+
+
+If you want to try the Lift CLI, go to [Lift4Move.md](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/Lift4Move.md)
 
 
 
