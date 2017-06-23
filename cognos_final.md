@@ -255,22 +255,25 @@ Select the data module we just created, and then
 ![](cmedia/image48.png)
 
 
-Working with Dashboard Design
------------------------------
+### Designing a Dashboard
 
-Rename Tab1. To rename the dashboard tab, click on the tab name “Tab 1”
-to bring up the On-Demand Toolbar. Select the Pencil and rename the tab
-to 'Customer Satisfaction'
+Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1. 
+
+- Click on the tab name Tab 1
+
+- Select the Pencil to bring up the toolbar
+
+- Rename the tab to **Customer Satisfaction**
 
 ![](cmedia/image49.png)
 
+- Click on the triangle beside the Bank Customers table name to expand it and show the columns in the table
 
-Expand Bank Customers and drag Staisfaction to Panel 1. Here we can see
-the average Satifaction rating by our customers is 3.39.
+- Drag the satisfaction column to panel 1 
 
-Satisfaction is very easy to locate here because its one of the first 10
-fields in the list, again like everything else in Cognos Analytics there
-is a Find area where you can find fields very quickly.
+- Here we can see the average satifaction rating for our customers is 3.39 out of 5
+
+> Note - Satisfaction is very easy to locate in this case because it is one of the first few fields in the list. You can also search for columns names using the Find area at the top of the screen.
 
 ![](cmedia/image50.png)
 
