@@ -12,7 +12,9 @@
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
-   
+
+- **[Analyze the Data](#analyze-the-data)**
+    - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services) 
 
 ## Introduction
 
@@ -77,6 +79,7 @@ You will need the following:
 
 > **Note**  
 If you need help with any of the pre-requisites, go to the [Prerequisite Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md) page
+
 
 ## Move the Data to the Cloud
 
@@ -387,8 +390,10 @@ If you want to try the Lift CLI, go to [Lift4Move.md](https://github.com/ibm-clo
 
 
 
+** Insert dataconnect.md stuf here ** 
+
+## Analyze the Data
 
 
 
 
-## Stop Here
