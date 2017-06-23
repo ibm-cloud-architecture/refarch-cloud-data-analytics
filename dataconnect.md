@@ -202,7 +202,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 > Keep hitting the **Refresh** button until you see a status of **Copied to** and **100% completed**.
 
-1. **Select** the **Copied to** link in the status monitor for the activity to view the activity log.
+2. **Select** the **Copied to** link in the status monitor for the activity to view the activity log.
 
 <img src="./media/dataconnect/data-connect-image-29.png" />
 
