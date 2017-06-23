@@ -31,9 +31,7 @@ Users begin their navigation here.
 ![](/media/CA/ca3.png)
 
 1. Rename the connection name from ‘New data server connection’ to ‘IA_Bank Customers’
-1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  
-
-Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
+1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
 1. Create a signon associated to the new data connection. Select the ‘Use the following signon’ check box 
 1. Select the  ‘+’ icon.
@@ -41,21 +39,22 @@ Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc
 ![](/media/CA/ca5.png)
 
 1. Enter the your dashDB User ID
-1. Enter your Password and confirm Password
-1. Test your new Connection.  If it tests successfully, then
+1. Enter your password and confirm your password
+1. Test your new connection.  If it tests successfully, then
 1. Save
 
+If the test fails, check the userID, password, etc. and re-test.
 
 
+Now we need to select the database schema (table owner) that we will use in this exercise. 
 
-Now we need to load the schema we will use in this exercise. **Select
-the Schema** tab for the IA\_Bank Customers data server connection.
-Select the Schema associated to your userid and select ‘**Load
-Metadata’** until it’s successfully loaded with a Message and a green
-button next to the schema
+1. Select the Schema tab for the IA\_Bank Customers data server connection
+1. Select the schema associated to your userid and select
+1. Select Load metadata. 
 
 ![](cmedia/image25.jpg)
 
+ When the schema is successfully loaded, the status button next to the schema will turn green
 
 ![](cmedia/image26.jpg)
 
