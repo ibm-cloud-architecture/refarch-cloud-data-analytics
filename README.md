@@ -1,6 +1,5 @@
 # Moving data and workloads from on-premises to the Cloud for more agile analytics
 
-# Sections
 - **[Introduction](#introduction)**
 - **[Narrative](#narrative)**
 - **[Solution Overview](#solution-overview)**
