@@ -353,55 +353,61 @@ Click on the green + sign
 
 1. Select USE
 
-> Note - The four panels are also numbered in this image so we can explain placement later.
-
-
-
 Rename this tab to Churn Analysis
 
-Make Panel 1 and 2 look like this using these steps
+> Note - The four panels are also numbered in this image so we can explain placement later.
 
-> Under Bank Customers Select Group Late Payments
->
-> Under Bank Customers Ctrl-Click Count
->
-> Under Bank Customers Ctrl-Click Churn
->
-> Drag items to Panel 1
->
-> Expand Visualization to use Panel 1 and 2
->
-> Change the Visualization to a Heat Map
+As we said earlier, your data scientists have found that churn seems to be related to the number of credit applictions the customer has submitted, and the number of times they have had late payments. Remember we also created groups for late payments and credit applications, now let's create visualizations for these. 
 
 ![](cmedia/image66.png)
 
+Add a visualization of churn to late payments using the following steps. 
 
-Make Panel 3 and 4 look like this using these steps
+1. Under Bank Customers in the data module on the left select Group Late Payments
 
-> Under Bank Customers Select Group Credit Applications
->
-> Under Bank Customers Ctrl-Click Count
->
-> Under Bank Customers Ctrl-Click Churn
->
-> Drag items to Panel 3
->
-> Expand Visualization to use Panel 3 and 4
->
-> Change the Visualization to a Heat Map
+1. Under Bank Customers Ctrl-Click the Count column 
+
+1. Under Bank Customers Ctrl-Click the Churn column
+
+1. Drag these items to Panel 1
+
+1. Click on a corner or side of the visualization to expand it to use both panel 1 and panel 2
+
+1. Change the Visualization to a Heat map
+
+> Note - 
+> Even though we created three groups we see four groups here. What is different?   
+> Notice that the group on the far right is (blank). In this case there were some columns that had no value at all for the number of late payments. In this specific case this would normally mean that customer had no (ZERO) applications, so we could go back and fix the data, but we would beed to verify this data with the bank data engineers.
+
 
 ![](cmedia/image67.png)
 
+Nowm add a visualization of churn to credit applications using the following steps. 
 
-The Churn Analysis Tab Should now look like this
+
+1. Under Bank Customers select Group Credit Applications
+
+1. Under Bank Customers Ctrl-Click the Count column
+
+1. Under Bank Customers Ctrl-Click the Churn column 
+
+1. Drag these items to Panel 3
+
+1. Click on a corner or side of the visualization to expand it to use both panel 3 and panel 4
+
+1. Change the Visualization to a Heat map
+
+> Note - 
+> We see the same thing in this graphinc with some data being (blank).
+
+
+**The Churn Analysis Tab Should now look like this**
 
 ![](cmedia/image68.png)
 
 
 Save the Dashboard
 
-Using Properties for each object, make this Dashboard visually appealing
-by moving legends and adding titles and removing titles.
 
 Find Insights in the Information
 ================================
