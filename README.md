@@ -225,9 +225,13 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 
 You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
 
-## Step 3: Work with the VM
 
-# Prepare the Virtual Machine
+# Work on the "On Premises" systems
+< NOTE - 
+< We use a VM with a running DB2 and PureData System for Analytics (Netezza) solution in it.  In reality these would likely be 2 separate systems, in different data centers, but this still represents that environment in a realistic manner.
+<  
+
+## Step 3: Work with the VM
 
 ## Steps
 1. [Unzip the VM Image](#unzip)
