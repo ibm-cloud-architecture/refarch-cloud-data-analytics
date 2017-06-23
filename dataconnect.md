@@ -45,9 +45,9 @@ If everything is green, and you see that your Secure Gateway client is connected
 
 In this step, you will create three Data Connect connections:
 
-. dashDB for Analytics - This is your target data souce where yo uwill move the DB2 and PDA on=premises data to
-. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
-. DB2 LUW - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
+*dashDB for Analytics* - This is your target data souce where yo uwill move the DB2 and PDA on=premises data to
+*PureData for Analytics* - This is the on-premises PDA database in the VM that contains K Bank's Customer data
+*DB2 LUW* - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
 
 <img src="./media/dataconnect/data-connect-image-05.png" />
 
@@ -55,54 +55,63 @@ In this step, you will create three Data Connect connections:
 
 ### Create the dashDB for Analytics Connection  
 
+<img src="./media/dataconnect/data-connect-image-06.png" />
+
+1. **Select** the **IBM dashDB** connector from the list of connection types.
+
 <img src="./media/dataconnect/data-connect-image-07.png" />
 
-1. **Select** the **IBM Pure Data for Analytics** from the list of connection types.
+1. **Enter** a connect name of **CDA DASHDB**.
+1. **Enter** a description of **CDA dashDB Database**.
+1. **Enter** the host name from your dashDB service credentials.
+1. **Enter** a Database name of **BLUDB** - All dashDB plans use a database name of BLUDB.
+1. **Enter** the username from your dashDB service credentials.
+1. **Enter** the password from your dashDB service credentials.
+1. **Select** the **Create Connection** button.
+
+### Create the DB2 Connection
 
 <img src="./media/dataconnect/data-connect-image-08.png" />
 
-1. Name the connection "CDA DASHDB"
-1. In the Hostname/IP Address field, enther the IP address that you saw when you first logged in to your VM.  If you did not write it down, you can type `ifconfig |head -2` to see it.  It should start with 192.168.
-1. The port is 5480
-1. The database name is BIDAY3
-1. Ensure that "Use a secure gateway" is checked and then click the pull-down to select the gateway that you created in the prework.  It should be called "Cloud-Data-Analytics"
-1. Enter the username "admin"
-1. Enter the password "password"
-1. Click the "Create Connection" button at the top-right of the screen
+1. **Select** the **Create New** button in the top right corner.
 
-Now the PDA connection has ben created
+<img src="./media/dataconnect/data-connect-image-09.png" />
 
-### Connection to DB2
+1. **Select** the **IBM DB2** connection from the list of connection types.
 
-You will use the same steps as above for the DB2 connection, but with different values.
+<img src="./media/dataconnect/data-connect-image-10.png" />
 
-1. Click the Create New button at the top-right of the screen to create a new connection
-1. In the list of connection types, select IBM DB2
+1. **Enter** a connect name of **CDA DB2**.
+1. **Enter** a description of **CDA DB2 Database**.
+1. **Enter** the **IP Address** of your VM Image as the host name.
+1. **Enter** a port of **5000**.
+1. **Enter** a Database of **SAMPLE**.
+1. **Select** the Cloud-Data-Analytics secure gateway from the list. There should only be one.
+1. **Enter** a username of **db2inst1**.
+1. **Enter** a password of **db2inst1**.
+1. **Select** the **Create Connection** button.
 
-![](/media/dataconnect/conn4.png)
+### Create the PureData for Analytics Connection
 
-1. Name the connection "CDA DB2"
-1. In the Hostname/IP Address field, enther the IP address that you saw when you first logged in to your VM.  If you did not write it down, you can type `ifconfig |head -2` to see it.  It should start with 192.168.
-1. The port is 50000
-1. The database name is SAMPLE
-1. Ensure that "Use a secure gateway" is checked and then click the pull-down to select the gateway that you created in the prework.  It should be called "Cloud-Data-Analytics"
-1. Enter the username "db2inst1"
-1. Enter the password "db2inst1"
-1. Click the "Create Connection" button at the top-right of the screen
+<img src="./media/dataconnect/data-connect-image-11.png" />
 
-### Connection to dashDB
+1. **Select** the **Create New** button in the top right corner.
 
-You will use the same steps as above for the dashDB connection, but with different values.
+<img src="./media/dataconnect/data-connect-image-12.png" />
 
-1. Click the Create New button at the top-right of the screen to create a new connection
-1. In the list of connection types, select IBM dashDB
-1. Enter a Connection Name of CDA dashDB
-1. Enter the Host name from your dashDB service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).
-1. Enter a Database name of BLUDB – All dashDB plans use a database name of BLUDB.
-1. Leave the Secure Gateway checkbox unchecked -- you do not need it for dashDB
-1. Enter the Username from your dashDB service credentials you obtained in the prework exercise. 
-1. Enter the Password from your dashDB service credentials you obtained in the prework exercise.
-1. Select the Create Connection button. If successful, you will receive a message that “The connection CDA dashDB was created.”
+1. **Select** the **IBM PureData for Analytics** connecter from the list of connection types.
+
+<img src="./media/dataconnect/data-connect-image-13.png" />
+
+1. **Enter** a connect name of **CDA PDA**.
+1. **Enter** a description of **CDA PureData for Analytics Database**.
+1. **Enter** the **IP Address** of your VM Image as the host name.
+1. **Enter** a port of **5480**.
+1. **Enter** a Database of **BIDAY3**.
+1. **Select** your Cloud-Data-Analytics secure gateway from the list. There should only be one.
+1. **Enter** a username of **admin**.
+1. **Enter** a password of **password**.
+1. **Select** the **Create Connection** button.
 
 <a name="createact" />
 
