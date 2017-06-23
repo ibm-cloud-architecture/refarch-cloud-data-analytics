@@ -377,6 +377,7 @@ Add a visualization of churn to late payments using the following steps.
 
 > Note - 
 > Even though we created three groups we see four groups here. What is different?   
+>   
 > Notice that the group on the far right is (blank). In this case there were some columns that had no value at all for the number of late payments. In this specific case this would normally mean that customer had no (ZERO) applications, so we could go back and fix the data, but we would beed to verify this data with the bank data engineers.
 
 
