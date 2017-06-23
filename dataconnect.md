@@ -161,7 +161,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-22.png" />
 
-5. **Select** the elippse in the right corner of the **Customer** column and then **Select** the **Sort Ascending** menu item.
+5. **Select** the ellipse in the right corner of the **Customer** column and then **Select** the **Sort Ascending** menu item.
 
 <img src="./media/dataconnect/data-connect-image-23.png" />
 
