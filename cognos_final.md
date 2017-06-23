@@ -410,4 +410,4 @@ Nowm add a visualization of churn to credit applications using the following ste
 Save the Dashboard
 
 
-# Take a screen capture or screen shot of this dashboard tab to show that have completed the lab.   
+# Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab.   
