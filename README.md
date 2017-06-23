@@ -1093,8 +1093,7 @@ Nowm add a visualization of churn to credit applications using the following ste
 ![](cmedia/image68.png)
 
 Save the Dashboard
-
-# Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab.   
+  
 
 Let's go back to the Customer Satisfaction tab, since that was the main reason for the work we have done so far. 
 
@@ -1129,4 +1128,4 @@ We see that we had one customer (UX10401) leave us from Rhode Island, and their 
 >You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
 
 
-
+# Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
