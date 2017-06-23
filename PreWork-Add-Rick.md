@@ -244,10 +244,12 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 **Scroll** through the script by hitting the space bar on the keyboard until you have viewed the entire script. **Notice** the **lift extrac**, **lift put**, **lift ls** and **lift load** commands and the syntax used to execute them. The Lift commands were put into a script for your convenience so you can execute them all at once instead of individually.
 
 <img src="./media/vmimage/vmimage-image-25.png"/>
-<img src="./media/vmimage/vmimage-image-26.png"/>
-<img src="./media/vmimage/vmimage-image-27.png"/>
 
 <img src="./media/vmimage/vmimage-image-26.png"/>
+
+<img src="./media/vmimage/vmimage-image-27.png"/>
+
+<img src="./media/vmimage/vmimage-image-28.png"/>
 
 3. **Enter** the command **lift-to-dashdb** to execute the Lift script and begin moving the data to the cloud.
 
