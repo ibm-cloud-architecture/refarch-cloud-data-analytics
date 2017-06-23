@@ -18,7 +18,8 @@
     - [Step 6: Start the Secure Gateway](#step-5-start-the-secure-gateway)
 
 - **[Analyze the Data](#analyze-the-data)**
-    - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services) 
+    - [Step 1: Setup Cognos](#step-1-setup-cognos) 
+    - [Step 2: Getting Insight](#step-2-getting-insight) 
 
 ## Introduction
 
@@ -415,7 +416,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 Now that we have the data in one place, we can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward. You can also create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis for use in your next board meeting.
 
-## Setup Cognos
+## Step 1: Setup Cognos
 
 Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
@@ -631,7 +632,7 @@ In our Analysis we want to look at information by Originating Bank, churn, custo
 There are many more things we could do in this data module, but for now let's save it and start looking for insight.
 
 
-## Getting Insight
+## Step 2: Getting Insight
 
 From the main Cognos Analytics Screen, click on the + sign on the left hand side and select Dashboard.
 
@@ -821,8 +822,4 @@ Nowm add a visualization of churn to credit applications using the following ste
 Save the Dashboard
 
 
-# Remember to take a screen capture or screen shot of this dashboard tab to show that you have completed the lab.   
-
-
-
-
+# Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab.   
