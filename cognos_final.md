@@ -157,7 +157,7 @@ Select the Number of Credit Applications column and click on more options
 
 ## Create Navigation Group
 
-Navigation groups allow drill downs that align with how users wnat (need) to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
+Navigation groups allow drill downs that align with how users want or need to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
 ![](cmedia/image42.png)
 
@@ -181,55 +181,32 @@ There are many more things we could do in this data module, but for now let's sa
 
 ## Start Getting Some Insight
 
-We will now create a dashboard to analize the information created in our
-data module.
-
-Create a new dashboard from the Navigation pane
+From the main Cognos Analytics Screen, click on the + sign on the left hand side and select Dashboard.
 
 ![](cmedia/image45.png)
 
+The Template window then appears, allowing you to select the type of dashboard and the template style. 
 
-Working with Templates
-----------------------
+Select the tabbed dashboard style. This will allow you to have multiple pages for your dashboards. 
 
-The Template window appears allowing the user to select the type of
-dashboard and the template style. Select the tabbed dashboard style.
-This will allow you to have multiple pages for your dashboards. Select
-the template with the three (3) small panels across the top, and two (2)
-panels below. Click OK
+Select the template with the three small rectangles (panels) across the top, and two full width panels below. 
+
+Click on OK.
 
 ![](cmedia/image46.png)
 
+Each panel on the template acts as a placeholder for dashboard objects, known as widgets. Templates are device aware and will auto-size to the screen of the device being used.
 
-Each panel on the template acts as a placeholder for dashboard objects,
-known as widgets. Templates are device aware and will auto-size to the
-screen of the device being used.
-
-Cognos Analytics provides many “out of the box” templates to choose
-from. This library of templates is based on dashboard design best
-practices. The templates are simply guidelines that allow quick and
-visually appealing layout of widgets onto the dashboard. However, users
-may still customize layouts to suit their preferences and may also
-choose to start from a freeform (blank) template.
-
-As we build the dashboard, we will reference the location placement for
-widgets in the dashboard template using the following panel numbers
+As we build the dashboard, we will reference the location placement for widgets we create in the dashboard template using the following panel numbers
 
 ![](cmedia/image47.png)
 
+Select the data module we just created, and then 
 
-As we start our dashboard design we will be asked to select the data
-sources to use. We will select the data module we just created.
-Dashboards support the use of many data sources, in this example we will
-only use 1
-
-> Select the '+' to add sources to the Dashboard
->
-> Select My Content
->
-> Select Bank Customers Module
->
-> Click Open
+1. Select the '+' to add sources to the Dashboard
+1. Select My content
+1. Select the Bank Customers Module
+1. Click Open
 
 ![](cmedia/image48.png)
 
