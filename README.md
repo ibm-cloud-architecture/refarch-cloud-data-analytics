@@ -12,6 +12,9 @@
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
+    - [Step 3: Work with the VM](#step-3-work-with-the-vm)
+    - [Step 4: Update the Lift Properties](#step-4-update-the-lift-properties)
+    - [Step 5: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
 
 - **[Analyze the Data](#analyze-the-data)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services) 
@@ -220,7 +223,6 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 
 You will see the schema for the new table. The table is empty. You will be moving data from on-premies to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
 
-
 ## Step 3: Work with the VM
 
 # Prepare the Virtual Machine
@@ -332,7 +334,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <a name="liftpf" />
 
-## Update the Lift Properties
+## Step 4: Update the Lift Properties
 
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
@@ -355,7 +357,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <a name="secgwid" />
 
-## Update the Secure Gateway ID
+## Step 5: Update the Secure Gateway ID
 
 <img src="./media/vmimage/vmimage-image-18.png"/>
 
@@ -391,7 +393,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 If you want to try the Lift CLI, go to [Lift4Move.md](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/Lift4Move.md)
 
 
-## Analyze the Data
+# Analyze the Data
 
 
 
