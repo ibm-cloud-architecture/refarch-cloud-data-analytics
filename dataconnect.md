@@ -20,11 +20,16 @@
 
 2. **Select** the **LAUNCH** button to launch the Data Connect service. It will open up in a new tab in your browser.
 
+<img src="./media/dataconnect/data-connect-image-03.png" />
+
+3. **Select** the **X** in the top right corner of the Data Connect Welcome dialog to close the dialog.
+4. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
+
 <a name="secgw" />
 
 ## Validate the Secure Gateway Client Connection
 
-<img src="./media/dataconnect/data-connect-image-03.png" />
+<img src="./media/dataconnect/data-connect-image-05.png" />
 
 You should see that you a Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
 
@@ -44,17 +49,17 @@ In this step, you will create three Data Connect connections:
 1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
 1. DB2 LUW - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
 
-<img src="./media/dataconnect/data-connect-image-04.png" />
+<img src="./media/dataconnect/data-connect-image-06.png" />
 
 1. **Select** the **Connections** link in the middle of the Data Connect home page to begin creating connections.
 
 ### Create the dashDB for Analytics Connection  
 
-<img src="./media/dataconnect/data-connect-image-05.png" />
+<img src="./media/dataconnect/data-connect-image-07.png" />
 
 1. **Select** the **IBM Pure Data for Analytics** from the list of connection types.
 
-<img src="./media/dataconnect/data-connect-image-06.png" />
+<img src="./media/dataconnect/data-connect-image-08.png" />
 
 1. Name the connection "CDA DASHDB"
 1. In the Hostname/IP Address field, enther the IP address that you saw when you first logged in to your VM.  If you did not write it down, you can type `ifconfig |head -2` to see it.  It should start with 192.168.
