@@ -31,17 +31,22 @@ Users begin their navigation here.
 ![](/media/CA/ca3.png)
 
 1. Rename the connection name from ‘New data server connection’ to ‘IA_Bank Customers’
+
 1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
 1. Create a signon associated to the new data connection. Select the ‘Use the following signon’ check box 
+
 1. Select the  ‘+’ icon.
 
 ![](/media/CA/ca5.png)
 
 1. Enter the your dashDB User ID
+
 1. Enter your password and confirm your password
-1. Test your new connection.  If it tests successfully, then
-1. Save
+
+1. **Test** your new connection.  If it tests successfully, then
+
+1. Click Save
 
 If the test fails, check the userID, password, etc. and re-test.
 
@@ -49,7 +54,9 @@ If the test fails, check the userID, password, etc. and re-test.
 Now we need to select the database schema (table owner) that we will use in this exercise. 
 
 1. Select the Schema tab for the IA\_Bank Customers data server connection
+
 1. Select the schema associated to your userid and select
+
 1. Select Load metadata. 
 
 ![](cmedia/image25.jpg)
@@ -70,7 +77,9 @@ To create a new data module, select New from Navigation Bar on the left side of 
 This will take you to the Create data module screen and provide a list of options you can choose from. 
 
 1. Select Data servers (because we are going to connect to the ‘IA_Bank Customers’ data server connection you created earlier.
+
 1. Select IA_Bank Customers from the list. This will display the schema we created earlier. 
+
 1. Select the ‘Schema’ associated with your dashDB instance, ours is **DASH106554** in this instance.
 
 ![](cmedia/image28.png)
@@ -89,8 +98,11 @@ Once a data source is selected, Users can enter their desired search term and cl
 
 1. In the intent panel, type Customers since the user is interested in Customer information to
 analyze Satisfaction and Churn information.
+
 1. Click on Go
+
 1. You should only see one table **Bank Customers**.  Select Bank Customers
+
 1. Click on Add this proposal
 
 ![](cmedia/image30.png)
@@ -103,8 +115,11 @@ We will save our data module now.
 
 ![](cmedia/image36.png)
 1. Click Save.
+
 1. Select My Content.
+
 1. Type ‘Bank Customers Module’ for the name.
+
 1. Click Save
 
 Expand the Bank Customers table in the Data Module View
@@ -127,11 +142,17 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 However, we will create 3 groups based on the findings of your Data Scientists.
 
 1. Change the Group name to Group Late Payments
+
 1. Change How many groups? from 10 to 3
+
 1. Select Custom
+
 1. Change the lowest value to 1
+
 1. Change the middle value to 21
+
 1. Change the highest value to 3000
+
 1. Click on Create
 
 ![](cmedia/image40.png)
@@ -144,11 +165,17 @@ Again, we will create 3 groups.
 Select the Number of Credit Applications column and click on more options
 
 1. Change the Group name to Group Credit Applications (Note, we mis-spelled this, but you can spell it correctly if you wish)
+
 1. Change How many groups? from 10 to 3
+
 1. Select Custom
+
 1. Change the lowest value to 5
+
 1. Change the middle value to 26
+
 1. Change the highest value to 3000
+
 1. Click on Create
 
 ![](cmedia/image41.png)
@@ -168,10 +195,15 @@ In the Data module, scroll to the Bankid column and then select it. Select more 
 In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
 
 1. Rename the Navigation Group to Bank Churn Drill Path
+
 1. Drag the Churn column below Bankid
+
 1. Drag the Customer Type column below Churn
+
 1. Drag the Home Branch State column below Customer Type
+
 1. Drag the Customer column below Home Branch State
+
 1. Click on Apply
 
 ![](cmedia/image44.png)
@@ -204,8 +236,11 @@ As we build the dashboard, we will reference the location placement for widgets 
 Select the data module we just created, and then 
 
 1. Select the '+' to add sources to the Dashboard
+
 1. Select My content
+
 1. Select the Bank Customers Module
+
 1. Click Open
 
 ![](cmedia/image48.png)
