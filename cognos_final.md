@@ -95,54 +95,21 @@ analyze Satisfaction and Churn information.
 
 ![](cmedia/image30.png)
 
-**Adding and Removing Tables from a Data Module**
-
-If the proposed data module has a table the User decides is not needed,
-it may be easily removed by right clicking on the table in the diagram
-and selecting remove. **Right click on the 'Nbank Customers Old'** table
-in the diagram and **select Remove**.
-
-![](cmedia/image33.png)
-
-Tables may also be deleted from the data module table list. Click on
-'Old Key Niagra Customers' Brand in the data module panel.
-
-**Right Click on 'Old Key Niagra Customers'** table in the list to open
-the Options. **Select Remove**.
-
-![](cmedia/image34.png)
-
-
-For our analysis, the only table we need is ‘Bank Customers’, **Remove**
-the following tables from the model
-
-**Kbank Customers**
-
-**Nbank Customers**
-
-**Old Banking Customer Data**
-
-Your model should look like this now
+Your data module should look like this
 
 ![](cmedia/image35.png)
 
-
 We will save our data module now.
 
-> Click Save.
->
-> Select My Content.
->
-> Type ‘Bank Customers Module’ for the name.
->
-> Click Save
-
 ![](cmedia/image36.png)
+1. Click Save.
+1. Select My Content.
+1. Type ‘Bank Customers Module’ for the name.
+1. Click Save
 
 Expand the Bank Customers table in the Data Module View
 
 ![](cmedia/image37.png)
-
 
 Create Custom Groups
 --------------------
