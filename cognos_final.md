@@ -307,53 +307,57 @@ Expand both ‘Navigation paths’ and ‘Bank Customers’ to list the items th
 
 ![](cmedia/image59.png)
 
-> From Navigation Paths under Bank Churn Drill Path select Bankid
->
-> Ctrl-Click Satisfaction under Bank Customers
->
-> Drag these items to Panel 4
+1. Under Navigation paths, expand the Bank Churn Drill Path and select Bankid
 
+1. Ctrl-Click Satisfaction under Bank Customers
 
+1. Drag these items to Panel 4
 
-For Panel 5
-
-> Under Bank Customers Select Satisfaction
->
-> Under Bank Customers Age Range
->
-> Under Bank Customers Gender
->
-> Drag these items to Panel 5
+**Notice that there is little difference in the overall satisfaction between the two banks.**
 
 ![](cmedia/image60.png)
 
-Change the Visualization in Panel 5 to a Heat Map
+
+1. Under Bank Customers Select Satisfaction
+
+1. Under Bank Customers Age Range
+
+1. Under Bank Customers Gender
+
+1. Drag these items to Panel 5
 
 ![](cmedia/image61.png)
 
+Change the visualization in Panel 5 to a Heat Map
+
 ![](cmedia/image62.png)
 
-
-Your Dashboard should like this now.
+Your Dashboard should like this now
 
 ![](cmedia/image63.png)
+
+**Notice that on average Males are more satisfied than females, and that on the right, our older customers are the least satisfied.**
 
 
 Save the Dashboard
 
-Create a New Tab in the Dashboard
+Now, let's add another Tab to the Dashboard.  
 
 ![](cmedia/image64.png)
 
-
-For the template we will choose the 2 x 2 Template and select USE
-
-The 4 Panels are also numbered in this image
+Click on the green + sign
 
 ![](cmedia/image65.png)
 
+1. For the template we will choose the 2 x 2 Template
 
-Rename the tab ‘Churn Analysis’
+1. Select USE
+
+> Note - The four panels are also numbered in this image so we can explain placement later.
+
+
+
+Rename this tab to Churn Analysis
 
 Make Panel 1 and 2 look like this using these steps
 
