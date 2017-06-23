@@ -396,7 +396,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 ## Step 5: Move Data to the Cloud using Data Connect
 
-## Contents
+### Steps 
 1. [Launch the Data Connect service](#launch)
 1. [Validate the Secure Gateway Client is Connected](#secgw)
 1. [Create the Source and Target Connections](#createconn)
