@@ -4,7 +4,7 @@
 
 Now that we have the data in one place, we can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward. You can also create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis for use in your next board meeting.
 
-## Get Things Setup
+## Setup Cognos
 
 Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 and SIGN IN to bring up the login page.
@@ -17,7 +17,7 @@ Users begin their navigation here.
 
 <img src="./cmedia/image3.png" >
 
-## Create a Data server connection
+### Create a Data server connection
 
 ![](/media/CA/ca1.png)
 
