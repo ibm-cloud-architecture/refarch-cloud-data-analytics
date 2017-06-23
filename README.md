@@ -234,9 +234,13 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 ## Steps
 1. [Unzip the VM Image](#unzip)
+
 1. [Power On the Virtual Machine](#power)
+
 1. [Login to the Vritual Machine](#login)
+
 1. [Update the Lift Properties File](#liftpf)
+
 1. [Update the Secure Gateway ID](#secgwid)
 
 <a name="unzip" />
@@ -355,9 +359,11 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-17.png"/>
 
-**Note -** The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
+> **Note -** 
+> The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
 
-4. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
+4.**Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
+
 5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
 
 <a name="secgwid" />
@@ -371,6 +377,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 <img src="./media/vmimage/vmimage-image-19.png"/>
 
 2. **Enter** a command of **ls**.
+
 3. **Enter** a command of **vi segenvironment.conf**.
 
 <img src="./media/vmimage/vmimage-image-20.png"/>
@@ -378,6 +385,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 **Note -** The GATEWAY_ID you will be changing is case sensitve so make sure you type it in exactly as it appears.
 
 4. **Change** the **GATEWAY_ID**, to **GATEWAY_ID="<your_gateway_id>"**. This is your Data Connect service Secure Gateway ID that you were instructed to copy to the clipboard and save off.
+
 5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
 
 <img src="./media/vmimage/vmimage-image-21.png"/>
@@ -419,6 +427,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 <img src="./media/dataconnect/data-connect-image-03.png" />
 
 3. **Select** the **X** in the top right corner of the Data Connect Welcome dialog to close the dialog.
+
 4. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
 
 <a name="secgw" />
@@ -442,7 +451,9 @@ If everything is green, and you see that your Secure Gateway client is connected
 In this step, you will create three Data Connect connections:
 
 1. dashDB for Analytics - This is your target data souce where yo uwill move the DB2 and PDA on=premises data to
+
 1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
+
 1. DB2 LUW - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
 
 <img src="./media/dataconnect/data-connect-image-05.png" />
@@ -458,11 +469,17 @@ In this step, you will create three Data Connect connections:
 <img src="./media/dataconnect/data-connect-image-07.png" />
 
 1. **Enter** a connect name of **CDA DASHDB**.
+
 1. **Enter** a description of **CDA dashDB Database**.
+
 1. **Enter** the host name from your dashDB service credentials.
+
 1. **Enter** a Database name of **BLUDB** - All dashDB plans use a database name of BLUDB.
+
 1. **Enter** the username from your dashDB service credentials.
+
 1. **Enter** the password from your dashDB service credentials.
+
 1. **Select** the **Create Connection** button.
 
 ### Create the DB2 Connection
@@ -478,13 +495,21 @@ In this step, you will create three Data Connect connections:
 <img src="./media/dataconnect/data-connect-image-10.png" />
 
 1. **Enter** a connect name of **CDA DB2**.
+
 1. **Enter** a description of **CDA DB2 Database**.
+
 1. **Enter** the **IP Address** of your VM Image as the host name.
+
 1. **Enter** a port of **50000**.
+
 1. **Enter** a Database of **SAMPLE**.
+
 1. **Select** the Cloud-Data-Analytics secure gateway from the list. There should only be one.
+
 1. **Enter** a username of **db2inst1**.
+
 1. **Enter** a password of **db2inst1**.
+
 1. **Select** the **Create Connection** button.
 
 ### Create the PureData for Analytics Connection
@@ -500,13 +525,21 @@ In this step, you will create three Data Connect connections:
 <img src="./media/dataconnect/data-connect-image-13.png" />
 
 1. **Enter** a connect name of **CDA PDA**.
+
 1. **Enter** a description of **CDA PureData for Analytics Database**.
+
 1. **Enter** the **IP Address** of your VM Image as the host name.
+
 1. **Enter** a port of **5480**.
+
 1. **Enter** a Database of **BIDAY3**.
+
 1. **Select** your Cloud-Data-Analytics secure gateway from the list. There should only be one.
+
 1. **Enter** a username of **admin**.
+
 1. **Enter** a password of **password**.
+
 1. **Select** the **Create Connection** button.
 
 <a name="createact" />
@@ -522,14 +555,19 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-15.png" />
 
 1. **Select** the **Connections** category.
+
 1. **Select** the **CDA DB2** connection from the list of connections.
+
 1. **Select** the **DB2INST1** schema from the list of schemas.
+
 1. **Select** the **NBANK_CUSTOMERS** table from the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-16.png" />
 
 5. **Select** the **CDA PDA** connection from the list of connections.
+
 6. **Select** the **ENABLEMENT** schema from the list of schemas.
+
 7. **Select** the **KBANK_CUSTOMERS** table from the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-17.png" />
@@ -539,6 +577,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-18.png" />
 
 9. **Enter** an activty name of **CDA Move to Cloud**.
+
 10. **Select** the **Save** button next to the name.
 
 <img src="./media/dataconnect/data-connect-image-19.png" />
@@ -548,11 +587,13 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-20.png" />
 
 1. **Select** the **Organize** category from the Operations side bar section on the right hand side.
+
 1. **Select** the **Union** operation.
 
 <img src="./media/dataconnect/data-connect-image-21.png" />
 
 3. **Select** the **check box** next to the **KBANK_CUSTOMERS** table as the table to union.
+
 4. **Select** the **Apply** button**.
 
 <img src="./media/dataconnect/data-connect-image-22.png" />
@@ -566,13 +607,17 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-24.png" />
 
 7. **Select** the **CDA DASHDB** connection from the list of connetions.
+
 8. **Select** the **DASH....** schema, your dashDB schema, from the list of schemas.
+
 9. **Select** the **Replace table contents** radio button from the list of table actions. **Note -** This is an important step so make sure you select the correct table action. You want to replace the entire table contents.
+
 10. **Select** the edit icon next to the **NBANK_CUSTOMERS** target table name to change the target table name.
 
 <img src="./media/dataconnect/data-connect-image-25.png" />
 
 11. **Enter** a target table name of **BANK_CUSTOMERS** for the target table name.
+
 12. **Select** the green check mark next to the new target table name to save the name change. Your new target table name should now be **BANK_CUSTOMERS**.
 
 <a name="runact" />
@@ -586,6 +631,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-27.png" />
 
 2. **Select** the **X** on the "Your activity is running" message to close the message.
+
 3. **Select** the **View Activities Status** link to bring up the activity monitor.
 
 <a name="validact" />
