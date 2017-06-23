@@ -153,60 +153,30 @@ Select the Number of Credit Applications column and click on more options
 
 ![](cmedia/image41.png)
 
+**Save the data module**
 
-Save the data module
+## Create Navigation Group
 
-Create Navigation Group
------------------------
-
-A navigation group is a collection of non-measure columns that business
-users associate for data exploration. Navigation groups can now be
-defined as part of a data module to help users easily explore and drill
-down to see their underlying data. These can be logical navigation paths
-that follow a defined hierarchy, or they can be defined to allow users
-to navigate and drill down in any order that makes sense for their
-analysis.
-
-We will start by **selecting the more option** for the field ‘Bankid’.
-Bankid is at the bottom of the field list for the Bank Customers table,
-just above the new Group calculation we just created. Another option to
-locate the field is to type’Bank’ in the **Find** area of the data
-module window. Select ‘Create navigation Group’
+Navigation groups allow drill downs that align with how users wnat (need) to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
 ![](cmedia/image42.png)
 
-In traditional BI and OLAP technologies, a drill down action required a
-pre-defined hierarchical data structure so that you could drill down
-from Year to Month, but was not defined to allow a User to drill from
-Year to Product. Navigation groups are much more flexible and can
-accommodate drill down that aligns with how users need to analyze their
-business.
+In the Data module, scroll to the Bankid column and then select it. Select more options for the Bankid column and select Create navigation group. The default name will be Bankid since that is the name of the column we selected first.
 
 ![](cmedia/image43.png)
 
+In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
 
-In our Analysis we wish look at information by Bank, Churn, Customer
-Type, Location and Customer.
-
-> **Rename the Navigation Group to Bank Churn Drill Path**
->
-> **Drag Churn below Bankid**
->
-> **Drag Customer Type below Churn**
->
-> **Drag Home Brnch State below Customer Type**
->
-> **Drag Customer below Home Branch State**
->
-> **Click Apply**
+1. Rename the Navigation Group to Bank Churn Drill Path
+1. Drag the Churn column below Bankid
+1. Drag the Customer Type column below Churn
+1. Drag the Home Branch State column below Customer Type
+1. Drag the Customer column below Home Branch State
+1. Click on Apply
 
 ![](cmedia/image44.png)
 
-
-**Save the Data Module**
-
-There are many more things to do in this data module, but for timing we
-will save it and start finding insights.
+There are many more things we could do in this data module, but for now let's save it and start looking for insight.
 
 
 ## Start Getting Some Insight
