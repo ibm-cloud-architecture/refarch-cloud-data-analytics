@@ -229,4 +229,4 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-23.png"/>
 
-8. **Enter** the commaond **cd $DATA** to positionb yourself in the Lift CLI data directory.
+8. **Enter** the commaond **cd $DATA** to position yourself in the Lift CLI data directory.
