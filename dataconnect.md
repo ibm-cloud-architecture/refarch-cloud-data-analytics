@@ -37,7 +37,7 @@ You should see that you a Secure Gateway client is connected in the Secure Gatew
 
 If everything is green, and you see that your Secure Gateway client is connected, proceed...
 
-3. **Select** the **Data Connect** label in the top left corner of the service to go to the home page.
+1. **Select** the **Data Connect** label in the top left corner of the service to go to the home page.
 
 <a name="createconn" />
 
