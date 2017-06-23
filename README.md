@@ -809,10 +809,10 @@ Nowm add a visualization of churn to credit applications using the following ste
 1. Change the Visualization to a Heat map
 
 > Note - 
-> We see the same thing in this graphinc with some data being (blank).
+> We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
 
 
-**The Churn Analysis Tab Should now look like this**
+**The Churn Analysis tab should look like this**
 
 ![](cmedia/image68.png)
 
