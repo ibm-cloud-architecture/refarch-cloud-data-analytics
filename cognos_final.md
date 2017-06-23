@@ -259,114 +259,53 @@ Select the data module we just created, and then
 
 Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1. 
 
+![](cmedia/image49.png)
+
 - Click on the tab name Tab 1
 
 - Select the Pencil to bring up the toolbar
 
 - Rename the tab to **Customer Satisfaction**
 
-![](cmedia/image49.png)
+![](cmedia/image50.png)
 
 - Click on the triangle beside the Bank Customers table name to expand it and show the columns in the table
 
-- Drag the satisfaction column to panel 1 
+- Drag the satisfaction column to panel 1. Remember the panel layout I showed you earlier? If not, go back and look at the field numbers for the areas of this tab's format.
 
 - Here we can see the average satifaction rating for our customers is 3.39 out of 5
 
 > Note - Satisfaction is very easy to locate in this case because it is one of the first few fields in the list. You can also search for columns names using the Find area at the top of the screen.
 
-![](cmedia/image50.png)
-
-Next we will select Satisfaction and Ctrl Click Customer type and drag
-it to Panel 2. Cognos Analytics gives me a visualization to start based
-on the items selected. I can change these visualizations by selecting
-the Change Visualization icon.
+Next we want to look at satisfaction by customer type, so we need to select the Satisfaction column and then Control-Click the Customer type column and drag them to Panel 2. 
 
 ![](cmedia/image51.png)
 
-
-By Deault we will show the visualizations that best suit the items and
-there types inside the visualization. You can always select ‘**More**’.
-Click anywhere else in the dashboard to remove this window.
+Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the Change Visualization icon. 
 
 ![](cmedia/image52.png)
 
+That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
 
-Select the bar chart just created, we will now look at actions available
-to you from the menu bar.
-
-> The View widget icon allows users to decide which widgets will be
-> connected to which other widgets in the dashboard. By default all
-> widgets in the dashboard are automatically connected without any
-> coding.
->
-> The pin will pin the widget for further use in other dashboards or to
-> be used for story telling.
->
-> The properties item is what we will look at now. The properties allows
-> you to customize and change the properties of the widget
->
-> The user icon we talked about earlier as well as the help.
-
-![](cmedia/image53.png)
-
-Select the Properties Icon for the bar chart. Under the General Area, we
-can change the color pallette, column color, maintain axis scale, and
-Hide axis titles. Also, if dealing with changing data, set the refresh
-rate for this widget to pickup the refreshed data in near real time
-without having to take a user action. If refresh data set is on, we
-first verify the data is changed before resubmitting the query of the
-widget.
-
-Here I have set the Column Color to Green and I have enabled ‘Hide axis
-titles’
-
-![](cmedia/image54.png)
-
-
-Under the General Tab you see options to set the ‘Fill color’, ‘Border
-color’ and you can set the Opacity of the widget of object selected in
-the dashboard. If we had a image selected here, we might change the
-Opacity to a lower number to use it as a background image for the Tab
-and/or individual widget.
-
-![](cmedia/image55.png)
-
-
-To remove the Properties, click the Properties icon on the menu bar
-again.
-
-Note : The properties will change depending on the type of visualization
-or object selected. For instance if a text object is selected, you would
-see properties associated with a text item. The same is true if a
-picture or video object is selected.
-
-Resize the Customer Type Satisfaction bar chart to span Panel 2 and 3 by
-dragging the resize button on the right to the end of the template to
-look like this.
-
-![](cmedia/image56.png)
-
-
-Let’s save the Dashoard
-
-> Click Save
->
-> Select My Content
->
-> Name the Dashboard ‘Bank Customer Analysis
->
-> Click Save
+Now save the dashboard.  
 
 ![](cmedia/image57.png)
 
-If the data source panel is not open, from the Navigation panel, select
-Sources to open the data source panel. The Data Source panel displays
-the Banking Customers Source we are working with.
+1. Click Save
+
+1. Select My Content
+
+1. Name the Dashboard ‘Bank Customer Analysis
+
+1. Click Save
 
 ![](cmedia/image58.png)
 
-Expand ‘Navigation paths’ and ‘Bank Customers’ to list the items.
+If the data source panel is not open, from the Navigation panel on the left side of the screen, select sources to open the data source panel and select the **Bank Customers** data source we are working with.
+
+Expand both ‘Navigation paths’ and ‘Bank Customers’ to list the items they contain by clicking on the triangle beside those names.
+
+![](cmedia/image59.png)
 
 > From Navigation Paths under Bank Churn Drill Path select Bankid
 >
@@ -374,7 +313,7 @@ Expand ‘Navigation paths’ and ‘Bank Customers’ to list the items.
 >
 > Drag these items to Panel 4
 
-![](cmedia/image59.png)
+
 
 For Panel 5
 
