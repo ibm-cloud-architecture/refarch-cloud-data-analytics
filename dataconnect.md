@@ -125,69 +125,59 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-15.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+1. **Select** the **Connections** category.
+1. **Select** the **CDA DB2** connection from the list of connections.
+1. **Select** the **DB2INST1** schema from the list of schemas.
+1. **Select** the **NBANK_CUSTOMERS** table from the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-16.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+5. **Select** the **CDA PDA** connection from the list of connections.
+6. **Select** the **ENABLEMENT** schema from the list of schemas.
+7. **Select** the **KBANK_CUSTOMERS** table from the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-17.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+8. **Select** the edit icon next to the default "Untitled 1" activity name.
 
 <img src="./media/dataconnect/data-connect-image-18.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+9. **Enter** an activty name of **CDA Move to Cloud**.
+10. **Select** the **Save** button next to the name.
 
 <img src="./media/dataconnect/data-connect-image-19.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+11. **Select** the **Refine Data** button to go into the Data Connect shaper.
 
 <img src="./media/dataconnect/data-connect-image-20.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+1. **Select** the **Organize** category from the Operations side bar section on the right hand side.
+1. **Select** the **Union** operation.
 
 <img src="./media/dataconnect/data-connect-image-21.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+3. **Select** the **check box** next to the **KBANK_CUSTOMERS** table as the table to union.
+4. **Select** the **Apply** button**.
 
 <img src="./media/dataconnect/data-connect-image-22.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+5. **Select** the elippse in the right corner of the **Customer** column and then **Select** the **Sort Ascending** menu item.
 
 <img src="./media/dataconnect/data-connect-image-23.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+6. **Select** the **Next** button in the top right corner.
 
 <img src="./media/dataconnect/data-connect-image-24.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+7. **Select** the **CDA DASHDB** connection from the list of connetions.
+8. **Select** the **DASH....** schema, your dashDB schema, from the list of schemas.
+9. **Select** the **Replace table contents** radio button from the list of table actions. **Note -** This is an important step so make sure you select the correct table action. You want to replace the entire table contents.
+10. **Select** the edit icon next to the **NBANK_CUSTOMERS** target table name to change the target table name.
 
 <img src="./media/dataconnect/data-connect-image-25.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+11. **Enter** a target table name of **BANK_CUSTOMERS** for the target table name.
+12. **Select** the green check mark next to the new target table name to save the name change. Your new target table name should now be **BANK_CUSTOMERS**.
 
 <a name="runact" />
 
@@ -195,15 +185,12 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-26.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+1. **Select** the **Run** button in the top right corner of the shaper.
 
 <img src="./media/dataconnect/data-connect-image-27.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+2. **Select** the **X** on the "Your activity is running" message to close the message.
+3. **Select** the **View Activities Status** link to bring up the activity monitor.
 
 <a name="validact" />
 
@@ -211,32 +198,32 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-28.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+1. **Select** the **Refresh** button on the activity status monitor to update the status.
+
+> Keep hitting the **Refresh** button until you see a status of **Copied to** and **100% completed**.
+
+1. **Select** the **Copied to** link in the status monitor for the activity to view the activity log.
 
 <img src="./media/dataconnect/data-connect-image-29.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+> You should see that the number of **Records Moved** is equal to 11,022 rows.
+
+3. **Select** the **X** in the top right corner of the activity log dialog to close the activity log dialog.
 
 <img src="./media/dataconnect/data-connect-image-30.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+4. **Select** the **X** in the top right cornder of the activity status monitor to close the monitor.
+5. **Seelect** the ellipse in the middle of the **CDA Move to Cloud** activity.
+6. **Select** the **Details** option to view the activity details.
 
 <img src="./media/dataconnect/data-connect-image-31.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+7. **Select** the **View data** link in the **OUTPUTS** section of the activity detail.
 
 <img src="./media/dataconnect/data-connect-image-32.png" />
 
-1. **Enter** a connect name of **CDA PDA**.
-1. **Enter** a description of **CDA PureData for Analytics Database**.
-1. **Enter** the **IP Address** of your VM Image as the host name.
+8. **Scroll** to the right to view all the columns.
+9. **Scroll** down to view the 100 row sample set provided.
+10. **Select** the **X** in the top right corner of the View data dialog to close the dialog.
 
-You will now see another popup.  Confirm that 11022 records were moved and take a screenshot for your records.
+Congratulations! You have successfully move data to the cloud using Data Connect.
