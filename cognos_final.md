@@ -17,7 +17,7 @@ Users begin their navigation here.
 
 <img src="./cmedia/image3.png" >
 
-## Create a New data server Connection
+## Create a Data server connection
 
 ![](/media/CA/ca1.png)
 
@@ -25,7 +25,7 @@ Users begin their navigation here.
 
 ![](/media/CA/ca2.png)
 
-1. Create a new data connection by selecting the ‘+’ and Select dashDB as the type
+1. Create a new data server connection by selecting the ‘+’ and Select dashDB as the type
 
 
 ![](/media/CA/ca3.png)
