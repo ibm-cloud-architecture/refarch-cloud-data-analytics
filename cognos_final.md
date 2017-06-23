@@ -66,7 +66,7 @@ Now we need to select the database schema (table owner) that we will use in this
 ![](cmedia/image26.jpg)
 
 
-## Create a Data Module
+### Create a Data Module
 
 With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **data module** for use in dashboards and reports, and/or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
 
@@ -92,7 +92,7 @@ Click on the Start button.
 ![](cmedia/image29.png)
 
 
-## Data modeling
+### Data modeling
 
 Once a data source is selected, Users can enter their desired search term and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. 
 
@@ -182,7 +182,7 @@ Select the Number of Credit Applications column and click on more options
 
 **Save the data module**
 
-## Create Navigation Group
+### Create Navigation Group
 
 Navigation groups allow drill downs that align with how users want or need to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
@@ -211,7 +211,7 @@ In our Analysis we want to look at information by Originating Bank, churn, custo
 There are many more things we could do in this data module, but for now let's save it and start looking for insight.
 
 
-## Start Getting Some Insight
+## Getting Insight
 
 From the main Cognos Analytics Screen, click on the + sign on the left hand side and select Dashboard.
 
