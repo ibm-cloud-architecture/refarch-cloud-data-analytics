@@ -30,21 +30,22 @@ Users begin their navigation here.
 
 ![](/media/CA/ca3.png)
 
-1. Rename the connection name from ‘New data server connection’ to ‘IA_Bank Customers’
+1. Rename the connection name from New data server connection to IA_Bank Customers
 
 1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
-1. Create a signon associated to the new data connection. Select the ‘Use the following signon’ check box 
+1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the Use the following signon check mark  
 
-1. Select the  ‘+’ icon.
+1. Select the  ‘+’ icon 
 
 ![](/media/CA/ca5.png)
+
 
 1. Enter the your dashDB User ID
 
 1. Enter your password and confirm your password
 
-1. **Test** your new connection.  If it tests successfully, then
+1. Click on the Test Button to verify your new connection.  If it tests successfully, then
 
 1. Click Save
 
@@ -53,13 +54,13 @@ If the test fails, check the userID, password, etc. and re-test.
 
 Now we need to select the database schema (table owner) that we will use in this exercise. 
 
+![](cmedia/image25.jpg)
+
 1. Select the Schema tab for the IA\_Bank Customers data server connection
 
 1. Select the schema associated to your userid and select
 
 1. Select Load metadata. 
-
-![](cmedia/image25.jpg)
 
  When the schema is successfully loaded, the status button next to the schema will turn green
 
@@ -76,40 +77,40 @@ To create a new data module, select New from Navigation Bar on the left side of 
 
 This will take you to the Create data module screen and provide a list of options you can choose from. 
 
+![](cmedia/image28.png)
+
 1. Select Data servers (because we are going to connect to the ‘IA_Bank Customers’ data server connection you created earlier.
 
 1. Select IA_Bank Customers from the list. This will display the schema we created earlier. 
 
 1. Select the ‘Schema’ associated with your dashDB instance, ours is **DASH106554** in this instance.
 
-![](cmedia/image28.png)
-
 
 Your schema will now be added to Selected sources list. Again ours is **DASH106554**.
 
-Click on the Start button.
-
 ![](cmedia/image29.png)
 
+Click on the Start button.
 
 ### Data modeling
 
-Once a data source is selected, Users can enter their desired search term and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. 
+Once a data source is selected, users can enter their desired search term(s) and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. Since we want to look into our Bank customers to analyze satisfaction and churn data,  
 
-1. In the intent panel, type Customers since the user is interested in Customer information to
-analyze Satisfaction and Churn information.
+![](cmedia/image30.png)
+
+1. In the intent panel, type Customers
 
 1. Click on Go
 
-1. You should only see one table **Bank Customers**.  Select Bank Customers
+1. You should only see a table named **Bank Customers**.  Select the Bank Customers table
 
 1. Click on Add this proposal
 
-![](cmedia/image30.png)
 
 Your data module should look like this
 
 ![](cmedia/image35.png)
+
 
 We will save our data module now.
 
@@ -126,7 +127,7 @@ Expand the Bank Customers table in the Data Module View
 
 ![](cmedia/image37.png)
 
-We know that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
+You have told us that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
 
 Select the Number of Late Payments column and click on more options (the 3 dots, one above the other)
 
@@ -188,7 +189,15 @@ Navigation groups allow drill downs that align with how users want or need to an
 
 ![](cmedia/image42.png)
 
-In the Data module, scroll to the Bankid column and then select it. Select more options for the Bankid column and select Create navigation group. The default name will be Bankid since that is the name of the column we selected first.
+In the Data module
+
+- Scroll to the Bankid column and select it
+
+- Select more options for the Bankid column
+
+- Select Create navigation group. 
+
+The default name will be Bankid since that is the name of the column we selected first.
 
 ![](cmedia/image43.png)
 
