@@ -111,46 +111,28 @@ Expand the Bank Customers table in the Data Module View
 
 ![](cmedia/image37.png)
 
-Create Custom Groups
---------------------
+We know that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
 
-You can see the columns in the table now and from the icons quickly
-identify the numeric and non-numeric fields. **Select ‘Number of Late
-Payments** **more option** and you can see for each column the actions
-we can perform to improve the usability for users using this data
-module. As you can see we can Create Calculations, Clean, Filter,
-Rename, Hide, Remove or modify the properties for the item selected.
-Here we are going to create a custom group. Select **Create custom
-groups.**
+Select the Number of Late Payments column and click on more options (the 3 dots, one above the other)
+
+Select Create custom groups
 
 ![](cmedia/image38.png)
 
-
-Our Data Scientists, using SPSS and Watson Analytics have found some
-interesting probabilities related to customer churn based on the number
-of late payments a customer has. We will create distribution groups to
-reflect these finding so we can share this information with others. To
-start we can see that the product has created an equal distribution of
-the late payment values into 10 groups distributed evenly.
+We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly.
 
 ![](cmedia/image39.png)
 
 
-We will create 3 groups based on their findings.
+However, we will create 3 groups based on the findings of your Data Scientists.
 
-> Rename the Grouping to ‘Group Late Payments’
->
-> Change the \# of groups from 10 to 3
->
-> Select Custom
->
-> Change the lowest value to 1
->
-> Change the 2^nd^ value to 21
->
-> Change the last value to 3000
->
-> Select Create
+1. Chance the Group name to Group Late Payments
+1. Change How many groups? from 10 to 3
+1. Select Custom
+1. Change the lowest value to 1
+1. Change the middle value to 21
+1. Change the highest value to 3000
+1. Click on Create
 
 ![](cmedia/image40.png)
 
