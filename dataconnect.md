@@ -27,7 +27,7 @@
 
 <a name="secgw" />
 
-## Validate the Secure Gateway Client Connection
+## Validate the Secure Gateway Client is Connected
 
 <img src="./media/dataconnect/data-connect-image-04.png" />
 
