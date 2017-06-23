@@ -221,7 +221,7 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-21.png"/>
 
-6. **Enter** the commaond **reboot** to go bach to the Lift data directory.
+6. **Enter** the command **reboot** to go recycle the VM image. This will esnure thta the Secure Gateway Client restarts and thta it picks up your Gateway ID to communicate with your Data Connect service.
 
 <img src="./media/vmimage/vmimage-image-22.png"/>
 
