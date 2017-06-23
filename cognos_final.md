@@ -126,7 +126,7 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 
 However, we will create 3 groups based on the findings of your Data Scientists.
 
-1. Chance the Group name to Group Late Payments
+1. Change the Group name to Group Late Payments
 1. Change How many groups? from 10 to 3
 1. Select Custom
 1. Change the lowest value to 1
@@ -136,27 +136,22 @@ However, we will create 3 groups based on the findings of your Data Scientists.
 
 ![](cmedia/image40.png)
 
+The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications. Create a
+new custom group based on the Number of Credit Applications.
 
-The data scientists have also observed some consistencies with the \# of
-Credit Applications a customer makes to their tendency to Churn. We will
-create another Custom group for Number of Credit Applications. Create a
-new custom grouping for Number of Credit Applications.
+Again, we will create 3 groups.
 
-We will create 3 groups based on their findings.
+Select the Number of Credit Applications column and click on more options
 
-> Rename the Grouping to ‘Group Late Payments’
->
-> Change the \# of groups from 10 to 3
->
-> Select Custom
->
-> Change the lowest value to 05
->
-> Change the 2^nd^ value to 26
->
-> Change the last value to 3000
->
-> Select Create
+1. Change the Group name to Group Credit Applications (Note, we mis-spelled this, but you can spell it correctly if you wish)
+1. Change How many groups? from 10 to 3
+1. Select Custom
+1. Change the lowest value to 5
+1. Change the middle value to 26
+1. Change the highest value to 3000
+1. Click on Create
+
+
 
 ![](cmedia/image41.png)
 
