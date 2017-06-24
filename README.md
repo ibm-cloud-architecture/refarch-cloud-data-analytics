@@ -1128,7 +1128,7 @@ We see that we had one customer (UX10401) leave us from Rhode Island, and their 
 >You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
 
 
-**We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). But, for the purposes of this demo we will not do that.**
+**We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). And you can see in the images that we have done that here. But, for the purposes of this demo we will have you do that.**
 
 
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
