@@ -12,7 +12,7 @@
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
-    
+    - [Step 3.1: Set the Keyboard](#step-3.1-set-the-keyboard)
     - [Step 4: Update the Lift Properties](#step-4-update-the-lift-properties)
     - [Step 5: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
     - [Step 6: Move Data to the Cloud using Data Connect](#step-5-move-data-to-the-cloud-using-data-connect)
@@ -340,18 +340,23 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-13.png"/>
 
+
+## Step 3.1: Set the KeyboardUpdate the Lift Properties
+
+For a now US English keyboard you way want to switch to a local keyboard.
+
+For France for example - where the keyboard is AZERTY.
+1. login as root: root/netezza
+1. run: loadkeys fr
+1. logout
+1. login again as nz/nz
+
+
+## Step 4: Update the Lift Properties
+
 1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
 
 <a name="liftpf" />
-
-> Note - For a now US English keyboard you way want to switch to a local keyboard.
-> For France for example - where the keyboard is AZERTY.
-> 1. login as root: root/netezza
-> 1. run: loadkeys fr
-> 1. logout
-> 1. login again as nz/nz
-
-## Step 4: Update the Lift Properties
 
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
