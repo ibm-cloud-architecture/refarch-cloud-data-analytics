@@ -1103,9 +1103,9 @@ Click the Bankid label on the middle chart and select drill down
 
 ![](ca2media/image006.png)
 
-We now see two bars, yes and no - the status of customers who have left (yes) or stayed with us (no). 
+We now see two bars, K and N (K Bank and N Bank). 
 
-Let’s investigate the customers who have left (**yes bar**) because we can see their satisfaction scores are lower. Click on the yes bar. We notice that all of the visualizations change, and that the satisfaction score has changed to 3.19 - which is is lower than the average of 3.39. A pop-up appears with values and the ability to drill down further into our churned customers. Select the Drill down icon.
+Let’s investigate the N Banks customers because we can see their satisfaction scores are lower. Click on the N bar. We notice that all of the visualizations change to be relative to N Bank, and that the satisfaction score has changed to 3.19 - which is is lower than the average of 3.39. A pop-up appears with values and the ability to drill down further into our N Bank customers. Select the Drill down icon.
 
 ![](ca2media/image007.png)
 
@@ -1126,6 +1126,9 @@ We see that we had one customer (UX10401) leave us from Rhode Island, and their 
 > Note -
 >
 >You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
+
+
+**We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). But, for the purposes of this demo we will not do that.**
 
 
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
