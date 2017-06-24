@@ -340,6 +340,12 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-13.png"/>
 
+1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
+
+<a name="liftpf" />
+
+<img src="./media/vmimage/vmimage-image-14.png"/>
+
 
 ## Step 3.1: Set the KeyboardUpdate the Lift Properties
 
@@ -353,12 +359,6 @@ For France for example - where the keyboard is AZERTY.
 
 
 ## Step 4: Update the Lift Properties
-
-1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
-
-<a name="liftpf" />
-
-<img src="./media/vmimage/vmimage-image-14.png"/>
 
 1. **Enter** a command of **cd $DATA**.
 
