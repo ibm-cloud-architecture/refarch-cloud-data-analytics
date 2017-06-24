@@ -352,11 +352,11 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 For a now US English keyboard you way want to switch to a local keyboard.
 
 For France for example - where the keyboard is AZERTY.
+1. logout
 1. login as root: root/netezza
 1. run: loadkeys fr
 1. logout
 1. login again as nz/nz
-
 
 ## Step 4: Update the Lift Properties
 
