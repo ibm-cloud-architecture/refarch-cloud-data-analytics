@@ -347,9 +347,9 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
 
-## Step 3.1: Set the KeyboardUpdate the Lift Properties
+## Step 3.1: Set the Keyboard
 
-For a now US English keyboard you way want to switch to a local keyboard.
+**OPTIONAL**  For a non "US English keyboard" you way want to switch to a local keyboard to make the work easier.
 
 For France for example - where the keyboard is AZERTY.
 1. logout
