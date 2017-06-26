@@ -340,9 +340,9 @@ You will see the schema for the new table. The table is empty. You will be movin
 <a name="login" />
 
 
-## Login to the Virtual Machine
+## Virtual Machine Credentials
 
-The credentials for this Virtual Machine are as follows:
+The credentials for this Virtual Machine (VM) are as follows:
 
 - Root = root / netezza
 
@@ -360,8 +360,9 @@ For France for example - where the keyboard is AZERTY.
 1. login as root: root/netezza
 1. run: loadkeys fr
 1. logout
-1. login again as nz/nz
 
+
+## Login to the Virtual Machine
 
 <img src="./media/vmimage/vmimage-image-13.png"/>
 
