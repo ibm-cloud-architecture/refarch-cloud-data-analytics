@@ -751,9 +751,7 @@ and SIGN IN to bring up the login page.
 
 <img src="./cmedia/image2.png" >
 
-The NEW User Experience brings you directly into the completely
-redesigned Cognos Analytics User Interface (UI). All Cognos Analytics
-Users begin their navigation here.
+You will be taken to the Welcome page.
 
 <img src="./cmedia/image3.png" >
 
@@ -761,18 +759,25 @@ Users begin their navigation here.
 
 ![](/media/CA/ca1.png)
 
-1. On the Welcome screen, select Manage on the bottom left side. Select Data server connections to create a new data server.
+1. On the Welcome screen, select Manage on the bottom left side. 
+
+<img src="./cmedia/image3b.png" >
+
+1. Select Data server connections to create a new data server.
 
 ![](/media/CA/ca2.png)
 
-1. Create a new data server connection by selecting the ‘+’ and Select dashDB as the type
+1. Create a new data server connection by selecting the ‘+’
 
+<img src="./cmedia/image3b.png" >
+
+Select dashDB as the typeIA
 
 ![](/media/CA/ca3.png)
 
 1. Rename the connection name from New data server connection to IA_Bank Customers
 
-1. Enter the your dashDB JDBC URL service credentials you obtained in the [prework exercise](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md#step-d-create-the-dashdb-credentials).  Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics.  Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
+1. Enter your dashDB JDBC URL service credentials you cteated earlier and used in the Data Connect setup. Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics. Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
 1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the Use the following signon check mark  
 
@@ -842,7 +847,7 @@ Once a data source is selected, users can enter their desired search term(s) and
 
 1. Click on Go
 
-1. You should only see a table named **Bank Customers**.  Select the Bank Customers table
+1. While we show multiple tables here, you should only see a single table, named **Bank Customers**.  Select the Bank Customers table
 
 1. Click on Add this proposal
 
@@ -961,6 +966,10 @@ There are many more things we could do in this data module, but for now let's sa
 
 
 ## Step 2: Getting Insight
+
+![](cmedia/image4A.png)
+
+Go back to the Welcome Screen
 
 From the main Cognos Analytics screen, click on the + sign on the left hand side and select Dashboard.
 
