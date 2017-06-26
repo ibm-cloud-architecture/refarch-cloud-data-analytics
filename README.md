@@ -267,7 +267,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
-**Unzip** the **Cloud Data Analyticspzip** file by simply **Double Clicking** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into that folder.
+**Unzip** the **Cloud Data Analytics.zip** file by simply **Double Clicking** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into that folder.
 
 <a name="power" />
 
@@ -452,7 +452,7 @@ For France for example - where the keyboard is AZERTY.
 
 Open a browser and go to Bluemix.net. You will see the Welcome screen that looks like 
 
-<img src="./media/dataconnect/WlcomeApps.png" />
+<img src="./media/dataconnect/WelcomeApps.png" />
 
 Scroll down until you see the list of all of your services, like shown below. 
 
