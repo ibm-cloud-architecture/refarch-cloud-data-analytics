@@ -12,7 +12,7 @@
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
-    - [Step 3.5: Set the Keyboard](#step-3.5-set-the-keyboard)
+    - [Step 3a: Set the Keyboard](#step-3a-set-the-keyboard)
     - [Step 4: Update the Lift Properties](#step-4-update-the-lift-properties)
     - [Step 5: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
     - [Step 6: Move Data to the Cloud using Data Connect](#step-5-move-data-to-the-cloud-using-data-connect)
@@ -359,7 +359,7 @@ The credentials for this Virtual Machine (VM) are as follows:
 - Netezza Admin = admin / password – You will use these credentials for your Lift data migration.
 
 
-## Step 3.5: Set the Keyboard
+## Step 3a: Set the Keyboard
 
 **OPTIONAL**  For a non "US English keyboard" you way want to switch to a local keyboard to make the work easier.
 
@@ -430,17 +430,15 @@ For France for example - where the keyboard is AZERTY.
 
 <img src="./media/vmimage/vmimage-image-21.png"/>
 
-6. **Enter** the command **reboot** to go recycle the VM image. This will esnure thta the Secure Gateway Client restarts and thta it picks up your Gateway ID to communicate with your Data Connect service.
+6. **Enter** the command **reboot** to recycle the VM image. This will esnsure that the Secure Gateway Client restarts and that it picks up your Gateway ID to communicate with your Data Connect service in the cloud.
 
 <img src="./media/vmimage/vmimage-image-22.png"/>
 
-7. 1. **Enter** a lowercase login id of **nz** and a password of **nz** to log back into the VM image.
+7. **Enter** a lowercase login id of **nz** and a password of **nz** to log back into the VM image.
 
 <img src="./media/vmimage/vmimage-image-23.png"/>
 
 8. **Enter** the command **cd $DATA** to position yourself in the Lift CLI data directory.
-
-** Insert dataconnect.md stuff here ** 
 
 ## Step 5: Move Data to the Cloud using Data Connect
 
@@ -451,6 +449,12 @@ For France for example - where the keyboard is AZERTY.
 1. [Create the Data Movement Activity](#createact)
 1. [Run the Data Movement Activity](#runact)
 1. [Validate the Data Movement Results](#validact)
+
+Open a browser and go to Bluemix.net. You will see the Welcome screen that looks like 
+
+<img src="./media/dataconnect/WlcomeApps.png" />
+
+Scroll down until you see the list of all of your services, like shown below. 
 
 <a name="launch" /> 
 
