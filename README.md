@@ -259,7 +259,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
-**Unzip** the **Cloud Data Analytucs,zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
+**Unzip** the **Cloud Data Analytics.zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
 
 ### On Mac OSX
 
@@ -267,7 +267,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
-**Unzip** the **Cloud Data Analytucs,zip** file by simply **Double Click** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into the folder.
+**Unzip** the **Cloud Data Analyticspzip** file by simply **Double Clicking** the file or by selecting it, right mouse clicking and choosing to open it or open it using the Archive Utility. It will create a **Cloud Data Analytics** folder in the same location where the zip file resides and extract all the files into that folder.
 
 <a name="power" />
 
@@ -279,7 +279,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <img src="./media/vmimage/vmimage-image-03.png"/>
 
-**Open** the VMWare Workstation or VMWare Player application (you can use either or to open the VM).
+**Open** the VMWare Workstation or VMWare Workstation Player application (you can use either or to open the VM).
 
 1. **Select** the **File** menu from the toolbar.
 2. **Select** the **Open** menu item.
@@ -333,15 +333,22 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 4. **Select** the **Play** button to Power on the virtual machine.
 
+<img src="./media/vmimage/VM-Move.png"/>
+
+5. **Select** the **I Moved It** button so that the system maintains the configuration as we defined it.
+
 <a name="login" />
+
 
 ## Login to the Virtual Machine
 
 The credentials for this Virtual Machine are as follows:
 
-Root = root / netezza
-Netezza User = nz / nz – You will use these credentials to log into the VM.
-Netezza Admin = admin / password – You will use these credentials for your Lift migration.
+- Root = root / netezza
+
+- Netezza User = nz / nz – You will use these credentials to log into the VM.
+
+- Netezza Admin = admin / password – You will use these credentials for your Lift data migration.
 
 <img src="./media/vmimage/vmimage-image-13.png"/>
 
@@ -351,17 +358,17 @@ Netezza Admin = admin / password – You will use these credentials for your Lif
 
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
-
-## Step 3.1: Set the Keyboard
+## Step 3.5: Set the Keyboard
 
 **OPTIONAL**  For a non "US English keyboard" you way want to switch to a local keyboard to make the work easier.
 
 For France for example - where the keyboard is AZERTY.
-1. logout
+1. If logged in, then logout
 1. login as root: root/netezza
 1. run: loadkeys fr
 1. logout
 1. login again as nz/nz
+
 
 ## Step 4: Update the Lift Properties
 
