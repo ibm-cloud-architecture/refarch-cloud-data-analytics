@@ -96,17 +96,17 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 
 <img src="./media/Step3-image-02.png" />
 
-2. **Enter** "data connect" (without quotes) in the catalog search area.  
+2. **Enter** "data connect" (without quotes) in the catalog search area to find the service faster than scrolling.  
 
-3. **Click on** the “Data Connect” service.  
+3. **Click** on the “Data Connect” service.  
 
 <img src="./media/Step3-image-03.png" />
 
-4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (Use CDA as the acronym for Cloud-Data-Analytics).
+4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (We are using CDA as the short form for Cloud-Data-Analytics).
 
 5. **Enter** “CDA Data Connect” (without quotes) for the Credential name.  
 
-6. **Select** the the "Create" button. The service will be created and the launch page is displayed.
+6. **Click** on the the "Create" button. The service will be created and the launch page is displayed.
 
 <img src="./media/Step3-image-04.png" />
 
@@ -136,15 +136,18 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 
 <img src="./media/Step3-image-07-01.png" />
 
-16. **Select** the **Settings** buton at the top of the page to view the Gateway settings.
+16. **Select** the **Settings** buton (the gear icon) at the top of the page to view the Gateway settings.
 
-17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. **Note -** this is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed.
+17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. 
+> **Note -** 
+>
+> This is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed.
 
 18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
 
 <img src="./media/Step3-image-07-02.png" />
 
-19. **Close** down the Data Connect service by selecting the **X** on the browser tab.
+19. **Close** down the Data Connect service browser tab by selecting the **X** on the browser tab.
 
 **Go Back** to your Bluemix Account for the next steps. 
 
@@ -187,13 +190,13 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 
 11. **Select** the "View credentials v" down arrow to view the newly created credentials.
 
-> **Note** - These are the "CDA dashDB" service credentials you will need to access the dashDB service in the Data Engineering and Data Science labs. Remember how to get back to this area of the service to access the credentials. I have redacted my password, to protect my identity, yours will be visible.
+> **Note** - These are the "CDA dashDB" service credentials you will need to access the dashDB service later when moving the data to the cloud. Copy this into with the Data Connect Server info you saved earlier. I have redacted my password, to protect my identity, yours will be visible.
 
 <img src="./media/Step3-image-13.png" />
 
 1. **Select** the **Manage** menu of the CDA dashDB service on the left.
 
-<img src="./media/Step3-image-14.png"/>
+<img src="./media/newStep3-image-14.png"/>
 
 2. **Select** the **OPEN** button to open the dashDB console.
 
@@ -227,9 +230,11 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 
 # Work on the "On Premises" systems
-< NOTE - 
-< We use a VM with a running DB2 and PureData System for Analytics (Netezza) solution in it.  In reality these would likely be 2 separate systems, in different data centers, but this still represents that environment in a realistic manner.
-<  
+
+> **NOTE -** 
+>
+> We use a VM with a running DB2 and PureData System for Analytics (Netezza) solution in it.  In reality these would likely be 2 separate systems, in different data centers, but this still represents that environment in a realistic manner.
+>  
 
 ## Step 3: Work with the VM
 
