@@ -282,12 +282,15 @@ You will see the schema for the new table. The table is empty. You will be movin
 **Open** the VMWare Workstation or VMWare Workstation Player application (you can use either or to open the VM).
 
 1. **Select** the **File** menu from the toolbar.
+
 2. **Select** the **Open** menu item.
 
 <img src="./media/vmimage/vmimage-image-04.png"/>
 
 3. **Go to** the location on your file system where you unzipped the VM Image.
+
 4. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+
 5. **Select** the **Open** button.
 
 <img src="./media/vmimage/vmimage-image-05.png"/>
@@ -299,13 +302,17 @@ You will see the schema for the new table. The table is empty. You will be movin
 <img src="./media/vmimage/vmimage-image-06.png"/>
 
 1. **Select** the **Player** menu on the toolbar.
+
 2. **Select** the **File** menu item.
+
 3. **Select** the **Open** menu item.
 
 <img src="./media/vmimage/vmimage-image-07.png"/>
 
 4. **Go to** the location on your file system where you unzipped the VM Image.
+
 5. **Select** the **NetezzaSoftwareEmulator.vmx** file.
+
 6. **Select** the **Open** button.
 
 <img src="./media/vmimage/vmimage-image-08.png"/>
@@ -323,6 +330,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 **Open** the VMWare Fusion application (VMWare Player is not available for Mac OSX).
 
 1. **Select** the **File** menu from the toolbar.
+
 2. **Select** the **Open** menu item.
 
 <img src="./media/vmimage/vmimage-image-11.png"/>
@@ -357,8 +365,11 @@ The credentials for this Virtual Machine (VM) are as follows:
 
 For France for example - where the keyboard is AZERTY.
 1. If logged in, then logout
+
 1. login as root: root/netezza
+
 1. run: loadkeys fr
+
 1. logout
 
 
