@@ -368,7 +368,7 @@ For France for example - where the keyboard is AZERTY.
 
 1. login as root: root/netezza
 
-1. run: loadkeys fr
+1. run: **loadkeys fr**
 
 1. logout
 
@@ -385,20 +385,22 @@ For France for example - where the keyboard is AZERTY.
 
 ## Step 4: Update the Lift Properties
 
-1. **Enter** a command of **cd $DATA**.
+1. **Enter** the command **cd $DATA**.
 
 <img src="./media/vmimage/vmimage-image-15.png"/>
 
-2. **Enter** a command of **ls -la**.
+2. **Enter** the command **ls -la**.
 
 <img src="./media/vmimage/vmimage-image-16.png"/>
 
-3. **Enter** a command of **vi lift.pf** to edit the Lift properties file.
+3. **Enter** the command **vi lift.pf** to edit the Lift properties file.
 
 <img src="./media/vmimage/vmimage-image-17.png"/>
 
 > **Note -** 
+>
 > The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
+>
 
 4.**Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
 
