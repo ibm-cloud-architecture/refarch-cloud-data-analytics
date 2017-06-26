@@ -1202,7 +1202,7 @@ We see that Rhode Island has the lowest satisfaction level. We can select the Rh
 
 We see that we had one customer (UX10401) leave us from Rhode Island, and their satisfaction level was 2.  
 
-![](ca2media/CA0002.png)
+![](ca2media/CA0003.png)
 
 Additionally, if we look at the bar below, we can see that this customer was a 70 - 79 year old female.
 
