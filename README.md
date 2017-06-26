@@ -454,7 +454,7 @@ Open a browser and go to Bluemix.net. You will see the Welcome screen that looks
 
 <img src="./media/dataconnect/WelcomeApps.png" />
 
-Scroll down until you see the list of all of your services, like shown below. 
+Scroll down the screen until you see the list of all of your services, like shown below. 
 
 <a name="launch" /> 
 
@@ -470,7 +470,7 @@ Scroll down until you see the list of all of your services, like shown below.
 
 <img src="./media/dataconnect/data-connect-image-03.png" />
 
-3. **Select** the **X** in the top right corner of the Data Connect Welcome dialog to close the dialog.
+3. If you get the Welcome screen, **Select** the **X** in the top right corner of the Data Connect Welcome dialog to close the dialog.
 
 4. **Select** the **Secure Gateway** menu from the Data Connect main menu on the left hand side.
 
@@ -480,7 +480,7 @@ Scroll down until you see the list of all of your services, like shown below.
 
 <img src="./media/dataconnect/data-connect-image-04.png" />
 
-You should see that you a Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
+You should see that your Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
 
 > If your Secure Gatway section **does not** look like the screen shot above then your Secure Gateway client in the VM Image may not have the correct Gateway ID to communicate with your Data Connnect Secure Gateway. If that is the case, go back to the Prework section of this lab where you were instructed to configure the Secure Gateway client and make sure the Gateway ID is equal to the Gateway ID of your Secure Gateway. 
 
