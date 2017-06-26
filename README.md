@@ -1172,11 +1172,18 @@ Click the Bankid label under those bars and select drill down
 
 ![](ca2media/image006.png)
 
-We now see two bars, yes and no ( Yes means the customer has left the back, no they have not). 
+We now see two bars, yes and no (yes means the customer has left the back, no they have not). 
 
-Let’s investigate the customers who have left (yes). Click on the yes bar and we can see their satisfaction scores are lower. Click on the N bar and click on drill down. We notice that all of the visualizations change to be relative to N Bank, and that the satisfaction score changes. A pop-up appears with values and the ability to drill down further into our N Bank customers. Select the Drill down icon.
+Let’s investigate the customers who have left (yes). 
+
+![](ca2media/CA0001.png)
+
+Click on the yes bar and we can see their satisfaction scores are lower. Click on the y bar and click on drill down. We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
 
 ![](ca2media/image007.png)
+
+XXXX   
+
 
 ![](ca2media/CA0001.png)
 
