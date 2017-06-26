@@ -934,9 +934,9 @@ Navigation groups allow drill downs that align with how users want or need to an
 
 ![](cmedia/image42.png)
 
-In the Data module
+Go back to your Data module
 
-- Scroll to the Bankid column and select it
+- Scroll to the Bankid column in the Bank Customers table and select it
 
 - Select more options for the Bankid column
 
@@ -962,7 +962,7 @@ In our Analysis we want to look at information by Originating Bank, churn, custo
 
 ![](cmedia/image44.png)
 
-There are many more things we could do in this data module, but for now let's save it and start looking for insight.
+There are many more things we could do in this data module, but for now let's **save** the data moduleand start looking for insight.
 
 
 ## Step 2: Getting Insight
@@ -979,9 +979,9 @@ From the main Cognos Analytics screen, click on the + sign on the left hand side
 
 The Template window then appears, allowing you to select the type of dashboard and the template style. 
 
-Select the tabbed dashboard style. This will allow you to have multiple pages for your dashboards. 
+Select the tabbed dashboard style. This will show you multiple options for the look for your dashboard. 
 
-Select the template with the three small rectangles (panels) across the top, and two full width panels below. 
+Select the template with the three small rectangles (panels) across the top, and two full width panels below (on the right above). 
 
 Click on OK.
 
@@ -1028,7 +1028,7 @@ Since this is the first dashboard we are creating you can see in the image above
 
 > Note - Satisfaction is very easy to locate in this case because it is one of the first few fields in the list. You can also search for columns names using the Find area at the top of the screen.
 
-Next we want to look at satisfaction by customer type, so we need to select the Satisfaction column and then Control-Click the Customer type column and drag them to Panel 2. 
+Next we want to look at satisfaction by customer type, so we need to select the Satisfaction column and then Control-Click (**Command and Click on Mac**) the Customer type column and drag them to Panel 2. 
 
 ![](cmedia/image51.png)
 
@@ -1052,7 +1052,7 @@ Now save the dashboard.
 
 ![](cmedia/image58.png)
 
-If the data source panel is not open, from the Navigation panel on the left side of the screen, select sources to open the data source panel and select the **Bank Customers** data source we are working with.
+If the data source panel is not open, from the Navigation panel on the left side of the screen, select sources to open the data source panel and select the **Bank Customers Module** we are working with.
 
 Expand both ‘Navigation paths’ and ‘Bank Customers’ to list the items they contain by clicking on the triangle beside those names.
 
@@ -1060,7 +1060,7 @@ Expand both ‘Navigation paths’ and ‘Bank Customers’ to list the items th
 
 1. Under Navigation paths, expand the Bank Churn Drill Path and select Bankid
 
-1. Ctrl-Click Satisfaction under Bank Customers
+1. Ctrl-Click (Command-Click) Satisfaction under the Bank Customers Module
 
 1. Drag these items to Panel 4
 
@@ -1116,9 +1116,9 @@ Add a visualization of churn to late payments using the following steps.
 
 1. Under Bank Customers in the data module on the left select Group Late Payments
 
-1. Under Bank Customers Ctrl-Click the Count column 
+1. Under Bank Customers Ctrl-Click (Command-Click) the Count column 
 
-1. Under Bank Customers Ctrl-Click the Churn column
+1. Under Bank Customers Ctrl-Click (Command-Click) the Churn column
 
 1. Drag these items to Panel 1
 
@@ -1134,14 +1134,14 @@ Add a visualization of churn to late payments using the following steps.
 
 ![](cmedia/image67.png)
 
-Nowm add a visualization of churn to credit applications using the following steps. 
+Now add a visualization of churn to credit applications using the following steps. 
 
 
 1. Under Bank Customers select Group Credit Applications
 
-1. Under Bank Customers Ctrl-Click the Count column
+1. Under Bank Customers Ctrl-Click (Command-Click) the Count column
 
-1. Under Bank Customers Ctrl-Click the Churn column 
+1. Under Bank Customers Ctrl-Click (Command-Click) the Churn column 
 
 1. Drag these items to Panel 3
 
@@ -1166,15 +1166,19 @@ Let's go back to the Customer Satisfaction tab, since that was the main reason f
 
 ![](ca2media/image005.png)
 
-Click the Bankid label on the middle chart and select drill down
+In the middle of the window we two bars, K and N (K Bank and N Bank).
+
+Click the Bankid label under those bars and select drill down
 
 ![](ca2media/image006.png)
 
-We now see two bars, K and N (K Bank and N Bank). 
+We now see two bars, yes and no ( Yes means the customer has left the back, no they have not). 
 
-Let’s investigate the N Banks customers because we can see their satisfaction scores are lower. Click on the N bar. We notice that all of the visualizations change to be relative to N Bank, and that the satisfaction score has changed to 3.19 - which is is lower than the average of 3.39. A pop-up appears with values and the ability to drill down further into our N Bank customers. Select the Drill down icon.
+Let’s investigate the customers who have left (yes). Click on the yes bar and we can see their satisfaction scores are lower. Click on the N bar and click on drill down. We notice that all of the visualizations change to be relative to N Bank, and that the satisfaction score changes. A pop-up appears with values and the ability to drill down further into our N Bank customers. Select the Drill down icon.
 
 ![](ca2media/image007.png)
+
+![](ca2media/CA0001.png)
 
 We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. This shows the States of the customers who left the bank. In this caase since we are filters on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
 
