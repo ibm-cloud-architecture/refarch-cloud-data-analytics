@@ -1198,7 +1198,13 @@ This shows the States of the customers who left the bank. In this case since we 
 
 We see that Rhode Island has the lowest satisfaction level. We can select the Rhode Island bar and select drill down to find out which customer(s) from Rhode Island closed their accounts. 
 
+![](ca2media/CA0002.png)
+
 We see that we had one customer (UX10401) leave us from Rhode Island, and their satisfaction level was 2.  
+
+![](ca2media/CA0002.png)
+
+Additionally, if we look at the bar below, we can see that this customer was a 70 - 79 year old female.
 
 > Note -
 >
