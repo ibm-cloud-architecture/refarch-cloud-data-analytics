@@ -801,7 +801,7 @@ Now we need to select the database schema (table owner) that we will use in this
 
 ![](cmedia/image25.jpg)
 
-1. Select the Schema tab for the IA\_Bank Customers data server connection
+1. Select the Schema tab for the IA_Bank Customers data server connection
 
 1. Select the schema associated to your userid and select
 
@@ -971,9 +971,11 @@ There are many more things we could do in this data module, but for now let's sa
 
 Go back to the Welcome Screen
 
+![](cmedia/image45.png)
+
 From the main Cognos Analytics screen, click on the + sign on the left hand side and select Dashboard.
 
-![](cmedia/image45.png)
+![](cmedia/image46.png)
 
 The Template window then appears, allowing you to select the type of dashboard and the template style. 
 
@@ -983,13 +985,13 @@ Select the template with the three small rectangles (panels) across the top, and
 
 Click on OK.
 
-![](cmedia/image46.png)
+![](cmedia/image47.png)
 
 Each panel on the template acts as a placeholder for dashboard objects, known as widgets. Templates are device aware and will auto-size to the screen of the device being used.
 
 As we build the dashboard, we will reference the location placement for widgets we create in the dashboard template using the following panel numbers
 
-![](cmedia/image47.png)
+![](cmedia/image48.png)
 
 Select the data module we just created, and then 
 
@@ -1001,7 +1003,7 @@ Select the data module we just created, and then
 
 1. Click Open
 
-![](cmedia/image48.png)
+![](cmedia/image49.png)
 
 
 ### Designing a Dashboard
