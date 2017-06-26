@@ -1181,11 +1181,12 @@ Wwe can see that the satisfaction scores are lower for the yes bar (the people w
 ![](ca2media/CA0001.png)
 
 
-XXXX   
+We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. 
+
+![](ca2media/image007.png)
 
 
-
-We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. This shows the States of the customers who left the bank. In this caase since we are filters on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
+This shows the States of the customers who left the bank. In this case since we are filtered on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
 
 1. Click the Satisfaction (Average) axis title on the left hand side of the chart
 
