@@ -70,6 +70,11 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
 ### Create a Bluemix space
 
+> **Note -**
+> 
+> You may be prompted automatically to create a space if you do not have one defined. If not, follow the steps below.
+>
+
 <img src="./media/Step2-image-02.png">  
 
 1. **Select** the account information area in the top right corner of your Bluemix home page.
