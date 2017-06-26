@@ -482,9 +482,12 @@ Scroll down the screen until you see the list of all of your services, like show
 
 You should see that your Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
 
-> If your Secure Gatway section **does not** look like the screen shot above then your Secure Gateway client in the VM Image may not have the correct Gateway ID to communicate with your Data Connnect Secure Gateway. If that is the case, go back to the Prework section of this lab where you were instructed to configure the Secure Gateway client and make sure the Gateway ID is equal to the Gateway ID of your Secure Gateway. 
+> **BE CAREFUL**
+> 
+> If your Secure Gateway section **does not** look like the screen shot above - then your Secure Gateway client in the VM Image may not have the correct Gateway ID to communicate with your Data Connnect Secure Gateway. If that is the case, go back to the [Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services) section of this lab where you were instructed to configure the Secure Gateway client and make sure the Gateway ID is equal to the Gateway ID of your Secure Gateway. 
+> 
 
-If everything is green, and you see that your Secure Gateway client is connected, proceed...
+When everything is green, and you see that your Secure Gateway client is connected, proceed.
 
 1. **Select** the **Data Connect** title in the top left corner of the service to go to the home page.
 
@@ -616,7 +619,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-17.png" />
 
-8. **Select** the edit icon next to the default "Untitled 1" activity name.
+8. **Select** the edit icon (the pencil) next to the default "Untitled 1" activity name.
 
 <img src="./media/dataconnect/data-connect-image-18.png" />
 
@@ -642,7 +645,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-22.png" />
 
-5. **Select** the ellipse in the right corner of the **Customer** column and then **Select** the **Sort Ascending** menu item.
+5. Hover over the customer column and then **Select** the three dots the right corner of the **Customer** column and then **Select** the **Sort Ascending** menu item.
 
 <img src="./media/dataconnect/data-connect-image-23.png" />
 
@@ -652,9 +655,14 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 7. **Select** the **CDA DASHDB** connection from the list of connetions.
 
-8. **Select** the **DASH....** schema, your dashDB schema, from the list of schemas.
+8. **Select** the **DASH####** schema (your dashDB schema) from the list of schemas.
 
-9. **Select** the **Replace table contents** radio button from the list of table actions. **Note -** This is an important step so make sure you select the correct table action. You want to replace the entire table contents.
+9. **Select** the **Replace the table contents** radio button from the list of table actions. 
+
+> **Note -** 
+> 
+> This is an important step so make sure you select the correct table action. You want to replace the entire table contents.
+
 
 10. **Select** the edit icon next to the **NBANK_CUSTOMERS** target table name to change the target table name.
 
@@ -699,7 +707,9 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-30.png" />
 
 4. **Select** the **X** in the top right cornder of the activity status monitor to close the monitor.
-5. **Seelect** the ellipse in the middle of the **CDA Move to Cloud** activity.
+
+5. **Select** the three dots on the top right of the **CDA Move to Cloud** activity.
+
 6. **Select** the **Details** option to view the activity details.
 
 <img src="./media/dataconnect/data-connect-image-31.png" />
@@ -709,7 +719,9 @@ Now that you have all the connections created, you will create a Data Connect Ac
 <img src="./media/dataconnect/data-connect-image-32.png" />
 
 8. **Scroll** to the right to view all the columns.
+
 9. **Scroll** down to view the 100 row sample set provided.
+
 10. **Select** the **X** in the top right corner of the View data dialog to close the dialog.
 
 Congratulations! You have successfully move data to the cloud using Data Connect.
