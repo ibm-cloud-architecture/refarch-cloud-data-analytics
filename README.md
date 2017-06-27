@@ -196,9 +196,9 @@ If you need help with any of the pre-requisites, go to the [Prerequisite Step by
 
 1. **Select** the **Manage** menu of the CDA dashDB service on the left.
 
-<img src="./media/newStep3-image-14.png"/>
+<img src="./media/Step3-image-14.png"/>
 
-2. **Select** the **OPEN** button to open the dashDB console.
+2. **Select** the **OPEN** button on the top right or under the "Where to Start" section at the bottom of the page to open the dashDB console.
 
 <img src="./media/Step3-image-15.png"/>
 
