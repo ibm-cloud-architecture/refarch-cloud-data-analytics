@@ -25,7 +25,7 @@
 
 This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example, the on premises databases are in two different RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of step to copy from a single database into the cloud as well. 
 
-In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other DB2 on Linux for their data warehouses. The data from these systems will be pushed into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
+In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other Db2 on Linux for their data warehouses. The data from these systems will be pushed into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
 
 **We will provide two mechanisms for moving the data from on-premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize the initial and delta data load process, and best used when demoing to IT.
 
@@ -57,7 +57,7 @@ The solution is a set of Business Inteligence (BI) tools that allow Business Use
 
 # Solution Components and Services
 
-There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and DB2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
+There are a few components of this solution. We used a VM to emulate the on premises systems, PureData System for Analytics (Netezza) and Db2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
 
 We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~July 18th) as the combined repository since it is a fully namaged service in the cloud that can be expanded easily, needs no administration, and has built in encryption and security. ** Note -** dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified.
 
@@ -230,7 +230,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 > **NOTE -** 
 >
-> We use a VM with a running DB2 and PureData System for Analytics (Netezza) solution in it.  In reality these would likely be 2 separate systems, in different data centers, but this still represents that environment in a realistic manner.
+> We use a VM with a running Db2 and PureData System for Analytics (Netezza) solution in it.  In reality these would likely be 2 separate systems, in different data centers, but this still represents that environment in a realistic manner.
 >  
 
 ## Step 3: Work with the VM
@@ -511,11 +511,11 @@ When everything is green, and you see that your Secure Gateway client is connect
 
 In this step, you will create three Data Connect connections:
 
-1. dashDB for Analytics - This is your target data souce where yo uwill move the DB2 and PDA on=premises data to
+1. dashDB for Analytics - This is your target data souce where you will move the Db2 and PDA on-premises data to
 
 1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
 
-1. DB2 LUW - This is the on-premises DB2 databae in the VM that contains N Banks"s Customer data
+1. Db2 - This is the on-premises Db2 database in the VM that contains N Banks"s Customer data
 
 <img src="./media/dataconnect/data-connect-image-05.png" />
 
