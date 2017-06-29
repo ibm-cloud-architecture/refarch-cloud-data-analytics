@@ -511,11 +511,11 @@ When everything is green, and you see that your Secure Gateway client is connect
 
 In this step, you will create three Data Connect connections:
 
-1. dashDB for Analytics - This is your target data souce where you will move the Db2 and PDA on-premises data to
+1. dashDB for Analytics - This is your target data source where you will move the Db2 and PDA on-premises data to
 
 1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
 
-1. Db2 - This is the on-premises Db2 database in the VM that contains N Banks"s Customer data
+1. Db2 - This is the on-premises Db2 database in the VM that contains N Banks's Customer data
 
 <img src="./media/dataconnect/data-connect-image-05.png" />
 
