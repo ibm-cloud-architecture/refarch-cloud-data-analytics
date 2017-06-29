@@ -621,7 +621,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 1. **Select** the **DB2INST1** schema from the list of schemas.
 
-1. **Select** the **NBANK_CUSTOMERS** table from the list of tables.
+1. **Click** the check box beside the **NBANK_CUSTOMERS** table in the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-16.png" />
 
@@ -629,7 +629,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 6. **Select** the **ENABLEMENT** schema from the list of schemas.
 
-7. **Select** the **KBANK_CUSTOMERS** table from the list of tables.
+7. **Click** the check box beside the **KBANK_CUSTOMERS** table in the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-17.png" />
 
@@ -667,7 +667,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-24.png" />
 
-7. **Select** the **CDA DASHDB** connection from the list of connetions.
+7. **Select** the **CDA DASHDB** connection from the list of connections.
 
 8. **Select** the **DASH####** schema (your dashDB schema) from the list of schemas.
 
