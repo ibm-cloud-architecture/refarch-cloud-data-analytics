@@ -87,46 +87,39 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 <img src="./cmedia/ca-image-11.png" >
 
 
-> A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. You will use your dashDB username from your dashDB service credentials plus Bank Customers to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
+**Note -** A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. Therefore, you will use your dashDB username from your dashDB service credentials plus "Bank Customers" to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
 
 
 5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your dashDB username of your dashDB service + Bank Customers) and **click** outside the edit area to save the name.
 6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
-
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
-
 
 7. **Select** the **Use the following signon** radio button.
 8. **Select** the **+ plus sign** right next to the drow down list box of signons.
 
-
 <img src="./cmedia/ca-image-12.png" >
 
+9. **Enter or Copy & Paste** your dashDB **username** from your dashDB credentials into the User ID field.
+10. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Password field.
+11. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Confirm Password field.
+12. **Select** the **Test** button to test the connection.
 
-9. **Enter** or **Copy and Paste** your dashDB **username** from your dashDB service credentials section into the data connection Credetials User ID field.
-10. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Password field.
-11. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Confirm Password field.
-12. **Select** the **Test** button to test the connection. It should succeeed and you should see a **Success** status with a green check mark next to it. If not, make sure you entered the correct User Id and password and JDBC URL for your dashDB service and retry the test.
+The **Test** should succeeed and you will see a **Success** status with a green check mark next to it. If not, go back and double check your JDBC URL, User ID and password and make sure you entered then correctly and retry the test.
+
 13. **Select** the **Save** button to save your dashDB data connection. 
 
-
-Now we need to select the database schema that we will use in this exercise. 
-
+Now you will **select** the database schema that you will use in this exercise. 
 
 <img src="./cmedia/ca-image-13.png" >
-
 
 1. **Select** the **Schemas** tab of your **dashXXXXX Bank Customers** data server connection.
 2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
 3. **Select** the **Load metadata** menu item.
 
-
 <img src="./cmedia/ca-image-14.png" >
 
-
-> When the schema is successfully loaded, the status column next to the schema name will have a green check mark.
-
+When the schema is successfully loaded, the status column next to the schema name will have a green check mark.
 
 ### Create a Data Module
 
@@ -140,11 +133,11 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 <img src="./cmedia/ca-image-16.png" >
 
 3. **Select** the **Data servers** menu from Navigation Bar on the left side
-4. **Select** your **dashXXXXX Bank Customers** data server. You will see the schema we created earlier. 
+4. **Select** your **dashXXXXX Bank Customers** data server. You will see the schema you created earlier. 
 
 <img src="./cmedia/ca-image-17.png" >
 
-5. **Select** the **Schema** associated with your dashDB service username, mine is **DASH13919**.
+5. **Select** the **Schema** associated with your dashDB service username. For instance, mine is **DASH13919**.
 6. **Select** the **Start** button.
 
 ### Data modeling
