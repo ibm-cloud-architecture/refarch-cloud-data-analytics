@@ -85,7 +85,7 @@ Now we need to select the database schema that we will use in this exercise.
 
 <img src="./cmedia/ca-image-13.png" >
 
-1. **Select** the **Schemas** tab for the "Bank Customers" data server connection.
+1. **Select** the **Schemas** tab of your **dashXXXXX Bank Customers** data server connection.
 2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
 3. **Select** the **Load metadata** menu item.
 
@@ -105,21 +105,12 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 <img src="./cmedia/ca-image-16.png" >
 
 3. **Select** the **Data servers** menu from Navigation Bar on the left side
-4. **Select** the **Data module** menu item.
+4. **Select** the **dashXXXXX Bank Customers** data server. You will see the schema we created earlier. 
 
-This will take you to the Create data module screen and provide a list of options you can choose from. 
-1. Select Data servers (because we are going to connect to the ‘IA_Bank Customers’ data server connection you created earlier.
+<img src="./cmedia/ca-image-17.png" >
 
-1. Select IA_Bank Customers from the list. This will display the schema we created earlier. 
-
-1. Select the ‘Schema’ associated with your dashDB instance, ours is **DASH106554** in this instance.
-
-
-Your schema will now be added to Selected sources list. Again ours is **DASH106554**.
-
-![](cmedia/image29.png)
-
-Click on the Start button.
+5. **Select** the **Schema** associated with your dashDB service username, mine is **DASH13919**.
+6. **Select** the **Start** button.
 
 ### Data modeling
 
