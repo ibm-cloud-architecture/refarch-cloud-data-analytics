@@ -444,7 +444,7 @@ For France for example - where the keyboard is AZERTY.
 
 <img src="./media/vmimage/vmimage-image-21.png"/>
 
-6. **Enter** the command **reboot** to recycle the VM image. This will esnsure that the Secure Gateway Client restarts and that it picks up your Gateway ID to communicate with your Data Connect service in the cloud.
+6. **Enter** the command **reboot** to recycle the VM image. This will ensure that the Secure Gateway Client restarts and that it picks up your Gateway ID to communicate with your Data Connect service in the cloud.
 
 <img src="./media/vmimage/vmimage-image-22.png"/>
 
