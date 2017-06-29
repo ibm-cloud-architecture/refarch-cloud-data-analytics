@@ -56,11 +56,9 @@ You are brought to the Cognos Analytics on Cloud home page.
 4. **Select** a type of **dashDB**.
 
 <img src="./cmedia/ca-image-10.png" >
-
 > 
 > **Go Back** to your Bluemix account to your dashDB service credentials section that you created in the PreWork section. You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps.
 > 
-
 <img src="./cmedia/ca-image-11.png" >
 
 5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a new name of **Bank Customers** and **click** outside the edit area to save the name.
@@ -69,42 +67,34 @@ You are brought to the Cognos Analytics on Cloud home page.
 > Your JDBC URL might look something like this (do not paste the quotes):
 > **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
-1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the Use the following signon check mark  
+7. **Select** the **Use the following sign** radio button.
+8. **Select** the **+ plus sign** right next to the drow down list box of signons.
 
-1. Select the  ‘+’ icon 
+<img src="./cmedia/ca-image-12.png" >
 
-![](/media/CA/ca5.png)
-
-
-1. Enter the your dashDB User ID
-
-1. Enter your password and confirm your password
-
-1. Click on the Test Button to verify your new connection.  If it tests successfully, then
-
-1. Click Save
-
-If the test fails, check the userID, password, etc. and re-test.
-
+9. **Enter** or **Copy and Paste** your dashDB **username** from your dashDB service credentials section into the data connection Credetials User ID field.
+10. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Password field.
+11. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Confirm Password field.
+12. **Select** the **Test** button to test the connection. It should succeeed and you should see a **Success** status with a green check mark next to it. If not, make sure you entered the correct User Id and password and JDBC URL for your dashDB service and retry the test.
+13. **Select** the **Save** button to save your "Bank Customers" dashDB data connection. 
 
 Now we need to select the database schema (table owner) that we will use in this exercise. 
 
-![](cmedia/image25.jpg)
+<img src="./cmedia/ca-image-13.png" >
 
-1. Select the Schema tab for the IA_Bank Customers data server connection
+1. **Select** the **Schema** tab for the "Bank Customers" data server connection.
+2. **Select** the ellipse on the schema associated to your dashDB usernameid.
+3. **Select** the **Load metadata** menu item.
 
-1. Select the schema associated to your userid and select
+<img src="./cmedia/ca-image-13.png" >
 
-1. Select Load metadata. 
-
- When the schema is successfully loaded, the status button next to the schema will turn green
-
-![](cmedia/image26.jpg)
-
+> When the schema is successfully loaded, the status column next to the schema name will have a green check mark.
 
 ### Create a Data Module
 
-With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **data module** for use in dashboards and reports, and/or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
+With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **Data Module** for use in dashboards and reports, and or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
+
+<img src="./cmedia/ca-image-14.png" >
 
 To create a new data module, select New from Navigation Bar on the left side of the Cognos Analytics screen and then select Data module
 
