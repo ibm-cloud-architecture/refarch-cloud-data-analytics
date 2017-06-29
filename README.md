@@ -607,7 +607,7 @@ In this step, you will create three Data Connect connections:
 
 ## Create the Data Movement Activity
 
-Now that you have all the connections created, you will create a Data Connect Activity which will read the K Bank Customers from PDA on-premies and the N Bank Customers from DB2 on-premises, combine the customers from both banks using a union, sort the data by Customer and then move the data to dashDB on the cloud.
+Now that you have all the connections created, you will create a Data Connect Activity which will read the K Bank Customers from PDA on-premies and the N Bank Customers from Db2 on-premises, combine the customers from both banks using a union, sort the data by Customer and then move the data to dashDB on the cloud.
 
 <img src="./media/dataconnect/data-connect-image-14.png" />
 
