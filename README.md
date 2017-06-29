@@ -386,7 +386,7 @@ For France for example - where the keyboard is AZERTY.
 
 <img src="./media/vmimage/vmimage-image-13.png"/>
 
-1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed.
+1. **Enter** a lowercase login id of **nz** and a password of **nz**. The Virtual Machine’s IP Address is displayed. Record this IP Address for use later on.
 
 <a name="liftpf" />
 
