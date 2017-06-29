@@ -10,7 +10,9 @@
 
 2. **Enter** your IBM Account.
 
-> Cognos Analytics on Cloud checks if the IBM account entered is associated with an IBM w3ID. If you are an IBM employee with a w3ID, complete the login process using section **Authenticate using your IBM w3ID**. Otherwise, complete the steps below.
+> Cognos Analytics on Cloud checks if the IBM account entered is associated with an IBM w3ID. If you are an IBM employee with a w3ID, complete the login process using section [Authenticate uisng your IBM w3ID](#w3). Otherwise, complete the steps below.
+
+<a name="w3" />
 
 ### Authenticate using your IBM w3ID
 
