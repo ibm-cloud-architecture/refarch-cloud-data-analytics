@@ -216,35 +216,24 @@ The data scientists have also observed a correlation between the number of credi
 
 Navigation groups allow drill downs that align with how users want or need to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
-![](cmedia/image42.png)
+<img src="./cmedia/ca-image-28.png" >
 
-Go back to your Data module
+1. **Scroll down** the list of columns to the **Bankid column**.
+2. **Select** the **ellipse** ... on the **Bankid** column to view the column menu items.
+3. **Select** the **Create navigation group** menu item.
 
-- Scroll to the Bankid column in the Bank Customers table and select it
+The default name will be Bankid since that is the name of the column we selected first. In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
 
-- Select more options for the Bankid column
-
-- Select Create navigation group. 
-
-The default name will be Bankid since that is the name of the column we selected first.
-
-![](cmedia/image43.png)
-
-In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
+<img src="./cmedia/ca-image-29.png" >
 
 1. Rename the Navigation Group to Bank Churn Drill Path
-
 1. Drag the Churn column below Bankid
-
 1. Drag the Customer Type column below Churn
-
 1. Drag the Home Branch State column below Customer Type
-
 1. Drag the Customer column below Home Branch State
-
 1. Click on Apply
 
-![](cmedia/image44.png)
+<img src="./cmedia/ca-image-30.png" >
 
 There are many more things we could do in this data module, but for now let's **save** the data moduleand start looking for insight.
 
