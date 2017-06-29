@@ -24,7 +24,9 @@
 3. **Enter** your IBM Account **password**.
 4. **Select** the **Log in** button.
 
+
 <img src="./cmedia/ca-image-07.png" >
+
 
 You are brought to the Cognos Analytics on Cloud home page.
 
@@ -32,55 +34,78 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 ### Authenticate using your IBM w3ID
 
+
 <img src="./cmedia/ca-image-04.png" >
+
 
 1. **Select** the **Continue** button to gain access to IBM Cognos Analytics on Cloud using your IBM w3ID.
 
+
 <img src="./cmedia/ca-image-05.png" >
+
 
 2. **Enter** your **w3ID** and **password**
 3. **Select** the **Sign In** button.
 
+
 <img src="./cmedia/ca-image-06.png" >
+
 
 4. **Check or Uncheck** the checkbox depending your choice of being informed of IBM products....
 5. **Select** the **Continue** button.
 
+
 <img src="./cmedia/ca-image-07.png" >
+
 
 You are brought to the Cognos Analytics on Cloud home page.
 
+
 ### Create a Data server connection
+
 
 <img src="./cmedia/ca-image-10.png" >
 
+
 > Before you bein, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps. Leave this open in your browser so you can copy and paste from it to complete the creation of the data server connection section. 
+
 
 **Go Back** to the Cogons Analytics on Cloud application in your browser. 
 
+
 <img src="./cmedia/ca-image-08.png" >
+
 
 1. **Select** the **Manage** button on the bottom left side of the home page.
 2. **Select** the **Data server connections** menu item to create a new data server connection.
 
+
 <img src="./cmedia/ca-image-09.png" >
+
 
 3. **Select** the **+ plus sign** to create a new connection.
 4. **Select** a type of **dashDB**.
 
+
 <img src="./cmedia/ca-image-11.png" >
 
+
 > A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. You will use your dashDB username from your dashDB service credentials plus Bank Customers to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
+
 
 5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your dashDB username of your dashDB service + Bank Customers) and **click** outside the edit area to save the name.
 6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
+
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
+
 
 7. **Select** the **Use the following signon** radio button.
 8. **Select** the **+ plus sign** right next to the drow down list box of signons.
 
+
 <img src="./cmedia/ca-image-12.png" >
+
 
 9. **Enter** or **Copy and Paste** your dashDB **username** from your dashDB service credentials section into the data connection Credetials User ID field.
 10. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Password field.
@@ -88,17 +113,23 @@ You are brought to the Cognos Analytics on Cloud home page.
 12. **Select** the **Test** button to test the connection. It should succeeed and you should see a **Success** status with a green check mark next to it. If not, make sure you entered the correct User Id and password and JDBC URL for your dashDB service and retry the test.
 13. **Select** the **Save** button to save your dashDB data connection. 
 
+
 Now we need to select the database schema that we will use in this exercise. 
 
+
 <img src="./cmedia/ca-image-13.png" >
+
 
 1. **Select** the **Schemas** tab of your **dashXXXXX Bank Customers** data server connection.
 2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
 3. **Select** the **Load metadata** menu item.
 
+
 <img src="./cmedia/ca-image-14.png" >
 
+
 > When the schema is successfully loaded, the status column next to the schema name will have a green check mark.
+
 
 ### Create a Data Module
 
