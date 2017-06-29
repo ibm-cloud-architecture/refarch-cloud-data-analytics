@@ -83,7 +83,7 @@ Now we need to select the database schema that we will use in this exercise.
 
 <img src="./cmedia/ca-image-13.png" >
 
-1. **Select** the **Schema** tab for the "Bank Customers" data server connection.
+1. **Select** the **Schemas** tab for the "Bank Customers" data server connection.
 2. **Select** the ellipse on the schema associated to your dashDB usernameid.
 3. **Select** the **Load metadata** menu item.
 
