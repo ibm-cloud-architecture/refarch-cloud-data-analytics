@@ -256,7 +256,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
 
-**Unzip** the **Cloud Data Analytics.zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder into the location you choose to put it.
+**Unzip** the **Cloud Data Analytics.zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder in the location you choose to put it.
 
 ### On Mac OSX
 
