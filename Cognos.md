@@ -63,7 +63,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 <img src="./cmedia/ca-image-11.png" >
 
-5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a new name of **Bank Customers** and **click** outside the edit area to save the name.
+5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a unique new name of **RXB Bank Customers** (your initials + Bank Customers) and **click** outside the edit area to save the name.
 6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
@@ -87,7 +87,7 @@ Now we need to select the database schema that we will use in this exercise.
 2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
 3. **Select** the **Load metadata** menu item.
 
-<img src="./cmedia/ca-image-13.png" >
+<img src="./cmedia/ca-image-14.png" >
 
 > When the schema is successfully loaded, the status column next to the schema name will have a green check mark.
 
@@ -95,16 +95,17 @@ Now we need to select the database schema that we will use in this exercise.
 
 With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **Data Module** for use in dashboards and reports, and or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
 
-<img src="./cmedia/ca-image-14.png" >
+<img src="./cmedia/ca-image-15.png" >
 
-To create a new data module, select New from Navigation Bar on the left side of the Cognos Analytics screen and then select Data module
+1. **Select** the **New** menu from Navigation Bar on the left side
+2. **Select** the **Data module** menu item.
 
-![](cmedia/image27.png)
+<img src="./cmedia/ca-image-16.png" >
+
+3. **Select** the **Data servers** menu from Navigation Bar on the left side
+4. **Select** the **Data module** menu item.
 
 This will take you to the Create data module screen and provide a list of options you can choose from. 
-
-![](cmedia/image28.png)
-
 1. Select Data servers (because we are going to connect to the ‘IA_Bank Customers’ data server connection you created earlier.
 
 1. Select IA_Bank Customers from the list. This will display the schema we created earlier. 
