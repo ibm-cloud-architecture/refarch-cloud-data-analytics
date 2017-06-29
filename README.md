@@ -950,7 +950,9 @@ Navigation groups allow drill downs that align with how users want or need to an
 
 ![](cmedia/OpenDM1.png)
 
-Go back to the Welcome screen, select your folder (2nd from the top with the person image in the folder) and then click on your data module.  
+1. Go back to the Welcome screen, select your folder (2nd from the top with the person image in the folder)
+
+1. Select your data module.  
 
 ![](cmedia/OpenDM2.png)
 
