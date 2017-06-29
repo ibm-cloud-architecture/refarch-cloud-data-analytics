@@ -79,7 +79,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 12. **Select** the **Test** button to test the connection. It should succeeed and you should see a **Success** status with a green check mark next to it. If not, make sure you entered the correct User Id and password and JDBC URL for your dashDB service and retry the test.
 13. **Select** the **Save** button to save your "Bank Customers" dashDB data connection. 
 
-Now we need to select the database schema (table owner) that we will use in this exercise. 
+Now we need to select the database schema that we will use in this exercise. 
 
 <img src="./cmedia/ca-image-13.png" >
 
