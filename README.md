@@ -621,7 +621,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 1. **Select** the **DB2INST1** schema from the list of schemas.
 
-1. **Click** the check box beside the **NBANK_CUSTOMERS** table in the list of tables.
+1. **Select** the **NBANK_CUSTOMERS** table from the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-16.png" />
 
@@ -629,7 +629,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 6. **Select** the **ENABLEMENT** schema from the list of schemas.
 
-7. **Click** the check box beside the **KBANK_CUSTOMERS** table in the list of tables.
+7. **Select** the **KBANK_CUSTOMERS** table from the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-17.png" />
 
@@ -667,7 +667,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-24.png" />
 
-7. **Select** the **CDA DASHDB** connection from the list of connections.
+7. **Select** the **CDA DASHDB** connection from the list of connetions.
 
 8. **Select** the **DASH####** schema (your dashDB schema) from the list of schemas.
 
@@ -785,11 +785,11 @@ You will be taken to the Welcome page.
 
 <img src="./cmedia/image3b.png" >
 
-Select dashDB as the typeIA
+Select dashDB as the type
 
 ![](/media/CA/ca3.png)
 
-1. Rename the connection name from New data server connection to IA_Bank Customers
+1. Rename the connection name from New data server connection to "<your initials>_Bank Customers"
 
 1. Enter your dashDB JDBC URL from your dashDB service credentials you created and obtained earlier during the dashDB service setup. Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics. Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
@@ -806,9 +806,14 @@ Select dashDB as the typeIA
 
 1. Click on the Test Button to verify your new connection.  If it tests successfully, then
 
+> If the test fails, check the userID, password, etc. and re-test.
+
 1. Click Save
 
-If the test fails, check the userID, password, etc. and re-test.
+> **NOTE -** 
+> 
+> If the save fails, add another initial for your middle name or a digit to the prefix for the name, and click on save again. 
+> 
 
 
 Now we need to select the database schema (table owner) that we will use in this exercise. 
