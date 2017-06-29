@@ -561,6 +561,15 @@ In this step, you will create three Data Connect connections:
 
 1. **Enter** the **IP Address** of your VM Image as the host name.
 
+> **Note -** 
+>
+> If you don't recall your IP Address you can return to the VM Linux command line and type:
+```
+ifconfig eth0
+```
+> Address will be listed as inet addr:
+>
+
 1. **Enter** a port of **50000**.
 
 1. **Enter** a Database of **SAMPLE**.
