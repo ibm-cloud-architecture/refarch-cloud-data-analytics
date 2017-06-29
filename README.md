@@ -783,13 +783,20 @@ You will be taken to the Welcome page.
 
 1. Create a new data server connection by selecting the ‘+’
 
-<img src="./cmedia/image3b.png" >
+<img src="./cmedia/03_Select Data Type.png" >
 
 Select dashDB as the type
 
 ![](/media/CA/ca3.png)
 
-1. Rename the connection name from New data server connection to "<your initials>_Bank Customers"
+> 
+> **NOTE -**
+> 
+> The Cognos Analytics Trial does NOT maintain a unique name space per user, so come up with some UniqueID and us that in the names for items below.  **Do not put the double quotes or the greater than / less than signs**
+>
+
+
+1. Rename the connection name from New data server connection to "<UniqueID>_Bank Customers"
 
 1. Enter your dashDB JDBC URL from your dashDB service credentials you created and obtained earlier during the dashDB service setup. Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics. Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
@@ -812,7 +819,7 @@ Select dashDB as the type
 
 > **NOTE -** 
 > 
-> If the save fails, add another initial for your middle name or a digit to the prefix for the name, and click on save again. 
+> If the save fails, pick a different UniqueID, and click on save again. 
 > 
 
 
@@ -820,7 +827,7 @@ Now we need to select the database schema (table owner) that we will use in this
 
 ![](cmedia/image25.jpg)
 
-1. Select the Schema tab for the IA_Bank Customers data server connection
+1. Select the Schema tab for the <UniqueID>_Bank Customers data server connection
 
 1. Select the schema associated to your userid and select
 
@@ -843,9 +850,9 @@ This will take you to the Create data module screen and provide a list of option
 
 ![](cmedia/image28.png)
 
-1. Select Data servers (because we are going to connect to the ‘IA_Bank Customers’ data server connection you created earlier.
+1. Select Data servers (because we are going to connect to the ‘<UniqueID>_Bank Customers’ data server connection you created earlier.
 
-1. Select IA_Bank Customers from the list. This will display the schema we created earlier. 
+1. Select <UniqueID>_Bank Customers from the list. This will display the schema we created earlier. 
 
 1. Select the ‘Schema’ associated with your dashDB instance, ours is **DASH106554** in this instance.
 
@@ -883,7 +890,7 @@ We will save our data module now.
 
 1. Select My Content.
 
-1. Type ‘Bank Customers Module’ for the name.
+1. Type ‘<UniqueID>_Bank Customers Module’ for the name.
 
 1. Click Save
 
@@ -1034,7 +1041,7 @@ Select the data module we just created, and then
 
 1. Select My content
 
-1. Select the Bank Customers Module
+1. Select the UniqueID_Bank Customers Module
 
 1. Click Open
 
@@ -1081,7 +1088,7 @@ Now save the dashboard.
 
 1. Select My Content
 
-1. Name the Dashboard ‘Bank Customer Analysis
+1. Name the Dashboard "<UniqueID> Bank Customer Analysis"
 
 1. Click Save
 
