@@ -66,8 +66,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a new name of **Bank Customers** and **click** outside the edit area to save the name.
 6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
-> Your JDBC URL might look something like this (do not paste the quotes):
-> **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
+> Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
 
 7. **Select** the **Use the following sign** radio button.
 8. **Select** the **+ plus sign** right next to the drow down list box of signons.
