@@ -416,8 +416,9 @@ For France for example - where the keyboard is AZERTY.
 > **Note -** 
 >
 > While in the vi editor you can use the arrow keys to move to the character that you want to change and press R to overwrite the character at the cursor location, continue typing with your edits and hit ESC when done to return to command mode.
+>
 
-5. **When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
+5. **When finished**, hit ESC, hold `SHIFT` and type `ZZ` to save and close the file.
 
 <a name="secgwid" />
 
