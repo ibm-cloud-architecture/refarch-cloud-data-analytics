@@ -1,6 +1,6 @@
 # Move Data to the Cloud using the Bluemix Lift CLI
 
-**Go Back** to the VM Image. You should be back where you left off in the Lift CLI data directory (/export/home/nz/lift-cli-data. If you are not, **Enter** a command of **cd $DATA**. This is where the script is that contains all of the Lift CLI command that you will execute to move the data from on-premies to your dashDB database in the cloud.
+**Go Back** to the VM Image. You should be back where you left off in the Lift CLI data directory (/export/home/nz/lift-cli-data. If you are not, **Enter** a command of **cd $DATA**. This is where the script is that contains all of the Lift CLI command that you will execute to move the data from on-premises to your dashDB database in the cloud.
 
 <img src="./media/vmimage/vmimage-image-24.png"/>
 
