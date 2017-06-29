@@ -36,7 +36,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 <img src="./cmedia/ca-image-06.png" >
 
-4. **Uncheck** the checkbox asking if you want to be informed of products...if you do not want to be informed.
+4. **Uncheck** the checkbox asking "if you want to be informed of products..." if you **do not** want to be informed.
 5. **Select** the **Continue** button.
 
 <img src="./cmedia/ca-image-07.png" >
