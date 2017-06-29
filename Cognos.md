@@ -179,9 +179,9 @@ You have told us that your Data Scientists have found some interesting correlati
 
 <img src="./cmedia/ca-image-23.png" >
 
-We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly. However, we will create 3 groups based on the findings of your Data Scientists.
+We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly. However, we will create 3 groups based on the findings of the Data Scientists.
 
-<img src="./cmedia/ca-image-23.png" >
+<img src="./cmedia/ca-image-24.png" >
 
 1. **Change** the Group name to **Group Late Payments**.
 2. **Change** the **How many groups?** number from **10 to 3**.
@@ -191,14 +191,27 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 6. **Change** the highest value to **3000**
 7. **Select** the **Create** button.
 
-![](cmedia/image40.png)
+<img src="./cmedia/ca-image-25.png" >
 
-The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications. Create a
-new custom group based on the Number of Credit Applications.
+The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications.
 
-Again, we will create 3 groups.
+1. **Select** the **ellipse** ... on the **Number of Credit Applications** column to view the column menu items.
+2. **Select** the **Create custom groups** menu item.
 
-Select the Number of Credit Applications column and click on more options
+<img src="./cmedia/ca-image-26.png" >
+
+We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly. However, we will create 3 groups based on the findings of the Data Scientists.
+
+<img src="./cmedia/ca-image-24.png" >
+
+1. **Change** the Group name to **Group Late Payments**.
+2. **Change** the **How many groups?** number from **10 to 3**.
+3. **Select** the **Custom** distribution radio button.
+4. **Change** the lowest value to **1**
+5. **Change** the middle value to **21**
+6. **Change** the highest value to **3000**
+7. **Select** the **Create** button.
+
 
 1. Change the Group name to Group Credit Applications (Note, we mis-spelled this, but you can spell it correctly if you wish)
 
