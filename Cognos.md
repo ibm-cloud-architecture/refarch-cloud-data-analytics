@@ -45,6 +45,10 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 ### Create a Data server connection
 
+<img src="./cmedia/ca-image-10.png" >
+
+> **Go Back** to your Bluemix account to your dashDB service credentials section that you created in the PreWork section. You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps.
+
 <img src="./cmedia/ca-image-08.png" >
 
 1. **Select** the **Manage** button on the bottom left side of the home page.
@@ -55,15 +59,11 @@ You are brought to the Cognos Analytics on Cloud home page.
 3. **Select** the **+ plus sign** to create a new connection.
 4. **Select** a type of **dashDB**.
 
-<img src="./cmedia/ca-image-10.png" >
-
-
-> **Go Back** to your Bluemix account to your dashDB service credentials section that you created in the PreWork section. You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps.
-
-
 <img src="./cmedia/ca-image-11.png" >
 
-5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a unique new name of **RXB Bank Customers** (your initials + Bank Customers) and **click** outside the edit area to save the name.
+> A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. You will use your dashDB username from your dashDB service credentials plus Bank Customers to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
+
+5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your dashDB username of your dashDB service + Bank Customers) and **click** outside the edit area to save the name.
 6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
