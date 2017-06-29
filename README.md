@@ -738,7 +738,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 10. **Select** the **X** in the top right corner of the View data dialog to close the dialog.
 
-Congratulations! You have successfully move data to the cloud using Data Connect.
+Congratulations! You have successfully moved data to the cloud using Data Connect.
 
 > ____________________________________________________________________________________ 
 >
