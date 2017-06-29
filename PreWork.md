@@ -11,7 +11,7 @@
 
 ## Environment Setup   
 
-The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics to be renamed **Db2 Warehouse on Cloud** as of ~July 18th to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud.
+The Cloud Data Analytics lab is conducted using many components on the IBM cloud. It utilizes dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~July 18th) to persist data and Data Connect (and Lift CLI) to ingest data. These services are available and deployed from Bluemix, IBM’s cloud platform. This lab also leverages Cognos Analytics, IBM’s smart data reporting, analytics and visualization service on the cloud.
 
 This lab uses a Virtual Machine. You will need to have VMware Workstation or VMware Workstation Player on Windows or Vmware Fusion Pro on Mac/OSX. If you do not already have this, download the appropriate tool from 
 
