@@ -543,7 +543,7 @@ In this step, you will create three Data Connect connections:
 
 1. **Select** the **Create Connection** button.
 
-### Create the DB2 Connection
+### Create the Db2 Connection
 
 <img src="./media/dataconnect/data-connect-image-08.png" />
 
