@@ -17,29 +17,31 @@
 3. **Enter** your IBM Account **password**.
 4. **Select** the **Log in** button.
 
+<img src="./cmedia/ca-image-07.png" >
+
+You are brought to the Cognos Analytics on Cloud home page.
+
 <a name="w3" />
 
 ### Authenticate using your IBM w3ID
 
-<img src="./cmedia/ca-image-03.png" >
+<img src="./cmedia/ca-image-04.png" >
 
 1. **Select** the **Continue** button to gain access to IBM Cognos Analytics on Cloud using your IBM w3ID.
 
-<img src="./cmedia/ca-image-04.png" >
+<img src="./cmedia/ca-image-05.png" >
 
 2. **Enter** your **w3ID** and **password**
 3. **Select** the **Sign In** button.
 
-<img src="./cmedia/ca-image-05.png" >
+<img src="./cmedia/ca-image-06.png" >
 
 4. **Uncheck** the checkbox asking if you want to be informed of products...if you do not want to be informed.
 5. **Select** the **Continue** button.
 
-### Welcome to Cognos Analytics on Cloud
+<img src="./cmedia/ca-image-07.png" >
 
-<img src="./cmedia/ca-image-06.png" >
-
-You are at the home page and ready to begin.
+You are brought to the Cognos Analytics on Cloud home page.
 
 ### Create a Data server connection
 
