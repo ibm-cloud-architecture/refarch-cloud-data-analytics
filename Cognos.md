@@ -105,7 +105,7 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 <img src="./cmedia/ca-image-16.png" >
 
 3. **Select** the **Data servers** menu from Navigation Bar on the left side
-4. **Select** the **dashXXXXX Bank Customers** data server. You will see the schema we created earlier. 
+4. **Select** your **dashXXXXX Bank Customers** data server. You will see the schema we created earlier. 
 
 <img src="./cmedia/ca-image-17.png" >
 
