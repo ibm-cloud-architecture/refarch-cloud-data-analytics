@@ -344,16 +344,24 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <a name="login" />
 
+> **Note -**
+>
+> When you start working in the VM, your keyboard and mouse will be connected to the VM. You cannot just move the mouse outside the VM window to work on other applications. To **release** the mouse and keyboard from the VM, 
+>
+> On Windows hit CTl+ALT
+> On Mac OSX hit control+command
+>
+
 
 ## Virtual Machine Credentials
 
-The credentials for this Virtual Machine (VM) are as follows:
+The credentials (userid / password) for this Virtual Machine (VM) are as follows:
 
 - Root = root / netezza
 
-- Netezza User = nz / nz – You will use these credentials to log into the VM.
+- Netezza User = nz / nz – You will use these credentials to log into the VM
 
-- Netezza Admin = admin / password – You will use these credentials for your Lift data migration.
+- Netezza Admin = admin / password – You will use these credentials for your Lift data migration
 
 
 ## Step 3a: Set the Keyboard
