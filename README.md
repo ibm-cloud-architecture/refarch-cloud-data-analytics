@@ -411,7 +411,7 @@ For France for example - where the keyboard is AZERTY.
 > The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
 >
 
-4. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
+4. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
 
 > **Note -** 
 >
@@ -946,9 +946,17 @@ Select the Number of Credit Applications column and click on more options
 
 Navigation groups allow drill downs that align with how users want or need to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
-![](cmedia/image42.png)
+> **IMPORTANT ---- You need to go back and re-open your Data Module.**
 
-Go back to your Data module
+![](cmedia/OpenDM1.png)
+
+Go back to the Welcome screen, select your folder (2nd from the top with the person image in the folder) and then click on your data module.  
+
+![](cmedia/OpenDM2.png)
+
+Click on the triangle beside Bank Customers to show the columns in the table.  
+
+![](cmedia/image42.png)
 
 - Scroll to the Bankid column in the Bank Customers table and select it
 
