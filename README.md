@@ -344,13 +344,17 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 <a name="login" />
 
-> **Note -**
+
+### Note
+
 >
 > When you start working in the VM, your keyboard and mouse will be connected to the VM. You cannot just move the mouse outside the VM window to work on other applications. To **release** the mouse and keyboard from the VM, 
 >
 > On Windows hit CTl+ALT
+>
 > On Mac OSX hit control+command
 >
+
 
 
 ## Virtual Machine Credentials
