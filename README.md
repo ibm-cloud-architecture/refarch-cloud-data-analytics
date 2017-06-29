@@ -432,7 +432,7 @@ For France for example - where the keyboard is AZERTY.
 
 2. **Enter** a command of **ls**.
 
-3. **Enter** a command of **vi segenvironment.conf**.
+3. **Enter** a command of **vi sgenvironment.conf**.
 
 <img src="./media/vmimage/vmimage-image-20.png"/>
 
