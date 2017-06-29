@@ -667,7 +667,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 <img src="./media/dataconnect/data-connect-image-24.png" />
 
-7. **Select** the **CDA DASHDB** connection from the list of connetions.
+7. **Select** the **CDA DASHDB** connection from the list of connections.
 
 8. **Select** the **DASH####** schema (your dashDB schema) from the list of schemas.
 
