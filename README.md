@@ -621,7 +621,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 1. **Select** the **DB2INST1** schema from the list of schemas.
 
-1. **Select** the **NBANK_CUSTOMERS** table from the list of tables.
+1. **Click** the radio box beside the **NBANK_CUSTOMERS** table in the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-16.png" />
 
