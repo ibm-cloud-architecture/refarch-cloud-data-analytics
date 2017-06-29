@@ -200,36 +200,17 @@ The data scientists have also observed a correlation between the number of credi
 
 <img src="./cmedia/ca-image-26.png" >
 
-We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly. However, we will create 3 groups based on the findings of the Data Scientists.
-
-<img src="./cmedia/ca-image-24.png" >
-
-1. **Change** the Group name to **Group Late Payments**.
+1. **Change** the Group name to **Group Credit Applications**.
 2. **Change** the **How many groups?** number from **10 to 3**.
 3. **Select** the **Custom** distribution radio button.
-4. **Change** the lowest value to **1**
-5. **Change** the middle value to **21**
+4. **Change** the lowest value to **5**
+5. **Change** the middle value to **26**
 6. **Change** the highest value to **3000**
 7. **Select** the **Create** button.
 
+<img src="./cmedia/ca-image-27.png" >
 
-1. Change the Group name to Group Credit Applications (Note, we mis-spelled this, but you can spell it correctly if you wish)
-
-1. Change How many groups? from 10 to 3
-
-1. Select Custom
-
-1. Change the lowest value to 5
-
-1. Change the middle value to 26
-
-1. Change the highest value to 3000
-
-1. Click on Create
-
-![](cmedia/image41.png)
-
-**Save the data module**
+8. **Select** the **Save** button on the toolbar to save the data module.
 
 ### Create Navigation Group
 
