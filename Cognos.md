@@ -79,7 +79,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 10. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Password field.
 11. **Enter** or **Copy and Paste** your dashDB **password** from your dashDB service credentials section into the data connection Credetials Confirm Password field.
 12. **Select** the **Test** button to test the connection. It should succeeed and you should see a **Success** status with a green check mark next to it. If not, make sure you entered the correct User Id and password and JDBC URL for your dashDB service and retry the test.
-13. **Select** the **Save** button to save your "Bank Customers" dashDB data connection. 
+13. **Select** the **Save** button to save your dashDB data connection. 
 
 Now we need to select the database schema that we will use in this exercise. 
 
