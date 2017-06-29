@@ -36,7 +36,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 <img src="./cmedia/ca-image-06.png" >
 
-4. **Uncheck** the checkbox asking "if you want to be informed of products..." if you **do not** want to be informed.
+4. **Check or Uncheck** the checkbox depending your choice of being informed of IBM products....
 5. **Select** the **Continue** button.
 
 <img src="./cmedia/ca-image-07.png" >
@@ -52,19 +52,20 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 <img src="./cmedia/ca-image-09.png" >
 
-3. **Select** the **+** plus sign to create a new connection.
+3. **Select** the **+ plus sign** to create a new connection.
 4. **Select** a type of **dashDB**.
 
 <img src="./cmedia/ca-image-10.png" >
 
-> **Go Back** to your Bluemix account to your dashDB service credential area. You will need the JDBC URL, User and Password from the credential section of the service to complete the creation of your data server connection.
+> **Go Back** to your Bluemix account to your dashDB service credentials section that you created in the PreWork section. You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps.
 
 <img src="./cmedia/ca-image-11.png" >
 
-5. **Select** the **edit** icon that looks like a pencile next to the "New data server connection" name. **Enter** a new name of **Bank Customers**.
-6. **Copy and Paste** the JDBCURL from your dashDB service credentials section into the data connection JDBC URL text box.
+5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a new name of **Bank Customers** and **click** outside the edit area to save the name.
+6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
-1. Enter your dashDB JDBC URL from your dashDB service credentials you created and obtained earlier during the dashDB service setup. Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics. Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
+> Your JDBC URL might look something like this (do not paste the quotes):
+> **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
 1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the Use the following signon check mark  
 
