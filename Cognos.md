@@ -140,48 +140,44 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 5. **Select** the **Schema** associated with your dashDB service username. For instance, mine is **DASH13919**.
 6. **Select** the **Start** button.
 
-### Data modeling
+### Data Modeling
 
 Once a data source is selected, users can enter their desired search term(s) and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. Since we want to look into our Bank customers to analyze satisfaction and churn data,  
 
-![](cmedia/image30.png)
+<img src="./cmedia/ca-image-18.png" >
 
-1. In the intent panel, type Customers
+1. In the intent panel, type **Customers**.
+2. **Select** the **Go** button.
 
-1. Click on Go
+While we show multiple tables here, you should only see a single table, named **Bank Customers**.
 
-1. While we show multiple tables here, you should only see a single table, named **Bank Customers**.  Select the Bank Customers table
+3. **Select** the **Bank Customers** table.
+4. **Select** the **Add this proposal** button.
 
-1. Click on Add this proposal
+<img src="./cmedia/ca-image-19.png" >
 
+Your data module should look like the screen shot above.
 
-Your data module should look like this
+5. **Select** the **Save** button on the top left corner of the toobar (looks like a disk).
 
-![](cmedia/image35.png)
+<img src="./cmedia/ca-image-20.png" >
 
+6. **Select** the **My Content** folder.
+7. **Enter** a module name of **Bank Customers Module**.
+8. **Select** the **Save** button.
 
-We will save our data module now.
+<img src="./cmedia/ca-image-21.png" >
 
-![](cmedia/image36.png)
-1. Click Save.
+9. **Expand** the **Bank Customers** table in the Data Module View to see all the columns.
 
-1. Select My Content.
-
-1. Type ‘Bank Customers Module’ for the name.
-
-1. Click Save
-
-Expand the Bank Customers table in the Data Module View
-
-![](cmedia/image37.png)
+<img src="./cmedia/ca-image-22.png" >
 
 You have told us that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
 
-Select the Number of Late Payments column and click on more options (the 3 dots, one above the other)
+10. **Select** the **ellipse** ... on the **Number of Late Payments** column to view the list of column items.
+11. **Select** the **Create custom groups** menu item.
 
-Select Create custom groups
-
-![](cmedia/image38.png)
+<img src="./cmedia/ca-image-23.png" >
 
 We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly.
 
