@@ -629,7 +629,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 6. **Select** the **ENABLEMENT** schema from the list of schemas.
 
-7. **Select** the **KBANK_CUSTOMERS** table from the list of tables.
+7. **Click** the check box beside the **KBANK_CUSTOMERS** table in the list of tables.
 
 <img src="./media/dataconnect/data-connect-image-17.png" />
 
