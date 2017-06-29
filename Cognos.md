@@ -57,7 +57,9 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 <img src="./cmedia/ca-image-10.png" >
 
+> 
 > **Go Back** to your Bluemix account to your dashDB service credentials section that you created in the PreWork section. You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps.
+> 
 
 <img src="./cmedia/ca-image-11.png" >
 
