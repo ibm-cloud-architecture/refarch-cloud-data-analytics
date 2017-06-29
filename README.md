@@ -413,7 +413,7 @@ For France for example - where the keyboard is AZERTY.
 
 4.**Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
 
-5.	**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
+5.**When finished**, hold `SHIFT` and type `ZZ` to save and close the file.
 
 <a name="secgwid" />
 
