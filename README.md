@@ -793,7 +793,7 @@ Select dashDB as the type
 
 1. Enter your dashDB JDBC URL from your dashDB service credentials you created and obtained earlier during the dashDB service setup. Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics. Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
 
-1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the Use the following signon check mark  
+1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the **Use the following signon** option  
 
 1. Select the  ‘+’ icon 
 
