@@ -240,7 +240,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 
 1. [Power On the Virtual Machine](#power)
 
-1. [Login to the Vritual Machine](#login)
+1. [Login to the Virtual Machine](#login)
 
 1. [Update the Lift Properties File](#liftpf)
 
