@@ -68,7 +68,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
 
-7. **Select** the **Use the following sign** radio button.
+7. **Select** the **Use the following signon** radio button.
 8. **Select** the **+ plus sign** right next to the drow down list box of signons.
 
 <img src="./cmedia/ca-image-12.png" >
