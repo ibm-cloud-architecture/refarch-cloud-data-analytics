@@ -174,31 +174,22 @@ Your data module should look like the screen shot above.
 
 You have told us that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
 
-10. **Select** the **ellipse** ... on the **Number of Late Payments** column to view the list of column items.
+10. **Select** the **ellipse** ... on the **Number of Late Payments** column to view the column menu items.
 11. **Select** the **Create custom groups** menu item.
 
 <img src="./cmedia/ca-image-23.png" >
 
-We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly.
+We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly. However, we will create 3 groups based on the findings of your Data Scientists.
 
-![](cmedia/image39.png)
+<img src="./cmedia/ca-image-23.png" >
 
-
-However, we will create 3 groups based on the findings of your Data Scientists.
-
-1. Change the Group name to Group Late Payments
-
-1. Change How many groups? from 10 to 3
-
-1. Select Custom
-
-1. Change the lowest value to 1
-
-1. Change the middle value to 21
-
-1. Change the highest value to 3000
-
-1. Click on Create
+1. **Change** the Group name to **Group Late Payments**.
+2. **Change** the **How many groups?** number from **10 to 3**.
+3. **Select** the **Custom** distribution radio button.
+4. **Change** the lowest value to **1**
+5. **Change** the middle value to **21**
+6. **Change** the highest value to **3000**
+7. **Select** the **Create** button.
 
 ![](cmedia/image40.png)
 
