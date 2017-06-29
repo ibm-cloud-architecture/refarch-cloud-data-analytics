@@ -464,7 +464,7 @@ For France for example - where the keyboard is AZERTY.
 1. [Run the Data Movement Activity](#runact)
 1. [Validate the Data Movement Results](#validact)
 
-Open a browser and go to Bluemix.net. You will see the Welcome screen that looks like 
+Open a browser, go to bluemix.net, and log in. You will see the Welcome screen that looks like 
 
 <img src="./media/dataconnect/WelcomeApps.png" />
 
