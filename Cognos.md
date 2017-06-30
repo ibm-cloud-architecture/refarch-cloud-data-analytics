@@ -451,7 +451,7 @@ We now see two bars, yes and no (yes means the customer has left the back, no th
 
 Let’s investigate the customers who have left (yes). 
 
-Wwe can see that the satisfaction scores are lower for the yes bar (the people who have left). Click on the y bar and click on drill down. We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
+We can see that the satisfaction scores are lower for the yes bar (the people who have left). Click on the y bar and click on drill down. We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
 
 ![](ca2media/CA0001.png)
 
