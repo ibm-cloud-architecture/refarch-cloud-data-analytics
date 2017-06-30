@@ -58,7 +58,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 ### Create a Data server connection
 
-Before you bein, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. 
+Before you begin, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. 
 
 
 <img src="./cmedia/ca-image-10.png" >
