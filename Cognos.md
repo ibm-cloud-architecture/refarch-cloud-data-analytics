@@ -499,23 +499,22 @@ To find the state with the lowest satisfaction score:
 
 3. **Select** the **Sort descending** menu item.
 
-![](ca2media/image008.png)
+<img src="./cmedia/ca-image-73.png" >
 
-We see that Rhode Island has the lowest satisfaction level. We can select the Rhode Island bar and select drill down to find out which customer(s) from Rhode Island closed their accounts. 
+We see that Rhode Island has the lowest satisfaction level. We can drill down to find out which customer(s) from Rhode Island closed their accounts. 
 
-![](ca2media/CA0002.png)
+<img src="./cmedia/ca-image-74.png" >
+
+1. **Click** on the **Rhode Island** bar in the graph.
+2. **Select** the **drill down** button (second from the right).
+
+<img src="./cmedia/ca-image-75.png" >
 
 We see that we had one customer (UX10401) leave us from Rhode Island, and their satisfaction level was 2.  
 
-![](ca2media/CA0003.png)
-
 Additionally, if we look at the bar below, we can see that this customer was a 70 - 79 year old female.
 
-> Note -
->
->You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
-
-> We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). And you can see in the images that we have done that here. But, for the purposes of this demo we will no have you do that.
+> **Note -** >You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select. Also, we would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). But in the sake of time we will skip that for this demo.
 
 
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
