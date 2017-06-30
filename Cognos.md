@@ -473,14 +473,18 @@ We now see two bars, yes and no, "yes" means the customer has left the bank and 
 3. **Click** on the **yes** bar on the right.
 4. **Select** the **drill down** button (second from the right).
 
-We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
-
 <img src="./cmedia/ca-image-68.png" >
 
-We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. 
+We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. We now see that our Small Business customers have the lowest satisfaction scores **3.04**. You can hover over any of the bars in the graph to get more details about the metric. Hover over the **Small Business** bar in the graph and you will see the **3.04** satisfaction score.
 
-![](ca2media/image007.png)
+<img src="./cmedia/ca-image-69.png" >
 
+We can dig deeper into these customers by drilling down further.
+
+1. **Click** on the **Small Business** bar in the graph.
+2. **Select** the **drill down** button (second from the right). 
+
+<img src="./cmedia/ca-image-70.png" >
 
 This shows the States of the customers who left the bank. In this case since we are filtered on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
 
@@ -506,8 +510,7 @@ Additionally, if we look at the bar below, we can see that this customer was a 7
 >
 >You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
 
-
-**We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). And you can see in the images that we have done that here. But, for the purposes of this demo we will have you do that.**
+> We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). And you can see in the images that we have done that here. But, for the purposes of this demo we will no have you do that.
 
 
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
