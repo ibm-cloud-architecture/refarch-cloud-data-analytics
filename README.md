@@ -752,6 +752,17 @@ Congratulations! You have successfully moved data to the cloud using Data Connec
 > ____________________________________________________________________________________ 
 
 
+
+
+
+
+**XXX Good to here  **
+
+
+
+
+
+
 # Analyze the Data
 
 "K Bank" has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at "N Bank" customers and identify who might be at risk of leaving. Since "K Bank" just spent a lot of money to acquire "N Bank", you do not want to lose any customers if you can help it.
