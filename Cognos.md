@@ -486,13 +486,18 @@ We can dig deeper into these customers by drilling down further.
 
 <img src="./cmedia/ca-image-70.png" >
 
-This shows the States of the customers who left the bank. In this case since we are filtered on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
+This shows the States of the customers who left the bank. In this case since we are filtered on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. 
 
-1. Click the Satisfaction (Average) axis title on the left hand side of the chart
+To find the state with the lowest satisfaction score:
 
-1. Select the Sort icon
+<img src="./cmedia/ca-image-71.png" >
 
-1. Select Sort desending
+1. **Click** on the **Satisfaction (Average)** axis title on the left hand side of the chart.
+2. **Select** the **Sort** button.
+
+<img src="./cmedia/ca-image-72.png" >
+
+3. **Select** the **Sort desending** menu item.
 
 ![](ca2media/image008.png)
 
