@@ -283,17 +283,18 @@ Each panel on the template acts as a placeholder for dashboard objects, known as
 
 ### Designing a Dashboard
 
-Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1. 
+<img src="./cmedia/ca-image-38.png" >
 
-![](cmedia/image49.png)
+Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1.
 
-- Click on the tab name Tab 1
+1. **Click on** the **Tab 1** name. A menu will appear.
+2. **Select** the **Edit** menu item that looks like a pencil.
 
-- Select the Pencil to bring up the toolbar
+<img src="./cmedia/ca-image-39.png" >
 
-- Rename the tab to **Customer Satisfaction**
+3. **Enter** a name of **Customer Satisfaction** and then click outside the name are to save the name.
 
-![](cmedia/image50.png)
+<img src="./cmedia/ca-image-40.png" >
 
 - Click on the triangle beside the Bank Customers table name to expand it and show the columns in the table
 
