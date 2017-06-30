@@ -193,7 +193,7 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 
 <img src="./cmedia/ca-image-25.png" >
 
-The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications.
+The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will create another Custom group for the number of credit applications.
 
 1. **Select** the **ellipse** ... on the **Number of Credit Applications** column to view the column menu items.
 2. **Select** the **Create custom groups** menu item.
