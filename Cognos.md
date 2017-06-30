@@ -271,16 +271,16 @@ The Template window then appears, allowing you to select the type of dashboard a
 
 <img src="./cmedia/ca-image-36.png" >
 
+Each panel on the template acts as a placeholder for dashboard objects, known as widgets. Templates are device aware and will auto-size to the screen of the device being used. As we build the dashboard, we will reference the location placement for widgets we create in the dashboard template using the panel numbers as designated and displayed above.
+
+<img src="./cmedia/ca-image-37.png" >
+
 8. **Drag and Drop** the **Home Branch State** column below Customer Type.
 9. **Drag and Drop** the **Customer** column below Home Branch State.
 10. **Select** the **Apply** button.
 11. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
 
 ![](cmedia/image47.png)
-
-Each panel on the template acts as a placeholder for dashboard objects, known as widgets. Templates are device aware and will auto-size to the screen of the device being used.
-
-As we build the dashboard, we will reference the location placement for widgets we create in the dashboard template using the following panel numbers
 
 ![](cmedia/image48.png)
 
