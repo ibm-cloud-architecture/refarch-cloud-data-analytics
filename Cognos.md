@@ -296,35 +296,38 @@ Since this is the first dashboard we are creating you can see in the image above
 
 <img src="./cmedia/ca-image-40.png" >
 
-- Click on the triangle beside the Bank Customers table name to expand it and show the columns in the table
+4. **Select** the triangle next to the **Bank Customers** table name to view the list of columns.
+5. **Select** the **Satisfaction** column and **Drag and Drop** it into Panel 1.
 
-- Drag the satisfaction column to panel 1. Remember the panel layout I showed you earlier? If not, go back and look at the field numbers for the areas of this tab's format.
+> Remember the panel layout fro above. Panel 1 is the panel in the top lef corner of the template.
 
-- Here we can see the average satifaction rating for our customers is 3.39 out of 5
+<img src="./cmedia/ca-image-41.png" >
 
-> Note - Satisfaction is very easy to locate in this case because it is one of the first few fields in the list. You can also search for columns names using the Find area at the top of the screen.
+6. **Resize** the **Satisfaction** number to span the entire panel by using the sizing controls.
 
-Next we want to look at satisfaction by customer type, so we need to select the Satisfaction column and then Control-Click (**Command and Click on Mac**) the Customer type column and drag them to Panel 2. 
+Here we can see the average satifaction rating for our customers is 3.39 out of 5.
 
-![](cmedia/image51.png)
+Next we want to look at satisfaction by customer type.
 
-Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the Change Visualization icon. 
+<img src="./cmedia/ca-image-42.png" >
 
-![](cmedia/image52.png)
+1. **Select** the **Satisfaction** column
+2. **Control-Click** on Windows or **Command-Click** on the Mac and **Select** the **Customer type** column
+3. **Drag and Drop** the two columns to Panel 2 on the dashboard.
 
-That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
+<img src="./cmedia/ca-image-43.png" >
 
-Now save the dashboard.  
+4. **Rezie** the **Customer Type-Satisfaction** graph to span the entire panel by using the sizing controls.
 
-![](cmedia/image57.png)
+Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the **Change Visualization** icon. That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
 
-1. Click Save
+5. **Select** the **Save** button on the toolbar to save the dashboard.
 
-1. Select My Content
+<img src="./cmedia/ca-image-44.png" >
 
-1. Name the Dashboard ‘Bank Customer Analysis
-
-1. Click Save
+6. **Select** the **My Content** folder.
+7. **Enter** a dashboard name of **Bank Customer Analysis**.
+8. **Select** the **Save** button.
 
 ![](cmedia/image58.png)
 
