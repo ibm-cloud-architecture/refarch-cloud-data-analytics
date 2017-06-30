@@ -457,23 +457,27 @@ From these graphics we can see that our most loyal customers are the ones with t
 
 > The Churn Analysis tab should look like the screen shot above.
 
-![](cmedia/image68.png)
-
 Let's go back to the Customer Satisfaction tab, since that was the main reason for the work we have done so far. 
 
-![](ca2media/image005.png)
+<img src="./cmedia/ca-image-65.png" >
 
-In the middle of the window we two bars, K and N (K Bank and N Bank).
+In the middle of the window there are two bars, **K** and **N** (K Bank and N Bank).
 
-Click the Bankid label under those bars and select drill down
+1. **Click** on the **Bankid** label between the bars.
+2. **Select** the **drill down** button (second from the right).
 
-![](ca2media/image006.png)
+<img src="./cmedia/ca-image-66.png" >
 
-We now see two bars, yes and no (yes means the customer has left the back, no they have not). 
+We now see two bars, yes and no, "yes" means the customer has left the bank and "no" means they have not left the bank. Let’s investigate the customers who have left the bank (yes). We can also see (in the Satisfaction graph in the top left corner) that the satisfaction scores are lower for the yes bar (the people who have left). 
 
-Let’s investigate the customers who have left (yes). 
+<img src="./cmedia/ca-image-67.png" >
 
-We can see that the satisfaction scores are lower for the yes bar (the people who have left). Click on the y bar and click on drill down. We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
+3. **Click** on the **yes** bar on the right.
+4. **Select** the **drill down** button (second from the right).
+
+<img src="./cmedia/ca-image-67.png" >
+
+We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
 
 ![](ca2media/CA0001.png)
 
