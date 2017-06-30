@@ -253,21 +253,28 @@ In our Analysis we want to look at information by Originating Bank, churn, custo
 
 <img src="./cmedia/ca-image-33.png" >
 
-Go back to the Welcome Screen
+1. **Go to** the top of the Cognos Analytics user interface and **Click** on the navigation drop down arrow.
+2. **Select** the **Welcome** entry to go back to the Welcome page.
 
-![](cmedia/image45.png)
+<img src="./cmedia/ca-image-34.png" >
 
-From the main Cognos Analytics screen, click on the + sign on the left hand side and select Dashboard.
-
-![](cmedia/image46.png)
+3. **Go to** the bottom left portion of the Welcome page and **Select** the **+ New** menu.
+4. **Select** the **Dashboard** menu item to create a new dashboard.
 
 The Template window then appears, allowing you to select the type of dashboard and the template style. 
 
-Select the tabbed dashboard style. This will show you multiple options for the look for your dashboard. 
+<img src="./cmedia/ca-image-35.png" >
 
-Select the template with the three small rectangles (panels) across the top, and two full width panels below (on the right above). 
+5. **Select** the **Tabbed** template.
+6. **Select** the **Tabbed layout** on the bottom row, second from the right with 3 small panels on the top, and 2 full width panels below.
+7. **Select** the **OK** button.
 
-Click on OK.
+<img src="./cmedia/ca-image-36.png" >
+
+8. **Drag and Drop** the **Home Branch State** column below Customer Type.
+9. **Drag and Drop** the **Customer** column below Home Branch State.
+10. **Select** the **Apply** button.
+11. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
 
 ![](cmedia/image47.png)
 
