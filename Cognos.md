@@ -266,7 +266,7 @@ The Template window then appears, allowing you to select the type of dashboard a
 <img src="./cmedia/ca-image-35.png" >
 
 5. **Select** the **Tabbed** template.
-6. **Select** the **Tabbed layout** on the bottom row, second from the right with 3 small panels on the top, and 2 full width panels below.
+6. **Select** the **Tabbed layout** on the bottom row with 3 small panels on the top, and 2 full width panels below.
 7. **Select** the **OK** button.
 
 <img src="./cmedia/ca-image-36.png" >
