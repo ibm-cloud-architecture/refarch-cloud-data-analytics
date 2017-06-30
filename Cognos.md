@@ -333,33 +333,49 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 
 <img src="./cmedia/ca-image-45.png" >
 
-1. **Expand** the ‘Navigation paths’ and ‘Bank Customers’ to list the items they contain by clicking on the triangle beside those names.
-2. Under Navigation paths, expand the Bank Churn Drill Path and select Bankid
+1. **Click on** the triangle next to **Navigation paths** to expand it.
+2. **Click on** the triangle next to the **Bank Churn** navigation path to expand it.
+3. **Click on** the triangle next to **Bank Customers** to expand it.
 
-1. Ctrl-Click (Command-Click) Satisfaction under the Bank Customers Module
+<img src="./cmedia/ca-image-46.png" >
 
-1. Drag these items to Panel 4
+4. From the **Bank Churn** navigation path, **Select** the Bankid column.
+5. **Ctrl-Click or Command-Click** and **Select** the **Satisfaction** column under the **Bank Customers Module**
+6. **Drag and Drop** these items to Panel 4 (the panel in the middle of the template).
 
-**Notice that there is little difference in the overall satisfaction between the two banks.**
+<img src="./cmedia/ca-image-47.png" >
 
-![](cmedia/image60.png)
+7. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+8. **Select** the **Save** button on the toolbar to save the dashboard.
 
+> **Notice** that there is little difference in the overall satisfaction between the two banks.
 
-1. Under Bank Customers Select Satisfaction
+<img src="./cmedia/ca-image-48.png" >
 
-1. Under Bank Customers Age Range
+1. From the **Bank Customers** table **Select** the **Satisfaction** column.
+2. From the **Bank Customers** table **Ctrl-Click or Command-Click** and **Select** the **Age Range** column.
+3. From the **Bank Customers** table **Ctrl-Click or Command-Click** and **Select** the **Gender** column.
+4. **Drag and Drop** these items to Panel 5 (the panel on the bottom of the template).
 
-1. Under Bank Customers Gender
+<img src="./cmedia/ca-image-49.png" >
 
-1. Drag these items to Panel 5
+5. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+6. **Select** the **Save** button on the toolbar to save the dashboard.
 
-![](cmedia/image61.png)
+<img src="./cmedia/ca-image-50.png" >
 
-Change the visualization in Panel 5 to a Heat Map
+7. **Click on** the **Bankid-Satisfaction** graph in Panel 5.
+8. **Select** the **Visualization** icon.
 
-![](cmedia/image62.png)
+<img src="./cmedia/ca-image-51.png" >
 
-Your Dashboard should like this now
+9. **Select** the **Heat Map** visualization from the panel of choices to change the graph to a Heat Map.
+10. **Select** the **Arrow** to close the visualization menu.
+11. **Select** the **Save** button on the toolbar to save the dashboard. 
+
+<img src="./cmedia/ca-image-51.png" >
+
+> Your Dashboard should now like this
 
 ![](cmedia/image63.png)
 
