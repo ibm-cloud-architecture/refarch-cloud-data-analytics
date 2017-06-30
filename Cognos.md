@@ -275,26 +275,10 @@ Each panel on the template acts as a placeholder for dashboard objects, known as
 
 <img src="./cmedia/ca-image-37.png" >
 
-8. **Drag and Drop** the **Home Branch State** column below Customer Type.
-9. **Drag and Drop** the **Customer** column below Home Branch State.
-10. **Select** the **Apply** button.
-11. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
-
-![](cmedia/image47.png)
-
-![](cmedia/image48.png)
-
-Select the data module we just created, and then 
-
-1. Select the '+' to add sources to the Dashboard
-
-1. Select My content
-
-1. Select the Bank Customers Module
-
-1. Click Open
-
-![](cmedia/image49.png)
+8. **Select** the **+ plus sign** next to **Selected Sources** to choose a source.
+9. **Select** the **My Content** folder.
+10. **Select** the **Bank Customers Module** as the source.
+11. **Select** the **Open** button.
 
 
 ### Designing a Dashboard
