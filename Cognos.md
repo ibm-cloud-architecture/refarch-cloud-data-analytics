@@ -449,13 +449,11 @@ Now you will add a visualization of churn to credit applications.
 10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
 11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
 
-From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.
-
-> **Note -** We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
-
 <img src="./cmedia/ca-image-64.png" >
 
-> The Churn Analysis tab should look like the screen shot above.
+> The Churn Analysis tab should look like the screen shot above. From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.
+
+> **Note -** We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
 
 Let's go back to the Customer Satisfaction tab, since that was the main reason for the work we have done so far. 
 
@@ -475,12 +473,9 @@ We now see two bars, yes and no, "yes" means the customer has left the bank and 
 3. **Click** on the **yes** bar on the right.
 4. **Select** the **drill down** button (second from the right).
 
-<img src="./cmedia/ca-image-67.png" >
-
 We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
 
-![](ca2media/CA0001.png)
-
+<img src="./cmedia/ca-image-68.png" >
 
 We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. 
 
