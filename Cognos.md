@@ -379,17 +379,23 @@ Your Dashboard should now like the screen shot above. **Notice** that on average
 
 Now, let's add another Tab to the Dashboard.  
 
-![](cmedia/image64.png)
+<img src="./cmedia/ca-image-53.png" >
 
-Click on the green + sign
+1. **Select** the **+ plus sign** next to the ** Customer Satisfaction** tab to add a new tab.
 
-![](cmedia/image65.png)
+<img src="./cmedia/ca-image-54.png" >
 
-1. For the template we will choose the 2 x 2 Template
+2. **Scroll down** and **Select** the 2 x 2 template with 4 rectangles in it.
+3. **Select** the **USE** button.
 
-1. Select USE
+<img src="./cmedia/ca-image-55.png" >
 
-Rename this tab to Churn Analysis
+4. **Select** the **Tab 1** name area. A menu will appear.
+5. **Select** the **Edit** icon that looks like a pencil.
+
+<img src="./cmedia/ca-image-56.png" >
+
+6. **Enter** a name of **Churn Analysis** and click outside the name area to save the name.
 
 > Note - The four panels are also numbered in this image so we can explain placement later.
 
