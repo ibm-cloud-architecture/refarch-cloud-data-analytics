@@ -373,16 +373,9 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 10. **Select** the **Arrow** to close the visualization menu.
 11. **Select** the **Save** button on the toolbar to save the dashboard. 
 
-<img src="./cmedia/ca-image-51.png" >
+<img src="./cmedia/ca-image-52.png" >
 
-> Your Dashboard should now like this
-
-![](cmedia/image63.png)
-
-**Notice that on average Males are more satisfied than females, and that on the right, our older customers are the least satisfied.**
-
-
-Save the Dashboard
+Your Dashboard should now like the screen shot above. **Notice** that on average Males are more satisfied than females, and that on the right, our older customers are the least satisfied.
 
 Now, let's add another Tab to the Dashboard.  
 
