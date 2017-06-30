@@ -397,7 +397,9 @@ Now, let's add another Tab to the Dashboard.
 
 6. **Enter** a name of **Churn Analysis** and click outside the name area to save the name.
 
-> Note - The four panels are also numbered in this image so we can explain placement later.
+<img src="./cmedia/ca-image-57.png" >
+
+> Note - The four panels are numbered in this image to explain placement in the following steps.
 
 As we said earlier, your data scientists have found that churn seems to be related to the number of credit applictions the customer has submitted, and the number of times they have had late payments. Remember we also created groups for late payments and credit applications, now let's create visualizations for these. 
 
