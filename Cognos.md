@@ -497,7 +497,7 @@ To find the state with the lowest satisfaction score:
 
 <img src="./cmedia/ca-image-72.png" >
 
-3. **Select** the **Sort desending** menu item.
+3. **Select** the **Sort descending** menu item.
 
 ![](ca2media/image008.png)
 
