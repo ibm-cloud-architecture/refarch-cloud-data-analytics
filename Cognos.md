@@ -58,7 +58,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 ### Create a Data server connection
 
-Before you begin, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. 
+Before you bein, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. 
 
 
 <img src="./cmedia/ca-image-10.png" >
@@ -218,25 +218,21 @@ Navigation groups allow drill downs that align with how users want or need to an
 
 <img src="./cmedia/ca-image-28.png" >
 
-1. **Scroll down** the list of columns to the **Bankid column**.
+1. **Scroll down** the list of columns to the **Bankid** column.
 2. **Select** the **ellipse** ... on the **Bankid** column to view the column menu items.
 3. **Select** the **Create navigation group** menu item.
 
-The default name will be Bankid since that is the name of the column we selected first. In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
+In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
 
 <img src="./cmedia/ca-image-29.png" >
 
-1. Rename the Navigation Group to Bank Churn Drill Path
-1. Drag the Churn column below Bankid
-1. Drag the Customer Type column below Churn
-1. Drag the Home Branch State column below Customer Type
-1. Drag the Customer column below Home Branch State
-1. Click on Apply
-
-<img src="./cmedia/ca-image-30.png" >
-
-There are many more things we could do in this data module, but for now let's **save** the data moduleand start looking for insight.
-
+4. **Rename** the Navigation Group to **Bank Churn**.
+5. **Drag and Drop** the **Churn** column below Bankid.
+6. **Drag and Drop** the **Customer Type** column below Churn.
+7. **Drag and Drop** the **Home Branch State** column below Customer Type.
+8. **Drag and Drop** the **Customer** column below Home Branch State.
+9. **Select** the **Apply** button.
+10. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
 
 ## Step 2: Getting Insight
 
