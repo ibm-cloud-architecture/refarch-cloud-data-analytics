@@ -399,61 +399,65 @@ Now, let's add another Tab to the Dashboard.
 
 <img src="./cmedia/ca-image-57.png" >
 
-> Note - The four panels are numbered in this image to explain placement in the following steps.
+> Note - This image depicts the numbering of the four panels to explain placement in the following steps.
 
 As we said earlier, your data scientists have found that churn seems to be related to the number of credit applictions the customer has submitted, and the number of times they have had late payments. Remember we also created groups for late payments and credit applications, now let's create visualizations for these. 
 
-![](cmedia/image66.png)
+<img src="./cmedia/ca-image-58.png" >
 
-Add a visualization of churn to late payments using the following steps. 
+1. **Scroll** down to the bottom of the list of columns in the **Bank Customers** data module.
+2. From the **Bank Customers** data module **Select** the **Group Late Payments**.
+3. **Ctrl-Click or Command-Click** the **Count** column.
+4. **Ctrl-Click or Command-Click** the **Churn** column.
+5. **Drag and Drop** these columns onto Panel 1.
 
-1. Under Bank Customers in the data module on the left select Group Late Payments
+<img src="./cmedia/ca-image-59.png" >
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Count column 
+6. **Resize** the graph you just created to span and use panel 1 and panel 2 by using the sizing controls.
+7. **Select** inside the graph to get a menu of graph actions.
+8. **Select** the **Visualization** menu item.
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Churn column
+<img src="./cmedia/ca-image-60.png" >
 
-1. Drag these items to Panel 1
+9. **Select** the **Heat Map** visualization to change the graph to a Heat Map.
+10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
+11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
 
-1. Click on a corner or side of the visualization to expand it to use both panel 1 and panel 2
-
-1. Change the Visualization to a Heat map
-
-> Note - 
-> Even though we created three groups we see four groups here. What is different?   
+> **Note** - Even though we created three groups we see four groups here. What is different?   
 >   
-> Notice that the group on the far right is (blank). In this case there were some columns that had no value at all for the number of late payments. In this specific case does this mean that customer had no (ZERO) applications, or that someone forgot to fill in this field, or that there is an applicatio problem somewhere? We need to determine the source of the data and whether it is valid or needs to be fixed. We would need to verify this data with the bank data engineers.
+> **Notice** that the group on the far right is blank. In this case there were some columns that had no value at all for the number of late payments. In this specific case does this mean that customer had no (ZERO) applications, or that someone forgot to fill in this field, or that there is an applicatio problem somewhere? We need to determine the source of the data and whether it is valid or needs to be fixed. We would need to verify this data with the bank data engineers.
 
+Now you will add a visualization of churn to credit applications. 
 
-![](cmedia/image67.png)
+<img src="./cmedia/ca-image-61.png" >
 
-Now add a visualization of churn to credit applications using the following steps. 
+1. **Scroll** down to the bottom of the list of columns in the **Bank Customers** data module.
+2. From the **Bank Customers** data module **Select** the **Group Credit Applications**.
+3. **Ctrl-Click or Command-Click** the **Count** column.
+4. **Ctrl-Click or Command-Click** the **Churn** column.
+5. **Drag and Drop** these columns onto Panel 3.
 
+<img src="./cmedia/ca-image-62.png" >
 
-1. Under Bank Customers select Group Credit Applications
+6. **Resize** the graph you just created to span and use panel 3 and panel 4 by using the sizing controls.
+7. **Select** inside the graph to get a menu of graph actions.
+8. **Select** the **Visualization** menu item.
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Count column
+<img src="./cmedia/ca-image-63.png" >
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Churn column 
+9. **Select** the **Heat Map** visualization to change the graph to a Heat Map.
+10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
+11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
 
-1. Drag these items to Panel 3
+From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.
 
-1. Click on a corner or side of the visualization to expand it to use both panel 3 and panel 4
+> **Note -** We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
 
-1. Change the Visualization to a Heat map
+<img src="./cmedia/ca-image-64.png" >
 
-**From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.**
-
-> Note - 
-> We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
-
-
-**The Churn Analysis tab should look like this**
+> The Churn Analysis tab should look like the screen shot above.
 
 ![](cmedia/image68.png)
-
-Save the Dashboard
-  
 
 Let's go back to the Customer Satisfaction tab, since that was the main reason for the work we have done so far. 
 
