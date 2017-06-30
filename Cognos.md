@@ -193,7 +193,7 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 
 <img src="./cmedia/ca-image-25.png" >
 
-The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will create another Custom group for the number of credit applications.
+The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications.
 
 1. **Select** the **ellipse** ... on the **Number of Credit Applications** column to view the column menu items.
 2. **Select** the **Create custom groups** menu item.
@@ -212,31 +212,46 @@ The data scientists have also observed a correlation between the number of credi
 
 8. **Select** the **Save** button on the toolbar to save the data module.
 
+<img src="./cmedia/ca-image-28.png" >
+
+9. **Go to** the top of the Cognos Analytics user interface and **Click** on the navigation drop down arrow.
+10. **Select** the **- minus** sign next to the **Bank Customers Module** entry to close the module.
+
+<img src="./cmedia/ca-image-29.png" >
+
+11. **Select** the **My Content** menu from the left side main menu.
+12. **Select** the **ellipse** ... in the right corner of the **Bank Customers Module**.
+13. **Select** the **Open** menu item.
+
 ### Create Navigation Group
 
 Navigation groups allow drill downs that align with how users want or need to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
-<img src="./cmedia/ca-image-28.png" >
+<img src="./cmedia/ca-image-30.png" >
 
-1. **Scroll down** the list of columns to the **Bankid** column.
-2. **Select** the **ellipse** ... on the **Bankid** column to view the column menu items.
-3. **Select** the **Create navigation group** menu item.
+1. **Select** the arrow next to the **Bank Customers** table to see the list of columns.
+
+<img src="./cmedia/ca-image-31.png" >
+
+2. **Scroll down** the list of columns to the **Bankid** column.
+3. **Select** the **ellipse** ... on the **Bankid** column to view the column menu items.
+4. **Select** the **Create navigation group** menu item.
 
 In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
 
-<img src="./cmedia/ca-image-29.png" >
+<img src="./cmedia/ca-image-32.png" >
 
-4. **Rename** the Navigation Group to **Bank Churn**.
-5. **Drag and Drop** the **Churn** column below Bankid.
-6. **Drag and Drop** the **Customer Type** column below Churn.
-7. **Drag and Drop** the **Home Branch State** column below Customer Type.
-8. **Drag and Drop** the **Customer** column below Home Branch State.
-9. **Select** the **Apply** button.
-10. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
+5. **Rename** the Navigation Group to **Bank Churn**.
+6. **Drag and Drop** the **Churn** column below Bankid.
+7. **Drag and Drop** the **Customer Type** column below Churn.
+8. **Drag and Drop** the **Home Branch State** column below Customer Type.
+9. **Drag and Drop** the **Customer** column below Home Branch State.
+10. **Select** the **Apply** button.
+11. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
 
 ## Step 2: Getting Insight
 
-![](cmedia/image4A.png)
+<img src="./cmedia/ca-image-33.png" >
 
 Go back to the Welcome Screen
 
