@@ -752,6 +752,9 @@ Congratulations! You have successfully moved data to the cloud using Data Connec
 > ____________________________________________________________________________________ 
 
 
+# Analyze the Data
+
+
 ## Step 1: Setup Cognos
 
 
