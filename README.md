@@ -752,519 +752,620 @@ Congratulations! You have successfully moved data to the cloud using Data Connec
 > ____________________________________________________________________________________ 
 
 
-
-
-
-
-**XXX Good to here  **
-
-
-
-
-
-
-# Analyze the Data
-
-"K Bank" has found that customer loss (churn) is directly related to the customer's satisfaction level. This is kind of obvious, so it would be interesting to see how these churn prediction models could be used to looks at "N Bank" customers and identify who might be at risk of leaving. Since "K Bank" just spent a lot of money to acquire "N Bank", you do not want to lose any customers if you can help it.
-
-Now that we have the data in one place, we can explore the data and discover how satisfied your customers are, within each Bank and across both Banks. You can also identify which customers are leaving the bank and which ones you should work to retain going forward. You can also create a dashboard to showcase your findings and use it to tell a story of what you discovered and any actions you might want to take base on this analysis for use in your next board meeting.
-
 ## Step 1: Setup Cognos
 
-Launch [Cognos Free Trial](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
-and SIGN IN to bring up the login page.
 
-<img src="./cmedia/image2.png" >
+[Click Here to Go to Cognos Analytics on Cloud](https://www.ibm.com/analytics/us/en/technology/products/cognos-analytics/)
 
-You will be taken to the Welcome page.
 
-<img src="./cmedia/image3.png" >
+<img src="./cmedia/ca-image-01.png" >
+
+1. **Select** the **Sign In** button in the top right corner.
+
+<img src="./cmedia/ca-image-02.png" >
+
+2. **Enter** your IBM Account.
+
+**Note -** Cognos Analytics on Cloud checks if the IBM account entered is associated with an IBM w3ID. If you are an IBM employee with a w3ID, complete the login process using section [Authenticate uisng your IBM w3ID](#w3). Otherwise, continue with step 3 and 4 below.
+
+>  **
+> Using Safari on Mac OSX we have had some people have their w3ID signon continue to loop.  
+> The development team is working this.
+> If you encounter this the easiest solution is to try a different browser, such as Firefox
+> **
+
+<img src="./cmedia/ca-image-03.png" >
+
+3. **Enter** your IBM Account **password**.
+
+4. **Select** the **Log in** button.
+
+
+<img src="./cmedia/ca-image-07.png" >
+
+
+You are brought to the Cognos Analytics on Cloud home page.
+
+<a name="w3" />
+
+### Authenticate using your IBM w3ID
+
+
+<img src="./cmedia/ca-image-04.png" >
+
+
+1. **Select** the **Continue** button to gain access to IBM Cognos Analytics on Cloud using your IBM w3ID.
+
+
+<img src="./cmedia/ca-image-05.png" >
+
+
+2. **Enter** your **w3ID** and **password**
+
+3. **Select** the **Sign In** button.
+
+
+<img src="./cmedia/ca-image-06.png" >
+
+
+4. **Check or Uncheck** the checkbox depending your choice of being informed of IBM products....
+
+5. **Select** the **Continue** button.
+
+
+<img src="./cmedia/ca-image-07.png" >
+
+
+You are brought to the Cognos Analytics on Cloud home page.
+
 
 ### Create a Data server connection
 
-![](/media/CA/ca1.png)
-
-1. On the Welcome screen, select Manage on the bottom left side. 
-
-<img src="./cmedia/image3b.png" >
-
-1. Select Data server connections to create a new data server.
-
-![](/media/CA/ca2.png)
-
-1. Create a new data server connection by selecting the ‘+’
-
-<img src="./cmedia/03_Select Data Type.png" >
-
-Select dashDB as the type
-
-![](/media/CA/ca3.png)
-
-> 
-> **NOTE -**
-> 
-> The Cognos Analytics Trial does NOT maintain a unique name space per user, so come up with some UniqueID and us that in the names for items below.  **Do not put the double quotes or the greater than / less than signs**
->
+Before you bein, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. 
 
 
-1. Rename the connection name from New data server connection to "<UniqueID>_Bank Customers"
-
-1. Enter your dashDB JDBC URL from your dashDB service credentials you created and obtained earlier during the dashDB service setup. Copy the "jdbcurl" (NOT the "ssljdbcurl") and paste into Cognos Analytics. Your JDBC URL might look something like this (do not paste the quotes):  **"jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB"**
-
-1. You need to specify the sign in credentials for the dashDB user to use each time you connect to this database. Select the **Use the following signon** option  
-
-1. Select the  ‘+’ icon 
-
-![](/media/CA/ca5.png)
+<img src="./cmedia/ca-image-10.png" >
 
 
-1. Enter the your dashDB User ID
-
-1. Enter your password and confirm your password
-
-1. Click on the Test Button to verify your new connection.  If it tests successfully, then
-
-> If the test fails, check the userID, password, etc. and re-test.
-
-1. Click Save
-
-> **NOTE -** 
-> 
-> If the save fails, pick a different UniqueID, and click on save again. 
-> 
+You will need the **jdbcurl**, **username** and **password** from the credentials section of the service to complete the creation of your data server connection in the following steps. Leave this open in your browser so you can copy and paste from it to complete the creation of the data server connection section. 
 
 
-Now we need to select the database schema (table owner) that we will use in this exercise. 
+**Go Back** to the Cogons Analytics on Cloud application in your browser. 
 
-![](cmedia/image25.jpg)
 
-1. Select the Schema tab for the <UniqueID>_Bank Customers data server connection
+<img src="./cmedia/ca-image-08.png" >
 
-1. Select the schema associated to your userid and select
 
-1. Select Load metadata. 
+1. **Select** the **Manage** button on the bottom left side of the home page.
 
- When the schema is successfully loaded, the status button next to the schema will turn green
+2. **Select** the **Data server connections** menu item to create a new data server connection.
 
-![](cmedia/image26.jpg)
 
+<img src="./cmedia/ca-image-09.png" >
+
+
+3. **Select** the **+ plus sign** to create a new connection.
+
+4. **Select** a type of **dashDB**.
+
+
+<img src="./cmedia/ca-image-11.png" >
+
+
+**Note -** A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. Therefore, you will use your dashDB username from your dashDB service credentials plus "Bank Customers" to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
+
+
+5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your dashDB username of your dashDB service + Bank Customers) and **click** outside the edit area to save the name.
+
+6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
+
+> Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
+
+7. **Select** the **Use the following signon** radio button.
+
+8. **Select** the **+ plus sign** right next to the drow down list box of signons.
+
+<img src="./cmedia/ca-image-12.png" >
+
+9. **Enter or Copy & Paste** your dashDB **username** from your dashDB credentials into the User ID field.
+
+10. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Password field.
+
+11. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Confirm Password field.
+
+12. **Select** the **Test** button to test the connection.
+
+The **Test** should succeeed and you will see a **Success** status with a green check mark next to it. If not, go back and double check your JDBC URL, User ID and password and make sure you entered then correctly and retry the test.
+
+13. **Select** the **Save** button to save your dashDB data connection. 
+
+Now you will **select** the database schema that you will use in this exercise. 
+
+<img src="./cmedia/ca-image-13.png" >
+
+1. **Select** the **Schemas** tab of your **dashXXXXX Bank Customers** data server connection.
+
+2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
+
+3. **Select** the **Load metadata** menu item.
+
+<img src="./cmedia/ca-image-14.png" >
+
+When the schema is successfully loaded, the status column next to the schema name will have a green check mark.
 
 ### Create a Data Module
 
-With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend perosnal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **data module** for use in dashboards and reports, and/or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
+With Cognos Analytics, users are not restricted to only using existing enterprise data sources. Users can blend personal data or external data with enterprise data to gain deeper insight. Users can connect to enterprise data directly, or they can import other data sets from from files or other data sources into Cognos Analytics. These data sources can be blended, cleansed and joined together to create a reusable **Data Module** for use in dashboards and reports, and or shared with other users in the organization. Although this lab has only one data source, we will still create a data module.
 
-To create a new data module, select New from Navigation Bar on the left side of the Cognos Analytics screen and then select Data module
+<img src="./cmedia/ca-image-15.png" >
 
-![](cmedia/image27.png)
+1. **Select** the **New** menu from Navigation Bar on the left side
 
-This will take you to the Create data module screen and provide a list of options you can choose from. 
+2. **Select** the **Data module** menu item.
 
-![](cmedia/image28.png)
+<img src="./cmedia/ca-image-16.png" >
 
-1. Select Data servers (because we are going to connect to the ‘<UniqueID>_Bank Customers’ data server connection you created earlier.
+3. **Select** the **Data servers** menu from Navigation Bar on the left side
 
-1. Select <UniqueID>_Bank Customers from the list. This will display the schema we created earlier. 
+4. **Select** your **dashXXXXX Bank Customers** data server. You will see the schema you created earlier. 
 
-1. Select the ‘Schema’ associated with your dashDB instance, ours is **DASH106554** in this instance.
+<img src="./cmedia/ca-image-17.png" >
 
+5. **Select** the **Schema** associated with your dashDB service username. For instance, mine is **DASH13919**.
 
-Your schema will now be added to Selected sources list. Again ours is **DASH106554**.
+6. **Select** the **Start** button.
 
-![](cmedia/image29.png)
-
-Click on the Start button.
-
-### Data modeling
+### Data Modeling
 
 Once a data source is selected, users can enter their desired search term(s) and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. Since we want to look into our Bank customers to analyze satisfaction and churn data,  
 
-![](cmedia/image30.png)
+<img src="./cmedia/ca-image-18.png" >
 
-1. In the intent panel, type Customers
+1. In the intent panel, type **Customers**.
 
-1. Click on Go
+2. **Select** the **Go** button.
 
-1. While we show multiple tables here, you should only see a single table, named **Bank Customers**.  Select the Bank Customers table
+While we show multiple tables here, you should only see a single table, named **Bank Customers**.
 
-1. Click on Add this proposal
+3. **Select** the **Bank Customers** table.
 
+4. **Select** the **Add this proposal** button.
 
-Your data module should look like this
+<img src="./cmedia/ca-image-19.png" >
 
-![](cmedia/image35.png)
+Your data module should look like the screen shot above.
 
+5. **Select** the **Save** button on the top left corner of the toobar (looks like a disk).
 
-We will save our data module now.
+<img src="./cmedia/ca-image-20.png" >
 
-![](cmedia/image36.png)
-1. Click Save.
+6. **Select** the **My Content** folder.
 
-1. Select My Content.
+7. **Enter** a module name of **Bank Customers Module**.
 
-1. Type ‘<UniqueID>_Bank Customers Module’ for the name.
+8. **Select** the **Save** button.
 
-1. Click Save
+<img src="./cmedia/ca-image-21.png" >
 
-Expand the Bank Customers table in the Data Module View
+9. **Expand** the **Bank Customers** table in the Data Module View to see all the columns.
 
-![](cmedia/image37.png)
+<img src="./cmedia/ca-image-22.png" >
 
 You have told us that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
 
-Select the Number of Late Payments column and click on more options (the 3 dots, one above the other)
+10. **Select** the **ellipse** ... on the **Number of Late Payments** column to view the column menu items.
 
-Select Create custom groups
+11. **Select** the **Create custom groups** menu item.
 
-![](cmedia/image38.png)
+<img src="./cmedia/ca-image-23.png" >
 
-We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly.
+We can see that Cognos Analytics suggests creating an equal distribution of the late payment values into 10 groups distributed evenly. However, we will create 3 groups based on the findings of the Data Scientists.
 
-![](cmedia/image39.png)
+<img src="./cmedia/ca-image-24.png" >
 
+1. **Change** the Group name to **Group Late Payments**.
 
-However, we will create 3 groups based on the findings of your Data Scientists.
+2. **Change** the **How many groups?** number from **10 to 3**.
 
-1. Change the Group name to Group Late Payments
+3. **Select** the **Custom** distribution radio button.
 
-1. Change How many groups? from 10 to 3
+4. **Change** the lowest value to **1**
 
-1. Select Custom
+5. **Change** the middle value to **21**
 
-1. Change the lowest value to 1
+6. **Change** the highest value to **3000**
 
-1. Change the middle value to 21
+7. **Select** the **Create** button.
 
-1. Change the highest value to 3000
+<img src="./cmedia/ca-image-25.png" >
 
-1. Click on Create
+The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications.
 
-![](cmedia/image40.png)
+1. **Select** the **ellipse** ... on the **Number of Credit Applications** column to view the column menu items.
+2. **Select** the **Create custom groups** menu item.
 
-The data scientists have also observed a correlation between the number of credit applications a customer has submitted and their tendency to churn. So we will also create a another Custom group for the number of credit applications. Create a
-new custom group based on the Number of Credit Applications.
+<img src="./cmedia/ca-image-26.png" >
 
-Again, we will create 3 groups.
+1. **Change** the Group name to **Group Credit Applications**.
 
-Select the Number of Credit Applications column and click on more options
+2. **Change** the **How many groups?** number from **10 to 3**.
 
-1. Change the Group name to Group Credit Applications (Note, we mis-spelled this, but you can spell it correctly if you wish)
+3. **Select** the **Custom** distribution radio button.
 
-1. Change How many groups? from 10 to 3
+4. **Change** the lowest value to **5**
 
-1. Select Custom
+5. **Change** the middle value to **26**
 
-1. Change the lowest value to 5
+6. **Change** the highest value to **3000**
 
-1. Change the middle value to 26
+7. **Select** the **Create** button.
 
-1. Change the highest value to 3000
+<img src="./cmedia/ca-image-27.png" >
 
-1. Click on Create
+8. **Select** the **Save** button on the toolbar to save the data module.
 
-![](cmedia/image41.png)
+<img src="./cmedia/ca-image-28.png" >
 
-**Save the data module**
+9. **Go to** the top of the Cognos Analytics user interface and **Click** on the navigation drop down arrow.
+
+10. **Select** the **- minus** sign next to the **Bank Customers Module** entry to close the module.
+
+<img src="./cmedia/ca-image-29.png" >
+
+11. **Select** the **My Content** menu from the left side main menu.
+
+12. **Select** the **ellipse** ... in the right corner of the **Bank Customers Module**.
+
+13. **Select** the **Open** menu item.
 
 ### Create Navigation Group
 
 Navigation groups allow drill downs that align with how users want or need to analyze their business. In this case the Bankid column identifies whether the data is from "K Bank" or "N Bank". 
 
-> **IMPORTANT ---- You need to go back and re-open your Data Module.**
+<img src="./cmedia/ca-image-30.png" >
 
-First - Go back to the Welcome screen
+1. **Select** the arrow next to the **Bank Customers** table to see the list of columns.
 
-![](cmedia/OpenDM0.png)
+<img src="./cmedia/ca-image-31.png" >
 
-Click on the menu in the middle of the screen, and choose the Welcome option
+2. **Scroll down** the list of columns to the **Bankid** column.
 
-![](cmedia/OpenDM1.png)
+3. **Select** the **ellipse** ... on the **Bankid** column to view the column menu items.
 
-1. Select your folder (2nd from the top with the person image in the folder)
-
-1. Select your data module.  
-
-![](cmedia/OpenDM2.png)
-
-Click on the triangle beside Bank Customers to show the columns in the table.  
-
-![](cmedia/image42.png)
-
-- Scroll to the Bankid column in the Bank Customers table and select it
-
-- Select more options for the Bankid column
-
-- Select Create navigation group. 
-
-The default name will be Bankid since that is the name of the column we selected first.
-
-![](cmedia/image43.png)
+4. **Select** the **Create navigation group** menu item.
 
 In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
 
-1. Rename the Navigation Group to Bank Churn Drill Path
+<img src="./cmedia/ca-image-32.png" >
 
-1. Drag the Churn column below Bankid
+5. **Rename** the Navigation Group to **Bank Churn**.
 
-1. Drag the Customer Type column below Churn
+6. **Drag and Drop** the **Churn** column below Bankid.
 
-1. Drag the Home Branch State column below Customer Type
+7. **Drag and Drop** the **Customer Type** column below Churn.
 
-1. Drag the Customer column below Home Branch State
+8. **Drag and Drop** the **Home Branch State** column below Customer Type.
 
-1. Click on Apply
+9. **Drag and Drop** the **Customer** column below Home Branch State.
 
-![](cmedia/image44.png)
+10. **Select** the **Apply** button.
 
-There are many more things we could do in this data module, but for now let's **save** the data moduleand start looking for insight.
-
+11. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
 
 ## Step 2: Getting Insight
 
-![](cmedia/image4A.png)
+<img src="./cmedia/ca-image-33.png" >
 
-Go back to the Welcome Screen
+1. **Go to** the top of the Cognos Analytics user interface and **Click** on the navigation drop down arrow.
 
-![](cmedia/image45.png)
+2. **Select** the **Welcome** entry to go back to the Welcome page.
 
-From the main Cognos Analytics screen, click on the + sign on the left hand side and select Dashboard.
+<img src="./cmedia/ca-image-34.png" >
 
-![](cmedia/image46.png)
+3. **Go to** the bottom left portion of the Welcome page and **Select** the **+ New** menu.
+
+4. **Select** the **Dashboard** menu item to create a new dashboard.
 
 The Template window then appears, allowing you to select the type of dashboard and the template style. 
 
-Select the tabbed dashboard style. This will show you multiple options for the look for your dashboard. 
+<img src="./cmedia/ca-image-35.png" >
 
-Select the template with the three small rectangles (panels) across the top, and two full width panels below (on the right above). 
+5. **Select** the **Tabbed** template.
 
-Click on OK.
+6. **Select** the **Tabbed layout** on the bottom row with 3 small panels on the top, and 2 full width panels below.
 
-![](cmedia/image47.png)
+7. **Select** the **OK** button.
 
-Each panel on the template acts as a placeholder for dashboard objects, known as widgets. Templates are device aware and will auto-size to the screen of the device being used.
+<img src="./cmedia/ca-image-36.png" >
 
-As we build the dashboard, we will reference the location placement for widgets we create in the dashboard template using the following panel numbers
+Each panel on the template acts as a placeholder for dashboard objects, known as widgets. Templates are device aware and will auto-size to the screen of the device being used. As we build the dashboard, we will reference the location placement for widgets we create in the dashboard template using the panel numbers as designated and displayed above.
 
-![](cmedia/image48.png)
+<img src="./cmedia/ca-image-37.png" >
 
-Select the data module we just created, and then 
+8. **Select** the **+ plus sign** next to **Selected Sources** to choose a source.
 
-1. Select the '+' to add sources to the Dashboard
+9. **Select** the **My Content** folder.
 
-1. Select My content
+10. **Select** the **Bank Customers Module** as the source.
 
-1. Select the UniqueID_Bank Customers Module
-
-1. Click Open
-
-![](cmedia/image49.png)
+11. **Select** the **Open** button.
 
 
 ### Designing a Dashboard
 
-Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1. 
+<img src="./cmedia/ca-image-38.png" >
 
-![](cmedia/image49.png)
+Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1.
 
-- Click on the tab name Tab 1
+1. **Click on** the **Tab 1** name. A menu will appear.
 
-- Select the Pencil to bring up the toolbar
+2. **Select** the **Edit** menu item that looks like a pencil.
 
-- Rename the tab to **Customer Satisfaction**
+<img src="./cmedia/ca-image-39.png" >
 
-![](cmedia/image50.png)
+3. **Enter** a name of **Customer Satisfaction** and then click outside the name are to save the name.
 
-- Click on the triangle beside the Bank Customers table name to expand it and show the columns in the table
+<img src="./cmedia/ca-image-40.png" >
 
-- Drag the satisfaction column to panel 1. Remember the panel layout I showed you earlier? If not, go back and look at the field numbers for the areas of this tab's format.
+4. **Select** the triangle next to the **Bank Customers** table name to view the list of columns.
 
-- Here we can see the average satifaction rating for our customers is 3.39 out of 5
+5. **Select** the **Satisfaction** column and **Drag and Drop** it into Panel 1.
 
-> Note - Satisfaction is very easy to locate in this case because it is one of the first few fields in the list. You can also search for columns names using the Find area at the top of the screen.
+> Remember the panel layout fro above. Panel 1 is the panel in the top lef corner of the template.
 
-Next we want to look at satisfaction by customer type, so we need to select the Satisfaction column and then Control-Click (**Command and Click on Mac**) the Customer type column and drag them to Panel 2. 
+<img src="./cmedia/ca-image-41.png" >
 
-![](cmedia/image51.png)
+6. **Resize** the **Satisfaction** number to span the entire panel by using the sizing controls.
 
-Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the Change Visualization icon. 
+Here we can see the average satifaction rating for our customers is 3.39 out of 5.
 
-![](cmedia/image52.png)
+Next we want to look at satisfaction by customer type.
 
-That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
+<img src="./cmedia/ca-image-42.png" >
 
-Now save the dashboard.  
+1. **Select** the **Satisfaction** column
 
-![](cmedia/image57.png)
+2. **Control-Click** on Windows or **Command-Click** on the Mac and **Select** the **Customer type** column
 
-1. Click Save
+3. **Drag and Drop** the two columns to Panel 2 on the dashboard.
 
-1. Select My Content
+<img src="./cmedia/ca-image-43.png" >
 
-1. Name the Dashboard "<UniqueID> Bank Customer Analysis"
+4. **Rezie** the **Customer Type-Satisfaction** graph to span across panel 1 and 2 by using the sizing controls.
 
-1. Click Save
+Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the **Change Visualization** icon. That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
 
-![](cmedia/image58.png)
+5. **Select** the **Save** button on the toolbar to save the dashboard.
 
-If the data source panel is not open, from the Navigation panel on the left side of the screen, select sources to open the data source panel and select the **Bank Customers Module** we are working with.
+<img src="./cmedia/ca-image-44.png" >
 
-Expand both ‘Navigation paths’ and ‘Bank Customers’ to list the items they contain by clicking on the triangle beside those names.
+6. **Select** the **My Content** folder.
 
-![](cmedia/image59.png)
+7. **Enter** a dashboard name of **Bank Customer Analysis**.
 
-1. Under Navigation paths, expand the Bank Churn Drill Path and select Bankid
+8. **Select** the **Save** button.
 
-1. Ctrl-Click (Command-Click) Satisfaction under the Bank Customers Module
+> **Note -** If the data source panel is not open, from the Navigation panel on the left side of the screen, select sources to open the data source panel and select the **Bank Customers Module** we were working with.
 
-1. Drag these items to Panel 4
+<img src="./cmedia/ca-image-45.png" >
 
-**Notice that there is little difference in the overall satisfaction between the two banks.**
+1. **Click on** the triangle next to **Navigation paths** to expand it.
 
-![](cmedia/image60.png)
+2. **Click on** the triangle next to the **Bank Churn** navigation path to expand it.
 
+3. **Click on** the triangle next to **Bank Customers** to expand it.
 
-1. Under Bank Customers Select Satisfaction
+<img src="./cmedia/ca-image-46.png" >
 
-1. Under Bank Customers Age Range
+4. From the **Bank Churn** navigation path, **Select** the Bankid column.
 
-1. Under Bank Customers Gender
+5. **Ctrl-Click or Command-Click** and **Select** the **Satisfaction** column under the **Bank Customers Module**
 
-1. Drag these items to Panel 5
+6. **Drag and Drop** these items to Panel 4 (the panel in the middle of the template).
 
-![](cmedia/image61.png)
+<img src="./cmedia/ca-image-47.png" >
 
-Change the visualization in Panel 5 to a Heat Map
+7. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
 
-![](cmedia/image62.png)
+8. **Select** the **Save** button on the toolbar to save the dashboard.
 
-Your Dashboard should like this now
+> **Notice** that there is little difference in the overall satisfaction between the two banks.
 
-![](cmedia/image63.png)
+<img src="./cmedia/ca-image-48.png" >
 
-**Notice that on average Males are more satisfied than females, and that on the right, our older customers are the least satisfied.**
+1. From the **Bank Customers** table **Select** the **Satisfaction** column.
 
+2. From the **Bank Customers** table **Ctrl-Click or Command-Click** and **Select** the **Age Range** column.
 
-Save the Dashboard
+3. From the **Bank Customers** table **Ctrl-Click or Command-Click** and **Select** the **Gender** column.
+
+4. **Drag and Drop** these items to Panel 5 (the panel on the bottom of the template).
+
+<img src="./cmedia/ca-image-49.png" >
+
+5. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+
+6. **Select** the **Save** button on the toolbar to save the dashboard.
+
+<img src="./cmedia/ca-image-50.png" >
+
+7. **Click on** the **Bankid-Satisfaction** graph in Panel 5.
+
+8. **Select** the **Visualization** icon.
+
+<img src="./cmedia/ca-image-51.png" >
+
+9. **Select** the **Heat Map** visualization from the panel of choices to change the graph to a Heat Map.
+
+10. **Select** the **Arrow** to close the visualization menu.
+
+11. **Select** the **Save** button on the toolbar to save the dashboard. 
+
+<img src="./cmedia/ca-image-52.png" >
+
+Your Dashboard should now like the screen shot above. **Notice** that on average Males are more satisfied than females, and that on the right, our older customers are the least satisfied.
 
 Now, let's add another Tab to the Dashboard.  
 
-![](cmedia/image64.png)
+<img src="./cmedia/ca-image-53.png" >
 
-Click on the green + sign
+1. **Select** the **+ plus sign** next to the **Customer Satisfaction** tab to add a new tab.
 
-![](cmedia/image65.png)
+<img src="./cmedia/ca-image-54.png" >
 
-1. For the template we will choose the 2 x 2 Template
+2. **Scroll down** and **Select** the 2 x 2 template with 4 rectangles in it.
 
-1. Select USE
+3. **Select** the **USE** button.
 
-Rename this tab to Churn Analysis
+<img src="./cmedia/ca-image-55.png" >
 
-> Note - The four panels are also numbered in this image so we can explain placement later.
+4. **Select** the **Tab 1** name area. A menu will appear.
+
+5. **Select** the **Edit** icon that looks like a pencil.
+
+<img src="./cmedia/ca-image-56.png" >
+
+6. **Enter** a name of **Churn Analysis** and click outside the name area to save the name.
+
+<img src="./cmedia/ca-image-57.png" >
+
+> Note - This image depicts the numbering of the four panels to explain placement in the following steps.
 
 As we said earlier, your data scientists have found that churn seems to be related to the number of credit applictions the customer has submitted, and the number of times they have had late payments. Remember we also created groups for late payments and credit applications, now let's create visualizations for these. 
 
-![](cmedia/image66.png)
+<img src="./cmedia/ca-image-58.png" >
 
-Add a visualization of churn to late payments using the following steps. 
+1. **Scroll** down to the bottom of the list of columns in the **Bank Customers** data module.
 
-1. Under Bank Customers in the data module on the left select Group Late Payments
+2. From the **Bank Customers** data module **Select** the **Group Late Payments**.
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Count column 
+3. **Ctrl-Click or Command-Click** the **Count** column.
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Churn column
+4. **Ctrl-Click or Command-Click** the **Churn** column.
 
-1. Drag these items to Panel 1
+5. **Drag and Drop** these columns onto Panel 1.
 
-1. Click on a corner or side of the visualization to expand it to use both panel 1 and panel 2
+<img src="./cmedia/ca-image-59.png" >
 
-1. Change the Visualization to a Heat map
+6. **Resize** the graph you just created to span and use panel 1 and panel 2 by using the sizing controls.
 
-> Note - 
-> Even though we created three groups we see four groups here. What is different?   
+7. **Select** inside the graph to get a menu of graph actions.
+
+8. **Select** the **Visualization** menu item.
+
+<img src="./cmedia/ca-image-60.png" >
+
+9. **Select** the **Heat Map** visualization to change the graph to a Heat Map.
+
+10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
+
+11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
+
+> **Note** - Even though we created three groups we see four groups here. What is different?   
 >   
-> Notice that the group on the far right is (blank). In this case there were some columns that had no value at all for the number of late payments. In this specific case does this mean that customer had no (ZERO) applications, or that someone forgot to fill in this field, or that there is an applicatio problem somewhere? We need to determine the source of the data and whether it is valid or needs to be fixed. We would beed to verify this data with the bank data engineers.
+> **Notice** that the group on the far right is blank. In this case there were some columns that had no value at all for the number of late payments. In this specific case does this mean that customer had no (ZERO) applications, or that someone forgot to fill in this field, or that there is an applicatio problem somewhere? We need to determine the source of the data and whether it is valid or needs to be fixed. We would need to verify this data with the bank data engineers.
 
+Now you will add a visualization of churn to credit applications. 
 
-![](cmedia/image67.png)
+<img src="./cmedia/ca-image-61.png" >
 
-Now add a visualization of churn to credit applications using the following steps. 
+1. **Scroll** down to the bottom of the list of columns in the **Bank Customers** data module.
 
+2. From the **Bank Customers** data module **Select** the **Group Credit Applications**.
 
-1. Under Bank Customers select Group Credit Applications
+3. **Ctrl-Click or Command-Click** the **Count** column.
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Count column
+4. **Ctrl-Click or Command-Click** the **Churn** column.
 
-1. Under Bank Customers Ctrl-Click (Command-Click) the Churn column 
+5. **Drag and Drop** these columns onto Panel 3.
 
-1. Drag these items to Panel 3
+<img src="./cmedia/ca-image-62.png" >
 
-1. Click on a corner or side of the visualization to expand it to use both panel 3 and panel 4
+6. **Resize** the graph you just created to span and use panel 3 and panel 4 by using the sizing controls.
 
-1. Change the Visualization to a Heat map
+7. **Select** inside the graph to get a menu of graph actions.
 
-**From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.**
+8. **Select** the **Visualization** menu item.
 
-> Note - 
-> We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
+<img src="./cmedia/ca-image-63.png" >
 
+9. **Select** the **Heat Map** visualization to change the graph to a Heat Map.
 
-**The Churn Analysis tab should look like this**
+10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
 
-![](cmedia/image68.png)
+11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
 
-Save the Dashboard
-  
+<img src="./cmedia/ca-image-64.png" >
+
+> The Churn Analysis tab should look like the screen shot above. From these graphics we can see that our most loyal customers are the ones with the least credit applications and late payments.
+
+> **Note -** We see the same thing in this graphic with some data being (blank). Again, we could assume that a blank is a zero, but for more accurate analysis we should clean up the data and update the blnk to a 0 (zero).
 
 Let's go back to the Customer Satisfaction tab, since that was the main reason for the work we have done so far. 
 
-![](ca2media/image005.png)
+<img src="./cmedia/ca-image-65.png" >
 
-In the middle of the window we two bars, K and N (K Bank and N Bank).
+In the middle of the window there are two bars, **K** and **N** (K Bank and N Bank).
 
-Click the Bankid label under those bars and select drill down
+1. **Click** on the **Bankid** label between the bars.
 
-![](ca2media/image006.png)
+2. **Select** the **drill down** button (second from the right).
 
-We now see two bars, yes and no (yes means the customer has left the back, no they have not). 
+<img src="./cmedia/ca-image-66.png" >
 
-Let’s investigate the customers who have left (yes). 
+We now see two bars, yes and no, "yes" means the customer has left the bank and "no" means they have not left the bank. Let’s investigate the customers who have left the bank (yes). We can also see (in the Satisfaction graph in the top left corner) that the satisfaction scores are lower for the yes bar (the people who have left). 
 
-Wwe can see that the satisfaction scores are lower for the yes bar (the people who have left). Click on the y bar and click on drill down. We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. 
+<img src="./cmedia/ca-image-67.png" >
 
-![](ca2media/CA0001.png)
+3. **Click** on the **yes** bar on the right.
 
+4. **Select** the **drill down** button (second from the right).
 
-We now see that our Small Business customers have the lowest satisfaction scores (3.04). We can dig deeper into these customers by clicking on the Small Business bar and click Drill down. 
+<img src="./cmedia/ca-image-68.png" >
 
-![](ca2media/image007.png)
+We notice that all of the visualizations change to be relative to customers who left, and that the satisfaction score changes to a lower number, which makes sense. We now see that our Small Business customers have the lowest satisfaction scores **3.04**. You can hover over any of the bars in the graph to get more details about the metric. Hover over the **Small Business** bar in the graph and you will see the **3.04** satisfaction score.
 
+<img src="./cmedia/ca-image-69.png" >
 
-This shows the States of the customers who left the bank. In this case since we are filtered on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. To find the state with the lowest satisfaction score:
+We can dig deeper into these customers by drilling down further.
 
-1. Click the Satisfaction (Average) axis title on the left hand side of the chart
+1. **Click** on the **Small Business** bar in the graph.
 
-1. Select the Sort icon
+2. **Select** the **drill down** button (second from the right). 
 
-1. Select Sort desending
+<img src="./cmedia/ca-image-70.png" >
 
-![](ca2media/image008.png)
+This shows the States of the customers who left the bank. In this case since we are filtered on Small Business, we see the satisfaction level of all Small Business customers who have left, by their state. 
 
-We see that Rhode Island has the lowest satisfaction level. We can select the Rhode Island bar and select drill down to find out which customer(s) from Rhode Island closed their accounts. 
+To find the state with the lowest satisfaction score:
 
-![](ca2media/CA0002.png)
+<img src="./cmedia/ca-image-71.png" >
+
+1. **Click** on the **Satisfaction (Average)** axis title on the left hand side of the chart.
+
+2. **Select** the **Sort** button.
+
+<img src="./cmedia/ca-image-72.png" >
+
+3. **Select** the **Sort descending** menu item.
+
+<img src="./cmedia/ca-image-73.png" >
+
+We see that Rhode Island has the lowest satisfaction level. We can drill down to find out which customer(s) from Rhode Island closed their accounts. 
+
+<img src="./cmedia/ca-image-74.png" >
+
+1. **Click** on the **Rhode Island** bar in the graph.
+
+2. **Select** the **drill down** button (second from the right).
+
+<img src="./cmedia/ca-image-75.png" >
 
 We see that we had one customer (UX10401) leave us from Rhode Island, and their satisfaction level was 2.  
 
-![](ca2media/CA0003.png)
-
 Additionally, if we look at the bar below, we can see that this customer was a 70 - 79 year old female.
 
-> Note -
->
->You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select.
-
-
-**We would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). And you can see in the images that we have done that here. But, for the purposes of this demo we will have you do that.**
+> **Note -** You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select. Also, we would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). But in the sake of time we will skip that for this demo.
 
 
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
