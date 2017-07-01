@@ -47,6 +47,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 
 2. **Enter** your **w3ID** and **password**
+
 3. **Select** the **Sign In** button.
 
 
@@ -54,6 +55,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 
 4. **Check or Uncheck** the checkbox depending your choice of being informed of IBM products....
+
 5. **Select** the **Continue** button.
 
 
@@ -81,6 +83,7 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 
 
 1. **Select** the **Manage** button on the bottom left side of the home page.
+
 2. **Select** the **Data server connections** menu item to create a new data server connection.
 
 
@@ -88,6 +91,7 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 
 
 3. **Select** the **+ plus sign** to create a new connection.
+
 4. **Select** a type of **dashDB**.
 
 
@@ -98,18 +102,23 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 
 
 5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your dashDB username of your dashDB service + Bank Customers) and **click** outside the edit area to save the name.
+
 6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
 
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
 
 7. **Select** the **Use the following signon** radio button.
+
 8. **Select** the **+ plus sign** right next to the drow down list box of signons.
 
 <img src="./cmedia/ca-image-12.png" >
 
 9. **Enter or Copy & Paste** your dashDB **username** from your dashDB credentials into the User ID field.
+
 10. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Password field.
+
 11. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Confirm Password field.
+
 12. **Select** the **Test** button to test the connection.
 
 The **Test** should succeeed and you will see a **Success** status with a green check mark next to it. If not, go back and double check your JDBC URL, User ID and password and make sure you entered then correctly and retry the test.
@@ -121,7 +130,9 @@ Now you will **select** the database schema that you will use in this exercise.
 <img src="./cmedia/ca-image-13.png" >
 
 1. **Select** the **Schemas** tab of your **dashXXXXX Bank Customers** data server connection.
+
 2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
+
 3. **Select** the **Load metadata** menu item.
 
 <img src="./cmedia/ca-image-14.png" >
@@ -135,16 +146,19 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 <img src="./cmedia/ca-image-15.png" >
 
 1. **Select** the **New** menu from Navigation Bar on the left side
+
 2. **Select** the **Data module** menu item.
 
 <img src="./cmedia/ca-image-16.png" >
 
 3. **Select** the **Data servers** menu from Navigation Bar on the left side
+
 4. **Select** your **dashXXXXX Bank Customers** data server. You will see the schema you created earlier. 
 
 <img src="./cmedia/ca-image-17.png" >
 
 5. **Select** the **Schema** associated with your dashDB service username. For instance, mine is **DASH13919**.
+
 6. **Select** the **Start** button.
 
 ### Data Modeling
@@ -154,11 +168,13 @@ Once a data source is selected, users can enter their desired search term(s) and
 <img src="./cmedia/ca-image-18.png" >
 
 1. In the intent panel, type **Customers**.
+
 2. **Select** the **Go** button.
 
 While we show multiple tables here, you should only see a single table, named **Bank Customers**.
 
 3. **Select** the **Bank Customers** table.
+
 4. **Select** the **Add this proposal** button.
 
 <img src="./cmedia/ca-image-19.png" >
@@ -170,7 +186,9 @@ Your data module should look like the screen shot above.
 <img src="./cmedia/ca-image-20.png" >
 
 6. **Select** the **My Content** folder.
+
 7. **Enter** a module name of **Bank Customers Module**.
+
 8. **Select** the **Save** button.
 
 <img src="./cmedia/ca-image-21.png" >
@@ -182,6 +200,7 @@ Your data module should look like the screen shot above.
 You have told us that your Data Scientists have found some interesting correlations between the number of late payments a customer has had in the past and their propensity to churn. Because this has been identified as an interesting factor for further analysis, we will divide the data into groups based on how many late payments they have had. 
 
 10. **Select** the **ellipse** ... on the **Number of Late Payments** column to view the column menu items.
+
 11. **Select** the **Create custom groups** menu item.
 
 <img src="./cmedia/ca-image-23.png" >
@@ -191,11 +210,17 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 <img src="./cmedia/ca-image-24.png" >
 
 1. **Change** the Group name to **Group Late Payments**.
+
 2. **Change** the **How many groups?** number from **10 to 3**.
+
 3. **Select** the **Custom** distribution radio button.
+
 4. **Change** the lowest value to **1**
+
 5. **Change** the middle value to **21**
+
 6. **Change** the highest value to **3000**
+
 7. **Select** the **Create** button.
 
 <img src="./cmedia/ca-image-25.png" >
@@ -208,11 +233,17 @@ The data scientists have also observed a correlation between the number of credi
 <img src="./cmedia/ca-image-26.png" >
 
 1. **Change** the Group name to **Group Credit Applications**.
+
 2. **Change** the **How many groups?** number from **10 to 3**.
+
 3. **Select** the **Custom** distribution radio button.
+
 4. **Change** the lowest value to **5**
+
 5. **Change** the middle value to **26**
+
 6. **Change** the highest value to **3000**
+
 7. **Select** the **Create** button.
 
 <img src="./cmedia/ca-image-27.png" >
@@ -222,12 +253,15 @@ The data scientists have also observed a correlation between the number of credi
 <img src="./cmedia/ca-image-28.png" >
 
 9. **Go to** the top of the Cognos Analytics user interface and **Click** on the navigation drop down arrow.
+
 10. **Select** the **- minus** sign next to the **Bank Customers Module** entry to close the module.
 
 <img src="./cmedia/ca-image-29.png" >
 
 11. **Select** the **My Content** menu from the left side main menu.
+
 12. **Select** the **ellipse** ... in the right corner of the **Bank Customers Module**.
+
 13. **Select** the **Open** menu item.
 
 ### Create Navigation Group
@@ -241,7 +275,9 @@ Navigation groups allow drill downs that align with how users want or need to an
 <img src="./cmedia/ca-image-31.png" >
 
 2. **Scroll down** the list of columns to the **Bankid** column.
+
 3. **Select** the **ellipse** ... on the **Bankid** column to view the column menu items.
+
 4. **Select** the **Create navigation group** menu item.
 
 In our Analysis we want to look at information by Originating Bank, churn, customer type, branch location and customer.
@@ -249,11 +285,17 @@ In our Analysis we want to look at information by Originating Bank, churn, custo
 <img src="./cmedia/ca-image-32.png" >
 
 5. **Rename** the Navigation Group to **Bank Churn**.
+
 6. **Drag and Drop** the **Churn** column below Bankid.
+
 7. **Drag and Drop** the **Customer Type** column below Churn.
+
 8. **Drag and Drop** the **Home Branch State** column below Customer Type.
+
 9. **Drag and Drop** the **Customer** column below Home Branch State.
+
 10. **Select** the **Apply** button.
+
 11. **Select** the **Save** button in the top left corner of the toolbar to save the data module.
 
 ## Step 2: Getting Insight
@@ -261,11 +303,13 @@ In our Analysis we want to look at information by Originating Bank, churn, custo
 <img src="./cmedia/ca-image-33.png" >
 
 1. **Go to** the top of the Cognos Analytics user interface and **Click** on the navigation drop down arrow.
+
 2. **Select** the **Welcome** entry to go back to the Welcome page.
 
 <img src="./cmedia/ca-image-34.png" >
 
 3. **Go to** the bottom left portion of the Welcome page and **Select** the **+ New** menu.
+
 4. **Select** the **Dashboard** menu item to create a new dashboard.
 
 The Template window then appears, allowing you to select the type of dashboard and the template style. 
@@ -273,7 +317,9 @@ The Template window then appears, allowing you to select the type of dashboard a
 <img src="./cmedia/ca-image-35.png" >
 
 5. **Select** the **Tabbed** template.
+
 6. **Select** the **Tabbed layout** on the bottom row with 3 small panels on the top, and 2 full width panels below.
+
 7. **Select** the **OK** button.
 
 <img src="./cmedia/ca-image-36.png" >
@@ -283,8 +329,11 @@ Each panel on the template acts as a placeholder for dashboard objects, known as
 <img src="./cmedia/ca-image-37.png" >
 
 8. **Select** the **+ plus sign** next to **Selected Sources** to choose a source.
+
 9. **Select** the **My Content** folder.
+
 10. **Select** the **Bank Customers Module** as the source.
+
 11. **Select** the **Open** button.
 
 
@@ -295,6 +344,7 @@ Each panel on the template acts as a placeholder for dashboard objects, known as
 Since this is the first dashboard we are creating you can see in the image above that the default name is Tab1.
 
 1. **Click on** the **Tab 1** name. A menu will appear.
+
 2. **Select** the **Edit** menu item that looks like a pencil.
 
 <img src="./cmedia/ca-image-39.png" >
@@ -304,6 +354,7 @@ Since this is the first dashboard we are creating you can see in the image above
 <img src="./cmedia/ca-image-40.png" >
 
 4. **Select** the triangle next to the **Bank Customers** table name to view the list of columns.
+
 5. **Select** the **Satisfaction** column and **Drag and Drop** it into Panel 1.
 
 > Remember the panel layout fro above. Panel 1 is the panel in the top lef corner of the template.
@@ -319,7 +370,9 @@ Next we want to look at satisfaction by customer type.
 <img src="./cmedia/ca-image-42.png" >
 
 1. **Select** the **Satisfaction** column
+
 2. **Control-Click** on Windows or **Command-Click** on the Mac and **Select** the **Customer type** column
+
 3. **Drag and Drop** the two columns to Panel 2 on the dashboard.
 
 <img src="./cmedia/ca-image-43.png" >
@@ -333,7 +386,9 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 <img src="./cmedia/ca-image-44.png" >
 
 6. **Select** the **My Content** folder.
+
 7. **Enter** a dashboard name of **Bank Customer Analysis**.
+
 8. **Select** the **Save** button.
 
 > **Note -** If the data source panel is not open, from the Navigation panel on the left side of the screen, select sources to open the data source panel and select the **Bank Customers Module** we were working with.
@@ -341,18 +396,23 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 <img src="./cmedia/ca-image-45.png" >
 
 1. **Click on** the triangle next to **Navigation paths** to expand it.
+
 2. **Click on** the triangle next to the **Bank Churn** navigation path to expand it.
+
 3. **Click on** the triangle next to **Bank Customers** to expand it.
 
 <img src="./cmedia/ca-image-46.png" >
 
 4. From the **Bank Churn** navigation path, **Select** the Bankid column.
+
 5. **Ctrl-Click or Command-Click** and **Select** the **Satisfaction** column under the **Bank Customers Module**
+
 6. **Drag and Drop** these items to Panel 4 (the panel in the middle of the template).
 
 <img src="./cmedia/ca-image-47.png" >
 
 7. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+
 8. **Select** the **Save** button on the toolbar to save the dashboard.
 
 > **Notice** that there is little difference in the overall satisfaction between the two banks.
@@ -360,24 +420,31 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 <img src="./cmedia/ca-image-48.png" >
 
 1. From the **Bank Customers** table **Select** the **Satisfaction** column.
+
 2. From the **Bank Customers** table **Ctrl-Click or Command-Click** and **Select** the **Age Range** column.
+
 3. From the **Bank Customers** table **Ctrl-Click or Command-Click** and **Select** the **Gender** column.
+
 4. **Drag and Drop** these items to Panel 5 (the panel on the bottom of the template).
 
 <img src="./cmedia/ca-image-49.png" >
 
 5. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+
 6. **Select** the **Save** button on the toolbar to save the dashboard.
 
 <img src="./cmedia/ca-image-50.png" >
 
 7. **Click on** the **Bankid-Satisfaction** graph in Panel 5.
+
 8. **Select** the **Visualization** icon.
 
 <img src="./cmedia/ca-image-51.png" >
 
 9. **Select** the **Heat Map** visualization from the panel of choices to change the graph to a Heat Map.
+
 10. **Select** the **Arrow** to close the visualization menu.
+
 11. **Select** the **Save** button on the toolbar to save the dashboard. 
 
 <img src="./cmedia/ca-image-52.png" >
@@ -393,11 +460,13 @@ Now, let's add another Tab to the Dashboard.
 <img src="./cmedia/ca-image-54.png" >
 
 2. **Scroll down** and **Select** the 2 x 2 template with 4 rectangles in it.
+
 3. **Select** the **USE** button.
 
 <img src="./cmedia/ca-image-55.png" >
 
 4. **Select** the **Tab 1** name area. A menu will appear.
+
 5. **Select** the **Edit** icon that looks like a pencil.
 
 <img src="./cmedia/ca-image-56.png" >
@@ -413,21 +482,29 @@ As we said earlier, your data scientists have found that churn seems to be relat
 <img src="./cmedia/ca-image-58.png" >
 
 1. **Scroll** down to the bottom of the list of columns in the **Bank Customers** data module.
+
 2. From the **Bank Customers** data module **Select** the **Group Late Payments**.
+
 3. **Ctrl-Click or Command-Click** the **Count** column.
+
 4. **Ctrl-Click or Command-Click** the **Churn** column.
+
 5. **Drag and Drop** these columns onto Panel 1.
 
 <img src="./cmedia/ca-image-59.png" >
 
 6. **Resize** the graph you just created to span and use panel 1 and panel 2 by using the sizing controls.
+
 7. **Select** inside the graph to get a menu of graph actions.
+
 8. **Select** the **Visualization** menu item.
 
 <img src="./cmedia/ca-image-60.png" >
 
 9. **Select** the **Heat Map** visualization to change the graph to a Heat Map.
+
 10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
+
 11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
 
 > **Note** - Even though we created three groups we see four groups here. What is different?   
@@ -439,21 +516,29 @@ Now you will add a visualization of churn to credit applications.
 <img src="./cmedia/ca-image-61.png" >
 
 1. **Scroll** down to the bottom of the list of columns in the **Bank Customers** data module.
+
 2. From the **Bank Customers** data module **Select** the **Group Credit Applications**.
+
 3. **Ctrl-Click or Command-Click** the **Count** column.
+
 4. **Ctrl-Click or Command-Click** the **Churn** column.
+
 5. **Drag and Drop** these columns onto Panel 3.
 
 <img src="./cmedia/ca-image-62.png" >
 
 6. **Resize** the graph you just created to span and use panel 3 and panel 4 by using the sizing controls.
+
 7. **Select** inside the graph to get a menu of graph actions.
+
 8. **Select** the **Visualization** menu item.
 
 <img src="./cmedia/ca-image-63.png" >
 
 9. **Select** the **Heat Map** visualization to change the graph to a Heat Map.
+
 10. **Select** the **Arrow** in the top left of the visualization menu to close the visualization menu.
+
 11. **Select** the **Save** button in the top left corner of the toolbar to save the dashboard.
 
 <img src="./cmedia/ca-image-64.png" >
@@ -469,6 +554,7 @@ Let's go back to the Customer Satisfaction tab, since that was the main reason f
 In the middle of the window there are two bars, **K** and **N** (K Bank and N Bank).
 
 1. **Click** on the **Bankid** label between the bars.
+
 2. **Select** the **drill down** button (second from the right).
 
 <img src="./cmedia/ca-image-66.png" >
@@ -478,6 +564,7 @@ We now see two bars, yes and no, "yes" means the customer has left the bank and 
 <img src="./cmedia/ca-image-67.png" >
 
 3. **Click** on the **yes** bar on the right.
+
 4. **Select** the **drill down** button (second from the right).
 
 <img src="./cmedia/ca-image-68.png" >
@@ -489,6 +576,7 @@ We notice that all of the visualizations change to be relative to customers who 
 We can dig deeper into these customers by drilling down further.
 
 1. **Click** on the **Small Business** bar in the graph.
+
 2. **Select** the **drill down** button (second from the right). 
 
 <img src="./cmedia/ca-image-70.png" >
@@ -500,6 +588,7 @@ To find the state with the lowest satisfaction score:
 <img src="./cmedia/ca-image-71.png" >
 
 1. **Click** on the **Satisfaction (Average)** axis title on the left hand side of the chart.
+
 2. **Select** the **Sort** button.
 
 <img src="./cmedia/ca-image-72.png" >
@@ -513,6 +602,7 @@ We see that Rhode Island has the lowest satisfaction level. We can drill down to
 <img src="./cmedia/ca-image-74.png" >
 
 1. **Click** on the **Rhode Island** bar in the graph.
+
 2. **Select** the **drill down** button (second from the right).
 
 <img src="./cmedia/ca-image-75.png" >
