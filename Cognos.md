@@ -455,7 +455,7 @@ Now, let's add another Tab to the Dashboard.
 
 <img src="./cmedia/ca-image-53.png" >
 
-1. **Select** the **+ plus sign** next to the ** Customer Satisfaction** tab to add a new tab.
+1. **Select** the **+ plus sign** next to the **Customer Satisfaction** tab to add a new tab.
 
 <img src="./cmedia/ca-image-54.png" >
 
