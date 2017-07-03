@@ -77,7 +77,8 @@ You will need the following:
       - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
       
         > 
-        > **Note** - 
+        > **Note - **  
+        >
         > The image download is 11 GB -- make sure you have a reliable high speed network to download this file! When unzipped the VMware image will consume 20GB of local disk (and up to 20GB temp space), and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
         
  - A Bluemix account
@@ -86,8 +87,9 @@ You will need the following:
  - dashDB access credentials
  - A Cognos Anlaytics Trial
 
-> **Note**  
-If you need help with any of the prerequisites, go to the [Prerequisite Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md) page
+> **Note - **  
+> 
+> If you need help with any of the prerequisites, go to the [Prerequisite Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md) page
 
 
 # Move the Data to the Cloud
@@ -175,10 +177,11 @@ If you need help with any of the prerequisites, go to the [Prerequisite Step by 
 
 6. **Click On** the "CDA dashDB" service you just created from the list of services.
 
-<img src="./media/Step3-image-10-1.png" >
-
 
 ## Step 2: Create the dashDB Credentials
+
+
+<img src="./media/Step3-image-10-1.png" >
 
 7. **Select** the "Service credentials” section of the "CDA dashDB" service launch page.   
 
@@ -194,7 +197,9 @@ If you need help with any of the prerequisites, go to the [Prerequisite Step by 
 
 11. **Select** the "View credentials v" down arrow to view the newly created credentials.
 
-> **Note** - These are the "CDA dashDB" service credentials you will need to access the dashDB service later when moving the data to the cloud. Copy this into with the Data Connect Server info you saved earlier. I have redacted my password, to protect my identity, yours will be visible.
+> **Note - **
+> 
+> These are the "CDA dashDB" service credentials you will need to access the dashDB service later when moving the data to the cloud. Copy this into with the Data Connect Server info you saved earlier. I have redacted my password, to protect my identity, yours will be visible.
 
 <img src="./media/Step3-image-14.png"/>
 
@@ -230,7 +235,7 @@ If you need help with any of the prerequisites, go to the [Prerequisite Step by 
 You will see the schema for the new table. The table is empty. You will be moving data from on-premises to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
 
 
-# Work on the "On-Premises" systems
+# Work on the "On-Premises" Systems
 
 > **NOTE -** 
 >
@@ -259,6 +264,9 @@ You will see the schema for the new table. The table is empty. You will be movin
 <img src="./media/vmimage/vmimage-image-01.png"/>
 
 **Locate** the **Cloud Data Analytics.zip** VMWare Image zip file that you downloaded to your system in the Prework section.
+
+
+### On Windows
 
 **Unzip** the **Cloud Data Analytics.zip** file using your favorite program of choice; 7 Zip,  WinZip etc.  It will create a **Cloud Data Analytics** folder in the location you choose to put it.
 
