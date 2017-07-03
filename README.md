@@ -41,7 +41,9 @@ In this case, one organization is using IBM's PureData System for Analytics (Net
 
 Consider the following scenario: You are talking to the Chief Marketing Officer (CMO) at "K Bank". 
 
-In this example we used the scenario below, but here is a [video](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/InternDemoIntro.mov) of one of IBM's Technical Sales Interns presenting the same solution with a couple other ways to look at the data once it is combined to show that this use case can open up so many new opportunities.  
+In this example we used the scenario below, but here is a [video](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/InternDemoIntro.mov) of one of IBM's Technical Sales Interns presenting the same solution with a couple other ways to look at the data once it is combined to show that this use case can open up so many new opportunities. 
+
+This lab's narrative is... 
 
 Hi Ms. Smith, I know that "K Bank" just bought "N Bank", and I just came from a meeting on how you plan to integrate the two companies’ systems, and it is going to take quite a while. I would think that many people, and you in particular, can’t wait for a year or more for the integrated data to start reaching out to your customers.
 
