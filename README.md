@@ -1134,7 +1134,7 @@ Next we want to look at satisfaction by customer type.
 
 <img src="./cmedia/ca-image-43.png" >
 
-4. **Rezie** the **Customer Type-Satisfaction** graph to span across panel 1 and 2 by using the sizing controls.
+4. **Resize** the **Customer Type-Satisfaction** graph to span across panel 1 and 2 by using the sizing controls.
 
 Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the **Change Visualization** icon. That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
 
@@ -1168,7 +1168,7 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 
 <img src="./cmedia/ca-image-47.png" >
 
-7. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+7. **Resize** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
 
 8. **Select** the **Save** button on the toolbar to save the dashboard.
 
@@ -1186,7 +1186,7 @@ Cognos Analytics gives a visualization to start based on the data types and numb
 
 <img src="./cmedia/ca-image-49.png" >
 
-5. **Rezie** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
+5. **Resize** the **Bankid-Satisfaction** graph to span the entire panel by using the sizing controls.
 
 6. **Select** the **Save** button on the toolbar to save the dashboard.
 
