@@ -75,7 +75,11 @@ You will need the following:
       - VMware Fusion (Full or 30 day trial) for OSX
  - The Virtual Machine (VM) for the lab
       - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
-        > **Note** - The image download is 11 GB -- make sure you have a reliable high speed network to download this file! When unzipped the VMware image will consume 20GB of local disk (and up to 20GB temp space), and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
+      
+        > 
+        > **Note** - 
+        > The image download is 11 GB -- make sure you have a reliable high speed network to download this file! When unzipped the VMware image will consume 20GB of local disk (and up to 20GB temp space), and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
+        
  - A Bluemix account
  - A provisioned Data Connect Starter service in Bluemix
  - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
@@ -207,7 +211,7 @@ If you need help with any of the prerequisites, go to the [Prerequisite Step by 
 
 <img src="./media/Step3-image-17.png"/>
 
-5. **Copy and Pate** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
+5. **Copy and Paste** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
 
 6. **Select** the Run All button on the toolbar.
 
