@@ -146,12 +146,12 @@ You will need the following:
 
 <img src="./media/Step3-image-07-01.png" />
 
-16. **Select** the **Settings** buton (the gear icon) at the top of the page to view the Gateway settings.
+16. **Select** the **Settings** button (the gear icon) at the top of the page to view the Gateway settings.
 
 17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. 
 > **Note -** 
 >
-> This is a **very important** step because you are going to need this Gateway ID further on in the Prework to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when its needed.
+> This is a **very important** step because you are going to need this Gateway ID further on in the pre-work to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when it's needed.
 
 18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
 
@@ -199,11 +199,11 @@ You will need the following:
 
 <img src="./media/Step3-image-12.png" />
 
-11. **Select** the "View credentials v" down arrow to view the newly created credentials.
+11. **Select** the "View credentials" down arrow to view the newly created credentials.
 
 > **Note - **
 > 
-> These are the "CDA dashDB" service credentials you will need to access the dashDB service later when moving the data to the cloud. Copy this into with the Data Connect Server info you saved earlier. I have redacted my password, to protect my identity, yours will be visible.
+> These are the "CDA dashDB" service credentials you will need to access the dashDB service later when moving the data to the cloud. Copy all of this to the same place you saved the Data Connect Gateway ID you saved earlier. I have redacted my password to protect my identity. Yours will be visible.
 
 <img src="./media/Step3-image-14.png"/>
 
