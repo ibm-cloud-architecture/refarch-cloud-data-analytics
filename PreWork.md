@@ -72,7 +72,8 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
 > **Note -**
 > 
-> You may be prompted automatically to create a space if you do not have one defined. If not, follow the steps below.
+> If you do not have a space defined you will be prompted to create one. 
+> Even if you have a space defined already, you way mant to create a new one for this lab following the steps below.
 >
 
 <img src="./media/Step2-image-02.png">  
@@ -87,7 +88,7 @@ You will need a Bluemix account. Follow the instructions in one of the sections 
 
 > The space will be created and you will be brought into it. You should now see, in the top right corner, that you are in the “Cloud-Data-Analytics” space in your Bluemix organization. You will use this space to house the Cloud-Data-Analytics lab services. 
 
-**Proceed to Step C: Create the Cloud Data Analytics Lab Services**
+**Proceed to Step C: Create a Cognos Analytics account**
 
 ## If you don't have a Bluemix account...
 
