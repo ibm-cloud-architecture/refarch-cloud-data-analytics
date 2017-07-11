@@ -148,10 +148,11 @@ You will need the following:
 
 16. **Select** the **Settings** button (the gear icon) at the top of the page to view the Gateway settings.
 
-17. **Select** the **Copy** button next to the Gateway ID to copy the Gateway ID to the clipboard. 
+17. **Select** the gateway ID, Copy and save it - you will need it later.  
+
 > **Note -** 
 >
-> This is a **very important** step because you are going to need this Gateway ID further on in the pre-work to supply to the Secure Gateway client configuration file thta is installed on the VM image. Remember this ID or save it off so you can easily get back to it when it's needed.
+> This is a **very important** step because you are going to need this Gateway ID further on in the pre-work to supply to the Secure Gateway client configuration file that is installed on the VM image. Remember this ID or save it off so you can easily get back to it when it's needed.
 
 18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
 
