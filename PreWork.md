@@ -38,7 +38,7 @@ F | Create a GitHub account
 
 ## Step A: Download the lab files
 
-   **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases. Be sure to use the default names and the .csv file extention.
+   **Download** the Customer data CSV files to your workstation. These files are used if you do not want to (or cannot) use the VM image to emulate the on-premises databases. Be sure to use the default names and the .csv file extension.
     
    Right click on this link and select Save Link As... [K Bank's data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
     
