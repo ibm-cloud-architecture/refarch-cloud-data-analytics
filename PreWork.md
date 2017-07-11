@@ -36,9 +36,9 @@ C | Create the Cloud-Data-Analytics lab services
 E | Create a Cognos Analytics account
 F | Create a GitHub account
 
-## Step A: Download the lab files
+## Step A: If you do NOT have the VMware image - Download the lab files
 
-   **Download** the Customer data CSV files to your workstation (** Only needed if you do not have the VMimage.**) Be sure to use the default names and the .csv file extension.
+   **Download** the Customer data CSV files to your workstation ( **Only needed if you do not have the VMimage **) Be sure to use the default names and the .csv file extension.
     
    Right click on this link and select Save Link As and keep the file name as is... [K Bank's Customer data](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/raw/master/kbank_customers.csv)
     
