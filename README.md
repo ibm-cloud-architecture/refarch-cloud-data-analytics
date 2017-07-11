@@ -237,7 +237,7 @@ You will need the following:
 
 <img src="./media/Step3-image-20.png"/>
 
-You will see the schema for the new table. The table is empty. You will be moving data from on-premises to this table in the move data to cloud excercies later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
+You will see the schema for the new table. The table is empty. You will be moving data from on-premises to this table in the move data to cloud exercises later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
 
 
 # Work on the "On-Premises" Systems
