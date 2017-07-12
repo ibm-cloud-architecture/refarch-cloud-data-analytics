@@ -4,7 +4,7 @@
 
 <img src="./media/vmimage/vmimage-image-24.png"/>
 
-1. **Enter** the commaond **ls -la** to list the directory contents.
+1. **Enter** the command **ls -la** to list the directory contents.
 2. **Enter** the command **cat lift-to-dashdb | more** to view the Lift script contents.
 
 <img src="./media/vmimage/vmimage-image-25.png"/>
