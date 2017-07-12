@@ -956,7 +956,7 @@ While we show multiple tables here, you should only see a single table, named **
 
 Your data module should look like the screen shot above.
 
-5. **Select** the **Save** button on the top left corner of the toobar (looks like a disk).
+5. **Select** the **Save** button on the top left corner of the toolbar (looks like a disk).
 
 <img src="./cmedia/ca-image-20.png" >
 
