@@ -81,9 +81,10 @@ You will need the following:
       - Download the [VMware Image](https://ibm.box.com/s/50uj4kfg87qe3rd3icjfvlx94xaygdmr) 
       
         > 
-        > **Note - **  
+        > **Note**  
         >
         > The image download is 11 GB -- make sure you have a reliable high speed network to download this file! When unzipped the VMware image will consume 20GB of local disk (and up to 20GB temp space), and 3GB RAM. Users with limited RAM (8GB) will want to shut down as many applications as possible prior to launching VMware.
+        > 
         
  - A Bluemix account
  - A provisioned Data Connect Starter service in Bluemix
@@ -91,7 +92,7 @@ You will need the following:
  - dashDB access credentials
  - A Cognos Anlaytics Trial
 
-> **Note - **  
+> **Note**  
 > 
 > If you need help with any of the prerequisites, go to the [Prerequisite Step by Step Directions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/PreWork.md) page
 
