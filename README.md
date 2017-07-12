@@ -884,7 +884,7 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 
 7. **Select** the **Use the following signon** radio button.
 
-8. **Select** the **+ plus sign** right next to the drow down list box of signons.
+8. **Select** the **+ plus sign** right next to the drop down list box of signons.
 
 <img src="./cmedia/ca-image-12.png" >
 
