@@ -386,7 +386,7 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 - Netezza Admin = admin / password – You will use these credentials for your Lift data migration
 
 
-## Step 3a: Set the Keyboard
+## NON US Keyboard Only  ---   Step 3a: Set the Keyboard
 
 **OPTIONAL**  For a non "US English keyboard" you way want to switch to a local keyboard to make the work easier.
 
