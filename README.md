@@ -373,7 +373,6 @@ You will see the schema for the new table. The table is empty. You will be movin
 >
 
 
-
 ## Virtual Machine Credentials
 
 The credentials (userid / password) for this Virtual Machine (VM) are as follows:
@@ -409,6 +408,14 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
 ## Step 4: Update the Secure Gateway ID
+
+> In this section we will be editting some files. If you use **vi** directly in the VM, you cannot cut and paste. If you use the **ssh** command from your laptop into the VM you can cut and paste and eliminate a lot of manual typing complex strings.
+
+<img src="./media/vmimage/SSH1.png"/>
+
+Open a Terminal in Mac/OSX and enter the command **ssh nz@<your VM IP Address>**
+Enter the password (nz) 
+Hit **Enter**
 
 <img src="./media/vmimage/vmimage-image-18.png"/>
 
