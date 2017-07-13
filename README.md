@@ -12,7 +12,7 @@
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
-    - [Step 3a: Set the Keyboard](#step-3a-set-the-keyboard)
+        - [Step 3a: Set the Keyboard](#step-3a-set-the-keyboard)
     - [Step 4: Update the Lift Properties](#step-4-update-the-lift-properties)
     - [Step 5: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
     - [Step 6: Move Data to the Cloud using Data Connect](#step-5-move-data-to-the-cloud-using-data-connect)
@@ -392,7 +392,7 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 >
 
 
-## Step 3a: Set the Keyboard
+### Step 3a: Set the Keyboard
 
 **OPTIONAL**  For a non QWERTY keyboard you likely will want to switch to a local keyboard to make the work easier.
 
