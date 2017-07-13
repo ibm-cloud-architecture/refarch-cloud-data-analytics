@@ -425,6 +425,13 @@ When prompted for the password, enter the password (nz)
 
 Hit **Enter**
 
+
+> NOTE - 
+>
+> In Windows you will need Putty to do this. You can connect Putty to the IP Address in a similar fashion.
+> 
+
+
 <img src="./media/vmimage/vmimage-image-18.png"/>
 
 1. **Enter** a command of **cd /etc/ibm**.
