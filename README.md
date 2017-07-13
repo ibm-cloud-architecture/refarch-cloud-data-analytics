@@ -209,6 +209,7 @@ You will need the following:
 <img src="./media/Step3-image-14.png"/>
 
 1. **Select** the **Manage** menu of the CDA dashDB service on the left.
+
 2. **Select** the **OPEN** button on the top right or under the "Where to Start" section at the bottom of the page to open the dashDB console.
 
 <img src="./media/Step3-image-15.png"/>
@@ -250,6 +251,7 @@ You will see the schema for the new table. The table is empty. You will be movin
 ## Step 3: Work with the VM
 
 ## Steps
+
 1. [Unzip the VM Image](#unzip)
 
 1. [Power On the Virtual Machine](#power)
