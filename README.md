@@ -396,8 +396,7 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 
 **OPTIONAL**  For a non "US English keyboard i.e. QWERTY" you likely will want to switch to a local keyboard to make the work easier.
 
-![Instructions](UpdateKeyboard.md)
-
+![Instructions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/UpdateKeyboard.md)
 
 
 ## Login to the Virtual Machine
