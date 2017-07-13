@@ -14,8 +14,8 @@
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
         - [Step 3a: Set the Keyboard](#step-3a-set-the-keyboard)
     - [Step 4: Update the Lift Properties](#step-4-update-the-lift-properties)
-    - [Step 5: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
-    - [Step 6: Move Data to the Cloud using Data Connect](#step-5-move-data-to-the-cloud-using-data-connect)
+    - [Step 4: Update the Secure Gateway ID](#step-5-update-the-secure-gateway-id)
+    - [Step 5: Move Data to the Cloud using Data Connect](#step-5-move-data-to-the-cloud-using-data-connect)
 
 - **[Analyze the Data](#analyze-the-data)**
     - [Step 1: Setup Cognos](#step-1-setup-cognos) 
@@ -409,37 +409,7 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 
 <img src="./media/vmimage/vmimage-image-14.png"/>
 
-## Step 4: Update the Lift Properties
-
-1. **Enter** the command **cd $DATA**.
-
-<img src="./media/vmimage/vmimage-image-15.png"/>
-
-2. **Enter** the command **ls -la**.
-
-<img src="./media/vmimage/vmimage-image-16.png"/>
-
-3. **Enter** the command **vi lift.pf** to edit the Lift properties file.
-
-<img src="./media/vmimage/vmimage-image-17.png"/>
-
-> **Note -** 
->
-> The content in the **lift.pf** properties file is case sensitive. Make sure that when you change values noted below that you keep the values in lowercase or Uppercase. For instance, the **target-user** is in lowercase but the **target-schema** is in Uppercase. Keep them in the same case when doing changes.
->
-
-4. **Change** the **target-user**, **target-password** , **target-host** and **target-schema** to your dashDB user, password, host and schema (your schema is the same as your user but in Uppercase...) using the credentials from your dashDB for Analytics service Credentials section you obtained in a previous section.
-
-> **Note -** 
->
-> While in the vi editor you can use the arrow keys to move to the character that you want to change and press R to overwrite the character at the cursor location, continue typing with your edits and hit ESC when done to return to command mode.
->
-
-5. **When finished**, hit ESC, hold `SHIFT` and type `ZZ` to save and close the file.
-
-<a name="secgwid" />
-
-## Step 5: Update the Secure Gateway ID
+## Step 4: Update the Secure Gateway ID
 
 <img src="./media/vmimage/vmimage-image-18.png"/>
 
