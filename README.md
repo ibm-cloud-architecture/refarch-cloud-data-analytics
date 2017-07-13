@@ -1250,7 +1250,7 @@ Now, let's add another Tab to the Dashboard.
 
 > Note - This image depicts the numbering of the four panels to explain placement in the following steps.
 
-As we said earlier, your data scientists have found that churn seems to be related to the number of credit applictions the customer has submitted, and the number of times they have had late payments. Remember we also created groups for late payments and credit applications, now let's create visualizations for these. 
+As we said earlier, your data scientists have found that churn seems to be related to the number of credit applications the customer has submitted, and the number of times they have had late payments. Remember we also created groups for late payments and credit applications. Now let's create visualizations for these. 
 
 <img src="./cmedia/ca-image-58.png" >
 
