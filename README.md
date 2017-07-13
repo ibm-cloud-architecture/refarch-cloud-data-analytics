@@ -1130,7 +1130,7 @@ Since this is the first dashboard we are creating you can see in the image above
 
 5. **Select** the **Satisfaction** column and **Drag and Drop** it into Panel 1.
 
-> Remember the panel layout fro above. Panel 1 is the panel in the top lef corner of the template.
+> Remember the panel layout from above. Panel 1 is the panel in the top left corner of the template.
 
 <img src="./cmedia/ca-image-41.png" >
 
@@ -1152,7 +1152,7 @@ Next we want to look at satisfaction by customer type.
 
 4. **Resize** the **Customer Type-Satisfaction** graph to span across panel 1 and 2 by using the sizing controls.
 
-Cognos Analytics gives a visualization to start based on the data types and number of values of the columns selected, but you can change these visualizations by selecting the **Change Visualization** icon. That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
+Cognos Analytics gives a visualization to start based on the data types and number of values for the columns selected, but you can change these visualizations by selecting the **Change Visualization** icon. That will show the visualizations that best suit the data types of the columns inside the visualization. You can always select **More** if you do not see a format you like. You can click anywhere else in the dashboard to close this window.
 
 5. **Select** the **Save** button on the toolbar to save the dashboard.
 
