@@ -388,17 +388,15 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 
 > **Note -** 
 >
-> Only do step 3A if you are NOT using a QWERTY key board layout
+> Only do step 3A if you are NOT using a QWERTY keyboard layout
 >
 
 
 ## Step 3a: Set the Keyboard
 
-**OPTIONAL**  For a non "US English keyboard i.e. QWERTY" you likely will want to switch to a local keyboard to make the work easier.
+**OPTIONAL**  For a non QWERTY keyboard you likely will want to switch to a local keyboard to make the work easier.
 
 [Instructions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/UpdateKeyboard.md)
-
-[Lift4Move.md](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/Lift4Move.md)
 
 
 ## Login to the Virtual Machine
