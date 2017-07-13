@@ -1384,7 +1384,7 @@ We see that we had one customer (UX10401) leave us from Rhode Island, and their 
 
 Additionally, if we look at the bar below, we can see that this customer was a 70 - 79 year old female.
 
-> **Note -** You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select. Also, we would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the Dashboard more appealing before sharing across the enterprise (or at the board meeting). But in the sake of time we will skip that for this demo.
+> **Note -** You can click on any part of the dashboard and the rest of the dashboard will filter based on the value you select. Also, we would usually title these graphs, set maximums on graphs, specify different colors, etc. to make the dashboard more appealing before sharing across the enterprise (or at the board meeting). But for the sake of time we will skip that for this demo.
 
 
 # Take a screen capture or screen shot of this dashboard tab to show that you have completed the lab. 
