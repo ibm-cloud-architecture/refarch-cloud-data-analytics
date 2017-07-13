@@ -394,16 +394,10 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 
 ## Step 3a: Set the Keyboard
 
-**OPTIONAL**  For a non "US English keyboard" you way want to switch to a local keyboard to make the work easier.
+**OPTIONAL**  For a non "US English keyboard i.e. QWERTY" you likely will want to switch to a local keyboard to make the work easier.
 
-For France for example - where the keyboard is AZERTY.
-1. If logged in, then logout
+![Instructions](UpdateKeyboard.md)
 
-1. login as root: root/netezza
-
-1. run: **loadkeys fr**
-
-1. logout
 
 
 ## Login to the Virtual Machine
