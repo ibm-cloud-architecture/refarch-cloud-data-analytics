@@ -513,7 +513,7 @@ Scroll down the screen until you see the list of all of your services, like show
 > 
 > The Secure Gateway Interface changed slightly. You now need to select the grey box for the connection to check its status. 
 
-<img src="./media/dataconnect/data-connect-image-04a.png" />
+<img src="./media/dataconnect/data-connect-image-04b.png" />
 
 Click on the grey box for your gateway.
 
