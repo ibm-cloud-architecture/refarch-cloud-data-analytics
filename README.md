@@ -509,6 +509,14 @@ Scroll down the screen until you see the list of all of your services, like show
 
 ## Validate the Secure Gateway Client is Connected
 
+> **PLEASE NOTE**
+> 
+> The Secure Gateway Interface changed slightly. You now need to select the grey box for the connection to check its status. 
+
+<img src="./media/dataconnect/data-connect-image-04a.png" />
+
+Click on the grey box for your gateway.
+
 <img src="./media/dataconnect/data-connect-image-04.png" />
 
 You should see that your Secure Gateway client is connected in the Secure Gateway client section as depicted above. There should also be a green client connection icon in the top right hand corner signifying that client(s) are connected and ready for work. 
