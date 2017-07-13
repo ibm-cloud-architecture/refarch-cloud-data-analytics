@@ -413,8 +413,14 @@ The credentials (userid / password) for this Virtual Machine (VM) are as follows
 
 <img src="./media/vmimage/SSH1.png"/>
 
-Open a Terminal in Mac/OSX and enter the command **ssh nz@<your VM IP Address>**
-Enter the password (nz) 
+Open a Terminal in Mac/OSX and enter the command **ssh nz@"your VM IP Address"**
+
+When prompted "Are you sure you want to continue connecting (yes/no)?" - Type **yes**
+
+Hit **Enter**
+
+When prompted for the password, enter the password (nz) 
+
 Hit **Enter**
 
 <img src="./media/vmimage/vmimage-image-18.png"/>
