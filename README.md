@@ -1368,8 +1368,6 @@ To find the state with the lowest satisfaction score:
 
 3. **Select** the **Sort descending** menu item.
 
-<img src="./cmedia/ca-image-73.png" >
-
 We see that Rhode Island has the lowest satisfaction level. We can drill down to find out which customer(s) from Rhode Island closed their accounts. 
 
 <img src="./cmedia/ca-image-74.png" >
