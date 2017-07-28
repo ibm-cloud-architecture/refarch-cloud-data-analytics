@@ -62,7 +62,7 @@ The solution is a Business Inteligence (BI) tool that allow Business Users to ge
 
 There are a few components of this solution. We used a VM to emulate the on-premises systems, PureData System for Analytics (Netezza) and Db2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
 
-We chose dashDB for Analytics (to be renamed **Db2 Warehouse on Cloud** as of ~July 18th) as the combined repository since it is a fully managed service in the cloud that can be expanded easily, needs no administration, and has built-in encryption and security. **Note** - dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified. 
+We chose dashDB for Analytics (which was renamed to **Db2 Warehouse on Cloud** on July 18th, 2017) as the combined repository since it is a fully managed service in the cloud that can be expanded easily, needs no administration, and has built-in encryption and security. **Note** - dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified. 
 
 Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
 
@@ -168,9 +168,9 @@ You will need the following:
 
 <img src="./media/Step3-image-08.png" />
 
-2. **Enter** "dashdb" (without quotes) in the catalog search area.  
+2. **Enter** "Db2 Warehouse on Cloud" (without quotes) in the catalog search area.  
 
-3. **Click on** the “dashDB for Analytics” service.  
+3. **Click on** the “Db2 Warehouse on Cloud” service.  
 
 <img src="./media/Step3-image-09.png" />
 
