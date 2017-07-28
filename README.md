@@ -106,17 +106,17 @@ You will need the following:
 
 <img src="./media/Step3-image-02.png" />
 
-2. **Enter** "data connect" (without quotes) in the catalog search area to find the service faster than scrolling.  
+2. **Enter** the words **data connect** in the catalog search area to find the **Data Connect** service.  
 
-3. **Click** on the “Data Connect” service.  
+3. **Click** on the **Data Connect** service.  
 
 <img src="./media/Step3-image-03.png" />
 
-4. **Enter** "CDA Data Connect” (without quotes) for the Service name.  (We are using CDA as the short form for Cloud-Data-Analytics).
+4. **Enter** a Service name of **CDA Data Connect** (We are using CDA as the short form for Cloud-Data-Analytics).
 
-5. **Enter** “CDA Data Connect” (without quotes) for the Credential name.  
+5. **Enter** a Credential name of **CDA Data Connect**.  
 
-6. **Click** on the the "Create" button. The service will be created and the launch page is displayed.
+6. **Select** the **Create** button. The service will be created and the Data Connect launch page is displayed.
 
 <img src="./media/Step3-image-04.png" />
 
@@ -136,11 +136,15 @@ You will need the following:
 
 <img src="./media/Step3-image-07.png" />
 
-12. **Enter** a gateway name of **Cloud-Data-Analytics**.
+12. **Enter** a gateway name of **Cloud Data Analytics**.
 
 13. **Uncheck** the "Require security token to connect clients" check box.
 
 14. **Uncheck** the "Token Expiration" check box.
+
+> **Please Note** 
+>
+> **Make Sure** you **uncheck** the sercurity token and token experiation check boxes. **This is important** because you will not be using a security token for this lab. If you **do not uncheck** these boxes your secure gateway client will think it is using a security token and your secure gateway client will fail to connect to your Data Connect service.
 
 15. **Select** the **Add Gateway** button.
 
@@ -148,17 +152,17 @@ You will need the following:
 
 16. **Select** the **Settings** button (the gear icon) at the top of the page to view the Gateway settings.
 
-17. **Select** the gateway ID, Copy and save it - you will need it later.  
+17. **Select** the **Copy** button next to the gateway ID. This will copy and save it to the clipboard. You can also select it and copy and paste it to a location of your choice.
 
-> **Note -** 
+> **Please Note** 
 >
-> This is a **very important** step because you are going to need this Gateway ID further on in the pre-work to supply to the Secure Gateway client configuration file that is installed on the VM image. Remember this ID or save it off so you can easily get back to it when it's needed.
+> This is a **very important** step because you are going to need this Gateway ID further on in the lab to supply to the Secure Gateway client configuration file that is installed on the VM image. Remember this ID or save it off so you can easily get back to it when it's needed.
 
 18. **Select** the **X** in the top right corner of the settings dialog to close the dialog.
 
 <img src="./media/Step3-image-07-02.png" />
 
-19. **Close** down the Data Connect service browser tab by selecting the **X** on the browser tab.
+19. **Close** the Data Connect service by selecting the **X** on the tab in your browser.
 
 **Go Back** to your Bluemix Account for the next steps. 
 
@@ -168,19 +172,19 @@ You will need the following:
 
 <img src="./media/Step3-image-08.png" />
 
-2. **Enter** "Db2 Warehouse on Cloud" (without quotes) in the catalog search area. Note that this service was very recently renamed from dashDB for Analytics. This document and the screen shots shown may use the old dashDB name in places.
+2. **Enter** the letters **Db2** in the catalog search area to find the Db2 services.  
 
-3. **Click on** the “Db2 Warehouse on Cloud” service.  
+3. **Click on** the **Db2 Warehouse on Cloud** service.  
 
 <img src="./media/Step3-image-09.png" />
 
-4. **Enter** "CDA dashDB” (without quotes) for the Service name.   
+4. **Enter** a Service name of **CDA Db2 Warehouse on Cloud**.   
 
-5. **Select** the the "Create" button. The service will be created and the launch page is displayed.
+5. **Select** the **Create** button. The service will be created and you will be taken back to Bluemix.
 
 <img src="./media/Step3-image-10.png" />
 
-6. **Click On** the "CDA dashDB" service you just created from the list of services.
+6. **Click On** the **CDA Db2 Warehouse on Cloud** service you just created from the list of Bluemix services.
 
 
 ## Step 2: Create the dashDB Credentials
@@ -188,57 +192,70 @@ You will need the following:
 
 <img src="./media/Step3-image-10-1.png" >
 
-7. **Select** the "Service credentials” section of the "CDA dashDB" service launch page.   
+7. **Select** the **Service credentials** section of the **CDA Db2 Warehouse on Cloud** service launch page.   
 
-8. **Select** the the "New credential +" button.
+8. **Select** the **New credential +** button.
 
 <img src="./media/Step3-image-11.png" />
 
-9. **Enter** "CDA dashDB” (without quotes) for the credential name.   
+9. **Enter** a credential Name of **CDA-Db2-Warehouse-on-Cloud** (with dashes, no spaces are allowed).   
 
-10. **Select** the the "Add" button. The service credential will be created.
+10. **Select** the **Add** button. The service credentials will be created.
 
 <img src="./media/Step3-image-12.png" />
+<img src="./media/Step3-image-13.png" />
 
-11. **Select** the "View credentials" down arrow to view the newly created credentials.
+11. **Select** the **down arrow** next to the **View credentials** action for the newly created credentials.
 
-> **Note - **
+> **Please Note**
 > 
-> These are the "CDA dashDB" service credentials you will need to access the dashDB service later when moving the data to the cloud. Copy all of this to the same place you saved the Data Connect Gateway ID you saved earlier. I have redacted my password to protect my identity. Yours will be visible.
+> These are the **CDA Db2 Warehouse on Cloud** service credentials you will need to access the Db2 Warehoue on Cloud service later on in the lab when you create a connection in Data Connect and if you choose to do the optional movement of data to the cloud using Bluemix Lift. Remember how to get back to this section of your CDA Db2 Warehouse on Cloud service so you can copy and paste the Host, User, Port and Password as needed.
 
 <img src="./media/Step3-image-14.png"/>
 
-1. **Select** the **Manage** menu of the CDA dashDB service on the left.
+1. **Select** the **Manage** menu of the **CDA Db2 Warehouse on Cloud** service on the left.
 
-2. **Select** the **OPEN** button on the top right or under the "Where to Start" section at the bottom of the page to open the dashDB console.
+2. **Select** the **OPEN** button on the top right or the **Open** link in the **Where to Start** section at the bottom of the page to open the Db2 Warehouse on Cloud console.
 
-<img src="./media/Step3-image-15.png"/>
+<img src="./media/Step3-image-14-01.png"/>
 
-3. **Select** the **Run SQL** menu from the left hand side of the console.
+> **Please Note**
+> 
+> The Db2 Warehouse on Cloud (formerly known as dashDB) console has changed and is now using Version 2. Your console should look like the screen shot above. If for some reason your Db2 Warehouse on Cloud console does not look like the screen shot above then [Click this link for the dashDB Console Version 1 Instructions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/dashDB-Console-V1.md) and then come back to finish the rest of the lab.
 
-<img src="./media/Step3-image-16.png"/>
+<img src="./media/Step3-image-15-v2.png"/>
 
-4. **Select** all the sample SQL in the SQL scratch pad area and delete it.
+3. **Select** the **Run SQL** menu from the menu on the top of the console.
 
-<img src="./media/Step3-image-17.png"/>
+<img src="./media/Step3-image-16-v2.png"/>
+
+4. **Select** the entire comment in the SQL editor scratch pad area and **delete** it.
+
+<img src="./media/Step3-image-17-v2.png"/>
 
 5. **Copy and Paste** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
 
-6. **Select** the Run All button on the toolbar.
+6. **Select** the **Run All** button on the toolbar.
 
-<img src="./media/Step3-image-18.png"/>
+<img src="./media/Step3-image-18-v2.png"/>
 
-7. **Review** the results. It should complete successfully.
+7. **Review** the results. It should complete successfully. If not, review the SQL error and fix the error. If you need assistance don't be afraid to ask for help.
 
-8. **Select** the **Tables** menu from the left hand side of the console.
+<img src="./media/Step3-image-19-v2.png"/>
 
-<img src="./media/Step3-image-19.png"/>
+8. **Select** the **Explore** menu from the top of the console.
 
-9. **Select** the **BANK_CUSTOMERS** table from the tables drop down list box.
+9. **Select** the **DASHXXXXX** schema, your schema, from the list of schemas.
 
-<img src="./media/Step3-image-20.png"/>
+10. **Select** the **BANK CUSTOMERS** table from the list of tables. You will see the table definiton listed on the right.
 
-You will see the schema for the new table. The table is empty. You will be moving data from on-premises to this table in the move data to cloud exercises later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
+11. **Select** the **View Data** button at the bottom of the table defintion area.
+
+<img src="./media/Step3-image-20-v2.png"/>
+
+The table should be empty. You will be moving data from on-premises into this table in the move data to cloud exercises later on in this lab using Data Connect and optionally the Bluxemix Lift CLI.
+
+12. **Select** the **Back** button to go back to Bank Customers table defintionn.
 
 
 # Work on the "On-Premises" Systems
