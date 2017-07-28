@@ -168,7 +168,7 @@ You will need the following:
 
 <img src="./media/Step3-image-08.png" />
 
-2. **Enter** "Db2 Warehouse on Cloud" (without quotes) in the catalog search area.  
+2. **Enter** "Db2 Warehouse on Cloud" (without quotes) in the catalog search area. Note that this service was very recently renamed from dashDB for Analytics. This document and the screen shots shown may use the old dashDB name in places.
 
 3. **Click on** the “Db2 Warehouse on Cloud” service.  
 
