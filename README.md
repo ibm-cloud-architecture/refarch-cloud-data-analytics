@@ -10,7 +10,7 @@
 
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
-    - [Step 2: Create the dashDB Credentials](#step-2-create-the-dashdb-credentials)
+    - [Step 2: Create the Db2 Warehouse on Cloud Credentials](#step-2-create-the-dashdb-credentials)
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
         - [Step 3a: Set the Keyboard](#step-3a-set-the-keyboard)
     - [Step 4: Update the Secure Gateway ID](#step-4-update-the-secure-gateway-id)
@@ -22,9 +22,9 @@
 
 # Introduction
 
-This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (dashDB) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example, the on-premises databases are in two different RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of steps to copy from a single database into the cloud as well. 
+This project provides a reference implementation for moving data from on-premises relational database(s) into a Cloud Managed Database Service (Db2 Warehouse on Cloud) so that the data can be analyzed quickly, easily, and without the need to setup any new hardware or request resources from the IT department. In this example, the on-premises databases are in two different RDBMS'es to emulate two different organizations. However, you could use a similar pattern and set of steps to copy from a single database into the cloud as well. 
 
-In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other Db2 on Linux for their data warehouses. The data from these systems will be pushed into dashDB in the cloud so that it can be combined and analyzed as a single entity.  
+In this case, one organization is using IBM's PureData System for Analytics (Netezza) and the other Db2 on Linux for their data warehouses. The data from these systems will be pushed into Db2 Warehouse on Cloud so that it can be combined and analyzed as a single entity.  
 
 **We will provide two mechanisms for moving the data from on-premises to the cloud, Bluemix Data Connect and Lift CLI, so that you can choose the method based on who you are demoing to.** Data Connect is a cleaner, easier solution for one time moves, and best used when demoing to Business Users (LOB managers and executives). Lift CLI is how we would productionalize the initial and delta data load process, and best used when demoing to IT.
 
@@ -62,7 +62,7 @@ The solution is a Business Inteligence (BI) tool that allow Business Users to ge
 
 There are a few components of this solution. We used a VM to emulate the on-premises systems, PureData System for Analytics (Netezza) and Db2. Both of these systems are commonly used by financial firms due to the performance and security they provide - not only for data at rest, but also data as it is being queried.   
 
-We chose dashDB for Analytics (which was renamed to **Db2 Warehouse on Cloud** on July 18th, 2017) as the combined repository since it is a fully managed service in the cloud that can be expanded easily, needs no administration, and has built-in encryption and security. **Note** - dashDB is ISO 27001, SOC 2, SOC 3 and HIPAA certified. 
+We chose Db2 Warehouse on Cloud as the combined repository since it is a fully managed service in the cloud that can be expanded easily, needs no administration, and has built-in encryption and security. **Note** - Db2 Warehouse on Cloud is ISO 27001, SOC 2, SOC 3 and HIPAA certified. 
 
 Data Connect uses the Secure Gateway to encrypt the data on the wire and Lift uses Aspera to transfer the data using very high levels of compression as well as automatic encryption.   
 
@@ -87,8 +87,8 @@ You will need the following:
         
  - A Bluemix account
  - A provisioned Data Connect Starter service in Bluemix
- - A provisioned dashDB for Analytics (**Db2 Warehouse on Cloud** *as of ~July 18*) Entry service in Bluemix
- - dashDB access credentials
+ - A provisioned Db2 Warehouse on Cloud Entry service in Bluemix
+ - Db2 Warehouse on Cloud access credentials
  - A Cognos Anlaytics Trial
 
 > **Note**  
@@ -187,7 +187,7 @@ You will need the following:
 6. **Click On** the **CDA Db2 Warehouse on Cloud** service you just created from the list of Bluemix services.
 
 
-## Step 2: Create the dashDB Credentials
+## Step 2: Create the Db2 Warehouse on Cloud Credentials
 
 
 <img src="./media/Step3-image-10-1.png" >
@@ -221,7 +221,7 @@ You will need the following:
 
 > **Please Note**
 > 
-> The Db2 Warehouse on Cloud (formerly known as dashDB) console has changed and is now using Version 2. Your console should look like the screen shot above. If for some reason your Db2 Warehouse on Cloud console does not look like the screen shot above then [Click this link for the dashDB Console Version 1 Instructions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/dashDB-Console-V1.md) and then come back to finish the rest of the lab.
+> The Db2 Warehouse on Cloud console has changed and is now using Version 2. Your console should look like the screen shot above. If for some reason your Db2 Warehouse on Cloud console does not look like the screen shot above then [Click this link for the dashDB Console Version 1 Instructions](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/dashDB-Console-V1.md) and then come back to finish the rest of the lab.
 
 <img src="./media/Step3-image-15-v2.png"/>
 
@@ -233,7 +233,7 @@ You will need the following:
 
 <img src="./media/Step3-image-17-v2.png"/>
 
-5. **Copy and Paste** the dashDB target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
+5. **Copy and Paste** the Db2 Warehouse on Cloud target table DDL from the [Bank Customers DDL File](https://github.com/ibm-cloud-architecture/refarch-cloud-data-analytics/blob/master/bank_customers.ddl).
 
 6. **Select** the **Run All** button on the toolbar.
 
@@ -544,7 +544,7 @@ When everything is green, and you see that your Secure Gateway client is connect
 
 In this step, you will create three Data Connect connections:
 
-1. dashDB for Analytics - This is your target data source where you will move the Db2 and PDA on-premises data to
+1. Db2 Warehouse on Cloud - This is your target data source where you will move the Db2 and PDA on-premises data to
 
 1. PureData for Analytics - This is the on-premises PDA database in the VM that contains K Bank's Customer data
 
@@ -554,11 +554,11 @@ In this step, you will create three Data Connect connections:
 
 1. **Select** the **Connections** link in the middle of the Data Connect home page to begin creating connections.
 
-### Create the dashDB for Analytics Connection  
+### Create the Db2 Warehouse on Cloud Connection  
 
 <img src="./media/dataconnect/data-connect-image-06.png" />
 
-1. **Select** the **IBM dashDB** connector from the list of connection types.
+1. **Select** the **IBM dashDB** connector from the list of connection types (NOTE - The connection type is due to be renamed, but has not as of this update).
 
 <img src="./media/dataconnect/data-connect-image-07.png" />
 
@@ -566,13 +566,13 @@ In this step, you will create three Data Connect connections:
 
 1. **Enter** a description of **CDA dashDB Database**.
 
-1. **Enter** the host name from your dashDB service credentials.
+1. **Enter** the host name from your Db2 Warehouse on Cloud service credentials.
 
-1. **Enter** a Database name of **BLUDB** - All dashDB plans use a database name of BLUDB.
+1. **Enter** a Database name of **BLUDB** - All Db2 Warehouse on Cloud plans use a database name of BLUDB.
 
-1. **Enter** the username from your dashDB service credentials.
+1. **Enter** the username from your Db2 Warehouse on Cloud service credentials.
 
-1. **Enter** the password from your dashDB service credentials.
+1. **Enter** the password from your Db2 Warehouse on Cloud service credentials.
 
 1. **Select** the **Create Connection** button.
 
@@ -640,7 +640,7 @@ In this step, you will create three Data Connect connections:
 
 ## Create the Data Movement Activity
 
-Now that you have all the connections created, you will create a Data Connect Activity which will read the K Bank Customers from PDA on-premises and the N Bank Customers from Db2 on-premises, combine the customers from both banks using a union, sort the data by Customer and then move the data to dashDB on the cloud.
+Now that you have all the connections created, you will create a Data Connect Activity which will read the K Bank Customers from PDA on-premises and the N Bank Customers from Db2 on-premises, combine the customers from both banks using a union, sort the data by Customer and then move the data to Db2 Warehouse on Cloud.
 
 <img src="./media/dataconnect/data-connect-image-14.png" />
 
@@ -702,7 +702,7 @@ Now that you have all the connections created, you will create a Data Connect Ac
 
 7. **Select** the **CDA DASHDB** connection from the list of connections.
 
-8. **Select** the **DASH####** schema (your dashDB schema) from the list of schemas.
+8. **Select** the **DASH####** schema (your Db2 Warehouse on Cloud schema) from the list of schemas.
 
 9. **Select** the **Replace the table contents** radio button from the list of table actions. 
 
@@ -857,7 +857,7 @@ You are brought to the Cognos Analytics on Cloud home page.
 
 ### Create a Data server connection
 
-Before you bein, **Go Back** to your Bluemix account. **Click on** your dashDB service from the service dashboard and go to your dashDB service credentials section that you created in the PreWork section. 
+Before you bein, **Go Back** to your Bluemix account. **Click on** your Db2 Warehouse on Cloud service from the service dashboard and go to your Db2 Warehouse on Cloud service credentials section that you created in the PreWork section. 
 
 
 <img src="./cmedia/ca-image-10.png" >
@@ -882,18 +882,18 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 
 3. **Select** the **+ plus sign** to create a new connection.
 
-4. **Select** a type of **dashDB**.
+4. **Select** a type of **dashDB**.  (Note, this is due to change to Db2 Warehouse on Cloud, but has not as of the latest update to this lab.)
 
 
 <img src="./cmedia/ca-image-11.png" >
 
 
-**Note -** A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. Therefore, you will use your dashDB username from your dashDB service credentials plus "Bank Customers" to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
+**Note -** A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. Therefore, you will use your Db2 Warehouse on Cloud username from your Db2 Warehouse on Cloud service credentials plus "Bank Customers" to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
 
 
-5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your dashDB username of your dashDB service + Bank Customers) and **click** outside the edit area to save the name.
+5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your Db2 Warehouse on Cloud username of your Db2 Warehouse on Cloud service + Bank Customers) and **click** outside the edit area to save the name.
 
-6. **Copy and Paste** the **jdbcurl** from your dashDB service credentials section into the data connection JDBC URL text box.
+6. **Copy and Paste** the **jdbcurl** from your Db2 Warehouse on Cloud service credentials section into the data connection JDBC URL text box.
 
 > Your JDBC URL will look like this: **jdbc:db2://dashdb-entry-yp-dal09-08.services.dal.bluemix.net:50000/BLUDB**
 
@@ -903,17 +903,17 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 
 <img src="./cmedia/ca-image-12.png" >
 
-9. **Enter or Copy & Paste** your dashDB **username** from your dashDB credentials into the User ID field.
+9. **Enter or Copy & Paste** your Db2 Warehouse on Cloud **username** from your Db2 Warehouse on Cloud credentials into the User ID field.
 
-10. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Password field.
+10. **Enter or Copy & Paste** your Db2 Warehouse on Cloud **password** from your Db2 Warehouse on Cloud credentials into the Password field.
 
-11. **Enter or Copy & Paste** your dashDB **password** from your dashDB credentials into the Confirm Password field.
+11. **Enter or Copy & Paste** your Db2 Warehouse on Cloud **password** from your Db2 Warehouse on Cloud credentials into the Confirm Password field.
 
 12. **Select** the **Test** button to test the connection.
 
 The **Test** should succeeed and you will see a **Success** status with a green check mark next to it. If not, go back and double check your JDBC URL, User ID and password and make sure you entered then correctly and retry the test.
 
-13. **Select** the **Save** button to save your dashDB data connection. 
+13. **Select** the **Save** button to save your Db2 Warehouse on Cloud data connection. 
 
 Now you will **select** the database schema that you will use in this exercise. 
 
@@ -921,7 +921,7 @@ Now you will **select** the database schema that you will use in this exercise.
 
 1. **Select** the **Schemas** tab of your **dashXXXXX Bank Customers** data server connection.
 
-2. **Click on** the **ellipse** ... on the schema that is associated to your dashDB username.
+2. **Click on** the **ellipse** ... on the schema that is associated to your Db2 Warehouse on Cloud username.
 
 3. **Select** the **Load metadata** menu item.
 
@@ -947,7 +947,7 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 
 <img src="./cmedia/ca-image-17.png" >
 
-5. **Select** the **Schema** associated with your dashDB service username. For instance, mine is **DASH13919**.
+5. **Select** the **Schema** associated with your Db2 Warehouse on Cloud service username. For instance, mine is **DASH13919**.
 
 6. **Select** the **Start** button.
 
