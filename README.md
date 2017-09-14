@@ -10,7 +10,7 @@
 
 - **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
-    - [Step 2: Create the Db2 Warehouse on Cloud Credentials](#step-2-create-the-Db2-Warehouse-on-Cloud-credentials)
+    - [Step 2: Create the Db2 Warehouse on Cloud Credentials](#step-2-create-the-db2-warehouse-on-cloud-credentials)
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
         - [Step 3a: Set the Keyboard](#step-3a-set-the-keyboard)
     - [Step 4: Update the Secure Gateway ID](#step-4-update-the-secure-gateway-id)
