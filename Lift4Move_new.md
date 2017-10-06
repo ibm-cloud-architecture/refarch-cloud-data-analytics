@@ -1,6 +1,6 @@
 # Move Data to the Cloud using the Bluemix Lift CLI
 
-Obtain the free Lift CLI activation token
+##Obtain the free Lift CLI activation token##
 1. In your web browser, **navigate** to: https://lift.mybluemix.net/
 
 <img src="./media/vmimage/vmimage-image-29.png"/>
