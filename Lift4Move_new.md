@@ -41,11 +41,11 @@
 
 4. You are prompted for your activation token.  If the token that you copied is no longer in your clipboard, go back to your browser or temporary location where you saved it, and re-copy it.  **Paste** the token into the installer.  
 
-<img src="./media/vmimage/vmimage-image-37.png"/>
+<img src="./media/vmimage/vmimage-image-38.png"/>
 
 5. You are prompted to overwrite the existing installation.  **Enter yes** 
 
-<img src="./media/vmimage/vmimage-image-38.png"/>
+<img src="./media/vmimage/vmimage-image-37.png"/>
 
 6. You should now see that installation has completed.  
 
