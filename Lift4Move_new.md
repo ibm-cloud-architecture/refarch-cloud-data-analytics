@@ -1,6 +1,27 @@
 # Move Data to the Cloud using the Bluemix Lift CLI
 
+Obtain the free Lift CLI activation token
+1. In your web browser, **navigate** to: https://lift.mybluemix.net/
+
+<img src="./media/vmimage/vmimage-image-29.png"/>
+
+2. **Click** on the Download button at the top-right of your screen
+
+<img src="./media/vmimage/vmimage-image-30.png"/>
+
+3. **Click** on the Linux button
+
+4. Follow the on-screen prompts to login to Bluemix, and accept the Terms of Use.  
+
+5. **Cancel** the resulting download pop-up, because the software is already pre-installed in the VM
+
+6. Notice that back on the web page, there is now an activation token.  **Click** Copy and save this into a temporary location, such as Notepad
+
+Install Lift CLI using your activation token
 **Go Back** to the VM Image.  
+
+1. 
+
 
 1. **Enter** the command **cd $DATA**. This is where the script is that contains all of the Lift CLI command that you will execute to move the data from on-premises to your dashDB database in the cloud.
 
