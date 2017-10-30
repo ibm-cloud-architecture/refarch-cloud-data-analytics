@@ -471,6 +471,8 @@ Hit **Enter**
 
 6. **Enter** the command **reboot** to recycle the VM image. This will ensure that the Secure Gateway Client restarts and that it picks up your Gateway ID to communicate with your Data Connect service in the cloud.
 
+**Note -** If you are using Putty to access the VM machine you need to run the commans "su root" to reboot the system.  
+
 <img src="./media/vmimage/vmimage-image-22.png"/>
 
 7. **Enter** a lowercase login id of **nz** and a password of **nz** to log back into the VM image.
@@ -891,7 +893,7 @@ You will need the **jdbcurl**, **username** and **password** from the credential
 **Note -** A Data Server connection name has to be unique across the Cognos Analytics for Cloud shared environment. Therefore, you will use your Db2 Warehouse on Cloud username from your Db2 Warehouse on Cloud service credentials plus "Bank Customers" to make the name unique. For instance, my Data Server connection name will be **dash13919 Bank Customers**.
 
 
-5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dash13919 Bank Customers** (your Db2 Warehouse on Cloud username of your Db2 Warehouse on Cloud service + Bank Customers) and **click** outside the edit area to save the name.
+5. **Select** the **edit** icon that looks like a pencil next to the "New data server connection" name. **Enter** a name of **dashXXXX Bank Customers** (your Db2 Warehouse on Cloud username of your Db2 Warehouse on Cloud service + Bank Customers) and **click** outside the edit area to save the name.
 
 6. **Copy and Paste** the **jdbcurl** from your Db2 Warehouse on Cloud service credentials section into the data connection JDBC URL text box.
 
@@ -951,9 +953,14 @@ With Cognos Analytics, users are not restricted to only using existing enterpris
 
 6. **Select** the **Start** button.
 
+**Note -** The recent version of Cognos Analytics now uses a **Done** button instead of Start in some places, so if there is no **Start** button, use the **Done** button instead. 
+
+
 ### Data Modeling
 
 Once a data source is selected, users can enter their desired search term(s) and click on Go to look for tables with data related to that search term. Cognos Analytics will analyze the data source and present table(s) that have some relation to the term you entered that you can add to your data module. Since we want to look into our Bank customers to analyze satisfaction and churn data,  
+
+1. Click on the magnifying glass beside the Data Module panel to open the Intent panel.
 
 <img src="./cmedia/ca-image-18.png" >
 
@@ -991,7 +998,7 @@ You have told us that your Data Scientists have found some interesting correlati
 
 10. **Select** the **ellipse** ... on the **Number of Late Payments** column to view the column menu items.
 
-11. **Select** the **Create custom groups** menu item.
+11. **Select** the **Create data groups** menu item.
 
 <img src="./cmedia/ca-image-23.png" >
 
@@ -1005,13 +1012,10 @@ We can see that Cognos Analytics suggests creating an equal distribution of the 
 
 3. **Select** the **Custom** distribution radio button.
 
-4. **Change** the lowest value to **1**
-
-5. **Change** the middle value to **21**
-
-6. **Change** the highest value to **3000**
+4. **Change** the lowest values for the sliders to **1**, **21**, and **3000**
 
 7. **Select** the **Create** button.
+
 
 <img src="./cmedia/ca-image-25.png" >
 
