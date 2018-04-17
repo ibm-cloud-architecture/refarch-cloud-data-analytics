@@ -8,7 +8,7 @@
 
 **The main part of the lab starts here**
 
-- **[Move the Data to the Cloud](#move-the-data-to-the-cloud)**
+- **[Move the Data to the Cloud](#move-the-data-to-the-clouds)**
     - [Step 1: Create the Cloud Data Analytics lab services](#step-1-create-the-cloud-data-analytics-lab-services)
     - [Step 2: Create the Db2 Warehouse on Cloud Credentials](#step-2-create-the-db2-warehouse-on-cloud-credentials)
     - [Step 3: Work with the VM](#step-3-work-with-the-vm)
